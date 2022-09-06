@@ -1,9 +1,11 @@
-Template for the Read the Docs tutorial
+dragalia-story-docs
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Documentation for Dragalia Lost story commands & functions.
 
-Read the tutorial here:
+Credit
+--------
 
-https://docs.readthedocs.io/en/stable/tutorial/
+LukeFZ for the list of functions & commands.
+
+https://dragalia-story-docs.readthedocs.io/

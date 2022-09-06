@@ -1,2 +1,2 @@
-buildin__add_book_text
+buildin__set_BG_effect_trigger
 =================================
