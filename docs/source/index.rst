@@ -17,6 +17,8 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth: 1
+   :glob:
    :caption: Built-In Commands
 
    builtin_commands/*
