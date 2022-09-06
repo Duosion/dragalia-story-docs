@@ -3,7 +3,7 @@ debug_log
 
 .. code-block:: text
 
-	debug_log(text);
+	debug_log(text)
 
 
 Arguments

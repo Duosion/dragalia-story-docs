@@ -3,7 +3,7 @@ wait_print
 
 .. code-block:: text
 
-	wait_print(isWait = True);
+	wait_print(isWait = True)
 
 
 Arguments

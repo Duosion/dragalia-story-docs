@@ -3,7 +3,7 @@ window_type
 
 .. code-block:: text
 
-	window_type(type);
+	window_type(type)
 
 
 Arguments

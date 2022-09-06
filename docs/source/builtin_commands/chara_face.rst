@@ -3,7 +3,7 @@ chara_face
 
 .. code-block:: text
 
-	chara_face(charaId, faceId, faceNum = 0);
+	chara_face(charaId, faceId, faceNum = 0)
 
 
 Arguments

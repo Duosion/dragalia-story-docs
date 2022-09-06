@@ -3,7 +3,7 @@ chara_shake_v
 
 .. code-block:: text
 
-	chara_shake_v(charaId, type, isStart);
+	chara_shake_v(charaId, type, isStart)
 
 
 Arguments

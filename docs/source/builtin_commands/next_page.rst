@@ -3,7 +3,7 @@ next_page
 
 .. code-block:: text
 
-	next_page(waitTime = 0,3);
+	next_page(waitTime = 0,3)
 
 
 Arguments

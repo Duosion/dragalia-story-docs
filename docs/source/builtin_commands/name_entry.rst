@@ -3,7 +3,7 @@ name_entry
 
 .. code-block:: text
 
-	name_entry();
+	name_entry()
 
 
 Arguments

@@ -3,7 +3,7 @@ set_BG_effect_color
 
 .. code-block:: text
 
-	set_BG_effect_color(effectId, r, g, b, a = 1, fadeSec = 0, ease = 1);
+	set_BG_effect_color(effectId, r, g, b, a = 1, fadeSec = 0, ease = 1)
 
 
 Arguments

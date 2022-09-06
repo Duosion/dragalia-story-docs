@@ -3,7 +3,7 @@ set_volume
 
 .. code-block:: text
 
-	set_volume(vol, sec, cueNames);
+	set_volume(vol, sec, cueNames)
 
 
 Arguments

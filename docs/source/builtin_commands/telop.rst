@@ -3,7 +3,7 @@ telop
 
 .. code-block:: text
 
-	telop(mainText, subText = "", mainRuby = "", subRuby = "");
+	telop(mainText, subText = "", mainRuby = "", subRuby = "")
 
 
 Arguments

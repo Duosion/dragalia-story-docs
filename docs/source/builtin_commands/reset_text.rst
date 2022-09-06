@@ -3,7 +3,7 @@ reset_text
 
 .. code-block:: text
 
-	reset_text();
+	reset_text()
 
 
 Arguments

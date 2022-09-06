@@ -3,7 +3,7 @@ touch_wait
 
 .. code-block:: text
 
-	touch_wait(autoWaitTime = 0, forceNextWaitTime = -1);
+	touch_wait(autoWaitTime = 0, forceNextWaitTime = -1)
 
 
 Arguments

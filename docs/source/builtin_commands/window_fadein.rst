@@ -3,7 +3,7 @@ window_fadein
 
 .. code-block:: text
 
-	window_fadein(sec, isWithAnimation = False);
+	window_fadein(sec, isWithAnimation = False)
 
 
 Arguments

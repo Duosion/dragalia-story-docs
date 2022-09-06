@@ -3,7 +3,7 @@ screen_transout
 
 .. code-block:: text
 
-	screen_transout(type, sec);
+	screen_transout(type, sec)
 
 
 Arguments

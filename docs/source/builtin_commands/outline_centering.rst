@@ -3,7 +3,7 @@ outline_centering
 
 .. code-block:: text
 
-	outline_centering(isCentering);
+	outline_centering(isCentering)
 
 
 Arguments

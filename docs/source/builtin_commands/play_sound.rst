@@ -3,7 +3,7 @@ play_sound
 
 .. code-block:: text
 
-	play_sound(soundStr, vol = 1, isAvoidDupricateVoice = True, isAddTextLog = True);
+	play_sound(soundStr, vol = 1, isAvoidDupricateVoice = True, isAddTextLog = True)
 
 
 Arguments

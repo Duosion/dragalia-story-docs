@@ -3,7 +3,7 @@ frame_visible
 
 .. code-block:: text
 
-	frame_visible(visible, fadeTime = 0);
+	frame_visible(visible, fadeTime = 0)
 
 
 Arguments

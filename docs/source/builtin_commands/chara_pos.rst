@@ -3,7 +3,7 @@ chara_pos
 
 .. code-block:: text
 
-	chara_pos(charaId, valueX = 0, valueY = 0);
+	chara_pos(charaId, valueX = 0, valueY = 0)
 
 
 Arguments

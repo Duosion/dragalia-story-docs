@@ -3,7 +3,7 @@ window_shake
 
 .. code-block:: text
 
-	window_shake();
+	window_shake()
 
 
 Arguments

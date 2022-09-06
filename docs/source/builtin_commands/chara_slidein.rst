@@ -3,7 +3,7 @@ chara_slidein
 
 .. code-block:: text
 
-	chara_slidein(charaId, type, sec, fade = True, moveValue = 100);
+	chara_slidein(charaId, type, sec, fade = True, moveValue = 100)
 
 
 Arguments

@@ -3,7 +3,7 @@ set_BG_effect_rotation
 
 .. code-block:: text
 
-	set_BG_effect_rotation(effectId, value, fadeSec = 0, ease = 1);
+	set_BG_effect_rotation(effectId, value, fadeSec = 0, ease = 1)
 
 
 Arguments

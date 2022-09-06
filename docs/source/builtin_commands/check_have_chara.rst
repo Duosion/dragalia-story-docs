@@ -3,7 +3,7 @@ check_have_chara
 
 .. code-block:: text
 
-	check_have_chara(charaId, functionA, functionB = "");
+	check_have_chara(charaId, functionA, functionB = "")
 
 
 Arguments

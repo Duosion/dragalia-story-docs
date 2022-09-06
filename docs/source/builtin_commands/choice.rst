@@ -3,7 +3,7 @@ choice
 
 .. code-block:: text
 
-	choice(titleA, functionA, titleB, functionB, titleC = "", functionC = "", titleD = "", functionD = "");
+	choice(titleA, functionA, titleB, functionB, titleC = "", functionC = "", titleD = "", functionD = "")
 
 
 Arguments

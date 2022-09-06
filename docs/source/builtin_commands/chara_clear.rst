@@ -3,7 +3,7 @@ chara_clear
 
 .. code-block:: text
 
-	chara_clear(charaId = );
+	chara_clear(charaId = )
 
 
 Arguments

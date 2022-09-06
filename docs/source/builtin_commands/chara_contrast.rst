@@ -3,7 +3,7 @@ chara_contrast
 
 .. code-block:: text
 
-	chara_contrast(charaId, value, fadeSec = 0);
+	chara_contrast(charaId, value, fadeSec = 0)
 
 
 Arguments

@@ -3,7 +3,7 @@ cutt_end_start_boss
 
 .. code-block:: text
 
-	cutt_end_start_boss();
+	cutt_end_start_boss()
 
 
 Arguments

@@ -3,7 +3,7 @@ cutscene_wait
 
 .. code-block:: text
 
-	cutscene_wait();
+	cutscene_wait()
 
 
 Arguments

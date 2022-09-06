@@ -3,7 +3,7 @@ set_BG_effect_pos
 
 .. code-block:: text
 
-	set_BG_effect_pos(effectId, x, y, fadeSec = 0, ease = 1);
+	set_BG_effect_pos(effectId, x, y, fadeSec = 0, ease = 1)
 
 
 Arguments

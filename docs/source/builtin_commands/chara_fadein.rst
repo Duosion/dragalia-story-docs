@@ -3,7 +3,7 @@ chara_fadein
 
 .. code-block:: text
 
-	chara_fadein(charaId, sec);
+	chara_fadein(charaId, sec)
 
 
 Arguments

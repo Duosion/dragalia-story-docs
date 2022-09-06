@@ -3,7 +3,7 @@ cutt_load
 
 .. code-block:: text
 
-	cutt_load(cuttName);
+	cutt_load(cuttName)
 
 
 Arguments

@@ -3,7 +3,7 @@ blur
 
 .. code-block:: text
 
-	blur(enable, fadeSec = 1, size = 1, power = 1, cameraType = 0);
+	blur(enable, fadeSec = 1, size = 1, power = 1, cameraType = 0)
 
 
 Arguments

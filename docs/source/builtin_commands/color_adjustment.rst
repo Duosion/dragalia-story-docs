@@ -3,7 +3,7 @@ color_adjustment
 
 .. code-block:: text
 
-	color_adjustment(cameraType = 1, fadeSec = 0, bright = 1, saturation = 1, contrast = 1);
+	color_adjustment(cameraType = 1, fadeSec = 0, bright = 1, saturation = 1, contrast = 1)
 
 
 Arguments

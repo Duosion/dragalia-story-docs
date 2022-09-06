@@ -3,7 +3,7 @@ chara_shake_h
 
 .. code-block:: text
 
-	chara_shake_h(charaId, type, isStart);
+	chara_shake_h(charaId, type, isStart)
 
 
 Arguments

@@ -3,7 +3,7 @@ window_visible
 
 .. code-block:: text
 
-	window_visible(visible);
+	window_visible(visible)
 
 
 Arguments

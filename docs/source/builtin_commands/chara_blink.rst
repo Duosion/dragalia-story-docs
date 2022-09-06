@@ -3,7 +3,7 @@ chara_blink
 
 .. code-block:: text
 
-	chara_blink(charaId, sec, minAlpha = 0, maxAlpha = 1);
+	chara_blink(charaId, sec, minAlpha = 0, maxAlpha = 1)
 
 
 Arguments

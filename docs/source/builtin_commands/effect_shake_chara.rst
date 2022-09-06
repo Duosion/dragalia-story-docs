@@ -3,7 +3,7 @@ effect_shake_chara
 
 .. code-block:: text
 
-	effect_shake_chara(type, peekSec = 3, stopSec = 3, ease = 1);
+	effect_shake_chara(type, peekSec = 3, stopSec = 3, ease = 1)
 
 
 Arguments

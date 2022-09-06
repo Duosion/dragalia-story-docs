@@ -3,7 +3,7 @@ cutscene_soundstop
 
 .. code-block:: text
 
-	cutscene_soundstop();
+	cutscene_soundstop()
 
 
 Arguments

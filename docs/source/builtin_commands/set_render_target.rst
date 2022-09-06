@@ -3,7 +3,7 @@ set_render_target
 
 .. code-block:: text
 
-	set_render_target(charaId, renderId = 0);
+	set_render_target(charaId, renderId = 0)
 
 
 Arguments

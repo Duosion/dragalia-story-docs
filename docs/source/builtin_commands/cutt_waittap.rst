@@ -3,7 +3,7 @@ cutt_waittap
 
 .. code-block:: text
 
-	cutt_waittap();
+	cutt_waittap()
 
 
 Arguments

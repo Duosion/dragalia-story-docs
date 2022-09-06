@@ -3,7 +3,7 @@ add_book_text
 
 .. code-block:: text
 
-	add_book_text(isEnd, text = "", fileName = "", logName = "SYS", logVoice = "");
+	add_book_text(isEnd, text = "", fileName = "", logName = "SYS", logVoice = "")
 
 
 Arguments

@@ -3,7 +3,7 @@ play_movie
 
 .. code-block:: text
 
-	play_movie(fileName, isPanScan = False);
+	play_movie(fileName, isPanScan = False)
 
 
 Arguments

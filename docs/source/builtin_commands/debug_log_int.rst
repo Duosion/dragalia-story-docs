@@ -3,7 +3,7 @@ debug_log_int
 
 .. code-block:: text
 
-	debug_log_int(text);
+	debug_log_int(text)
 
 
 Arguments

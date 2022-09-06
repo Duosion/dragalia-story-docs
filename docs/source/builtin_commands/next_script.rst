@@ -3,7 +3,7 @@ next_script
 
 .. code-block:: text
 
-	next_script(scriptName, type = 1);
+	next_script(scriptName, type = 1)
 
 
 Arguments

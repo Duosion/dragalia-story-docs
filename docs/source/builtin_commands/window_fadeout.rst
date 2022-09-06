@@ -3,7 +3,7 @@ window_fadeout
 
 .. code-block:: text
 
-	window_fadeout(sec, isWithAnimation = False);
+	window_fadeout(sec, isWithAnimation = False)
 
 
 Arguments

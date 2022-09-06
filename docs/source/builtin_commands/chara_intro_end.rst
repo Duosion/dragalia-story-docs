@@ -3,7 +3,7 @@ chara_intro_end
 
 .. code-block:: text
 
-	chara_intro_end();
+	chara_intro_end()
 
 
 Arguments

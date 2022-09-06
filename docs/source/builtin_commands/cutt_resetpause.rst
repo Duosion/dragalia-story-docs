@@ -3,7 +3,7 @@ cutt_resetpause
 
 .. code-block:: text
 
-	cutt_resetpause();
+	cutt_resetpause()
 
 
 Arguments

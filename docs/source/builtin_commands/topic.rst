@@ -3,7 +3,7 @@ topic
 
 .. code-block:: text
 
-	topic(fileName, fadeTime = 1);
+	topic(fileName, fadeTime = 1)
 
 
 Arguments

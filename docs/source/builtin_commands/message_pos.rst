@@ -3,7 +3,7 @@ message_pos
 
 .. code-block:: text
 
-	message_pos(pos);
+	message_pos(pos)
 
 
 Arguments

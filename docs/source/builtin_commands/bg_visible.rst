@@ -3,7 +3,7 @@ bg_visible
 
 .. code-block:: text
 
-	bg_visible(visible);
+	bg_visible(visible)
 
 
 Arguments

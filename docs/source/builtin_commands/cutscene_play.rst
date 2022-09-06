@@ -3,7 +3,7 @@ cutscene_play
 
 .. code-block:: text
 
-	cutscene_play(cutName);
+	cutscene_play(cutName)
 
 
 Arguments

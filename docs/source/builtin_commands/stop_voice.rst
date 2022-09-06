@@ -3,7 +3,7 @@ stop_voice
 
 .. code-block:: text
 
-	stop_voice(sec = 0);
+	stop_voice(sec = 0)
 
 
 Arguments

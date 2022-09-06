@@ -3,7 +3,7 @@ dungeon_active
 
 .. code-block:: text
 
-	dungeon_active(active, name = "", isUnloadScene = False);
+	dungeon_active(active, name = "", isUnloadScene = False)
 
 
 Arguments

@@ -3,7 +3,7 @@ print
 
 .. code-block:: text
 
-	print(isEnd, name = "", text = "", voice = "");
+	print(isEnd, name = "", text = "", voice = "")
 
 
 Arguments

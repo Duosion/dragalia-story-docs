@@ -3,7 +3,7 @@ chara_eyeblink
 
 .. code-block:: text
 
-	chara_eyeblink(charaId, intervalMin = 2, intervalMax = 5, eyeBlinkingTime = 0,05, maxEyeBlinkFrame = 2);
+	chara_eyeblink(charaId, intervalMin = 2, intervalMax = 5, eyeBlinkingTime = 0,05, maxEyeBlinkFrame = 2)
 
 
 Arguments

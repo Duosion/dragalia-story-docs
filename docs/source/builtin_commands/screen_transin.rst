@@ -3,7 +3,7 @@ screen_transin
 
 .. code-block:: text
 
-	screen_transin(type, sec);
+	screen_transin(type, sec)
 
 
 Arguments

@@ -3,7 +3,7 @@ ruby
 
 .. code-block:: text
 
-	ruby(text, ruby);
+	ruby(text, ruby)
 
 
 Arguments

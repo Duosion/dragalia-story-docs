@@ -3,7 +3,7 @@ window_enable
 
 .. code-block:: text
 
-	window_enable(enable);
+	window_enable(enable)
 
 
 Arguments

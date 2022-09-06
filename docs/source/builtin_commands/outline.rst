@@ -3,7 +3,7 @@ outline
 
 .. code-block:: text
 
-	outline(isEnd, outline = "", nextFunction = "");
+	outline(isEnd, outline = "", nextFunction = "")
 
 
 Arguments

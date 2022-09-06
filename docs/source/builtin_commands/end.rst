@@ -3,7 +3,7 @@ end
 
 .. code-block:: text
 
-	end();
+	end()
 
 
 Arguments

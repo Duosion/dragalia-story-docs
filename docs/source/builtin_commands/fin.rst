@@ -3,7 +3,7 @@ fin
 
 .. code-block:: text
 
-	fin(visible = True, x = 0, y = 0);
+	fin(visible = True, x = 0, y = 0)
 
 
 Arguments

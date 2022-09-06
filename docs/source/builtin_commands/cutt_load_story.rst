@@ -3,7 +3,7 @@ cutt_load_story
 
 .. code-block:: text
 
-	cutt_load_story(cuttName, type);
+	cutt_load_story(cuttName, type)
 
 
 Arguments

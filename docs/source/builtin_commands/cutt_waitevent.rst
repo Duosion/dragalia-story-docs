@@ -3,7 +3,7 @@ cutt_waitevent
 
 .. code-block:: text
 
-	cutt_waitevent();
+	cutt_waitevent()
 
 
 Arguments

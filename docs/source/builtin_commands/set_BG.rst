@@ -3,7 +3,7 @@ set_BG
 
 .. code-block:: text
 
-	set_BG(backgroundIds);
+	set_BG(backgroundIds)
 
 
 Arguments

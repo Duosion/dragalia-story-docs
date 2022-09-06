@@ -3,7 +3,7 @@ chapter_intro_frame_visible
 
 .. code-block:: text
 
-	chapter_intro_frame_visible(visible, fadeTime = 0);
+	chapter_intro_frame_visible(visible, fadeTime = 0)
 
 
 Arguments

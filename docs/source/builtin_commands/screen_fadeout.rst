@@ -3,7 +3,7 @@ screen_fadeout
 
 .. code-block:: text
 
-	screen_fadeout(sec, rgb);
+	screen_fadeout(sec, rgb)
 
 
 Arguments

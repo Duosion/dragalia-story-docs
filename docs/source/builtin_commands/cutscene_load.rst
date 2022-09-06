@@ -3,7 +3,7 @@ cutscene_load
 
 .. code-block:: text
 
-	cutscene_load(cutScenePath);
+	cutscene_load(cutScenePath)
 
 
 Arguments

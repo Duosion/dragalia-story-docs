@@ -3,7 +3,7 @@ cutt_loadscene
 
 .. code-block:: text
 
-	cutt_loadscene(questDataId, areaIndex);
+	cutt_loadscene(questDataId, areaIndex)
 
 
 Arguments

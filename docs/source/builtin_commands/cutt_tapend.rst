@@ -3,7 +3,7 @@ cutt_tapend
 
 .. code-block:: text
 
-	cutt_tapend();
+	cutt_tapend()
 
 
 Arguments

@@ -3,7 +3,7 @@ chara_slideout
 
 .. code-block:: text
 
-	chara_slideout(charaId, type, sec, fade = True, moveValue = 100);
+	chara_slideout(charaId, type, sec, fade = True, moveValue = 100)
 
 
 Arguments

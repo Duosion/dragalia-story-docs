@@ -3,7 +3,7 @@ chara_saturation
 
 .. code-block:: text
 
-	chara_saturation(charaId, value, fadeSec = 0);
+	chara_saturation(charaId, value, fadeSec = 0)
 
 
 Arguments

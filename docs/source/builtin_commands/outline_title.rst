@@ -3,7 +3,7 @@ outline_title
 
 .. code-block:: text
 
-	outline_title(title = );
+	outline_title(title = )
 
 
 Arguments

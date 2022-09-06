@@ -3,7 +3,7 @@ chara_brightness
 
 .. code-block:: text
 
-	chara_brightness(charaId, value, fadeSec = 0);
+	chara_brightness(charaId, value, fadeSec = 0)
 
 
 Arguments

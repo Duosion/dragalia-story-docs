@@ -3,7 +3,7 @@ screen_flash
 
 .. code-block:: text
 
-	screen_flash(sec, rgb);
+	screen_flash(sec, rgb)
 
 
 Arguments

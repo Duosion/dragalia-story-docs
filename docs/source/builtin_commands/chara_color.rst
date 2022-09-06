@@ -3,7 +3,7 @@ chara_color
 
 .. code-block:: text
 
-	chara_color(charaId, fadeSec, type, r, g, b, a = 1, smoothMin = 0, smoothMax = 1);
+	chara_color(charaId, fadeSec, type, r, g, b, a = 1, smoothMin = 0, smoothMax = 1)
 
 
 Arguments

@@ -3,7 +3,7 @@ chara_intro
 
 .. code-block:: text
 
-	chara_intro(charaId, name = "", anotherName = "", anotherNameRuby = "", affiliation = "", affiliationRuby = "", emblemName = "");
+	chara_intro(charaId, name = "", anotherName = "", anotherNameRuby = "", affiliation = "", affiliationRuby = "", emblemName = "")
 
 
 Arguments

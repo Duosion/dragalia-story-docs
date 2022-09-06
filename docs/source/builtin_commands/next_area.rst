@@ -3,7 +3,7 @@ next_area
 
 .. code-block:: text
 
-	next_area();
+	next_area()
 
 
 Arguments

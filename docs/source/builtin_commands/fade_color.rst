@@ -3,7 +3,7 @@ fade_color
 
 .. code-block:: text
 
-	fade_color(sec, r, g, b, a, ease = 1, isCharacterFrontLayer = False);
+	fade_color(sec, r, g, b, a, ease = 1, isCharacterFrontLayer = False)
 
 
 Arguments

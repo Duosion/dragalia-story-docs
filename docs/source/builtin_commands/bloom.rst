@@ -3,7 +3,7 @@ bloom
 
 .. code-block:: text
 
-	bloom(cameraType = 1, fadeSec = 0, resolutionScale = 0,25, weight = 0, threshold = 0,7, intensity = 1);
+	bloom(cameraType = 1, fadeSec = 0, resolutionScale = 0,25, weight = 0, threshold = 0,7, intensity = 1)
 
 
 Arguments

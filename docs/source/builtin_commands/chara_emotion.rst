@@ -3,7 +3,7 @@ chara_emotion
 
 .. code-block:: text
 
-	chara_emotion(charaId, emotionId, faceNum = 0, offset_x = 0, offset_y = 0);
+	chara_emotion(charaId, emotionId, faceNum = 0, offset_x = 0, offset_y = 0)
 
 
 Arguments

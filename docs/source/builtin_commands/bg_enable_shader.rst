@@ -3,7 +3,7 @@ bg_enable_shader
 
 .. code-block:: text
 
-	bg_enable_shader(bgId, enables);
+	bg_enable_shader(bgId, enables)
 
 
 Arguments

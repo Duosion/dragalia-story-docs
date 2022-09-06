@@ -3,7 +3,7 @@ button_visible
 
 .. code-block:: text
 
-	button_visible(visible, fadeSec = 0,4, isAutoVisible = True);
+	button_visible(visible, fadeSec = 0,4, isAutoVisible = True)
 
 
 Arguments

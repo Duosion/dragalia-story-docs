@@ -3,7 +3,7 @@ stop_bgm
 
 .. code-block:: text
 
-	stop_bgm(sec = 0);
+	stop_bgm(sec = 0)
 
 
 Arguments

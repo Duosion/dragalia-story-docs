@@ -3,7 +3,7 @@ chara_visible
 
 .. code-block:: text
 
-	chara_visible(charaId, flag);
+	chara_visible(charaId, flag)
 
 
 Arguments

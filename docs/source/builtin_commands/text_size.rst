@@ -3,7 +3,7 @@ text_size
 
 .. code-block:: text
 
-	text_size(size);
+	text_size(size)
 
 
 Arguments

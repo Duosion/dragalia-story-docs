@@ -3,7 +3,7 @@ multi_scroll
 
 .. code-block:: text
 
-	multi_scroll(sec, endPosX, endPosY, rgb);
+	multi_scroll(sec, endPosX, endPosY, rgb)
 
 
 Arguments

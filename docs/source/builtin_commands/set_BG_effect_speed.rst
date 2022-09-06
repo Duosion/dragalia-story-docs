@@ -3,7 +3,7 @@ set_BG_effect_speed
 
 .. code-block:: text
 
-	set_BG_effect_speed(effectId, value, fadeSec = 0, ease = 1);
+	set_BG_effect_speed(effectId, value, fadeSec = 0, ease = 1)
 
 
 Arguments

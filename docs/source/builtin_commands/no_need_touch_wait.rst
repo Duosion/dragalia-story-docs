@@ -3,7 +3,7 @@ no_need_touch_wait
 
 .. code-block:: text
 
-	no_need_touch_wait();
+	no_need_touch_wait()
 
 
 Arguments

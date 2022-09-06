@@ -3,7 +3,7 @@ cutt_loadscene_direct
 
 .. code-block:: text
 
-	cutt_loadscene_direct(scenePath0, scenePath1, scenePath2, areaName);
+	cutt_loadscene_direct(scenePath0, scenePath1, scenePath2, areaName)
 
 
 Arguments

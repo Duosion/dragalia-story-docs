@@ -3,7 +3,7 @@ chara_fadeout
 
 .. code-block:: text
 
-	chara_fadeout(charaId, sec);
+	chara_fadeout(charaId, sec)
 
 
 Arguments

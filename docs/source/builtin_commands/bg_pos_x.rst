@@ -3,7 +3,7 @@ bg_pos_x
 
 .. code-block:: text
 
-	bg_pos_x(posX);
+	bg_pos_x(posX)
 
 
 Arguments
