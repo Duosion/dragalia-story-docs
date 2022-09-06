@@ -8,13 +8,20 @@ buildin__window_type
 Arguments
 -----------
 
-- type
+* type
+    * Default Value: ``""``
+    * Can be ``"MONOLOGUE"`` or ``"NORMAL"``
+
+Description
+-----------
+
+This command sets the current story window type.
 
 Sample
 -----------
 
 .. code-block:: json
-    
+
     {
         "row": 66,
         "command": "window_type",
