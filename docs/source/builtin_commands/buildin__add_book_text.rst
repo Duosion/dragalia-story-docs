@@ -21,4 +21,4 @@ Sample
         "MONOLOGUE"
         ],
         "end": 1
-    },
+    }
