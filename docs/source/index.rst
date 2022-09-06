@@ -17,6 +17,6 @@ Contents
 --------
 
 .. toctree::
+   :caption: Built-In Commands
 
-   usage
-   api
+   builtin_commands/*
