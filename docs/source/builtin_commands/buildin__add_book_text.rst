@@ -14,6 +14,7 @@ Sample
 -----------
 
 .. code-block:: json
+    
     {
         "row": 66,
         "command": "window_type",
