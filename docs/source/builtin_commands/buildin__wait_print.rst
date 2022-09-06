@@ -11,7 +11,7 @@ Arguments
 ------------
 
 * isWait
-* True
+	* Default Value = ``True``
 
 Description
 -------------

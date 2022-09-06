@@ -12,7 +12,7 @@ Arguments
 
 * sec
 * isWithAnimation
-* False
+	* Default Value = ``False``
 
 Description
 -------------

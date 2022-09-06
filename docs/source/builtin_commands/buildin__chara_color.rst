@@ -17,11 +17,11 @@ Arguments
 * g
 * b
 * a
-* 1
+	* Default Value = ``1``
 * smoothMin
-* 0
+	* Default Value = ``0``
 * smoothMax
-* 1
+	* Default Value = ``1``
 
 Description
 -------------

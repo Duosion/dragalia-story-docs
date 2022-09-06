@@ -12,14 +12,14 @@ Arguments
 
 * charaId
 * intervalMin
-* 2
+	* Default Value = ``2``
 * intervalMax
-* 5
+	* Default Value = ``5``
 * eyeBlinkingTime
-* 0
+	* Default Value = ``0``
 * 05
 * maxEyeBlinkFrame
-* 2
+	* Default Value = ``2``
 
 Description
 -------------

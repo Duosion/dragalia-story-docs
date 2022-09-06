@@ -12,10 +12,10 @@ Arguments
 
 * visible
 * fadeSec
-* 0
+	* Default Value = ``0``
 * 4
 * isAutoVisible
-* True
+	* Default Value = ``True``
 
 Description
 -------------

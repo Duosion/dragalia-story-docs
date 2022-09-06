@@ -13,11 +13,11 @@ Arguments
 * charaId
 * emotionId
 * faceNum
-* 0
+	* Default Value = ``0``
 * offset_x
-* 0
+	* Default Value = ``0``
 * offset_y
-* 0
+	* Default Value = ``0``
 
 Description
 -------------

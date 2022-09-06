@@ -11,7 +11,7 @@ Arguments
 ------------
 
 * autoWaitTime
-* 0
+	* Default Value = ``0``
 * forceNextWaitTime
 * 1
 

@@ -13,9 +13,9 @@ Arguments
 * charaId
 * sec
 * minAlpha
-* 0
+	* Default Value = ``0``
 * maxAlpha
-* 1
+	* Default Value = ``1``
 
 Description
 -------------

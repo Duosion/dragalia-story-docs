@@ -11,19 +11,19 @@ Arguments
 ------------
 
 * cameraType
-* 1
+	* Default Value = ``1``
 * fadeSec
-* 0
+	* Default Value = ``0``
 * resolutionScale
-* 0
+	* Default Value = ``0``
 * 25
 * weight
-* 0
+	* Default Value = ``0``
 * threshold
-* 0
+	* Default Value = ``0``
 * 7
 * intensity
-* 1
+	* Default Value = ``1``
 
 Description
 -------------

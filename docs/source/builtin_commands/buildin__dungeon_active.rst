@@ -13,7 +13,7 @@ Arguments
 * active
 * name
 * isUnloadScene
-* False
+	* Default Value = ``False``
 
 Description
 -------------

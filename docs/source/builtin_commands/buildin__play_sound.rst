@@ -12,11 +12,11 @@ Arguments
 
 * soundStr
 * vol
-* 1
+	* Default Value = ``1``
 * isAvoidDupricateVoice
-* True
+	* Default Value = ``True``
 * isAddTextLog
-* True
+	* Default Value = ``True``
 
 Description
 -------------

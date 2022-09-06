@@ -11,15 +11,15 @@ Arguments
 ------------
 
 * cameraType
-* 1
+	* Default Value = ``1``
 * fadeSec
-* 0
+	* Default Value = ``0``
 * bright
-* 1
+	* Default Value = ``1``
 * saturation
-* 1
+	* Default Value = ``1``
 * contrast
-* 1
+	* Default Value = ``1``
 
 Description
 -------------

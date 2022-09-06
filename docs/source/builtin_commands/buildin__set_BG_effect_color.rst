@@ -15,11 +15,11 @@ Arguments
 * g
 * b
 * a
-* 1
+	* Default Value = ``1``
 * fadeSec
-* 0
+	* Default Value = ``0``
 * ease
-* 1
+	* Default Value = ``1``
 
 Description
 -------------

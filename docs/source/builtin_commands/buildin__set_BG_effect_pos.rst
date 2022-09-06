@@ -14,9 +14,9 @@ Arguments
 * x
 * y
 * fadeSec
-* 0
+	* Default Value = ``0``
 * ease
-* 1
+	* Default Value = ``1``
 
 Description
 -------------

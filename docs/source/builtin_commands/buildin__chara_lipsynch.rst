@@ -12,16 +12,16 @@ Arguments
 
 * charaId
 * intervalMin
-* 0
+	* Default Value = ``0``
 * 06666667
 * intervalMax
-* 0
+	* Default Value = ``0``
 * 06666667
 * lipSynchingTime
-* 0
+	* Default Value = ``0``
 * 1
 * maxLipSynchFrame
-* 2
+	* Default Value = ``2``
 
 Description
 -------------

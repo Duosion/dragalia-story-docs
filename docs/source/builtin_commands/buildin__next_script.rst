@@ -12,7 +12,7 @@ Arguments
 
 * scriptName
 * type
-* 1
+	* Default Value = ``1``
 
 Description
 -------------

@@ -17,25 +17,25 @@ Arguments
 * moveY
 * moveEase
 * scaleSec
-* 0
+	* Default Value = ``0``
 * scaleX
-* 0
+	* Default Value = ``0``
 * scaleY
-* 0
+	* Default Value = ``0``
 * scaleEase
-* 0
+	* Default Value = ``0``
 * rotateSec
-* 0
+	* Default Value = ``0``
 * rotate
-* 0
+	* Default Value = ``0``
 * rotateEase
-* 0
+	* Default Value = ``0``
 * fadeSec
-* 0
+	* Default Value = ``0``
 * fade
-* 0
+	* Default Value = ``0``
 * fadeEase
-* 0
+	* Default Value = ``0``
 
 Description
 -------------

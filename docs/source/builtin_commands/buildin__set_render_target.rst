@@ -12,7 +12,7 @@ Arguments
 
 * charaId
 * renderId
-* 0
+	* Default Value = ``0``
 
 Description
 -------------

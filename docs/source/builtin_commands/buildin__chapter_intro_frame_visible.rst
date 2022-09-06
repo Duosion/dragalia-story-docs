@@ -12,7 +12,7 @@ Arguments
 
 * visible
 * fadeTime
-* 0
+	* Default Value = ``0``
 
 Description
 -------------

@@ -14,7 +14,7 @@ Arguments
 * text
 * fileName
 * logName
-	* Default Value = ``"SYS"``
+* SYS
 * logVoice
 
 Description

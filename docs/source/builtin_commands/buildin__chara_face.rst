@@ -13,7 +13,7 @@ Arguments
 * charaId
 * faceId
 * faceNum
-* 0
+	* Default Value = ``0``
 
 Description
 -------------

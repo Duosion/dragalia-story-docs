@@ -12,9 +12,9 @@ Arguments
 
 * charaId
 * valueX
-* 0
+	* Default Value = ``0``
 * valueY
-* 0
+	* Default Value = ``0``
 
 Description
 -------------

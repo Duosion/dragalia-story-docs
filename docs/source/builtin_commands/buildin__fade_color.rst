@@ -16,9 +16,9 @@ Arguments
 * b
 * a
 * ease
-* 1
+	* Default Value = ``1``
 * isCharacterFrontLayer
-* False
+	* Default Value = ``False``
 
 Description
 -------------

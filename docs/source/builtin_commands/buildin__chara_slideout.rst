@@ -14,9 +14,9 @@ Arguments
 * type
 * sec
 * fade
-* True
+	* Default Value = ``True``
 * moveValue
-* 100
+	* Default Value = ``100``
 
 Description
 -------------

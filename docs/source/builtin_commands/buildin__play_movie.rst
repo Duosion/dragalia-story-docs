@@ -12,7 +12,7 @@ Arguments
 
 * fileName
 * isPanScan
-* False
+	* Default Value = ``False``
 
 Description
 -------------

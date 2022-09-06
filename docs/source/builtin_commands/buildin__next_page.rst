@@ -11,7 +11,7 @@ Arguments
 ------------
 
 * waitTime
-* 0
+	* Default Value = ``0``
 * 3
 
 Description

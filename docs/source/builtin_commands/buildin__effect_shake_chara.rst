@@ -12,11 +12,11 @@ Arguments
 
 * type
 * peekSec
-* 3
+	* Default Value = ``3``
 * stopSec
-* 3
+	* Default Value = ``3``
 * ease
-* 1
+	* Default Value = ``1``
 
 Description
 -------------

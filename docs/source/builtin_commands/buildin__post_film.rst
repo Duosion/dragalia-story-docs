@@ -11,23 +11,23 @@ Arguments
 ------------
 
 * cameraType
-* 1
+	* Default Value = ``1``
 * fadeSec
-* 0
+	* Default Value = ``0``
 * mode
-* 0
+	* Default Value = ``0``
 * fromPower
-* 1
+	* Default Value = ``1``
 * toPower
-* 1
+	* Default Value = ``1``
 * r
-* 255
+	* Default Value = ``255``
 * g
-* 255
+	* Default Value = ``255``
 * b
-* 255
+	* Default Value = ``255``
 * a
-* 1
+	* Default Value = ``1``
 
 Description
 -------------

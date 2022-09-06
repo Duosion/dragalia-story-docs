@@ -11,11 +11,11 @@ Arguments
 ------------
 
 * visible
-* True
+	* Default Value = ``True``
 * x
-* 0
+	* Default Value = ``0``
 * y
-* 0
+	* Default Value = ``0``
 
 Description
 -------------

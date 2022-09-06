@@ -12,13 +12,13 @@ Arguments
 
 * enable
 * fadeSec
-* 1
+	* Default Value = ``1``
 * size
-* 1
+	* Default Value = ``1``
 * power
-* 1
+	* Default Value = ``1``
 * cameraType
-* 0
+	* Default Value = ``0``
 
 Description
 -------------

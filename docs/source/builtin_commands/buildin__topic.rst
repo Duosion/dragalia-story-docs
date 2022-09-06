@@ -12,7 +12,7 @@ Arguments
 
 * fileName
 * fadeTime
-* 1
+	* Default Value = ``1``
 
 Description
 -------------

@@ -13,7 +13,7 @@ Arguments
 * charaId
 * value
 * fadeSec
-* 0
+	* Default Value = ``0``
 
 Description
 -------------
