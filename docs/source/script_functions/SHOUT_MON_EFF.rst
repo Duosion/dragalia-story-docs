@@ -1,3 +1,5 @@
+.. _SHOUT_MON_EFF:
+
 SHOUT_MON_EFF
 ========================
 

@@ -1,3 +1,5 @@
+.. _CHARA_BEAT_WATER_BEFORE:
+
 CHARA_BEAT_WATER_BEFORE
 ========================
 

@@ -1,3 +1,5 @@
+.. _SHAKE_CH_LOOP:
+
 SHAKE_CH_LOOP
 ========================
 

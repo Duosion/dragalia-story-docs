@@ -1,3 +1,5 @@
+.. _SHOUT_MID_EFF:
+
 SHOUT_MID_EFF
 ========================
 

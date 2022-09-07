@@ -1,3 +1,5 @@
+.. _add_book_text:
+
 add_book_text
 ========================
 

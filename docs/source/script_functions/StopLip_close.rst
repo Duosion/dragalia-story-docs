@@ -1,3 +1,5 @@
+.. _StopLip_close:
+
 StopLip_close
 ========================
 

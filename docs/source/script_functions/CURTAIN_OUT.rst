@@ -1,3 +1,5 @@
+.. _CURTAIN_OUT:
+
 CURTAIN_OUT
 ========================
 

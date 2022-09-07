@@ -1,3 +1,5 @@
+.. _TOP_IN_VERYFAST:
+
 TOP_IN_VERYFAST
 ========================
 

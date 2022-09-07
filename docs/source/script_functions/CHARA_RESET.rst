@@ -1,3 +1,5 @@
+.. _CHARA_RESET:
+
 CHARA_RESET
 ========================
 

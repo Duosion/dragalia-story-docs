@@ -1,3 +1,5 @@
+.. _chara_shake_h:
+
 chara_shake_h
 ========================
 

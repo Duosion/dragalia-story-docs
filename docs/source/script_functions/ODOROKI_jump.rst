@@ -1,3 +1,5 @@
+.. _ODOROKI_jump:
+
 ODOROKI_jump
 ========================
 

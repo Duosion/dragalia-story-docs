@@ -1,3 +1,5 @@
+.. _CHARA_ATTACK_ZETH:
+
 CHARA_ATTACK_ZETH
 ========================
 

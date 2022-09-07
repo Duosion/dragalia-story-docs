@@ -1,3 +1,5 @@
+.. _CHARA_SET_POS:
+
 CHARA_SET_POS
 ========================
 

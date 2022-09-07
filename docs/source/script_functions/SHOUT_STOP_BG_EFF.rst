@@ -1,3 +1,5 @@
+.. _SHOUT_STOP_BG_EFF:
+
 SHOUT_STOP_BG_EFF
 ========================
 

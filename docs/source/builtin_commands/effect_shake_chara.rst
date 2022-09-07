@@ -1,3 +1,5 @@
+.. _effect_shake_chara:
+
 effect_shake_chara
 ========================
 

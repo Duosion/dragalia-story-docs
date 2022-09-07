@@ -1,3 +1,5 @@
+.. _cutscene_play:
+
 cutscene_play
 ========================
 

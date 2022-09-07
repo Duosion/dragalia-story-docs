@@ -1,3 +1,5 @@
+.. _SHOUT_COM_BG_EFF:
+
 SHOUT_COM_BG_EFF
 ========================
 

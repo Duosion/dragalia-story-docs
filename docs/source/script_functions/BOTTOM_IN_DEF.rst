@@ -1,3 +1,5 @@
+.. _BOTTOM_IN_DEF:
+
 BOTTOM_IN_DEF
 ========================
 

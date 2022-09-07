@@ -1,3 +1,5 @@
+.. _DRG_SHIMOTE:
+
 DRG_SHIMOTE
 ========================
 

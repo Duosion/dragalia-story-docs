@@ -1,3 +1,5 @@
+.. _SHOUT_BRY_EFF:
+
 SHOUT_BRY_EFF
 ========================
 

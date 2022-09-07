@@ -1,3 +1,5 @@
+.. _CHARA_BOTTOM:
+
 CHARA_BOTTOM
 ========================
 

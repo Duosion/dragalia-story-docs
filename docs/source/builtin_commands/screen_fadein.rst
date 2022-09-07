@@ -1,3 +1,5 @@
+.. _screen_fadein:
+
 screen_fadein
 ========================
 

@@ -1,3 +1,5 @@
+.. _CHARA_BEAT_DARK2_BEFORE:
+
 CHARA_BEAT_DARK2_BEFORE
 ========================
 

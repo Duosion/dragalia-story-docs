@@ -1,3 +1,5 @@
+.. _CHARA_KAMITE3:
+
 CHARA_KAMITE3
 ========================
 

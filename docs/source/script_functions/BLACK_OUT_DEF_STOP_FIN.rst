@@ -1,3 +1,5 @@
+.. _BLACK_OUT_DEF_STOP_FIN:
+
 BLACK_OUT_DEF_STOP_FIN
 ========================
 

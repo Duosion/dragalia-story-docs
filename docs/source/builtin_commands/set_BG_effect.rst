@@ -1,3 +1,5 @@
+.. _set_BG_effect:
+
 set_BG_effect
 ========================
 

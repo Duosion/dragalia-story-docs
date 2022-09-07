@@ -1,3 +1,5 @@
+.. _chara_intro_end:
+
 chara_intro_end
 ========================
 

@@ -1,3 +1,5 @@
+.. _REPEL_KNIFE:
+
 REPEL_KNIFE
 ========================
 

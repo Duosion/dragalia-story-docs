@@ -1,3 +1,5 @@
+.. _CHARA_ATTACK_BOW:
+
 CHARA_ATTACK_BOW
 ========================
 

@@ -1,3 +1,5 @@
+.. _cutt_end_start_boss:
+
 cutt_end_start_boss
 ========================
 

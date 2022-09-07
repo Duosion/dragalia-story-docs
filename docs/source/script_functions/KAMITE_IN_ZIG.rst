@@ -1,3 +1,5 @@
+.. _KAMITE_IN_ZIG:
+
 KAMITE_IN_ZIG
 ========================
 

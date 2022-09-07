@@ -1,3 +1,5 @@
+.. _ODOROKI_EMO:
+
 ODOROKI_EMO
 ========================
 

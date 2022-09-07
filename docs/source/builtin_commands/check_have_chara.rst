@@ -1,3 +1,5 @@
+.. _check_have_chara:
+
 check_have_chara
 ========================
 

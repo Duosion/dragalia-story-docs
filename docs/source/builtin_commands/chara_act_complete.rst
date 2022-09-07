@@ -1,3 +1,5 @@
+.. _chara_act_complete:
+
 chara_act_complete
 ========================
 

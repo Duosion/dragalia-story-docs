@@ -1,3 +1,5 @@
+.. _BLACK_OUT_LONG:
+
 BLACK_OUT_LONG
 ========================
 

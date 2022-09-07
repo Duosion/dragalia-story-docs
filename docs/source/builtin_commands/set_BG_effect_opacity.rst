@@ -1,3 +1,5 @@
+.. _set_BG_effect_opacity:
+
 set_BG_effect_opacity
 ========================
 

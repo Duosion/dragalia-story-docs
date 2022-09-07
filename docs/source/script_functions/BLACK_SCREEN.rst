@@ -1,3 +1,5 @@
+.. _BLACK_SCREEN:
+
 BLACK_SCREEN
 ========================
 

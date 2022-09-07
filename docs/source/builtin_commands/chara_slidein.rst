@@ -1,3 +1,5 @@
+.. _chara_slidein:
+
 chara_slidein
 ========================
 

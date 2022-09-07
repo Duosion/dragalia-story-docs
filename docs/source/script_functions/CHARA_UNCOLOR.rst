@@ -1,3 +1,5 @@
+.. _CHARA_UNCOLOR:
+
 CHARA_UNCOLOR
 ========================
 

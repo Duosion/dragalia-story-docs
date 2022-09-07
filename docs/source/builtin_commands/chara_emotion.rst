@@ -1,3 +1,5 @@
+.. _chara_emotion:
+
 chara_emotion
 ========================
 

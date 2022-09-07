@@ -1,3 +1,5 @@
+.. _HIRAMEKI_jump:
+
 HIRAMEKI_jump
 ========================
 

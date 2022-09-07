@@ -1,3 +1,5 @@
+.. _CHANGE_DRAGON_LUMINE:
+
 CHANGE_DRAGON_LUMINE
 ========================
 

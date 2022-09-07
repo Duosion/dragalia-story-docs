@@ -1,3 +1,5 @@
+.. _chara_act_manual:
+
 chara_act_manual
 ========================
 

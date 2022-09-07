@@ -1,3 +1,5 @@
+.. _screen_transout:
+
 screen_transout
 ========================
 

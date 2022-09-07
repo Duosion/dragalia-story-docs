@@ -1,3 +1,5 @@
+.. _MAGIC_CURE_BEFORE:
+
 MAGIC_CURE_BEFORE
 ========================
 

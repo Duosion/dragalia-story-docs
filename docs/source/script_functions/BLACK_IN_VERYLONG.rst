@@ -1,3 +1,5 @@
+.. _BLACK_IN_VERYLONG:
+
 BLACK_IN_VERYLONG
 ========================
 

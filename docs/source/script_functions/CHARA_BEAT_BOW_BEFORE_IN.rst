@@ -1,3 +1,5 @@
+.. _CHARA_BEAT_BOW_BEFORE_IN:
+
 CHARA_BEAT_BOW_BEFORE_IN
 ========================
 

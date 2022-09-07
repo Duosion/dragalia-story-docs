@@ -1,3 +1,5 @@
+.. _CHARA_KAMITE_POS:
+
 CHARA_KAMITE_POS
 ========================
 

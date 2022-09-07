@@ -1,3 +1,5 @@
+.. _CHARA_FROM_ANOTHER_WORLD:
+
 CHARA_FROM_ANOTHER_WORLD
 ========================
 

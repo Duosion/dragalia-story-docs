@@ -1,3 +1,5 @@
+.. _CHARA_SHIMOTE2:
+
 CHARA_SHIMOTE2
 ========================
 

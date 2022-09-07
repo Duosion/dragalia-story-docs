@@ -1,3 +1,5 @@
+.. _CHARA_INTRO_SET_EFF:
+
 CHARA_INTRO_SET_EFF
 ========================
 

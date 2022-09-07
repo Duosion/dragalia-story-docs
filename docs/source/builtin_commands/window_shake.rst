@@ -1,3 +1,5 @@
+.. _window_shake:
+
 window_shake
 ========================
 

@@ -1,3 +1,5 @@
+.. _MONSTER_BEAT_AFTER:
+
 MONSTER_BEAT_AFTER
 ========================
 

@@ -1,3 +1,5 @@
+.. _THUNDER_SHAKE:
+
 THUNDER_SHAKE
 ========================
 

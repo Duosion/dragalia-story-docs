@@ -1,3 +1,5 @@
+.. _WHITE_OUT_DEF:
+
 WHITE_OUT_DEF
 ========================
 

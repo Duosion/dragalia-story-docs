@@ -1,3 +1,5 @@
+.. _debug_log_int:
+
 debug_log_int
 ========================
 

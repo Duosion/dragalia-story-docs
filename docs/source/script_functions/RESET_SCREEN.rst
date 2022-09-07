@@ -1,3 +1,5 @@
+.. _RESET_SCREEN:
+
 RESET_SCREEN
 ========================
 

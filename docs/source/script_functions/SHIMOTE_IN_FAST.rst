@@ -1,3 +1,5 @@
+.. _SHIMOTE_IN_FAST:
+
 SHIMOTE_IN_FAST
 ========================
 

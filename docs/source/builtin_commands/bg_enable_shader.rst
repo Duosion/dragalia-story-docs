@@ -1,3 +1,5 @@
+.. _bg_enable_shader:
+
 bg_enable_shader
 ========================
 

@@ -1,3 +1,5 @@
+.. _MONSTER_KAMITE3:
+
 MONSTER_KAMITE3
 ========================
 

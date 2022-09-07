@@ -1,3 +1,5 @@
+.. _CHARA_KAMITE_SLOW_POS:
+
 CHARA_KAMITE_SLOW_POS
 ========================
 

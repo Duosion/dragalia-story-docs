@@ -1,3 +1,5 @@
+.. _KAMITE_IN_DEF:
+
 KAMITE_IN_DEF
 ========================
 

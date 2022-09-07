@@ -1,3 +1,5 @@
+.. _window_visible:
+
 window_visible
 ========================
 

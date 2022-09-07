@@ -1,3 +1,5 @@
+.. _CHARA_ATTACK_KAT:
+
 CHARA_ATTACK_KAT
 ========================
 

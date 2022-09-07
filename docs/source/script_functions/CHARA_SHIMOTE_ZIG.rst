@@ -1,3 +1,5 @@
+.. _CHARA_SHIMOTE_ZIG:
+
 CHARA_SHIMOTE_ZIG
 ========================
 

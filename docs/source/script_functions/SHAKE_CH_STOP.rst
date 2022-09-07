@@ -1,3 +1,5 @@
+.. _SHAKE_CH_STOP:
+
 SHAKE_CH_STOP
 ========================
 

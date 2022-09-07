@@ -1,3 +1,5 @@
+.. _cutscene_load:
+
 cutscene_load
 ========================
 

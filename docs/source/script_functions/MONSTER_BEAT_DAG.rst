@@ -1,3 +1,5 @@
+.. _MONSTER_BEAT_DAG:
+
 MONSTER_BEAT_DAG
 ========================
 

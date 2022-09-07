@@ -1,3 +1,5 @@
+.. _DRAGON_TALK_STOP:
+
 DRAGON_TALK_STOP
 ========================
 

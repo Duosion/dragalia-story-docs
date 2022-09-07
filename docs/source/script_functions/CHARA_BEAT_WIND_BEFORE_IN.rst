@@ -1,3 +1,5 @@
+.. _CHARA_BEAT_WIND_BEFORE_IN:
+
 CHARA_BEAT_WIND_BEFORE_IN
 ========================
 

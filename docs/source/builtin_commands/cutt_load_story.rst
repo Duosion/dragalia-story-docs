@@ -1,3 +1,5 @@
+.. _cutt_load_story:
+
 cutt_load_story
 ========================
 

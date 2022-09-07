@@ -1,3 +1,5 @@
+.. _KAMITE_OUT_SLOW:
+
 KAMITE_OUT_SLOW
 ========================
 

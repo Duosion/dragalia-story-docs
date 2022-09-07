@@ -1,3 +1,5 @@
+.. _BLACK_IN_MIDSHORT:
+
 BLACK_IN_MIDSHORT
 ========================
 

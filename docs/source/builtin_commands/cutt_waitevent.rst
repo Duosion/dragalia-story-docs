@@ -1,3 +1,5 @@
+.. _cutt_waitevent:
+
 cutt_waitevent
 ========================
 

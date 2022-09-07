@@ -1,3 +1,5 @@
+.. _CHARA_BEAT_SWD:
+
 CHARA_BEAT_SWD
 ========================
 

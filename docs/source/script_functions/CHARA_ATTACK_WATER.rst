@@ -1,3 +1,5 @@
+.. _CHARA_ATTACK_WATER:
+
 CHARA_ATTACK_WATER
 ========================
 

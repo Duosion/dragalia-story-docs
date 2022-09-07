@@ -1,3 +1,5 @@
+.. _MAGIC_CURE_CH:
+
 MAGIC_CURE_CH
 ========================
 

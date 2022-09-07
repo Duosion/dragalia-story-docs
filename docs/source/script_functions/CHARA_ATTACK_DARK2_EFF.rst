@@ -1,3 +1,5 @@
+.. _CHARA_ATTACK_DARK2_EFF:
+
 CHARA_ATTACK_DARK2_EFF
 ========================
 

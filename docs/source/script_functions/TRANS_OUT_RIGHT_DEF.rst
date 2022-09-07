@@ -1,3 +1,5 @@
+.. _TRANS_OUT_RIGHT_DEF:
+
 TRANS_OUT_RIGHT_DEF
 ========================
 

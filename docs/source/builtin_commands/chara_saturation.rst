@@ -1,3 +1,5 @@
+.. _chara_saturation:
+
 chara_saturation
 ========================
 

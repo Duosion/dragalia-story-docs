@@ -1,3 +1,5 @@
+.. _window_type:
+
 window_type
 ========================
 

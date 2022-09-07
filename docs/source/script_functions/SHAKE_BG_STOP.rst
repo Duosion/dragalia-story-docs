@@ -1,3 +1,5 @@
+.. _SHAKE_BG_STOP:
+
 SHAKE_BG_STOP
 ========================
 

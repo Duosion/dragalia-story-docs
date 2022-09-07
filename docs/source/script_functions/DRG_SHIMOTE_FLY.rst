@@ -1,3 +1,5 @@
+.. _DRG_SHIMOTE_FLY:
+
 DRG_SHIMOTE_FLY
 ========================
 

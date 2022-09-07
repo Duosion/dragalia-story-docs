@@ -1,3 +1,5 @@
+.. _no_need_touch_wait:
+
 no_need_touch_wait
 ========================
 

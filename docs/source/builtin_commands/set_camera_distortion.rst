@@ -1,3 +1,5 @@
+.. _set_camera_distortion:
+
 set_camera_distortion
 ========================
 

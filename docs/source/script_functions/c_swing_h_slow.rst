@@ -1,3 +1,5 @@
+.. _c_swing_h_slow:
+
 c_swing_h_slow
 ========================
 

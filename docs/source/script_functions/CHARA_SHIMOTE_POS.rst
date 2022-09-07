@@ -1,3 +1,5 @@
+.. _CHARA_SHIMOTE_POS:
+
 CHARA_SHIMOTE_POS
 ========================
 

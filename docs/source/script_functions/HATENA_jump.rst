@@ -1,3 +1,5 @@
+.. _HATENA_jump:
+
 HATENA_jump
 ========================
 

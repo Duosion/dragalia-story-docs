@@ -1,3 +1,5 @@
+.. _cutt_waitevent_disable_skip:
+
 cutt_waitevent_disable_skip
 ========================
 

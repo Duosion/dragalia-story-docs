@@ -1,3 +1,5 @@
+.. _GUARD_KNIFE:
+
 GUARD_KNIFE
 ========================
 

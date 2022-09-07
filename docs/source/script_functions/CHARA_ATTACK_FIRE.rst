@@ -1,3 +1,5 @@
+.. _CHARA_ATTACK_FIRE:
+
 CHARA_ATTACK_FIRE
 ========================
 

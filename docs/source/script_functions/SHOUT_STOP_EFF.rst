@@ -1,3 +1,5 @@
+.. _SHOUT_STOP_EFF:
+
 SHOUT_STOP_EFF
 ========================
 

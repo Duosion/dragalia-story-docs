@@ -1,3 +1,5 @@
+.. _MONSTER_BEAT_SWD:
+
 MONSTER_BEAT_SWD
 ========================
 

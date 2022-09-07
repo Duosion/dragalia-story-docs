@@ -1,3 +1,5 @@
+.. _CHARA_BEAT_DAG_BEFORE:
+
 CHARA_BEAT_DAG_BEFORE
 ========================
 

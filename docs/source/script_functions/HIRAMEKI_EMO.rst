@@ -1,3 +1,5 @@
+.. _HIRAMEKI_EMO:
+
 HIRAMEKI_EMO
 ========================
 

@@ -1,3 +1,5 @@
+.. _set_BG_effect_speed:
+
 set_BG_effect_speed
 ========================
 

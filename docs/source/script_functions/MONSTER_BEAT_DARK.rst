@@ -1,3 +1,5 @@
+.. _MONSTER_BEAT_DARK:
+
 MONSTER_BEAT_DARK
 ========================
 

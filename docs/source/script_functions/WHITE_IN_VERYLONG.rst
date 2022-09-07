@@ -1,3 +1,5 @@
+.. _WHITE_IN_VERYLONG:
+
 WHITE_IN_VERYLONG
 ========================
 

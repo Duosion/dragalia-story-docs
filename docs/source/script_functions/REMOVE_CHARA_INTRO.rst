@@ -1,3 +1,5 @@
+.. _REMOVE_CHARA_INTRO:
+
 REMOVE_CHARA_INTRO
 ========================
 

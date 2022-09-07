@@ -1,3 +1,5 @@
+.. _CHARA_ATTACK_LIGHT:
+
 CHARA_ATTACK_LIGHT
 ========================
 

@@ -1,3 +1,5 @@
+.. _MONSTER_SHIMOTE2:
+
 MONSTER_SHIMOTE2
 ========================
 

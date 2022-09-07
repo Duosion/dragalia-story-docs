@@ -1,3 +1,5 @@
+.. _TUTORIAL_BUTTON_SETTING:
+
 TUTORIAL_BUTTON_SETTING
 ========================
 

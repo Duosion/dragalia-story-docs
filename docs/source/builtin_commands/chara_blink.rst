@@ -1,3 +1,5 @@
+.. _chara_blink:
+
 chara_blink
 ========================
 

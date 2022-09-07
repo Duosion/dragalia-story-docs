@@ -1,3 +1,5 @@
+.. _chara_contrast:
+
 chara_contrast
 ========================
 

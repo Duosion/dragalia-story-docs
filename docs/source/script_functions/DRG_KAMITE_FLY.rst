@@ -1,3 +1,5 @@
+.. _DRG_KAMITE_FLY:
+
 DRG_KAMITE_FLY
 ========================
 

@@ -1,3 +1,5 @@
+.. _message_pos:
+
 message_pos
 ========================
 

@@ -1,3 +1,5 @@
+.. _NEGA_SCREEN:
+
 NEGA_SCREEN
 ========================
 

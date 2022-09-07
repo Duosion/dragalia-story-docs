@@ -1,3 +1,5 @@
+.. _CHARA_BEAT_HIT_BEFORE_IN_EFF:
+
 CHARA_BEAT_HIT_BEFORE_IN_EFF
 ========================
 

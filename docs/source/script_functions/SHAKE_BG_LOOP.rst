@@ -1,3 +1,5 @@
+.. _SHAKE_BG_LOOP:
+
 SHAKE_BG_LOOP
 ========================
 

@@ -1,3 +1,5 @@
+.. _BLACK_OUT_MIDSHORT:
+
 BLACK_OUT_MIDSHORT
 ========================
 

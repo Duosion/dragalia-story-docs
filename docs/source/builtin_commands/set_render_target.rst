@@ -1,3 +1,5 @@
+.. _set_render_target:
+
 set_render_target
 ========================
 

@@ -1,3 +1,5 @@
+.. _button_visible:
+
 button_visible
 ========================
 

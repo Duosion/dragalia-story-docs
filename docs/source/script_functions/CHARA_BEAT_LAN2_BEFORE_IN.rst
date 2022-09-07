@@ -1,3 +1,5 @@
+.. _CHARA_BEAT_LAN2_BEFORE_IN:
+
 CHARA_BEAT_LAN2_BEFORE_IN
 ========================
 

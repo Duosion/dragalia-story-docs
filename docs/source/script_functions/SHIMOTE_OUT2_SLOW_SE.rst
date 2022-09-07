@@ -1,3 +1,5 @@
+.. _SHIMOTE_OUT2_SLOW_SE:
+
 SHIMOTE_OUT2_SLOW_SE
 ========================
 

@@ -1,3 +1,5 @@
+.. _color_adjustment:
+
 color_adjustment
 ========================
 

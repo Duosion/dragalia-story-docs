@@ -1,3 +1,5 @@
+.. _BOTTOM_IN_ZIG:
+
 BOTTOM_IN_ZIG
 ========================
 

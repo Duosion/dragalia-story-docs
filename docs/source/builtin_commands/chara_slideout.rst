@@ -1,3 +1,5 @@
+.. _chara_slideout:
+
 chara_slideout
 ========================
 

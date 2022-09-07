@@ -1,3 +1,5 @@
+.. _MONSTER_BEAT_AXE:
+
 MONSTER_BEAT_AXE
 ========================
 

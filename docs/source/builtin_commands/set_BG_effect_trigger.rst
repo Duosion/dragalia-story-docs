@@ -1,3 +1,5 @@
+.. _set_BG_effect_trigger:
+
 set_BG_effect_trigger
 ========================
 

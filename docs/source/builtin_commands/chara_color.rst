@@ -1,3 +1,5 @@
+.. _chara_color:
+
 chara_color
 ========================
 

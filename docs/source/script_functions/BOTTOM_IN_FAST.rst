@@ -1,3 +1,5 @@
+.. _BOTTOM_IN_FAST:
+
 BOTTOM_IN_FAST
 ========================
 

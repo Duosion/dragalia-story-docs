@@ -1,3 +1,5 @@
+.. _KAMITE_OUT2_DEF:
+
 KAMITE_OUT2_DEF
 ========================
 

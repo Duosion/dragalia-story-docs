@@ -1,3 +1,5 @@
+.. _CHARA_ATTACK_DRG_EFF:
+
 CHARA_ATTACK_DRG_EFF
 ========================
 

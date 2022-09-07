@@ -1,3 +1,5 @@
+.. _SCREEN_COLOR_DEF:
+
 SCREEN_COLOR_DEF
 ========================
 

@@ -1,3 +1,5 @@
+.. _CHARA_ATTACK_GUN:
+
 CHARA_ATTACK_GUN
 ========================
 

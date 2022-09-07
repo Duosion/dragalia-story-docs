@@ -1,3 +1,5 @@
+.. _bg_effect_parent:
+
 bg_effect_parent
 ========================
 

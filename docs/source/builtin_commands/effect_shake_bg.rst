@@ -1,3 +1,5 @@
+.. _effect_shake_bg:
+
 effect_shake_bg
 ========================
 

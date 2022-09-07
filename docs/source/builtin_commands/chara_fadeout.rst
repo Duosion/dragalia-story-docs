@@ -1,3 +1,5 @@
+.. _chara_fadeout:
+
 chara_fadeout
 ========================
 

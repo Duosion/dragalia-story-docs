@@ -1,3 +1,5 @@
+.. _SHOUT_COM_EFF:
+
 SHOUT_COM_EFF
 ========================
 

@@ -1,3 +1,5 @@
+.. _BLACK_OUT_VERYSHORT:
+
 BLACK_OUT_VERYSHORT
 ========================
 

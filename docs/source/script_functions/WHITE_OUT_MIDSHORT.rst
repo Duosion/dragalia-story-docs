@@ -1,3 +1,5 @@
+.. _WHITE_OUT_MIDSHORT:
+
 WHITE_OUT_MIDSHORT
 ========================
 

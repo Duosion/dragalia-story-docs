@@ -1,3 +1,5 @@
+.. _c_avoid_r_return:
+
 c_avoid_r_return
 ========================
 

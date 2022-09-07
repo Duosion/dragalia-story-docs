@@ -1,3 +1,5 @@
+.. _CHARA_INTRO:
+
 CHARA_INTRO
 ========================
 

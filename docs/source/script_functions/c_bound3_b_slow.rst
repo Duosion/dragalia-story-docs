@@ -1,3 +1,5 @@
+.. _c_bound3_b_slow:
+
 c_bound3_b_slow
 ========================
 

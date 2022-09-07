@@ -1,3 +1,5 @@
+.. _c_shrink_stay:
+
 c_shrink_stay
 ========================
 

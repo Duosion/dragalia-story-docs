@@ -1,3 +1,5 @@
+.. _MONSTER_BEAT_LAN:
+
 MONSTER_BEAT_LAN
 ========================
 

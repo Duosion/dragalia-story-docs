@@ -1,3 +1,5 @@
+.. _cutt_resetpause:
+
 cutt_resetpause
 ========================
 

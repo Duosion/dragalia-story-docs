@@ -1,3 +1,5 @@
+.. _RestartAll:
+
 RestartAll
 ========================
 

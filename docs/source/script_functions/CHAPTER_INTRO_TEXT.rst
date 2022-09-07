@@ -1,3 +1,5 @@
+.. _CHAPTER_INTRO_TEXT:
+
 CHAPTER_INTRO_TEXT
 ========================
 

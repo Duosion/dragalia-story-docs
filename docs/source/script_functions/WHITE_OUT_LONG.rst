@@ -1,3 +1,5 @@
+.. _WHITE_OUT_LONG:
+
 WHITE_OUT_LONG
 ========================
 

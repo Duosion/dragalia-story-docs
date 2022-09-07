@@ -1,3 +1,5 @@
+.. _screen_fadeout:
+
 screen_fadeout
 ========================
 

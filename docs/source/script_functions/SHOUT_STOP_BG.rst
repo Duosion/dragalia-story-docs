@@ -1,3 +1,5 @@
+.. _SHOUT_STOP_BG:
+
 SHOUT_STOP_BG
 ========================
 

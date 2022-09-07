@@ -1,3 +1,5 @@
+.. _set_album_picture:
+
 set_album_picture
 ========================
 

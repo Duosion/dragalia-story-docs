@@ -1,3 +1,5 @@
+.. _BODYBLOW_BEFORE:
+
 BODYBLOW_BEFORE
 ========================
 

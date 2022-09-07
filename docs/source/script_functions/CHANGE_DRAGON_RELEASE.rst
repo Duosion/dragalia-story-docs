@@ -1,3 +1,5 @@
+.. _CHANGE_DRAGON_RELEASE:
+
 CHANGE_DRAGON_RELEASE
 ========================
 

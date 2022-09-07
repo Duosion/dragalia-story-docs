@@ -1,3 +1,5 @@
+.. _outline_title:
+
 outline_title
 ========================
 

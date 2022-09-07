@@ -1,3 +1,5 @@
+.. _SCREEN_FLASH_WHITE_DEF:
+
 SCREEN_FLASH_WHITE_DEF
 ========================
 

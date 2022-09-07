@@ -1,3 +1,5 @@
+.. _event_still_move:
+
 event_still_move
 ========================
 

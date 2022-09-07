@@ -1,3 +1,5 @@
+.. _CHARA_ATTACK_MC_009:
+
 CHARA_ATTACK_MC_009
 ========================
 

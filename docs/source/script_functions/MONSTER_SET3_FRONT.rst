@@ -1,3 +1,5 @@
+.. _MONSTER_SET3_FRONT:
+
 MONSTER_SET3_FRONT
 ========================
 

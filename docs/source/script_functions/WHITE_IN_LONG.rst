@@ -1,3 +1,5 @@
+.. _WHITE_IN_LONG:
+
 WHITE_IN_LONG
 ========================
 

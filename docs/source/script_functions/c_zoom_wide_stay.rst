@@ -1,3 +1,5 @@
+.. _c_zoom_wide_stay:
+
 c_zoom_wide_stay
 ========================
 

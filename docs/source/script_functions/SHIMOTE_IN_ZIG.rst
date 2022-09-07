@@ -1,3 +1,5 @@
+.. _SHIMOTE_IN_ZIG:
+
 SHIMOTE_IN_ZIG
 ========================
 

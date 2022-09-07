@@ -1,3 +1,5 @@
+.. _window_enable:
+
 window_enable
 ========================
 

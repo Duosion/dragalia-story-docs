@@ -1,3 +1,5 @@
+.. _BGMTUNE_DEF:
+
 BGMTUNE_DEF
 ========================
 

@@ -1,3 +1,5 @@
+.. _MONSTER_BEAT3_BEFORE_IN:
+
 MONSTER_BEAT3_BEFORE_IN
 ========================
 

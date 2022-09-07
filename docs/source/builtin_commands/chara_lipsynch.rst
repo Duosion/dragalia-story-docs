@@ -1,3 +1,5 @@
+.. _chara_lipsynch:
+
 chara_lipsynch
 ========================
 

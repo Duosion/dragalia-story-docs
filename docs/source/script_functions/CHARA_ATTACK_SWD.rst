@@ -1,3 +1,5 @@
+.. _CHARA_ATTACK_SWD:
+
 CHARA_ATTACK_SWD
 ========================
 

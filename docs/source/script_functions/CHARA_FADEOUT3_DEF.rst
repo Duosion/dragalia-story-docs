@@ -1,3 +1,5 @@
+.. _CHARA_FADEOUT3_DEF:
+
 CHARA_FADEOUT3_DEF
 ========================
 

@@ -1,3 +1,5 @@
+.. _BLACK_OUT_DEF:
+
 BLACK_OUT_DEF
 ========================
 

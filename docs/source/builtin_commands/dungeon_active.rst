@@ -1,3 +1,5 @@
+.. _dungeon_active:
+
 dungeon_active
 ========================
 

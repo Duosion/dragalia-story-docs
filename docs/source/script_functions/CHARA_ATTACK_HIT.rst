@@ -1,3 +1,5 @@
+.. _CHARA_ATTACK_HIT:
+
 CHARA_ATTACK_HIT
 ========================
 

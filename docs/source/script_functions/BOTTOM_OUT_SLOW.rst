@@ -1,3 +1,5 @@
+.. _BOTTOM_OUT_SLOW:
+
 BOTTOM_OUT_SLOW
 ========================
 

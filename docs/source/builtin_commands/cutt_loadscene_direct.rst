@@ -1,3 +1,5 @@
+.. _cutt_loadscene_direct:
+
 cutt_loadscene_direct
 ========================
 

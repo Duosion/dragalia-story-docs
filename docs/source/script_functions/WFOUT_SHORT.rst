@@ -1,3 +1,5 @@
+.. _WFOUT_SHORT:
+
 WFOUT_SHORT
 ========================
 

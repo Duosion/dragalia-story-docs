@@ -1,3 +1,5 @@
+.. _CHARA_LANDING:
+
 CHARA_LANDING
 ========================
 

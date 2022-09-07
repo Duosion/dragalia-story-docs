@@ -1,3 +1,5 @@
+.. _BGMFOUT_DEF:
+
 BGMFOUT_DEF
 ========================
 

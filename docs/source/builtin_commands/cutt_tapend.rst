@@ -1,3 +1,5 @@
+.. _cutt_tapend:
+
 cutt_tapend
 ========================
 

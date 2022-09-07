@@ -1,3 +1,5 @@
+.. _SHIMOTE_OUT_DEF:
+
 SHIMOTE_OUT_DEF
 ========================
 

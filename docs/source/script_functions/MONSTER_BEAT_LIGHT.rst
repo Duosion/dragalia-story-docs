@@ -1,3 +1,5 @@
+.. _MONSTER_BEAT_LIGHT:
+
 MONSTER_BEAT_LIGHT
 ========================
 

@@ -1,3 +1,5 @@
+.. _CHARA_BOTTOM_FAST:
+
 CHARA_BOTTOM_FAST
 ========================
 

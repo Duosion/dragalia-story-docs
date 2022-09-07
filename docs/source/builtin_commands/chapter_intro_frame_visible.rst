@@ -1,3 +1,5 @@
+.. _chapter_intro_frame_visible:
+
 chapter_intro_frame_visible
 ========================
 

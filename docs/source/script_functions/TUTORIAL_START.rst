@@ -1,3 +1,5 @@
+.. _TUTORIAL_START:
+
 TUTORIAL_START
 ========================
 

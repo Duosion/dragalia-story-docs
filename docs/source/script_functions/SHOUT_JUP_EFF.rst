@@ -1,3 +1,5 @@
+.. _SHOUT_JUP_EFF:
+
 SHOUT_JUP_EFF
 ========================
 

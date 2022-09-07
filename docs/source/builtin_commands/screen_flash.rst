@@ -1,3 +1,5 @@
+.. _screen_flash:
+
 screen_flash
 ========================
 

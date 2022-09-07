@@ -1,3 +1,5 @@
+.. _CHARA_SHIMOTE_VERYFAST:
+
 CHARA_SHIMOTE_VERYFAST
 ========================
 

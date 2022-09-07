@@ -1,3 +1,5 @@
+.. _cutscene_wait:
+
 cutscene_wait
 ========================
 

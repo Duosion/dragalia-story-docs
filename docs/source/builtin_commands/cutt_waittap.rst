@@ -1,3 +1,5 @@
+.. _cutt_waittap:
+
 cutt_waittap
 ========================
 

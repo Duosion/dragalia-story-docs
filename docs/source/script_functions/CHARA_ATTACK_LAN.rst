@@ -1,3 +1,5 @@
+.. _CHARA_ATTACK_LAN:
+
 CHARA_ATTACK_LAN
 ========================
 

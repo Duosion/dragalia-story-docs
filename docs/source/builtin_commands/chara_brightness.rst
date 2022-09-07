@@ -1,3 +1,5 @@
+.. _chara_brightness:
+
 chara_brightness
 ========================
 

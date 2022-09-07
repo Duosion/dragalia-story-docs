@@ -1,3 +1,5 @@
+.. _set_BG_effect_rotation:
+
 set_BG_effect_rotation
 ========================
 

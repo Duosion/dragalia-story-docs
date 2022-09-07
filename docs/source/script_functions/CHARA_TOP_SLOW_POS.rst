@@ -1,3 +1,5 @@
+.. _CHARA_TOP_SLOW_POS:
+
 CHARA_TOP_SLOW_POS
 ========================
 

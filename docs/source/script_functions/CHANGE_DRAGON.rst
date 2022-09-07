@@ -1,3 +1,5 @@
+.. _CHANGE_DRAGON:
+
 CHANGE_DRAGON
 ========================
 

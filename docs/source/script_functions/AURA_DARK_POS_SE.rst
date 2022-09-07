@@ -1,3 +1,5 @@
+.. _AURA_DARK_POS_SE:
+
 AURA_DARK_POS_SE
 ========================
 

@@ -1,3 +1,5 @@
+.. _window_fadein:
+
 window_fadein
 ========================
 

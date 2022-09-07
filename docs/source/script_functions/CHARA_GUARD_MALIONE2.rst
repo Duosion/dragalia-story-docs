@@ -1,3 +1,5 @@
+.. _CHARA_GUARD_MALIONE2:
+
 CHARA_GUARD_MALIONE2
 ========================
 

@@ -1,3 +1,5 @@
+.. _TRANS_IN_RIGHT_DEF:
+
 TRANS_IN_RIGHT_DEF
 ========================
 

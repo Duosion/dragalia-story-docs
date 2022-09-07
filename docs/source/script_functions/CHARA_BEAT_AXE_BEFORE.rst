@@ -1,3 +1,5 @@
+.. _CHARA_BEAT_AXE_BEFORE:
+
 CHARA_BEAT_AXE_BEFORE
 ========================
 

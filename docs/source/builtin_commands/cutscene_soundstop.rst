@@ -1,3 +1,5 @@
+.. _cutscene_soundstop:
+
 cutscene_soundstop
 ========================
 

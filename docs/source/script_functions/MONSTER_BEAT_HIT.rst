@@ -1,3 +1,5 @@
+.. _MONSTER_BEAT_HIT:
+
 MONSTER_BEAT_HIT
 ========================
 

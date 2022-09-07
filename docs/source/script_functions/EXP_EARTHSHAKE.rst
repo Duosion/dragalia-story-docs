@@ -1,3 +1,5 @@
+.. _EXP_EARTHSHAKE:
+
 EXP_EARTHSHAKE
 ========================
 

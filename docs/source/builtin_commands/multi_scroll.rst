@@ -1,3 +1,5 @@
+.. _multi_scroll:
+
 multi_scroll
 ========================
 

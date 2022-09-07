@@ -1,3 +1,5 @@
+.. _WHITE_IN_MIDSHORT:
+
 WHITE_IN_MIDSHORT
 ========================
 

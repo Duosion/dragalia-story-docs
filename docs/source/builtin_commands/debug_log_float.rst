@@ -1,3 +1,5 @@
+.. _debug_log_float:
+
 debug_log_float
 ========================
 

@@ -1,3 +1,5 @@
+.. _chara_clear:
+
 chara_clear
 ========================
 

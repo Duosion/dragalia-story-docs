@@ -1,3 +1,5 @@
+.. _set_BG_effect_pos:
+
 set_BG_effect_pos
 ========================
 

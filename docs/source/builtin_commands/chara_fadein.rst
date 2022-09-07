@@ -1,3 +1,5 @@
+.. _chara_fadein:
+
 chara_fadein
 ========================
 

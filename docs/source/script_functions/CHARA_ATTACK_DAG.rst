@@ -1,3 +1,5 @@
+.. _CHARA_ATTACK_DAG:
+
 CHARA_ATTACK_DAG
 ========================
 

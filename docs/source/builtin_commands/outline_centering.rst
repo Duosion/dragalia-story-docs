@@ -1,3 +1,5 @@
+.. _outline_centering:
+
 outline_centering
 ========================
 

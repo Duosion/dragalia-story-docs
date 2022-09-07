@@ -1,3 +1,5 @@
+.. _StopEye_close:
+
 StopEye_close
 ========================
 

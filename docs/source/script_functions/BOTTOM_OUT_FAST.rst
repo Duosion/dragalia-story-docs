@@ -1,3 +1,5 @@
+.. _BOTTOM_OUT_FAST:
+
 BOTTOM_OUT_FAST
 ========================
 

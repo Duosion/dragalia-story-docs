@@ -1,3 +1,5 @@
+.. _CHARA_BEAT_MALIONE:
+
 CHARA_BEAT_MALIONE
 ========================
 

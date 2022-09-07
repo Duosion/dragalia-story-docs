@@ -1,3 +1,5 @@
+.. _c_swing2_h_fast:
+
 c_swing2_h_fast
 ========================
 

@@ -1,3 +1,5 @@
+.. _c_bound_t_slow:
+
 c_bound_t_slow
 ========================
 

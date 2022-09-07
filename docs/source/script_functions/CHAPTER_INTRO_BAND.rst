@@ -1,3 +1,5 @@
+.. _CHAPTER_INTRO_BAND:
+
 CHAPTER_INTRO_BAND
 ========================
 

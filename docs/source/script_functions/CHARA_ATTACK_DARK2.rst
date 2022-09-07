@@ -1,3 +1,5 @@
+.. _CHARA_ATTACK_DARK2:
+
 CHARA_ATTACK_DARK2
 ========================
 

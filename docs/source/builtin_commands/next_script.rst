@@ -1,3 +1,5 @@
+.. _next_script:
+
 next_script
 ========================
 

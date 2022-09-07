@@ -1,3 +1,5 @@
+.. _touch_enable:
+
 touch_enable
 ========================
 

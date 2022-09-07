@@ -1,3 +1,5 @@
+.. _frame_visible:
+
 frame_visible
 ========================
 

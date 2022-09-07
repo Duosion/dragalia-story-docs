@@ -1,3 +1,5 @@
+.. _CHARA_BEAT_AFTER_0:
+
 CHARA_BEAT_AFTER_0
 ========================
 

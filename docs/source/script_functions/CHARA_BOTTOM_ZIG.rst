@@ -1,3 +1,5 @@
+.. _CHARA_BOTTOM_ZIG:
+
 CHARA_BOTTOM_ZIG
 ========================
 

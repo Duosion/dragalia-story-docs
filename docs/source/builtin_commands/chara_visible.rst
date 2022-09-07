@@ -1,3 +1,5 @@
+.. _chara_visible:
+
 chara_visible
 ========================
 

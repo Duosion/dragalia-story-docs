@@ -1,3 +1,5 @@
+.. _CHARA_FADEIN_DEF:
+
 CHARA_FADEIN_DEF
 ========================
 

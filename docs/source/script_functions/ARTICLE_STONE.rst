@@ -1,3 +1,5 @@
+.. _ARTICLE_STONE:
+
 ARTICLE_STONE
 ========================
 

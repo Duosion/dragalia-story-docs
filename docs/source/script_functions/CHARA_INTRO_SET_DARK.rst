@@ -1,3 +1,5 @@
+.. _CHARA_INTRO_SET_DARK:
+
 CHARA_INTRO_SET_DARK
 ========================
 

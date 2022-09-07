@@ -1,3 +1,5 @@
+.. _event_still_set:
+
 event_still_set
 ========================
 

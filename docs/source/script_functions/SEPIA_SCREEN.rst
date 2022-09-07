@@ -1,3 +1,5 @@
+.. _SEPIA_SCREEN:
+
 SEPIA_SCREEN
 ========================
 

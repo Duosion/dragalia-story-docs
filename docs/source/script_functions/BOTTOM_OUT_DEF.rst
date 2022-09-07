@@ -1,3 +1,5 @@
+.. _BOTTOM_OUT_DEF:
+
 BOTTOM_OUT_DEF
 ========================
 

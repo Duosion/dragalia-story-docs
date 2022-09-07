@@ -1,3 +1,5 @@
+.. _CHARA_ATTACK_WIND:
+
 CHARA_ATTACK_WIND
 ========================
 

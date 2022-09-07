@@ -1,3 +1,5 @@
+.. _screen_transin:
+
 screen_transin
 ========================
 

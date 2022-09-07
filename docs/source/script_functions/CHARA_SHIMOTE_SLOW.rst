@@ -1,3 +1,5 @@
+.. _CHARA_SHIMOTE_SLOW:
+
 CHARA_SHIMOTE_SLOW
 ========================
 
