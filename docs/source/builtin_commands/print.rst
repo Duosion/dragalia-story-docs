@@ -11,11 +11,7 @@ Arguments
 
 * isEnd
 * name
-	* Default: ``""``
-* text
-	* Default: ``""``
-* voice
-	* Default: ``""``
+	* Default: ``"", text = "", voice = ""``
 
 Description
 -------------

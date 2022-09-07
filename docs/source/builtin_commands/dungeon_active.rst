@@ -10,8 +10,6 @@ Arguments
 ------------
 
 * active
-* name
-	* Default: ``""``
 * isUnloadScene
 	* Default: ``False``
 

@@ -11,17 +11,7 @@ Arguments
 
 * charaId
 * name
-	* Default: ``""``
-* anotherName
-	* Default: ``""``
-* anotherNameRuby
-	* Default: ``""``
-* affiliation
-	* Default: ``""``
-* affiliationRuby
-	* Default: ``""``
-* emblemName
-	* Default: ``""``
+	* Default: ``"", anotherName = "", anotherNameRuby = "", affiliation = "", affiliationRuby = "", emblemName = ""``
 
 Description
 -------------

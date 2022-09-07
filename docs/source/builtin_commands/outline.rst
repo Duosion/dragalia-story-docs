@@ -11,9 +11,7 @@ Arguments
 
 * isEnd
 * outline
-	* Default: ``""``
-* nextFunction
-	* Default: ``""``
+	* Default: ``"", nextFunction = ""``
 
 Description
 -------------

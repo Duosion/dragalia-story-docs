@@ -11,11 +11,7 @@ Arguments
 
 * mainText
 * subText
-	* Default: ``""``
-* mainRuby
-	* Default: ``""``
-* subRuby
-	* Default: ``""``
+	* Default: ``"", mainRuby = "", subRuby = ""``
 
 Description
 -------------

@@ -11,13 +11,7 @@ Arguments
 
 * isEnd
 * text
-	* Default: ``""``
-* fileName
-	* Default: ``""``
-* logName
-	* Default: ``"SYS"``
-* logVoice
-	* Default: ``""``
+	* Default: ``"", fileName = "", logName = "SYS", logVoice = ""``
 
 Description
 -------------

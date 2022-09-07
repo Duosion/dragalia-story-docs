@@ -11,8 +11,6 @@ Arguments
 
 * cameraType
 * enable
-* effectId
-	* Default: ``""``
 
 Description
 -------------

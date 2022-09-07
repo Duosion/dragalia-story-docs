@@ -14,13 +14,7 @@ Arguments
 * titleB
 * functionB
 * titleC
-	* Default: ``""``
-* functionC
-	* Default: ``""``
-* titleD
-	* Default: ``""``
-* functionD
-	* Default: ``""``
+	* Default: ``"", functionC = "", titleD = "", functionD = ""``
 
 Description
 -------------

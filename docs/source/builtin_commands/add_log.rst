@@ -11,9 +11,7 @@ Arguments
 
 * logNameText
 * logText
-	* Default: ``""``
-* logVoiceId
-	* Default: ``""``
+	* Default: ``"", logVoiceId = ""``
 
 Description
 -------------

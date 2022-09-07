@@ -22,3 +22,10 @@ Contents
    :caption: Built-In Commands
 
    builtin_commands/*
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   :caption: Script Functions
+
+   script_functions/*

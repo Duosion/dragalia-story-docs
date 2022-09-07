@@ -11,8 +11,6 @@ Arguments
 
 * charaId
 * functionA
-* functionB
-	* Default: ``""``
 
 Description
 -------------
