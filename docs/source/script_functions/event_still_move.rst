@@ -229,6 +229,13 @@ Implementation
 	    ]
 	}
 
+Sample
+-------------
+
+.. code-block:: json
+
+	{}
+
 References
 -------------
 * :ref:`mnu_move`

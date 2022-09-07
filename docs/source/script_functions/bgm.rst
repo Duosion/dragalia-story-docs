@@ -114,6 +114,13 @@ Implementation
 	    ]
 	}
 
+Sample
+-------------
+
+.. code-block:: json
+
+	{}
+
 References
 -------------
 * :ref:`stop_bgm`

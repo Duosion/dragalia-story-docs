@@ -37,6 +37,13 @@ Implementation
 	    ]
 	}
 
+Sample
+-------------
+
+.. code-block:: json
+
+	{}
+
 References
 -------------
 * :ref:`wait`

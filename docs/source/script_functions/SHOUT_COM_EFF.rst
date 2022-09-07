@@ -56,6 +56,13 @@ Implementation
 	    ]
 	}
 
+Sample
+-------------
+
+.. code-block:: json
+
+	{}
+
 References
 -------------
 * :ref:`set_camera_distortion`

@@ -47,6 +47,13 @@ Implementation
 	    ]
 	}
 
+Sample
+-------------
+
+.. code-block:: json
+
+	{}
+
 References
 -------------
 * :ref:`text_size`

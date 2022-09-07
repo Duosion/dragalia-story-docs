@@ -129,6 +129,13 @@ Implementation
 	    ]
 	}
 
+Sample
+-------------
+
+.. code-block:: json
+
+	{}
+
 References
 -------------
 * :ref:`SCREEN_FLASH_WHITE_DEF`

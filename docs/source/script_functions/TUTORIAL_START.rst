@@ -135,6 +135,13 @@ Implementation
 	    ]
 	}
 
+Sample
+-------------
+
+.. code-block:: json
+
+	{}
+
 References
 -------------
 * :ref:`TUTORIAL_BUTTON_SETTING`
