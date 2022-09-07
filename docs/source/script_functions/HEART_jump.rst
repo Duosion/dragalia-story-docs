@@ -21,6 +21,40 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "HEART_jump",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 4472,
+	            "command": "NO_EMO",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4473,
+	            "command": "HEART_EMO",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4474,
+	            "command": "c_jump",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

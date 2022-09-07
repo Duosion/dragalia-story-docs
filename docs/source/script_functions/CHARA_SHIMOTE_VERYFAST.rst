@@ -25,6 +25,40 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHARA_SHIMOTE_VERYFAST",
+	    "args": [
+	        "eye",
+	        "lip",
+	        "POS",
+	        "CID",
+	        "int"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 1768,
+	            "command": "c_set_def",
+	            "args": [
+	                "eye",
+	                "lip",
+	                "POS",
+	                "CID",
+	                "int"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1769,
+	            "command": "SHIMOTE_IN_VERYFAST",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

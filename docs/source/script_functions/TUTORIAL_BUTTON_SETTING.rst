@@ -20,6 +20,24 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "TUTORIAL_BUTTON_SETTING",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 5218,
+	            "command": "button_visible",
+	            "args": [
+	                "false",
+	                "0",
+	                "false"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

@@ -23,6 +23,295 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHANGE_DRAGON",
+	    "args": [
+	        "CID",
+	        "CID2",
+	        "SE"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 3064,
+	            "command": "NO_EMO",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3065,
+	            "command": "WFOUT_SHORT",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 3066,
+	            "command": "set_BG_effect",
+	            "args": [
+	                "EFF_070",
+	                "EFF_071",
+	                "EFF_020"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3067,
+	            "command": "set_BG_effect_trigger",
+	            "args": [
+	                "8",
+	                "8",
+	                "2"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3068,
+	            "command": "play_sound",
+	            "args": [
+	                "SE_210"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3069,
+	            "command": "wait",
+	            "args": [
+	                "0.9"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3070,
+	            "command": "fade_color",
+	            "args": [
+	                "0.2",
+	                "255",
+	                "255",
+	                "255",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3071,
+	            "command": "NO_EFFECT",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 3072,
+	            "command": "set_BG_effect",
+	            "args": [
+	                "EFF_020"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3073,
+	            "command": "CHARA_RESET",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3074,
+	            "command": "CHARA_SET",
+	            "args": [
+	                "M",
+	                "M",
+	                "C",
+	                "CID2",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3075,
+	            "command": "set_BG_effect",
+	            "args": [
+	                "EFF_020"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3076,
+	            "command": "set_BG_effect_trigger",
+	            "args": [
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3077,
+	            "command": "fade_color",
+	            "args": [
+	                "1.5",
+	                "255",
+	                "255",
+	                "255",
+	                "0.7"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3078,
+	            "command": "set_BG_effect_trigger",
+	            "args": [
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3079,
+	            "command": "fade_color",
+	            "args": [
+	                "1.0",
+	                "255",
+	                "255",
+	                "255",
+	                "0.4"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3080,
+	            "command": "set_camera_distortion",
+	            "args": [
+	                "1",
+	                "true",
+	                "EFF_007"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3081,
+	            "command": "set_BG_effect",
+	            "args": [
+	                "EFF_007"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3082,
+	            "command": "set_BG_effect_speed",
+	            "args": [
+	                "EFF_007",
+	                "0.2"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3083,
+	            "command": "set_BG_effect_trigger",
+	            "args": [
+	                "8"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3084,
+	            "command": "fade_color",
+	            "args": [
+	                "0.5",
+	                "255",
+	                "255",
+	                "255",
+	                "0.2"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3085,
+	            "command": "set_BG_effect_trigger",
+	            "args": [
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3086,
+	            "command": "fade_color",
+	            "args": [
+	                "2.0",
+	                "255",
+	                "255",
+	                "255",
+	                "0.0"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3087,
+	            "command": "NO_EFFECT",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 3088,
+	            "command": "play_sound",
+	            "args": [
+	                "SE"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3089,
+	            "command": "set_BG_effect",
+	            "args": [
+	                "EFF_007"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3090,
+	            "command": "set_BG_effect_speed",
+	            "args": [
+	                "EFF_007",
+	                "1.5"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3091,
+	            "command": "set_BG_effect_trigger",
+	            "args": [
+	                "8"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3092,
+	            "command": "effect_shake_bg",
+	            "args": [
+	                "12",
+	                "0.5",
+	                "1.5",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3093,
+	            "command": "NO_EFFECT",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 3094,
+	            "command": "set_camera_distortion",
+	            "args": [
+	                "1",
+	                "false",
+	                "EFF_007"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

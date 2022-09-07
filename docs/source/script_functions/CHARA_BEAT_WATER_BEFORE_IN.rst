@@ -21,6 +21,64 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHARA_BEAT_WATER_BEFORE_IN",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 3975,
+	            "command": "play_sound",
+	            "args": [
+	                "SE_243"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3976,
+	            "command": "wait",
+	            "args": [
+	                "0.3"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3977,
+	            "command": "set_BG_effect",
+	            "args": [
+	                "EFF_036"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3978,
+	            "command": "wait",
+	            "args": [
+	                "0.2"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3979,
+	            "command": "c_swing2_h_fast",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3980,
+	            "command": "wait",
+	            "args": [
+	                "0.25"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

@@ -25,6 +25,40 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHARA_BOTTOM_FAST",
+	    "args": [
+	        "eye",
+	        "lip",
+	        "POS",
+	        "CID",
+	        "int"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 1788,
+	            "command": "c_set_def",
+	            "args": [
+	                "eye",
+	                "lip",
+	                "POS",
+	                "CID",
+	                "int"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1789,
+	            "command": "BOTTOM_IN_FAST",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

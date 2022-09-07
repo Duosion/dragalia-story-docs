@@ -20,6 +20,32 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHAPTER_INTRO_TEXT",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 5398,
+	            "command": "text_size",
+	            "args": [
+	                "24"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 5399,
+	            "command": "text_color",
+	            "args": [
+	                "255",
+	                "255",
+	                "255"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

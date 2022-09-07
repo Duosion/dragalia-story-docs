@@ -26,6 +26,57 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHARA_SHIMOTE_VERYFAST_SE",
+	    "args": [
+	        "eye",
+	        "lip",
+	        "POS",
+	        "CID",
+	        "int",
+	        "SE"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 1905,
+	            "command": "play_sound",
+	            "args": [
+	                "SE"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1906,
+	            "command": "wait",
+	            "args": [
+	                "1.0"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1907,
+	            "command": "BGMTUNE_DOWN_0",
+	            "args": [
+	                "SE"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1908,
+	            "command": "CHARA_SHIMOTE_VERYFAST",
+	            "args": [
+	                "eye",
+	                "lip",
+	                "POS",
+	                "CID",
+	                "int"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

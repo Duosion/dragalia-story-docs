@@ -21,6 +21,24 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "RestartEye",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 5171,
+	            "command": "chara_eyeblink",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

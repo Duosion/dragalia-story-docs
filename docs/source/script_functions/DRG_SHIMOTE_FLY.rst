@@ -23,6 +23,164 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "DRG_SHIMOTE_FLY",
+	    "args": [
+	        "eye",
+	        "lip",
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 1974,
+	            "command": "VIS",
+	            "args": [
+	                "CID",
+	                "POS_CENTER"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1975,
+	            "command": "chara_face",
+	            "args": [
+	                "CID",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1976,
+	            "command": "eye1",
+	            "args": [
+	                "CID",
+	                "eye"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1977,
+	            "command": "lip1",
+	            "args": [
+	                "CID",
+	                "lip"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1978,
+	            "command": "play_sound",
+	            "args": [
+	                "SE_040"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1979,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "true",
+	                "0.01",
+	                "-190",
+	                "200",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1980,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.6",
+	                "190",
+	                "-210",
+	                "EaseOutCirc"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1981,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.6",
+	                "0",
+	                "0",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1982,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.2",
+	                "0",
+	                "10",
+	                "EaseInSine"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1983,
+	            "command": "wait",
+	            "args": [
+	                "0.01"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1984,
+	            "command": "chara_fadein",
+	            "args": [
+	                "CID",
+	                "0.25"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1985,
+	            "command": "wait",
+	            "args": [
+	                "0.35"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1986,
+	            "command": "play_sound",
+	            "args": [
+	                "SE_133"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1987,
+	            "command": "effect_shake_bg",
+	            "args": [
+	                "12",
+	                "0.2",
+	                "0.6",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1988,
+	            "command": "SEFOUT_DEF",
+	            "args": [],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

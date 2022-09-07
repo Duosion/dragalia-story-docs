@@ -24,6 +24,55 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "KIRA",
+	    "args": [
+	        "posX",
+	        "posY",
+	        "scaleX",
+	        "scaleY"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 3190,
+	            "command": "play_sound",
+	            "args": [
+	                "SE_256"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3191,
+	            "command": "set_BG_effect",
+	            "args": [
+	                "EFF_015"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3192,
+	            "command": "set_BG_effect_pos",
+	            "args": [
+	                "EFF_015",
+	                "posX",
+	                "posY"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3193,
+	            "command": "set_BG_effect_scale",
+	            "args": [
+	                "EFF_015",
+	                "scaleX",
+	                "scaleY"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

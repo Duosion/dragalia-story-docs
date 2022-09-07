@@ -24,6 +24,30 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "cmp_move",
+	    "args": [
+	        "CID",
+	        "sec",
+	        "moveX",
+	        "moveY"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 4582,
+	            "command": "chara_act_complete",
+	            "args": [
+	                "CID",
+	                "sec",
+	                "moveX",
+	                "moveY"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

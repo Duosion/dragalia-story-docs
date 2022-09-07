@@ -21,6 +21,25 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "StopLip",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 5174,
+	            "command": "chara_lipsynch",
+	            "args": [
+	                "CID",
+	                "-2"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

@@ -23,6 +23,33 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "cmp_fade",
+	    "args": [
+	        "CID",
+	        "sec",
+	        "fade"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 4594,
+	            "command": "chara_act_complete",
+	            "args": [
+	                "CID",
+	                "sec",
+	                "-1.0",
+	                "-1.0",
+	                "-1.0",
+	                "-1.0",
+	                "-1.0",
+	                "fade"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

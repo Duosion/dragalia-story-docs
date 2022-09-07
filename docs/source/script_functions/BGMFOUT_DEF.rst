@@ -20,6 +20,22 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "BGMFOUT_DEF",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 1115,
+	            "command": "stop_bgm",
+	            "args": [
+	                "0.5"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

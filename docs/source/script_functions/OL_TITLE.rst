@@ -21,6 +21,24 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "OL_TITLE",
+	    "args": [
+	        "title"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 5242,
+	            "command": "outline_title",
+	            "args": [
+	                "title"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

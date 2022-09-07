@@ -26,6 +26,38 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "mnu_scale",
+	    "args": [
+	        "CID",
+	        "isNewAct",
+	        "scaleSec",
+	        "scaleX",
+	        "scaleY",
+	        "scaleEase"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 4567,
+	            "command": "chara_act_manual",
+	            "args": [
+	                "CID",
+	                "isNewAct",
+	                "0",
+	                "0",
+	                "0",
+	                "0",
+	                "scaleSec",
+	                "scaleX",
+	                "scaleY",
+	                "scaleEase"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

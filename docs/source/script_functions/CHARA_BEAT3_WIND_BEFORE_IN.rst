@@ -26,6 +26,157 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHARA_BEAT3_WIND_BEFORE_IN",
+	    "args": [
+	        "CID",
+	        "int",
+	        "CID2",
+	        "int2",
+	        "CID3",
+	        "int3"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 3993,
+	            "command": "set_BG_effect",
+	            "args": [
+	                "EFF_061"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3994,
+	            "command": "set_BG_effect_speed",
+	            "args": [
+	                "EFF_061",
+	                "2.0"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3995,
+	            "command": "wait",
+	            "args": [
+	                "0.05"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3996,
+	            "command": "play_sound",
+	            "args": [
+	                "SE_064"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3997,
+	            "command": "wait",
+	            "args": [
+	                "0.15"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3998,
+	            "command": "chara_face",
+	            "args": [
+	                "CID",
+	                "int"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3999,
+	            "command": "chara_face",
+	            "args": [
+	                "CID2",
+	                "int2"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4000,
+	            "command": "chara_face",
+	            "args": [
+	                "CID3",
+	                "int3"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4001,
+	            "command": "chara_shake_h",
+	            "args": [
+	                "CID",
+	                "2",
+	                "true"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4002,
+	            "command": "chara_shake_h",
+	            "args": [
+	                "CID2",
+	                "2",
+	                "true"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4003,
+	            "command": "chara_shake_h",
+	            "args": [
+	                "CID3",
+	                "2",
+	                "true"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4004,
+	            "command": "wait",
+	            "args": [
+	                "0.7"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4005,
+	            "command": "chara_shake_h",
+	            "args": [
+	                "CID",
+	                "2",
+	                "false"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4006,
+	            "command": "chara_shake_h",
+	            "args": [
+	                "CID2",
+	                "2",
+	                "false"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4007,
+	            "command": "chara_shake_h",
+	            "args": [
+	                "CID3",
+	                "2",
+	                "false"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

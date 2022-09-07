@@ -27,6 +27,36 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHARA_INTRO",
+	    "args": [
+	        "CID",
+	        "NAME",
+	        "ANOTHER",
+	        "ANOTHER_RUBY",
+	        "AFFLIATION",
+	        "AFFLIATION_RUBY",
+	        "EMBLEM_NAME"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 5260,
+	            "command": "chara_intro",
+	            "args": [
+	                "CID",
+	                "NAME",
+	                "ANOTHER",
+	                "ANOTHER_RUBY",
+	                "AFFLIATION",
+	                "AFFLIATION_RUBY",
+	                "EMBLEM_NAME"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

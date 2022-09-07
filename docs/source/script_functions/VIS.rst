@@ -22,6 +22,35 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "VIS",
+	    "args": [
+	        "CID",
+	        "POS"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 1700,
+	            "command": "chara_visible",
+	            "args": [
+	                "CID",
+	                "false"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1701,
+	            "command": "chara_pos",
+	            "args": [
+	                "CID",
+	                "POS"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

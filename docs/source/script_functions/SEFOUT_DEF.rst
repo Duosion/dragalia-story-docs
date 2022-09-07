@@ -20,6 +20,22 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "SEFOUT_DEF",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 1456,
+	            "command": "stop_se",
+	            "args": [
+	                "0.5"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

@@ -21,6 +21,59 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "BOTTOM_IN_FAST",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 2571,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "true",
+	                "0.05",
+	                "0",
+	                "-120",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2572,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.3",
+	                "0",
+	                "120",
+	                "EaseOutSine"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2573,
+	            "command": "wait",
+	            "args": [
+	                "0.05"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2574,
+	            "command": "chara_fadein",
+	            "args": [
+	                "CID",
+	                "0.3"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

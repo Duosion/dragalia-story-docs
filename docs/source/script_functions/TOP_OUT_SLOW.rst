@@ -21,6 +21,60 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "TOP_OUT_SLOW",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 2736,
+	            "command": "NO_EMO",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2737,
+	            "command": "RESET_TEXT",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 2738,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "true",
+	                "0.8",
+	                "0",
+	                "120",
+	                "EaseInSine"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2739,
+	            "command": "chara_fadeout",
+	            "args": [
+	                "CID",
+	                "0.8"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2740,
+	            "command": "RestartAll",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

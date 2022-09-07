@@ -26,6 +26,42 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHARA_SHIMOTE_POS",
+	    "args": [
+	        "eye",
+	        "lip",
+	        "X",
+	        "Y",
+	        "CID",
+	        "int"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 1840,
+	            "command": "CHARA_SET_POS_0",
+	            "args": [
+	                "eye",
+	                "lip",
+	                "X",
+	                "Y",
+	                "CID",
+	                "int"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1841,
+	            "command": "SHIMOTE_IN_DEF",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

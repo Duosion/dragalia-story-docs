@@ -25,6 +25,66 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "MAGIC_CURE_CH",
+	    "args": [
+	        "eye2",
+	        "lip2",
+	        "CID",
+	        "CID2",
+	        "int"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 4328,
+	            "command": "WFOUT_DEF",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 4329,
+	            "command": "MAGIC_CURE_BEFORE",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 4330,
+	            "command": "CHARA_RESET",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4331,
+	            "command": "CHARA_SET",
+	            "args": [
+	                "eye2",
+	                "lip2",
+	                "C",
+	                "CID2",
+	                "int"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4332,
+	            "command": "MAGIC_CURE_AFTER",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 4333,
+	            "command": "wait",
+	            "args": [
+	                "0.8"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

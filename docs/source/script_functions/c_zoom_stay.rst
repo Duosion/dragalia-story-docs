@@ -21,6 +21,40 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "c_zoom_stay",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 4999,
+	            "command": "mnu_scale",
+	            "args": [
+	                "CID",
+	                "true",
+	                "0.2",
+	                "1.1",
+	                "1.1",
+	                "EaseOutCubic"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 5000,
+	            "command": "cmp_scale",
+	            "args": [
+	                "CID",
+	                "0.2",
+	                "1.1",
+	                "1.1"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

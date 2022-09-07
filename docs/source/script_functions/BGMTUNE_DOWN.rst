@@ -21,6 +21,26 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "BGMTUNE_DOWN",
+	    "args": [
+	        "BGM"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 1119,
+	            "command": "set_volume",
+	            "args": [
+	                "0.5",
+	                "0.5",
+	                "BGM"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

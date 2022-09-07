@@ -21,6 +21,98 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "MONSTER_BEAT_LIGHT",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 3767,
+	            "command": "WFOUT_SHORT",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 3768,
+	            "command": "CHARA_SET",
+	            "args": [
+	                "M",
+	                "M",
+	                "C",
+	                "CID",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3769,
+	            "command": "play_sound",
+	            "args": [
+	                "SE_244"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3770,
+	            "command": "wait",
+	            "args": [
+	                "0.3"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3771,
+	            "command": "set_BG_effect",
+	            "args": [
+	                "EFF_038"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3772,
+	            "command": "wait",
+	            "args": [
+	                "0.2"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3773,
+	            "command": "c_swing2_h_fast",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3774,
+	            "command": "wait",
+	            "args": [
+	                "0.55"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3775,
+	            "command": "play_sound",
+	            "args": [
+	                "SE_205"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3776,
+	            "command": "MONSTER_BEAT_AFTER_0",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

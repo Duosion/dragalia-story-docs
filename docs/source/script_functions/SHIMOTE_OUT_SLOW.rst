@@ -21,6 +21,60 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "SHIMOTE_OUT_SLOW",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 2704,
+	            "command": "NO_EMO",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2705,
+	            "command": "RESET_TEXT",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 2706,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "true",
+	                "0.8",
+	                "-120",
+	                "0",
+	                "EaseInSine"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2707,
+	            "command": "chara_fadeout",
+	            "args": [
+	                "CID",
+	                "0.8"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2708,
+	            "command": "RestartAll",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

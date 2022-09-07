@@ -28,6 +28,38 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "cmp",
+	    "args": [
+	        "CID",
+	        "sec",
+	        "moveX",
+	        "moveY",
+	        "scaleX",
+	        "scaleY",
+	        "rotate",
+	        "fade"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 4578,
+	            "command": "chara_act_complete",
+	            "args": [
+	                "CID",
+	                "sec",
+	                "moveX",
+	                "moveY",
+	                "scaleX",
+	                "scaleY",
+	                "rotate",
+	                "fade"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

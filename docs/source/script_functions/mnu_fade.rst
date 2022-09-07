@@ -25,6 +25,43 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "mnu_fade",
+	    "args": [
+	        "CID",
+	        "isNewAct",
+	        "fadeSec",
+	        "fade",
+	        "fadeEase"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 4575,
+	            "command": "chara_act_manual",
+	            "args": [
+	                "CID",
+	                "isNewAct",
+	                "0",
+	                "0",
+	                "0",
+	                "0",
+	                "0",
+	                "0",
+	                "0",
+	                "0",
+	                "0",
+	                "0",
+	                "0",
+	                "fadeSec",
+	                "fade",
+	                "fadeEase"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

@@ -23,6 +23,51 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "KAMITE_OUT2_FAST_SE",
+	    "args": [
+	        "CID",
+	        "CID2",
+	        "SE"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 2915,
+	            "command": "play_sound",
+	            "args": [
+	                "SE"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2916,
+	            "command": "KAMITE_OUT2_FAST",
+	            "args": [
+	                "CID",
+	                "CID2"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2917,
+	            "command": "wait",
+	            "args": [
+	                "0.5"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2918,
+	            "command": "BGMTUNE_DOWN_0",
+	            "args": [
+	                "SE"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

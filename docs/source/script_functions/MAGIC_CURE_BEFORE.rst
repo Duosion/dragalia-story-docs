@@ -20,6 +20,34 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "MAGIC_CURE_BEFORE",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 4315,
+	            "command": "play_sound",
+	            "args": [
+	                "SE_122"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4316,
+	            "command": "fade_color",
+	            "args": [
+	                "1.0",
+	                "255",
+	                "255",
+	                "255",
+	                "1"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

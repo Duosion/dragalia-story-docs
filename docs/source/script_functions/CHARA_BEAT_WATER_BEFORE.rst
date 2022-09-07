@@ -24,6 +24,39 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHARA_BEAT_WATER_BEFORE",
+	    "args": [
+	        "eye",
+	        "lip",
+	        "CID",
+	        "int"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 3842,
+	            "command": "CHARA_SET",
+	            "args": [
+	                "eye",
+	                "lip",
+	                "C",
+	                "CID",
+	                "int"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3843,
+	            "command": "CHARA_BEAT_WATER_BEFORE_IN",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

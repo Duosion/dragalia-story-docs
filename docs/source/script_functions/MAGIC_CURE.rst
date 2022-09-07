@@ -20,6 +20,26 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "MAGIC_CURE",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 4324,
+	            "command": "MAGIC_CURE_BEFORE",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 4325,
+	            "command": "MAGIC_CURE_AFTER",
+	            "args": [],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

@@ -21,6 +21,25 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHARA_FADEIN_DEF",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 2473,
+	            "command": "chara_fadein",
+	            "args": [
+	                "CID",
+	                "FIN_DEF"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

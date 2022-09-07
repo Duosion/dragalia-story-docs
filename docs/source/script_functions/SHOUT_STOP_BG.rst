@@ -20,6 +20,22 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "SHOUT_STOP_BG",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 3243,
+	            "command": "wait",
+	            "args": [
+	                "1.8"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

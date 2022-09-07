@@ -24,6 +24,125 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "WARP_OUT",
+	    "args": [
+	        "eye",
+	        "lip",
+	        "CID",
+	        "int"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 2040,
+	            "command": "chara_face",
+	            "args": [
+	                "CID",
+	                "int"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2041,
+	            "command": "eye1",
+	            "args": [
+	                "CID",
+	                "eye"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2042,
+	            "command": "lip1",
+	            "args": [
+	                "CID",
+	                "lip"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2043,
+	            "command": "wait",
+	            "args": [
+	                "0.1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2044,
+	            "command": "set_render_target",
+	            "args": [
+	                "CID",
+	                "0"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2045,
+	            "command": "WFOUT_SHORT",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 2046,
+	            "command": "play_sound",
+	            "args": [
+	                "SE_010"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2047,
+	            "command": "set_BG_effect",
+	            "args": [
+	                "EFF_002",
+	                "EFF_SCE_2D_REN_000"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2048,
+	            "command": "set_BG_effect_trigger",
+	            "args": [
+	                "0",
+	                "29"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2049,
+	            "command": "wait",
+	            "args": [
+	                "0.2"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2050,
+	            "command": "chara_clear",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2051,
+	            "command": "wait",
+	            "args": [
+	                "2.5"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2052,
+	            "command": "NO_EFFECT",
+	            "args": [],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

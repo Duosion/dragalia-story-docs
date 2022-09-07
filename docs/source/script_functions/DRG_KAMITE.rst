@@ -24,6 +24,91 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "DRG_KAMITE",
+	    "args": [
+	        "eye",
+	        "lip",
+	        "POS",
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 1934,
+	            "command": "play_sound",
+	            "args": [
+	                "SE_136"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1935,
+	            "command": "wait",
+	            "args": [
+	                "0.3"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1936,
+	            "command": "effect_shake_bg",
+	            "args": [
+	                "12",
+	                "0.1",
+	                "0.2",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1937,
+	            "command": "wait",
+	            "args": [
+	                "0.7"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1938,
+	            "command": "effect_shake_bg",
+	            "args": [
+	                "12",
+	                "0.1",
+	                "0.2",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1939,
+	            "command": "CHARA_KAMITE_SLOW",
+	            "args": [
+	                "eye",
+	                "lip",
+	                "POS",
+	                "CID",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1940,
+	            "command": "SEFOUT_DEF",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 1941,
+	            "command": "wait",
+	            "args": [
+	                "1.5"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

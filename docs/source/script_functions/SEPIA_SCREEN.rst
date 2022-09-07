@@ -20,6 +20,23 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "SEPIA_SCREEN",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 5136,
+	            "command": "Sepia",
+	            "args": [
+	                "0",
+	                "2"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

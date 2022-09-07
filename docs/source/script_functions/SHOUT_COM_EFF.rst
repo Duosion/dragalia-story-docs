@@ -20,6 +20,41 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "SHOUT_COM_EFF",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 3226,
+	            "command": "set_camera_distortion",
+	            "args": [
+	                "cameraType_Chara",
+	                "true",
+	                "EFF_007"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3227,
+	            "command": "SHOUT_0_EFF",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 3228,
+	            "command": "effect_shake_bg",
+	            "args": [
+	                "12",
+	                "0.5",
+	                "1.5",
+	                "1"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

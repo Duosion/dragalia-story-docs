@@ -21,6 +21,92 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "c_fallinto",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 4883,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "true",
+	                "0.4",
+	                "0",
+	                "-25",
+	                "EaseOutCubic"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4884,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.1",
+	                "0",
+	                "0",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4885,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.5",
+	                "16",
+	                "0",
+	                "9"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4886,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.5",
+	                "-32",
+	                "0",
+	                "9"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4887,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.5",
+	                "16",
+	                "0",
+	                "9"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4888,
+	            "command": "cmp_move",
+	            "args": [
+	                "CID",
+	                "2.0",
+	                "0",
+	                "-25"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

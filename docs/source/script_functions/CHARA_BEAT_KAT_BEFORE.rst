@@ -24,6 +24,39 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHARA_BEAT_KAT_BEFORE",
+	    "args": [
+	        "eye",
+	        "lip",
+	        "CID",
+	        "int"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 3812,
+	            "command": "CHARA_SET",
+	            "args": [
+	                "eye",
+	                "lip",
+	                "C",
+	                "CID",
+	                "int"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3813,
+	            "command": "CHARA_BEAT_KAT_BEFORE_IN",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

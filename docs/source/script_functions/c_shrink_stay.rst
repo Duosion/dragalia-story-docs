@@ -21,6 +21,40 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "c_shrink_stay",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 4968,
+	            "command": "mnu_scale",
+	            "args": [
+	                "CID",
+	                "true",
+	                "0.2",
+	                "0.9",
+	                "0.9",
+	                "EaseOutCubic"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4969,
+	            "command": "cmp_scale",
+	            "args": [
+	                "CID",
+	                "0.2",
+	                "0.9",
+	                "0.9"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

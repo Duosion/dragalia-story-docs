@@ -23,6 +23,58 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "MONSTER_SHIMOTE3",
+	    "args": [
+	        "CID",
+	        "CID2",
+	        "CID3"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 2351,
+	            "command": "WFOUT_DEF",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 2352,
+	            "command": "MONSTER_SET3_0",
+	            "args": [
+	                "CID",
+	                "CID2",
+	                "CID3"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2353,
+	            "command": "SHIMOTE_IN_DEF",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2354,
+	            "command": "SHIMOTE_IN_DEF",
+	            "args": [
+	                "CID2"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2355,
+	            "command": "SHIMOTE_IN_DEF",
+	            "args": [
+	                "CID3"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

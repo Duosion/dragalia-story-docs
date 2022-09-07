@@ -24,6 +24,52 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHARA_BEAT_SWD",
+	    "args": [
+	        "eye",
+	        "lip",
+	        "CID",
+	        "int"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 3677,
+	            "command": "WFOUT_SHORT",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 3678,
+	            "command": "CHARA_BEAT_SWD_BEFORE",
+	            "args": [
+	                "eye",
+	                "lip",
+	                "CID",
+	                "int"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3679,
+	            "command": "wait",
+	            "args": [
+	                "0.3"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3680,
+	            "command": "CHARA_BEAT_AFTER_0",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

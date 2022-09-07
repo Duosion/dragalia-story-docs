@@ -23,6 +23,76 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHANGE_DRAGON_RELEASE",
+	    "args": [
+	        "CID",
+	        "CID2",
+	        "int"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 3098,
+	            "command": "WFOUT_SHORT",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 3099,
+	            "command": "set_BG_effect",
+	            "args": [
+	                "EFF_020"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3100,
+	            "command": "play_sound",
+	            "args": [
+	                "SE_005"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3101,
+	            "command": "wait",
+	            "args": [
+	                "1.1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3102,
+	            "command": "CHARA_RESET",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3103,
+	            "command": "CHARA_SET",
+	            "args": [
+	                "M",
+	                "M",
+	                "C",
+	                "CID2",
+	                "int"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3104,
+	            "command": "wait",
+	            "args": [
+	                "0.5"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

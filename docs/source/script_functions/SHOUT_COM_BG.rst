@@ -20,6 +20,25 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "SHOUT_COM_BG",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 3239,
+	            "command": "effect_shake_bg",
+	            "args": [
+	                "12",
+	                "0.5",
+	                "1.5",
+	                "1"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

@@ -20,6 +20,41 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "TRANS_OUT_RIGHT_DEF",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 1674,
+	            "command": "WFOUT_SHORT",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 1675,
+	            "command": "screen_transout",
+	            "args": [
+	                "1",
+	                "1.0"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1676,
+	            "command": "fade_color",
+	            "args": [
+	                "0.25",
+	                "0",
+	                "0",
+	                "0",
+	                "1"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

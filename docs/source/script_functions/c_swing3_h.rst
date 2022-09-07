@@ -21,6 +21,105 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "c_swing3_h",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 4811,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "true",
+	                "0.25",
+	                "16",
+	                "0",
+	                "9"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4812,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.25",
+	                "-32",
+	                "0",
+	                "9"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4813,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.25",
+	                "32",
+	                "0",
+	                "9"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4814,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.25",
+	                "-32",
+	                "0",
+	                "9"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4815,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.25",
+	                "32",
+	                "0",
+	                "9"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4816,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.25",
+	                "-16",
+	                "0",
+	                "9"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4817,
+	            "command": "cmp_move",
+	            "args": [
+	                "CID",
+	                "1.5",
+	                "0",
+	                "0"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

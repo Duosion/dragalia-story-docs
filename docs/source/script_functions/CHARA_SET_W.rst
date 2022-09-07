@@ -26,6 +26,51 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHARA_SET_W",
+	    "args": [
+	        "eye",
+	        "lip",
+	        "POS",
+	        "CID",
+	        "int",
+	        "int2"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 1727,
+	            "command": "c_set_def",
+	            "args": [
+	                "eye",
+	                "lip",
+	                "POS",
+	                "CID",
+	                "int"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1728,
+	            "command": "chara_face",
+	            "args": [
+	                "CID",
+	                "int2",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1729,
+	            "command": "CHARA_FADEIN_DEF",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

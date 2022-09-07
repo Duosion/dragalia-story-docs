@@ -26,6 +26,67 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHARA_SET_POS_0",
+	    "args": [
+	        "eye",
+	        "lip",
+	        "X",
+	        "Y",
+	        "CID",
+	        "int"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 1817,
+	            "command": "chara_visible",
+	            "args": [
+	                "CID",
+	                "false"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1818,
+	            "command": "chara_pos",
+	            "args": [
+	                "CID",
+	                "X",
+	                "Y"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1819,
+	            "command": "chara_face",
+	            "args": [
+	                "CID",
+	                "int"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1820,
+	            "command": "eye1",
+	            "args": [
+	                "CID",
+	                "eye"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1821,
+	            "command": "lip1",
+	            "args": [
+	                "CID",
+	                "lip"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

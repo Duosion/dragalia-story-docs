@@ -25,6 +25,32 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "c_set_def",
+	    "args": [
+	        "eye",
+	        "lip",
+	        "POS",
+	        "CID",
+	        "int"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 174,
+	            "command": "CHARA_SET_0",
+	            "args": [
+	                "eye",
+	                "lip",
+	                "POS",
+	                "CID",
+	                "int"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

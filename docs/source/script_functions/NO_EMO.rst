@@ -21,6 +21,25 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "NO_EMO",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 4477,
+	            "command": "chara_emotion",
+	            "args": [
+	                "CID",
+	                "0"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

@@ -32,6 +32,186 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHARA_SHIMOTE3_VERYFAST",
+	    "args": [
+	        "eye",
+	        "lip",
+	        "CID",
+	        "int",
+	        "eye2",
+	        "lip2",
+	        "CID2",
+	        "int2",
+	        "eye3",
+	        "lip3",
+	        "CID3",
+	        "int3"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 2286,
+	            "command": "chara_visible",
+	            "args": [
+	                "CID",
+	                "false"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2287,
+	            "command": "chara_visible",
+	            "args": [
+	                "CID2",
+	                "false"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2288,
+	            "command": "chara_visible",
+	            "args": [
+	                "CID3",
+	                "false"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2289,
+	            "command": "chara_pos",
+	            "args": [
+	                "CID",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2290,
+	            "command": "chara_pos",
+	            "args": [
+	                "CID2",
+	                "3"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2291,
+	            "command": "chara_pos",
+	            "args": [
+	                "CID3",
+	                "2"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2292,
+	            "command": "chara_face",
+	            "args": [
+	                "CID",
+	                "int"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2293,
+	            "command": "chara_face",
+	            "args": [
+	                "CID2",
+	                "int2"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2294,
+	            "command": "chara_face",
+	            "args": [
+	                "CID3",
+	                "int3"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2295,
+	            "command": "eye1",
+	            "args": [
+	                "CID",
+	                "eye"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2296,
+	            "command": "eye1",
+	            "args": [
+	                "CID2",
+	                "eye2"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2297,
+	            "command": "eye1",
+	            "args": [
+	                "CID3",
+	                "eye3"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2298,
+	            "command": "lip1",
+	            "args": [
+	                "CID",
+	                "lip"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2299,
+	            "command": "lip1",
+	            "args": [
+	                "CID2",
+	                "lip2"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2300,
+	            "command": "lip1",
+	            "args": [
+	                "CID3",
+	                "lip3"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2301,
+	            "command": "SHIMOTE_IN_VERYFAST",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2302,
+	            "command": "SHIMOTE_IN_VERYFAST",
+	            "args": [
+	                "CID2"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2303,
+	            "command": "SHIMOTE_IN_VERYFAST",
+	            "args": [
+	                "CID3"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

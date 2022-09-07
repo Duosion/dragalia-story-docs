@@ -22,6 +22,27 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "SHAKE_CH_LOOP",
+	    "args": [
+	        "SHAKE_VALUE",
+	        "PEEC_SEC"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 5207,
+	            "command": "effect_shake_chara",
+	            "args": [
+	                "SHAKE_VALUE",
+	                "PEEC_SEC",
+	                "-1"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

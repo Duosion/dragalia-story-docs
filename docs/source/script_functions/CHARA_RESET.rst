@@ -21,6 +21,42 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHARA_RESET",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 2663,
+	            "command": "chara_visible",
+	            "args": [
+	                "CID",
+	                "false"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2664,
+	            "command": "chara_face",
+	            "args": [
+	                "CID",
+	                "0"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2665,
+	            "command": "RestartAll",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

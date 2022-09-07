@@ -25,6 +25,40 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "mnu_rotate",
+	    "args": [
+	        "CID",
+	        "isNewAct",
+	        "rotateSec",
+	        "rotate",
+	        "rotateEase"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 4571,
+	            "command": "chara_act_manual",
+	            "args": [
+	                "CID",
+	                "isNewAct",
+	                "0",
+	                "0",
+	                "0",
+	                "0",
+	                "0",
+	                "0",
+	                "0",
+	                "0",
+	                "rotateSec",
+	                "rotate",
+	                "rotateEase"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

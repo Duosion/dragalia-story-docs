@@ -20,6 +20,25 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "SCREEN_FLASH_WHITE_DEF",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 3028,
+	            "command": "screen_flash",
+	            "args": [
+	                "0.04",
+	                "255",
+	                "255",
+	                "255"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

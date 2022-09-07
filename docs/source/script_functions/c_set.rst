@@ -27,12 +27,104 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "c_set",
+	    "args": [
+	        "act",
+	        "cmd",
+	        "eye",
+	        "lip",
+	        "POS",
+	        "CID",
+	        "int"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 193,
+	            "command": "if",
+	            "args": [
+	                "act",
+	                "in"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 194,
+	            "command": "if",
+	            "args": [
+	                "cmd",
+	                "def"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 195,
+	            "command": "c_set_def",
+	            "args": [
+	                "eye",
+	                "lip",
+	                "POS",
+	                "CID",
+	                "int"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 196,
+	            "command": "CHARA_FADEIN_DEF",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 197,
+	            "command": "elif",
+	            "args": [
+	                "cmd",
+	                "kami"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 198,
+	            "command": "c_set_def",
+	            "args": [
+	                "eye",
+	                "lip",
+	                "POS",
+	                "CID",
+	                "int"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 199,
+	            "command": "KAMITE_IN_DEF",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 200,
+	            "command": "endif",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 201,
+	            "command": "endif",
+	            "args": [],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------
-* :ref:`if`
 * :ref:`c_set_def`
 * :ref:`CHARA_FADEIN_DEF`
-* :ref:`elif`
 * :ref:`KAMITE_IN_DEF`
-* :ref:`endif`

@@ -21,6 +21,26 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "BGMTUNE_DEF",
+	    "args": [
+	        "BGM"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 1127,
+	            "command": "set_volume",
+	            "args": [
+	                "1.0",
+	                "0.5",
+	                "BGM"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

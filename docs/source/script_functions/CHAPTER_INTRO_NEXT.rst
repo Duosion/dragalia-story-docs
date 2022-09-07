@@ -21,6 +21,24 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHAPTER_INTRO_NEXT",
+	    "args": [
+	        "LABEL"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 5386,
+	            "command": "chapter_intro_next",
+	            "args": [
+	                "LABEL"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

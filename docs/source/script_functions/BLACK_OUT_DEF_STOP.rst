@@ -20,6 +20,52 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "BLACK_OUT_DEF_STOP",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 1579,
+	            "command": "RESET_TEXT",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 1580,
+	            "command": "window_fadeout",
+	            "args": [
+	                "0",
+	                "true"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1581,
+	            "command": "BGMFOUT_DEF",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 1582,
+	            "command": "SEFOUT_DEF",
+	            "args": [],
+	            "end": 1
+	        },
+	        {
+	            "row": 1583,
+	            "command": "screen_fadeout",
+	            "args": [
+	                "1.0",
+	                "0",
+	                "0",
+	                "0"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

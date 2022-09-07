@@ -21,6 +21,72 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHARA_BEAT_SWD2_BEFORE_IN",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 3886,
+	            "command": "set_BG_effect",
+	            "args": [
+	                "EFF_089"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3887,
+	            "command": "wait",
+	            "args": [
+	                "0.1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3888,
+	            "command": "play_sound",
+	            "args": [
+	                "SE_233"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3889,
+	            "command": "wait",
+	            "args": [
+	                "0.15"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3890,
+	            "command": "play_sound",
+	            "args": [
+	                "SE_233"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3891,
+	            "command": "c_swing2_h_fast",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3892,
+	            "command": "wait",
+	            "args": [
+	                "0.25"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

@@ -21,6 +21,79 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "c_jump_em",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 4922,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "true",
+	                "0.2",
+	                "0",
+	                "100",
+	                "EaseOutCubic"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4923,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.25",
+	                "0",
+	                "-110",
+	                "EaseInCubic"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4924,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.1",
+	                "0",
+	                "14",
+	                "EaseOutCubic"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4925,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.1",
+	                "0",
+	                "-4",
+	                "EaseInCubic"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4926,
+	            "command": "cmp_move",
+	            "args": [
+	                "CID",
+	                "0.65",
+	                "0",
+	                "0"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

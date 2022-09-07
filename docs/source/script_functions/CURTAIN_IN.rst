@@ -20,6 +20,30 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CURTAIN_IN",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 1684,
+	            "command": "set_BG_effect",
+	            "args": [
+	                "EFF_107"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1685,
+	            "command": "set_BG_effect_trigger",
+	            "args": [
+	                "9"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

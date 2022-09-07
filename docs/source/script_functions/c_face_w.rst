@@ -25,6 +25,41 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "c_face_w",
+	    "args": [
+	        "eye",
+	        "lip",
+	        "CID",
+	        "int",
+	        "int2"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 3021,
+	            "command": "c_face",
+	            "args": [
+	                "eye",
+	                "lip",
+	                "CID",
+	                "int"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3022,
+	            "command": "chara_face",
+	            "args": [
+	                "CID",
+	                "int2",
+	                "1"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

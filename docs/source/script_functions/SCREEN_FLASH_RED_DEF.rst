@@ -20,6 +20,25 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "SCREEN_FLASH_RED_DEF",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 3031,
+	            "command": "screen_flash",
+	            "args": [
+	                "0.04",
+	                "255",
+	                "0",
+	                "0"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

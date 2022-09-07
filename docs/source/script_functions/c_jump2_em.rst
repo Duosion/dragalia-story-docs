@@ -21,6 +21,105 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "c_jump2_em",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 4930,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "true",
+	                "0.2",
+	                "0",
+	                "100",
+	                "EaseOutCubic"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4931,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.2",
+	                "0",
+	                "-110",
+	                "EaseInCubic"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4932,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.2",
+	                "0",
+	                "60",
+	                "EaseOutCubic"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4933,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.2",
+	                "0",
+	                "-60",
+	                "EaseInCubic"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4934,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.1",
+	                "0",
+	                "14",
+	                "EaseOutCubic"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4935,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.1",
+	                "0",
+	                "-4",
+	                "EaseInCubic"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4936,
+	            "command": "cmp_move",
+	            "args": [
+	                "CID",
+	                "1.0",
+	                "0",
+	                "0"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

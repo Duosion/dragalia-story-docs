@@ -20,6 +20,42 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "SHOUT_STOP_EFF",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 3232,
+	            "command": "wait",
+	            "args": [
+	                "1.0"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3233,
+	            "command": "set_BG_effect_trigger",
+	            "args": [
+	                "2",
+	                "2",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3234,
+	            "command": "set_camera_distortion",
+	            "args": [
+	                "cameraType_Chara",
+	                "false",
+	                "EFF_007"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

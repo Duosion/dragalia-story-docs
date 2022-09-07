@@ -22,6 +22,49 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "KAMITE_OUT_DEF_SE",
+	    "args": [
+	        "CID",
+	        "SE"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 2771,
+	            "command": "play_sound",
+	            "args": [
+	                "SE"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2772,
+	            "command": "KAMITE_OUT_DEF",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2773,
+	            "command": "wait",
+	            "args": [
+	                "0.5"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2774,
+	            "command": "BGMTUNE_DOWN_0",
+	            "args": [
+	                "SE"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

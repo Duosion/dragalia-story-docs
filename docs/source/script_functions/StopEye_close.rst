@@ -21,6 +21,25 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "StopEye_close",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 5168,
+	            "command": "chara_eyeblink",
+	            "args": [
+	                "CID",
+	                "-2"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

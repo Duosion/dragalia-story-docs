@@ -20,6 +20,25 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "BLACK_IN_SHORT",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 1570,
+	            "command": "screen_fadein",
+	            "args": [
+	                "0.4",
+	                "0",
+	                "0",
+	                "0"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

@@ -26,6 +26,42 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHARA_SET_POS",
+	    "args": [
+	        "eye",
+	        "lip",
+	        "X",
+	        "Y",
+	        "CID",
+	        "int"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 1825,
+	            "command": "CHARA_SET_POS_0",
+	            "args": [
+	                "eye",
+	                "lip",
+	                "X",
+	                "Y",
+	                "CID",
+	                "int"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1826,
+	            "command": "CHARA_FADEIN_DEF",
+	            "args": [
+	                "CID"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

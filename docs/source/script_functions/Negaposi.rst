@@ -25,6 +25,61 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "Negaposi",
+	    "args": [
+	        "SEC",
+	        "CAMERA",
+	        "R",
+	        "G",
+	        "B"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 5131,
+	            "command": "bloom",
+	            "args": [
+	                "CAMERA",
+	                "SEC",
+	                "-1",
+	                "0.0",
+	                "-1",
+	                "-1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 5132,
+	            "command": "color_adjustment",
+	            "args": [
+	                "CAMERA",
+	                "SEC",
+	                "1.0",
+	                "1.0",
+	                "1.0"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 5133,
+	            "command": "post_film",
+	            "args": [
+	                "CAMERA",
+	                "SEC",
+	                "filmMode_Lerp",
+	                "0.0",
+	                "1.57",
+	                "R",
+	                "G",
+	                "B",
+	                "1.0"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

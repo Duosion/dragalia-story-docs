@@ -21,6 +21,103 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHARA_UNCOLOR",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 4507,
+	            "command": "chara_color",
+	            "args": [
+	                "CID",
+	                "0",
+	                "TYPE_COLOR",
+	                "255",
+	                "255",
+	                "255"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4508,
+	            "command": "chara_color",
+	            "args": [
+	                "CID",
+	                "0",
+	                "TYPE_COLOR_TOP",
+	                "255",
+	                "255",
+	                "255"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4509,
+	            "command": "chara_color",
+	            "args": [
+	                "CID",
+	                "0",
+	                "TYPE_COLOR_BOTTOM",
+	                "255",
+	                "255",
+	                "255"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4510,
+	            "command": "chara_color",
+	            "args": [
+	                "CID",
+	                "0",
+	                "TYPE_COLOR_LASTMUL",
+	                "255",
+	                "255",
+	                "255"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4511,
+	            "command": "chara_contrast",
+	            "args": [
+	                "CID",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4512,
+	            "command": "chara_saturation",
+	            "args": [
+	                "CID",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4513,
+	            "command": "chara_brightness",
+	            "args": [
+	                "CID",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4514,
+	            "command": "wait",
+	            "args": [
+	                "0"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

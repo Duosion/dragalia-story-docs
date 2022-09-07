@@ -20,6 +20,54 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHAPTER_INTRO_END",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 5390,
+	            "command": "message_pos",
+	            "args": [
+	                "0"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 5391,
+	            "command": "frame_visible",
+	            "args": [
+	                "true"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 5392,
+	            "command": "window_enable",
+	            "args": [
+	                "true"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 5393,
+	            "command": "chapter_intro",
+	            "args": [
+	                "0"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 5394,
+	            "command": "chapter_intro_frame_visible",
+	            "args": [
+	                "false"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

@@ -20,6 +20,22 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "DRAGON_TALK_STOP",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 5248,
+	            "command": "dragon_talk",
+	            "args": [
+	                "false"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

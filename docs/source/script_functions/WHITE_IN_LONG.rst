@@ -20,6 +20,25 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "WHITE_IN_LONG",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 1650,
+	            "command": "screen_fadein",
+	            "args": [
+	                "2.0",
+	                "255",
+	                "255",
+	                "255"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

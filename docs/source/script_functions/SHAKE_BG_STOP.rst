@@ -22,6 +22,27 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "SHAKE_BG_STOP",
+	    "args": [
+	        "SHAKE_VALUE",
+	        "STOP_SEC"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 5200,
+	            "command": "effect_shake_bg",
+	            "args": [
+	                "SHAKE_VALUE",
+	                "-1",
+	                "STOP_SEC"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

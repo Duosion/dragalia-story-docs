@@ -20,6 +20,32 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHANGE_DRAGON_LUMINE_DR",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 3053,
+	            "command": "set_BG_effect",
+	            "args": [
+	                "EFF_072",
+	                "EFF_073"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 3054,
+	            "command": "set_BG_effect_trigger",
+	            "args": [
+	                "9",
+	                "9"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

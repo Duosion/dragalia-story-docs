@@ -20,6 +20,22 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "WFOUT_DEF",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 1552,
+	            "command": "window_fadeout",
+	            "args": [
+	                "0.5"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

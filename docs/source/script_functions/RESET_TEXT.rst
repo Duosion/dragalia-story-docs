@@ -20,6 +20,20 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "RESET_TEXT",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 5254,
+	            "command": "reset_text",
+	            "args": [],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

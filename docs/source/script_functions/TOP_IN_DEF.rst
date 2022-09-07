@@ -21,6 +21,59 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "TOP_IN_DEF",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 2536,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "true",
+	                "0.05",
+	                "0",
+	                "120",
+	                "1"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2537,
+	            "command": "mnu_move",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.4",
+	                "0",
+	                "-120",
+	                "EaseOutSine"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2538,
+	            "command": "wait",
+	            "args": [
+	                "0.05"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2539,
+	            "command": "chara_fadein",
+	            "args": [
+	                "CID",
+	                "0.4"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

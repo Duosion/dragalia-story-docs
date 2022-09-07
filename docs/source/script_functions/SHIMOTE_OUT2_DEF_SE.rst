@@ -23,6 +23,51 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "SHIMOTE_OUT2_DEF_SE",
+	    "args": [
+	        "CID",
+	        "CID2",
+	        "SE"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 2922,
+	            "command": "play_sound",
+	            "args": [
+	                "SE"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2923,
+	            "command": "SHIMOTE_OUT2_DEF",
+	            "args": [
+	                "CID",
+	                "CID2"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2924,
+	            "command": "wait",
+	            "args": [
+	                "0.5"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 2925,
+	            "command": "BGMTUNE_DOWN_0",
+	            "args": [
+	                "SE"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

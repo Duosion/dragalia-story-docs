@@ -21,6 +21,33 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHAPTER_INTRO_BAND",
+	    "args": [
+	        "LABEL"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 5381,
+	            "command": "chapter_intro",
+	            "args": [
+	                "LABEL"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 5382,
+	            "command": "chapter_intro_frame_visible",
+	            "args": [
+	                "true",
+	                "0.7"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

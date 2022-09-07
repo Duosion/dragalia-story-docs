@@ -21,6 +21,79 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "c_zoom2_wide",
+	    "args": [
+	        "CID"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 4991,
+	            "command": "mnu_scale",
+	            "args": [
+	                "CID",
+	                "true",
+	                "0.2",
+	                "1.3",
+	                "1.3",
+	                "EaseOutCubic"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4992,
+	            "command": "mnu_scale",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.2",
+	                "1",
+	                "1",
+	                "EaseInQuart"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4993,
+	            "command": "mnu_scale",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.2",
+	                "1.3",
+	                "1.3",
+	                "EaseOutQuart"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4994,
+	            "command": "mnu_scale",
+	            "args": [
+	                "CID",
+	                "false",
+	                "0.2",
+	                "1",
+	                "1",
+	                "EaseInQuart"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 4995,
+	            "command": "cmp_scale",
+	            "args": [
+	                "CID",
+	                "0.8",
+	                "1",
+	                "1"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

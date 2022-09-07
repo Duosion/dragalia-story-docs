@@ -26,6 +26,57 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "CHARA_KAMITE_SE",
+	    "args": [
+	        "eye",
+	        "lip",
+	        "POS",
+	        "CID",
+	        "int",
+	        "SE"
+	    ],
+	    "commandList": [
+	        {
+	            "row": 1856,
+	            "command": "play_sound",
+	            "args": [
+	                "SE"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1857,
+	            "command": "wait",
+	            "args": [
+	                "1.0"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1858,
+	            "command": "BGMTUNE_DOWN_0",
+	            "args": [
+	                "SE"
+	            ],
+	            "end": 1
+	        },
+	        {
+	            "row": 1859,
+	            "command": "CHARA_KAMITE",
+	            "args": [
+	                "eye",
+	                "lip",
+	                "POS",
+	                "CID",
+	                "int"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

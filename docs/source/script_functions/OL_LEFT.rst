@@ -20,6 +20,22 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "OL_LEFT",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 5236,
+	            "command": "outline_centering",
+	            "args": [
+	                "false"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------

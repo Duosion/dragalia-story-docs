@@ -20,6 +20,26 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: json
+
+	{
+	    "name": "SCREEN_COLOR_DEF",
+	    "args": [],
+	    "commandList": [
+	        {
+	            "row": 5153,
+	            "command": "fade_color",
+	            "args": [
+	                "1.0",
+	                "0",
+	                "0",
+	                "0",
+	                "0"
+	            ],
+	            "end": 1
+	        }
+	    ]
+	}
 
 References
 -------------
