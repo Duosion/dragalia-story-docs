@@ -23,7 +23,8 @@ Implementation
 
 .. code-block:: python
 
-	outline_title(title)
+	def OL_TITLE(title):
+		outline_title(title)
 
 References
 -------------

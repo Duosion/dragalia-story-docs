@@ -23,9 +23,10 @@ Implementation
 
 .. code-block:: python
 
-	NO_EMO(CID)
-	HIRAMEKI_EMO(CID)
-	c_jump(CID)
+	def HIRAMEKI_jump(CID):
+		NO_EMO(CID)
+		HIRAMEKI_EMO(CID)
+		c_jump(CID)
 
 References
 -------------

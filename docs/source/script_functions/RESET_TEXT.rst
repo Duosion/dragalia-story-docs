@@ -22,7 +22,8 @@ Implementation
 
 .. code-block:: python
 
-	reset_text()
+	def RESET_TEXT():
+		reset_text()
 
 References
 -------------

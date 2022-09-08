@@ -11,7 +11,7 @@ chapter_intro
 Arguments
 ------------
 
-* :ref:`chapterName`: *String*
+* :ref:`chapterName`: ``String``
 
 Description
 -------------

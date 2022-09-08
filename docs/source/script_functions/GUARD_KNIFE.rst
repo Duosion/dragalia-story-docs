@@ -23,13 +23,14 @@ Implementation
 
 .. code-block:: python
 
-	SCREEN_FLASH_WHITE_DEF()
-	set_BG_effect(EFF_089)
-	play_sound(SE_013)
-	c_swing_h_mid(CID)
-	wait(0.3)
-	play_sound(SE_013)
-	wait(0.8)
+	def GUARD_KNIFE(CID):
+		SCREEN_FLASH_WHITE_DEF()
+		set_BG_effect(EFF_089)
+		play_sound(SE_013)
+		c_swing_h_mid(CID)
+		wait(0.3)
+		play_sound(SE_013)
+		wait(0.8)
 
 References
 -------------

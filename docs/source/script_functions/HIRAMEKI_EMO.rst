@@ -23,9 +23,10 @@ Implementation
 
 .. code-block:: python
 
-	NO_EMO(CID)
-	CHARA_EMO(CID, 9, 0)
-	play_sound(SE_IN_EMOTION_0009)
+	def HIRAMEKI_EMO(CID):
+		NO_EMO(CID)
+		CHARA_EMO(CID, 9, 0)
+		play_sound(SE_IN_EMOTION_0009)
 
 References
 -------------

@@ -23,22 +23,23 @@ Implementation
 
 .. code-block:: python
 
-	WFOUT_SHORT()
-	play_sound(SE_043)
-	set_BG_effect(EFF_010, EFF_011, EFF_046)
-	play_sound(SE_044)
-	set_camera_distortion(1, true, EFF_007)
-	set_BG_effect(1, 1, EFF_046, EFF_007)
-	set_BG_effect_color(EFF_046, 46, 9, 56)
-	set_BG_effect_color(EFF_007, 178, 120, 221)
-	set_BG_effect_opacity(EFF_046, 2.0)
-	set_BG_effect_opacity(EFF_007, 1.1)
-	set_BG_effect_speed(EFF_046, 2.5)
-	set_BG_effect_speed(EFF_007, 1.2)
-	set_BG_effect_trigger(9, 9, 1, 8)
-	wait(0.5)
-	set_BG_effect_trigger(2, 2, 1, 1)
-	set_camera_distortion(1, false, EFF_007)
+	def CHARA_ATTACK_MC_009(CID):
+		WFOUT_SHORT()
+		play_sound(SE_043)
+		set_BG_effect(EFF_010, EFF_011, EFF_046)
+		play_sound(SE_044)
+		set_camera_distortion(1, true, EFF_007)
+		set_BG_effect(1, 1, EFF_046, EFF_007)
+		set_BG_effect_color(EFF_046, 46, 9, 56)
+		set_BG_effect_color(EFF_007, 178, 120, 221)
+		set_BG_effect_opacity(EFF_046, 2.0)
+		set_BG_effect_opacity(EFF_007, 1.1)
+		set_BG_effect_speed(EFF_046, 2.5)
+		set_BG_effect_speed(EFF_007, 1.2)
+		set_BG_effect_trigger(9, 9, 1, 8)
+		wait(0.5)
+		set_BG_effect_trigger(2, 2, 1, 1)
+		set_camera_distortion(1, false, EFF_007)
 
 References
 -------------

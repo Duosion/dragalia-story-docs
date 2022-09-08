@@ -11,17 +11,17 @@ bloom
 Arguments
 ------------
 
-* :ref:`cameraType`: *Int32*
+* :ref:`cameraType`: ``Int32``
 	* Default: ``1``
-* :ref:`fadeSec`: *Single*
+* :ref:`fadeSec`: ``Single``
 	* Default: ``0``
-* :ref:`resolutionScale`: *Single*
+* :ref:`resolutionScale`: ``Single``
 	* Default: ``0.25``
-* :ref:`weight`: *Single*
+* :ref:`weight`: ``Single``
 	* Default: ``0``
-* :ref:`threshold`: *Single*
+* :ref:`threshold`: ``Single``
 	* Default: ``0.7``
-* :ref:`intensity`: *Single*
+* :ref:`intensity`: ``Single``
 	* Default: ``1``
 
 Description

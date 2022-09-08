@@ -25,14 +25,15 @@ Implementation
 
 .. code-block:: python
 
-	MONSTER_SET3_0(CID, CID2, CID3)
-	mnu_fade(CID, true, 0.3, 1.0, 1)
-	mnu_fade(CID2, true, 0.3, 1.0, 1)
-	mnu_fade(CID3, true, 0.3, 1.0, 1)
-	wait(0.3)
-	chara_visible(CID, true)
-	chara_visible(CID2, true)
-	chara_visible(CID3, true)
+	def MONSTER_SET3(CID, CID2, CID3):
+		MONSTER_SET3_0(CID, CID2, CID3)
+		mnu_fade(CID, true, 0.3, 1.0, 1)
+		mnu_fade(CID2, true, 0.3, 1.0, 1)
+		mnu_fade(CID3, true, 0.3, 1.0, 1)
+		wait(0.3)
+		chara_visible(CID, true)
+		chara_visible(CID2, true)
+		chara_visible(CID3, true)
 
 References
 -------------

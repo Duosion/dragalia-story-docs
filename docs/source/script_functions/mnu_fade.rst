@@ -27,7 +27,8 @@ Implementation
 
 .. code-block:: python
 
-	chara_act_manual(CID, isNewAct, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, fadeSec, fade, fadeEase)
+	def mnu_fade(CID, isNewAct, fadeSec, fade, fadeEase):
+		chara_act_manual(CID, isNewAct, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, fadeSec, fade, fadeEase)
 
 References
 -------------

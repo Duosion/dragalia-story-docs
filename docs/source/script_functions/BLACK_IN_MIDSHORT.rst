@@ -22,7 +22,8 @@ Implementation
 
 .. code-block:: python
 
-	screen_fadein(0.3, 0, 0, 0)
+	def BLACK_IN_MIDSHORT():
+		screen_fadein(0.3, 0, 0, 0)
 
 References
 -------------

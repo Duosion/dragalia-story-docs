@@ -26,9 +26,10 @@ Implementation
 
 .. code-block:: python
 
-	eye1(CID, eye)
-	lip1(CID, lip)
-	chara_face(CID, int)
+	def c_face(eye, lip, CID, int):
+		eye1(CID, eye)
+		lip1(CID, lip)
+		chara_face(CID, int)
 
 References
 -------------

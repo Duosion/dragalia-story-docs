@@ -22,9 +22,10 @@ Implementation
 
 .. code-block:: python
 
-	WFOUT_SHORT()
-	screen_transout(1, 1.0)
-	fade_color(0.25, 0, 0, 0, 1)
+	def TRANS_OUT_RIGHT_DEF():
+		WFOUT_SHORT()
+		screen_transout(1, 1.0)
+		fade_color(0.25, 0, 0, 0, 1)
 
 References
 -------------

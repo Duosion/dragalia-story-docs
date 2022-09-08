@@ -22,8 +22,9 @@ Implementation
 
 .. code-block:: python
 
-	WFOUT_SHORT()
-	fade_color(1.0, 0, 0, 0, 0.7)
+	def BLACK_SCREEN():
+		WFOUT_SHORT()
+		fade_color(1.0, 0, 0, 0, 0.7)
 
 References
 -------------

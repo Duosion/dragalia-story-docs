@@ -23,8 +23,9 @@ Implementation
 
 .. code-block:: python
 
-	RestartEye(CID)
-	RestartLip(CID)
+	def RestartAll(CID):
+		RestartEye(CID)
+		RestartLip(CID)
 
 References
 -------------

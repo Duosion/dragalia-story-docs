@@ -22,8 +22,9 @@ Implementation
 
 .. code-block:: python
 
-	MAGIC_CURE_BEFORE()
-	MAGIC_CURE_AFTER()
+	def MAGIC_CURE():
+		MAGIC_CURE_BEFORE()
+		MAGIC_CURE_AFTER()
 
 References
 -------------

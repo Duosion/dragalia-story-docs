@@ -23,8 +23,9 @@ Implementation
 
 .. code-block:: python
 
-	mnu_scale(CID, true, 0.2, 0.9, 0.9, EaseOutCubic)
-	cmp_scale(CID, 0.2, 0.9, 0.9)
+	def c_shrink_stay(CID):
+		mnu_scale(CID, true, 0.2, 0.9, 0.9, EaseOutCubic)
+		cmp_scale(CID, 0.2, 0.9, 0.9)
 
 References
 -------------

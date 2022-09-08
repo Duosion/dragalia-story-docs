@@ -28,21 +28,22 @@ Implementation
 
 .. code-block:: python
 
-	set_BG_effect(EFF_061)
-	set_BG_effect_speed(EFF_061, 2.0)
-	wait(0.05)
-	play_sound(SE_064)
-	wait(0.15)
-	chara_face(CID, int)
-	chara_face(CID2, int2)
-	chara_face(CID3, int3)
-	chara_shake_h(CID, 2, true)
-	chara_shake_h(CID2, 2, true)
-	chara_shake_h(CID3, 2, true)
-	wait(0.7)
-	chara_shake_h(CID, 2, false)
-	chara_shake_h(CID2, 2, false)
-	chara_shake_h(CID3, 2, false)
+	def CHARA_BEAT3_WIND_BEFORE_IN(CID, int, CID2, int2, CID3, int3):
+		set_BG_effect(EFF_061)
+		set_BG_effect_speed(EFF_061, 2.0)
+		wait(0.05)
+		play_sound(SE_064)
+		wait(0.15)
+		chara_face(CID, int)
+		chara_face(CID2, int2)
+		chara_face(CID3, int3)
+		chara_shake_h(CID, 2, true)
+		chara_shake_h(CID2, 2, true)
+		chara_shake_h(CID3, 2, true)
+		wait(0.7)
+		chara_shake_h(CID, 2, false)
+		chara_shake_h(CID2, 2, false)
+		chara_shake_h(CID3, 2, false)
 
 References
 -------------

@@ -23,9 +23,10 @@ Implementation
 
 .. code-block:: python
 
-	NO_EMO(CID)
-	ODOROKI_EMO(CID)
-	c_jump(CID)
+	def ODOROKI_jump(CID):
+		NO_EMO(CID)
+		ODOROKI_EMO(CID)
+		c_jump(CID)
 
 References
 -------------

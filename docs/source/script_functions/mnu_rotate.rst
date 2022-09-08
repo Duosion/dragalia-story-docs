@@ -27,7 +27,8 @@ Implementation
 
 .. code-block:: python
 
-	chara_act_manual(CID, isNewAct, 0, 0, 0, 0, 0, 0, 0, 0, rotateSec, rotate, rotateEase)
+	def mnu_rotate(CID, isNewAct, rotateSec, rotate, rotateEase):
+		chara_act_manual(CID, isNewAct, 0, 0, 0, 0, 0, 0, 0, 0, rotateSec, rotate, rotateEase)
 
 References
 -------------

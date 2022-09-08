@@ -24,14 +24,15 @@ Implementation
 
 .. code-block:: python
 
-	if lip == "O":
-		chara_lipsynch(CID, -2)
-	elif lip == "Q":
-		chara_lipsynch(CID, -1)
-	elif lip == "M":
-		chara_lipsynch(CID)
-	else:
-		chara_lipsynch(CID)
+	def lipsynch(CID, lip):
+		if lip == "O":
+			chara_lipsynch(CID, -2)
+		elif lip == "Q":
+			chara_lipsynch(CID, -1)
+		elif lip == "M":
+			chara_lipsynch(CID)
+		else:
+			chara_lipsynch(CID)
 
 References
 -------------

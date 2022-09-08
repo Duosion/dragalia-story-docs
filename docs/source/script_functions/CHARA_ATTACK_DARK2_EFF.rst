@@ -23,19 +23,20 @@ Implementation
 
 .. code-block:: python
 
-	WFOUT_SHORT()
-	play_sound(SE_043)
-	set_BG_effect(1, 1)
-	play_sound(SE_044)
-	set_camera_distortion(1, true, EFF_007)
-	set_BG_effect(1, 1, EFF_007)
-	set_BG_effect_color(EFF_007, 178, 120, 221)
-	set_BG_effect_opacity(EFF_007, 1.1)
-	set_BG_effect_speed(EFF_007, 1.2)
-	set_BG_effect_trigger(2, 2, 9)
-	wait(0.5)
-	set_BG_effect_trigger(2, 2, 1)
-	set_camera_distortion(1, false, EFF_007)
+	def CHARA_ATTACK_DARK2_EFF(CID):
+		WFOUT_SHORT()
+		play_sound(SE_043)
+		set_BG_effect(1, 1)
+		play_sound(SE_044)
+		set_camera_distortion(1, true, EFF_007)
+		set_BG_effect(1, 1, EFF_007)
+		set_BG_effect_color(EFF_007, 178, 120, 221)
+		set_BG_effect_opacity(EFF_007, 1.1)
+		set_BG_effect_speed(EFF_007, 1.2)
+		set_BG_effect_trigger(2, 2, 9)
+		wait(0.5)
+		set_BG_effect_trigger(2, 2, 1)
+		set_camera_distortion(1, false, EFF_007)
 
 References
 -------------

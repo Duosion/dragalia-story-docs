@@ -29,35 +29,36 @@ Implementation
 
 .. code-block:: python
 
-	button_visible(false, 0.3, false)
-	post_film(0, 0.5, filmMode_Mul, 0.5, 0, 0, 0, 0, 1.0)
-	wait(0.5)
-	if EMBLEM_NAME == "Icon_Emblem_Story_01":
-		play_sound(SE_207)
-	elif EMBLEM_NAME == "Icon_Emblem_Story_02":
-		play_sound(SE_266)
-	elif EMBLEM_NAME == "Icon_Emblem_Story_03":
-		play_sound(SE_207)
-	else:
-		play_sound(SE_207)
-	frame_visible(false, 0)
-	CHARA_INTRO(CID, NAME, ANOTHER, ANOTHER_RUBY, AFFLIATION, AFFLIATION_RUBY, EMBLEM_NAME)
-	wait(0.6)
-	if EMBLEM_NAME == "Icon_Emblem_Story_01":
-		set_BG_effect(EFF_SCE_2D_CMN_110)
-	elif EMBLEM_NAME == "Icon_Emblem_Story_03":
-		set_BG_effect(EFF_SCE_2D_CMN_110)
-	wait(1.7)
-	touch_wait()
-	NO_EFFECT()
-	chara_intro_end()
-	wait(1.0)
-	REMOVE_CHARA_INTRO()
-	fade_color(0.5, 0, 0, 0, 0.7)
-	frame_visible(true, 0)
-	Reset(0.5, 0)
-	wait(0.5)
-	button_visible(false, 0, true)
+	def CHARA_INTRO_SET_DARK(CID, NAME, ANOTHER, ANOTHER_RUBY, AFFLIATION, AFFLIATION_RUBY, EMBLEM_NAME):
+		button_visible(false, 0.3, false)
+		post_film(0, 0.5, filmMode_Mul, 0.5, 0, 0, 0, 0, 1.0)
+		wait(0.5)
+		if EMBLEM_NAME == "Icon_Emblem_Story_01":
+			play_sound(SE_207)
+		elif EMBLEM_NAME == "Icon_Emblem_Story_02":
+			play_sound(SE_266)
+		elif EMBLEM_NAME == "Icon_Emblem_Story_03":
+			play_sound(SE_207)
+		else:
+			play_sound(SE_207)
+		frame_visible(false, 0)
+		CHARA_INTRO(CID, NAME, ANOTHER, ANOTHER_RUBY, AFFLIATION, AFFLIATION_RUBY, EMBLEM_NAME)
+		wait(0.6)
+		if EMBLEM_NAME == "Icon_Emblem_Story_01":
+			set_BG_effect(EFF_SCE_2D_CMN_110)
+		elif EMBLEM_NAME == "Icon_Emblem_Story_03":
+			set_BG_effect(EFF_SCE_2D_CMN_110)
+		wait(1.7)
+		touch_wait()
+		NO_EFFECT()
+		chara_intro_end()
+		wait(1.0)
+		REMOVE_CHARA_INTRO()
+		fade_color(0.5, 0, 0, 0, 0.7)
+		frame_visible(true, 0)
+		Reset(0.5, 0)
+		wait(0.5)
+		button_visible(false, 0, true)
 
 References
 -------------

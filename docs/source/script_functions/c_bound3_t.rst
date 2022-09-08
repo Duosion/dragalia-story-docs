@@ -23,13 +23,14 @@ Implementation
 
 .. code-block:: python
 
-	mnu_move(CID, true, 0.25, 0, 16, EaseOutCubic)
-	mnu_move(CID, false, 0.25, 0, -16, EaseOutCubic)
-	mnu_move(CID, false, 0.25, 0, 24, EaseOutCubic)
-	mnu_move(CID, false, 0.25, 0, -24, EaseOutCubic)
-	mnu_move(CID, false, 0.25, 0, 16, EaseOutCubic)
-	mnu_move(CID, false, 0.25, 0, -16, EaseOutCubic)
-	cmp_move(CID, 1.5, 0, 0)
+	def c_bound3_t(CID):
+		mnu_move(CID, true, 0.25, 0, 16, EaseOutCubic)
+		mnu_move(CID, false, 0.25, 0, -16, EaseOutCubic)
+		mnu_move(CID, false, 0.25, 0, 24, EaseOutCubic)
+		mnu_move(CID, false, 0.25, 0, -24, EaseOutCubic)
+		mnu_move(CID, false, 0.25, 0, 16, EaseOutCubic)
+		mnu_move(CID, false, 0.25, 0, -16, EaseOutCubic)
+		cmp_move(CID, 1.5, 0, 0)
 
 References
 -------------

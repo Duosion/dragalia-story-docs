@@ -11,8 +11,8 @@ window_fadeout
 Arguments
 ------------
 
-* :ref:`sec`: *Single*
-* :ref:`isWithAnimation`: *Boolean*
+* :ref:`sec`: ``Single``
+* :ref:`isWithAnimation`: ``Boolean``
 	* Default: ``False``
 
 Description

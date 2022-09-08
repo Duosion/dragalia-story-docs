@@ -41,202 +41,203 @@ Implementation
 
 .. code-block:: python
 
-	if style == "KAMITE":
-		chara_visible(CID, false)
-		chara_pos(CID, posX, posY)
-		chara_act_manual(CID, true, 0.01, 120, 0, 1)
-		chara_act_complete(CID, 0.01, 120, 0)
+	def _CharaSet(style, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3):
+		if style == "KAMITE":
+			chara_visible(CID, false)
+			chara_pos(CID, posX, posY)
+			chara_act_manual(CID, true, 0.01, 120, 0, 1)
+			chara_act_complete(CID, 0.01, 120, 0)
+			wait(0.01)
+		if posY == "C":
+			chara_act_manual(CID, true, 0.01, 0, -2, 1)
+			chara_act_complete(CID, 0.01, 0, -2)
 		wait(0.01)
-	if posY == "C":
-		chara_act_manual(CID, true, 0.01, 0, -2, 1)
-		chara_act_complete(CID, 0.01, 0, -2)
-	wait(0.01)
-	chara_face(CID, face)
-	eyeblink(CID, eye)
-	lipsynch(CID, lip)
-	if CID2 == "0":
-	else:
-		chara_visible(CID2, false)
-		chara_pos(CID2, posX2, posY2)
-		chara_act_manual(CID2, true, 0.01, 120, 0, 1)
-		chara_act_complete(CID2, 0.01, 120, 0)
+		chara_face(CID, face)
+		eyeblink(CID, eye)
+		lipsynch(CID, lip)
+		if CID2 == "0":
+		else:
+			chara_visible(CID2, false)
+			chara_pos(CID2, posX2, posY2)
+			chara_act_manual(CID2, true, 0.01, 120, 0, 1)
+			chara_act_complete(CID2, 0.01, 120, 0)
+			wait(0.01)
+		if posY2 == "C":
+			chara_act_manual(CID2, true, 0.01, 0, -2, 1)
+			chara_act_complete(CID2, 0.01, 0, -2)
 		wait(0.01)
-	if posY2 == "C":
-		chara_act_manual(CID2, true, 0.01, 0, -2, 1)
-		chara_act_complete(CID2, 0.01, 0, -2)
-	wait(0.01)
-	chara_face(CID2, face2)
-	eyeblink(CID2, eye2)
-	lipsynch(CID2, lip2)
-	if CID3 == "0":
-	else:
-		chara_visible(CID3, false)
-		chara_pos(CID3, posX3, posY3)
-		chara_act_manual(CID3, true, 0.01, 120, 0, 1)
-		chara_act_complete(CID3, 0.01, 120, 0)
+		chara_face(CID2, face2)
+		eyeblink(CID2, eye2)
+		lipsynch(CID2, lip2)
+		if CID3 == "0":
+		else:
+			chara_visible(CID3, false)
+			chara_pos(CID3, posX3, posY3)
+			chara_act_manual(CID3, true, 0.01, 120, 0, 1)
+			chara_act_complete(CID3, 0.01, 120, 0)
+			wait(0.01)
+		if posY3 == "C":
+			chara_act_manual(CID3, true, 0.01, 0, -2, 1)
+			chara_act_complete(CID3, 0, 0.01, -2)
 		wait(0.01)
-	if posY3 == "C":
-		chara_act_manual(CID3, true, 0.01, 0, -2, 1)
-		chara_act_complete(CID3, 0, 0.01, -2)
-	wait(0.01)
-	chara_face(CID3, face3)
-	eyeblink(CID3, eye3)
-	lipsynch(CID3, lip3)
-	elif style == "SHIMOTE":
-		chara_visible(CID, false)
-		chara_pos(CID, posX, posY)
-		chara_act_manual(CID, true, 0.01, -120, 0, 1)
-		chara_act_complete(CID, 0.01, -120, 0)
+		chara_face(CID3, face3)
+		eyeblink(CID3, eye3)
+		lipsynch(CID3, lip3)
+		elif style == "SHIMOTE":
+			chara_visible(CID, false)
+			chara_pos(CID, posX, posY)
+			chara_act_manual(CID, true, 0.01, -120, 0, 1)
+			chara_act_complete(CID, 0.01, -120, 0)
+			wait(0.01)
+		if posY == "C":
+			chara_act_manual(CID, true, 0.01, 0, -2, 1)
+			chara_act_complete(CID, 0.01, 0, -2)
 		wait(0.01)
-	if posY == "C":
-		chara_act_manual(CID, true, 0.01, 0, -2, 1)
-		chara_act_complete(CID, 0.01, 0, -2)
-	wait(0.01)
-	chara_face(CID, face)
-	eyeblink(CID, eye)
-	lipsynch(CID, lip)
-	if CID2 == "0":
-	else:
-		chara_visible(CID2, false)
-		chara_pos(CID2, posX2, posY2)
-		chara_act_manual(CID2, true, 0.01, -120, 0, 1)
-		chara_act_complete(CID2, 0.01, -120, 0)
+		chara_face(CID, face)
+		eyeblink(CID, eye)
+		lipsynch(CID, lip)
+		if CID2 == "0":
+		else:
+			chara_visible(CID2, false)
+			chara_pos(CID2, posX2, posY2)
+			chara_act_manual(CID2, true, 0.01, -120, 0, 1)
+			chara_act_complete(CID2, 0.01, -120, 0)
+			wait(0.01)
+		if posY2 == "C":
+			chara_act_manual(CID2, true, 0.01, 0, -2, 1)
+			chara_act_complete(CID2, 0.01, 0, -2)
 		wait(0.01)
-	if posY2 == "C":
-		chara_act_manual(CID2, true, 0.01, 0, -2, 1)
-		chara_act_complete(CID2, 0.01, 0, -2)
-	wait(0.01)
-	chara_face(CID2, face2)
-	eyeblink(CID2, eye2)
-	lipsynch(CID2, lip2)
-	if CID3 == "0":
-	else:
-		chara_visible(CID3, false)
-		chara_pos(CID3, posX3, posY3)
-		chara_act_manual(CID3, true, 0.01, -120, 0, 1)
-		chara_act_complete(CID3, 0.01, -120, 0)
+		chara_face(CID2, face2)
+		eyeblink(CID2, eye2)
+		lipsynch(CID2, lip2)
+		if CID3 == "0":
+		else:
+			chara_visible(CID3, false)
+			chara_pos(CID3, posX3, posY3)
+			chara_act_manual(CID3, true, 0.01, -120, 0, 1)
+			chara_act_complete(CID3, 0.01, -120, 0)
+			wait(0.01)
+		if posY3 == "C":
+			chara_act_manual(CID3, true, 0.01, 0, -2, 1)
+			chara_act_complete(CID3, 0.01, 0, -2)
 		wait(0.01)
-	if posY3 == "C":
-		chara_act_manual(CID3, true, 0.01, 0, -2, 1)
-		chara_act_complete(CID3, 0.01, 0, -2)
-	wait(0.01)
-	chara_face(CID3, face3)
-	eyeblink(CID3, eye3)
-	lipsynch(CID3, lip3)
-	elif style == "TOP":
-		chara_visible(CID, false)
-		chara_pos(CID, posX, posY)
-		chara_act_manual(CID, true, 0.01, 0, 120, 1)
-		chara_act_complete(CID, 0.01, 0, 120)
+		chara_face(CID3, face3)
+		eyeblink(CID3, eye3)
+		lipsynch(CID3, lip3)
+		elif style == "TOP":
+			chara_visible(CID, false)
+			chara_pos(CID, posX, posY)
+			chara_act_manual(CID, true, 0.01, 0, 120, 1)
+			chara_act_complete(CID, 0.01, 0, 120)
+			wait(0.01)
+		if posY == "C":
+			chara_act_manual(CID, true, 0.01, 0, -2, 1)
+			chara_act_complete(CID, 0.01, 0, -2)
 		wait(0.01)
-	if posY == "C":
-		chara_act_manual(CID, true, 0.01, 0, -2, 1)
-		chara_act_complete(CID, 0.01, 0, -2)
-	wait(0.01)
-	chara_face(CID, face)
-	eyeblink(CID, eye)
-	lipsynch(CID, lip)
-	if CID2 == "0":
-	else:
-		chara_visible(CID2, false)
-		chara_pos(CID2, posX2, posY2)
-		chara_act_manual(CID2, true, 0.01, 0, 120, 1)
-		chara_act_complete(CID2, 0.01, 0, 120)
+		chara_face(CID, face)
+		eyeblink(CID, eye)
+		lipsynch(CID, lip)
+		if CID2 == "0":
+		else:
+			chara_visible(CID2, false)
+			chara_pos(CID2, posX2, posY2)
+			chara_act_manual(CID2, true, 0.01, 0, 120, 1)
+			chara_act_complete(CID2, 0.01, 0, 120)
+			wait(0.01)
+		if posY2 == "C":
+			chara_act_manual(CID2, true, 0.01, 0, -2, 1)
+			chara_act_complete(CID2, 0.01, 0, -2)
 		wait(0.01)
-	if posY2 == "C":
-		chara_act_manual(CID2, true, 0.01, 0, -2, 1)
-		chara_act_complete(CID2, 0.01, 0, -2)
-	wait(0.01)
-	chara_face(CID2, face2)
-	eyeblink(CID2, eye2)
-	lipsynch(CID2, lip2)
-	if CID3 == "0":
-	else:
-		chara_visible(CID3, false)
-		chara_pos(CID3, posX3, posY3)
-		chara_act_manual(CID3, true, 0.01, 0, 120, 1)
-		chara_act_complete(CID3, 0.01, 0, 120)
+		chara_face(CID2, face2)
+		eyeblink(CID2, eye2)
+		lipsynch(CID2, lip2)
+		if CID3 == "0":
+		else:
+			chara_visible(CID3, false)
+			chara_pos(CID3, posX3, posY3)
+			chara_act_manual(CID3, true, 0.01, 0, 120, 1)
+			chara_act_complete(CID3, 0.01, 0, 120)
+			wait(0.01)
+		if posY3 == "C":
+			chara_act_manual(CID3, true, 0.01, 0, -2, 1)
+			chara_act_complete(CID3, 0.01, 0, -2)
 		wait(0.01)
-	if posY3 == "C":
-		chara_act_manual(CID3, true, 0.01, 0, -2, 1)
-		chara_act_complete(CID3, 0.01, 0, -2)
-	wait(0.01)
-	chara_face(CID3, face3)
-	eyeblink(CID3, eye3)
-	lipsynch(CID3, lip3)
-	elif style == "BOTTOM":
-		chara_visible(CID, false)
-		chara_pos(CID, posX, posY)
-		chara_act_manual(CID, true, 0.01, 0, -120, 1)
-		chara_act_complete(CID, 0.01, 0, -120)
+		chara_face(CID3, face3)
+		eyeblink(CID3, eye3)
+		lipsynch(CID3, lip3)
+		elif style == "BOTTOM":
+			chara_visible(CID, false)
+			chara_pos(CID, posX, posY)
+			chara_act_manual(CID, true, 0.01, 0, -120, 1)
+			chara_act_complete(CID, 0.01, 0, -120)
+			wait(0.01)
+		if posY == "C":
+			chara_act_manual(CID, true, 0.01, 0, -2, 1)
+			chara_act_complete(CID, 0.01, 0, -2)
 		wait(0.01)
-	if posY == "C":
-		chara_act_manual(CID, true, 0.01, 0, -2, 1)
-		chara_act_complete(CID, 0.01, 0, -2)
-	wait(0.01)
-	chara_face(CID, face)
-	eyeblink(CID, eye)
-	lipsynch(CID, lip)
-	if CID2 == "0":
-	else:
-		chara_visible(CID2, false)
-		chara_pos(CID2, posX2, posY2)
-		chara_act_manual(CID2, true, 0.01, 0, -120, 1)
-		chara_act_complete(CID2, 0.01, 0, -120)
+		chara_face(CID, face)
+		eyeblink(CID, eye)
+		lipsynch(CID, lip)
+		if CID2 == "0":
+		else:
+			chara_visible(CID2, false)
+			chara_pos(CID2, posX2, posY2)
+			chara_act_manual(CID2, true, 0.01, 0, -120, 1)
+			chara_act_complete(CID2, 0.01, 0, -120)
+			wait(0.01)
+		if posY2 == "C":
+			chara_act_manual(CID2, true, 0.01, 0, -2, 1)
+			chara_act_complete(CID2, 0.01, 0, -2)
 		wait(0.01)
-	if posY2 == "C":
-		chara_act_manual(CID2, true, 0.01, 0, -2, 1)
-		chara_act_complete(CID2, 0.01, 0, -2)
-	wait(0.01)
-	chara_face(CID2, face2)
-	eyeblink(CID2, eye2)
-	lipsynch(CID2, lip2)
-	if CID3 == "0":
-	else:
-		chara_visible(CID3, false)
-		chara_pos(CID3, posX3, posY3)
-		chara_act_manual(CID3, true, 0.01, 0, -120, 1)
-		chara_act_complete(CID3, 0.01, 0, -120)
+		chara_face(CID2, face2)
+		eyeblink(CID2, eye2)
+		lipsynch(CID2, lip2)
+		if CID3 == "0":
+		else:
+			chara_visible(CID3, false)
+			chara_pos(CID3, posX3, posY3)
+			chara_act_manual(CID3, true, 0.01, 0, -120, 1)
+			chara_act_complete(CID3, 0.01, 0, -120)
+			wait(0.01)
+		if posY3 == "C":
+			chara_act_manual(CID3, true, 0.01, 0, -2, 1)
+			chara_act_complete(CID3, 0.01, 0, -2)
 		wait(0.01)
-	if posY3 == "C":
-		chara_act_manual(CID3, true, 0.01, 0, -2, 1)
-		chara_act_complete(CID3, 0.01, 0, -2)
-	wait(0.01)
-	chara_face(CID3, face3)
-	eyeblink(CID3, eye3)
-	lipsynch(CID3, lip3)
-	else:
-		chara_visible(CID, false)
-		chara_pos(CID, posX, posY)
-	if posY == "C":
-		chara_act_manual(CID, true, 0.01, 0, -2, 1)
-		chara_act_complete(CID, 0.01, 0, -2)
-	wait(0.01)
-	chara_face(CID, face)
-	eyeblink(CID, eye)
-	lipsynch(CID, lip)
-	if CID2 == "0":
-	else:
-		chara_visible(CID2, false)
-		chara_pos(CID2, posX2, posY2)
-	if posY2 == "C":
-		chara_act_manual(CID2, true, 0.01, 0, -2, 1)
-		chara_act_complete(CID2, 0.01, 0, -2)
-	wait(0.01)
-	chara_face(CID2, face2)
-	eyeblink(CID2, eye2)
-	lipsynch(CID2, lip2)
-	if CID3 == "0":
-	else:
-		chara_visible(CID3, false)
-		chara_pos(CID3, posX3, posY3)
-	if posY3 == "C":
-		chara_act_manual(CID3, true, 0.01, 0, -2, 1)
-		chara_act_complete(CID3, 0.01, 0, -2)
-	wait(0.01)
-	chara_face(CID3, face3)
-	eyeblink(CID3, eye3)
-	lipsynch(CID3, lip3)
+		chara_face(CID3, face3)
+		eyeblink(CID3, eye3)
+		lipsynch(CID3, lip3)
+		else:
+			chara_visible(CID, false)
+			chara_pos(CID, posX, posY)
+		if posY == "C":
+			chara_act_manual(CID, true, 0.01, 0, -2, 1)
+			chara_act_complete(CID, 0.01, 0, -2)
+		wait(0.01)
+		chara_face(CID, face)
+		eyeblink(CID, eye)
+		lipsynch(CID, lip)
+		if CID2 == "0":
+		else:
+			chara_visible(CID2, false)
+			chara_pos(CID2, posX2, posY2)
+		if posY2 == "C":
+			chara_act_manual(CID2, true, 0.01, 0, -2, 1)
+			chara_act_complete(CID2, 0.01, 0, -2)
+		wait(0.01)
+		chara_face(CID2, face2)
+		eyeblink(CID2, eye2)
+		lipsynch(CID2, lip2)
+		if CID3 == "0":
+		else:
+			chara_visible(CID3, false)
+			chara_pos(CID3, posX3, posY3)
+		if posY3 == "C":
+			chara_act_manual(CID3, true, 0.01, 0, -2, 1)
+			chara_act_complete(CID3, 0.01, 0, -2)
+		wait(0.01)
+		chara_face(CID3, face3)
+		eyeblink(CID3, eye3)
+		lipsynch(CID3, lip3)
 
 References
 -------------

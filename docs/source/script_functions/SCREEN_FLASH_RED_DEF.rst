@@ -22,7 +22,8 @@ Implementation
 
 .. code-block:: python
 
-	screen_flash(0.04, 255, 0, 0)
+	def SCREEN_FLASH_RED_DEF():
+		screen_flash(0.04, 255, 0, 0)
 
 References
 -------------

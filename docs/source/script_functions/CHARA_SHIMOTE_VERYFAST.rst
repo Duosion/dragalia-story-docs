@@ -27,8 +27,9 @@ Implementation
 
 .. code-block:: python
 
-	c_set_def(eye, lip, POS, CID, int)
-	SHIMOTE_IN_VERYFAST(CID)
+	def CHARA_SHIMOTE_VERYFAST(eye, lip, POS, CID, int):
+		c_set_def(eye, lip, POS, CID, int)
+		SHIMOTE_IN_VERYFAST(CID)
 
 References
 -------------

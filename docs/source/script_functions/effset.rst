@@ -24,8 +24,9 @@ Implementation
 
 .. code-block:: python
 
-	set_BG_effect(effectIds)
-	set_BG_effect_trigger(triggers)
+	def effset(effectIds, triggers):
+		set_BG_effect(effectIds)
+		set_BG_effect_trigger(triggers)
 
 References
 -------------

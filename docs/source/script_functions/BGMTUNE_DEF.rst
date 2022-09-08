@@ -23,7 +23,8 @@ Implementation
 
 .. code-block:: python
 
-	set_volume(1.0, 0.5, BGM)
+	def BGMTUNE_DEF(BGM):
+		set_volume(1.0, 0.5, BGM)
 
 References
 -------------

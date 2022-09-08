@@ -24,7 +24,8 @@ Implementation
 
 .. code-block:: python
 
-	effect_shake_chara(SHAKE_VALUE, -1, STOP_SEC)
+	def SHAKE_CH_STOP(SHAKE_VALUE, STOP_SEC):
+		effect_shake_chara(SHAKE_VALUE, -1, STOP_SEC)
 
 References
 -------------

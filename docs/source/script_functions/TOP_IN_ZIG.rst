@@ -23,8 +23,9 @@ Implementation
 
 .. code-block:: python
 
-	c_zigzag_h_b(CID)
-	chara_fadein(CID, 0.5)
+	def TOP_IN_ZIG(CID):
+		c_zigzag_h_b(CID)
+		chara_fadein(CID, 0.5)
 
 References
 -------------

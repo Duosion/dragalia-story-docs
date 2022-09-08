@@ -23,9 +23,10 @@ Implementation
 
 .. code-block:: python
 
-	chara_visible(CID, false)
-	chara_face(CID, 0)
-	RestartAll(CID)
+	def CHARA_RESET(CID):
+		chara_visible(CID, false)
+		chara_face(CID, 0)
+		RestartAll(CID)
 
 References
 -------------

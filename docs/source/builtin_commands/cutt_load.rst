@@ -11,7 +11,7 @@ cutt_load
 Arguments
 ------------
 
-* :ref:`cuttName`: *String*
+* :ref:`cuttName`: ``String``
 
 Description
 -------------

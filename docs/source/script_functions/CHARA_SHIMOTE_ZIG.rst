@@ -27,9 +27,10 @@ Implementation
 
 .. code-block:: python
 
-	c_set_def(eye, lip, POS, CID, int)
-	SHIMOTE_IN_ZIG(CID)
-	wait(0.7)
+	def CHARA_SHIMOTE_ZIG(eye, lip, POS, CID, int):
+		c_set_def(eye, lip, POS, CID, int)
+		SHIMOTE_IN_ZIG(CID)
+		wait(0.7)
 
 References
 -------------

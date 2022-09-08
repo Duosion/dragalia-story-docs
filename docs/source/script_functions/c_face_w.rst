@@ -27,8 +27,9 @@ Implementation
 
 .. code-block:: python
 
-	c_face(eye, lip, CID, int)
-	chara_face(CID, int2, 1)
+	def c_face_w(eye, lip, CID, int, int2):
+		c_face(eye, lip, CID, int)
+		chara_face(CID, int2, 1)
 
 References
 -------------

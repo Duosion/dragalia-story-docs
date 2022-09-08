@@ -22,8 +22,9 @@ Implementation
 
 .. code-block:: python
 
-	set_BG_effect(EFF_050)
-	fade_color(1.0, 255, 255, 255, 0)
+	def MAGIC_CURE_AFTER():
+		set_BG_effect(EFF_050)
+		fade_color(1.0, 255, 255, 255, 0)
 
 References
 -------------

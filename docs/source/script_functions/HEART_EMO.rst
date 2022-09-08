@@ -23,9 +23,10 @@ Implementation
 
 .. code-block:: python
 
-	NO_EMO(CID)
-	CHARA_EMO(CID, 10, 0)
-	play_sound(SE_IN_EMOTION_0010)
+	def HEART_EMO(CID):
+		NO_EMO(CID)
+		CHARA_EMO(CID, 10, 0)
+		play_sound(SE_IN_EMOTION_0010)
 
 References
 -------------

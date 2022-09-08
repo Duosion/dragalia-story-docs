@@ -22,8 +22,9 @@ Implementation
 
 .. code-block:: python
 
-	set_BG_effect(EFF_070, EFF_071)
-	set_BG_effect_trigger(9, 9)
+	def CHANGE_DRAGON_LUMINE():
+		set_BG_effect(EFF_070, EFF_071)
+		set_BG_effect_trigger(9, 9)
 
 References
 -------------

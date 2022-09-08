@@ -11,7 +11,7 @@ outline_title
 Arguments
 ------------
 
-* :ref:`title`: *String*
+* :ref:`title`: ``String``
 	* Default: ``""``
 
 Description

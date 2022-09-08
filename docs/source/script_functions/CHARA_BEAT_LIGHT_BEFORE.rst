@@ -26,8 +26,9 @@ Implementation
 
 .. code-block:: python
 
-	CHARA_SET(eye, lip, C, CID, int)
-	CHARA_BEAT_LIGHT_BEFORE_IN(CID)
+	def CHARA_BEAT_LIGHT_BEFORE(eye, lip, CID, int):
+		CHARA_SET(eye, lip, C, CID, int)
+		CHARA_BEAT_LIGHT_BEFORE_IN(CID)
 
 References
 -------------

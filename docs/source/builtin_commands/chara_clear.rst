@@ -11,7 +11,7 @@ chara_clear
 Arguments
 ------------
 
-* :ref:`charaId`: *String*
+* :ref:`charaId`: ``String``
 	* Default: ``""``
 
 Description

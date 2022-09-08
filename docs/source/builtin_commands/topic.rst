@@ -11,8 +11,8 @@ topic
 Arguments
 ------------
 
-* :ref:`fileName`: *String*
-* :ref:`fadeTime`: *Single*
+* :ref:`fileName`: ``String``
+* :ref:`fadeTime`: ``Single``
 	* Default: ``1``
 
 Description

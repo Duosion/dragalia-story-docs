@@ -23,8 +23,9 @@ Implementation
 
 .. code-block:: python
 
-	chapter_intro(LABEL)
-	chapter_intro_frame_visible(true, 0.7)
+	def CHAPTER_INTRO_BAND(LABEL):
+		chapter_intro(LABEL)
+		chapter_intro_frame_visible(true, 0.7)
 
 References
 -------------

@@ -25,13 +25,14 @@ Implementation
 
 .. code-block:: python
 
-	WFOUT_SHORT()
-	set_BG_effect(EFF_020)
-	play_sound(SE_005)
-	wait(1.1)
-	CHARA_RESET(CID)
-	CHARA_SET(M, M, C, CID2, int)
-	wait(0.5)
+	def CHANGE_DRAGON_RELEASE(CID, CID2, int):
+		WFOUT_SHORT()
+		set_BG_effect(EFF_020)
+		play_sound(SE_005)
+		wait(1.1)
+		CHARA_RESET(CID)
+		CHARA_SET(M, M, C, CID2, int)
+		wait(0.5)
 
 References
 -------------

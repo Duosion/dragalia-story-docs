@@ -22,9 +22,10 @@ Implementation
 
 .. code-block:: python
 
-	set_BG_effect(EFF_010, EFF_011)
-	set_BG_effect_trigger(8, 8)
-	play_sound(SE_031)
+	def AURA_DARK_SE():
+		set_BG_effect(EFF_010, EFF_011)
+		set_BG_effect_trigger(8, 8)
+		play_sound(SE_031)
 
 References
 -------------

@@ -28,9 +28,10 @@ Implementation
 
 .. code-block:: python
 
-	chara_clear(CID)
-	c_set_def(eye2, lip2, POS2, CID2, int2)
-	chara_fadein(CID2, 0.4)
+	def CHARA_TYPE(CID, eye2, lip2, POS2, CID2, int2):
+		chara_clear(CID)
+		c_set_def(eye2, lip2, POS2, CID2, int2)
+		chara_fadein(CID2, 0.4)
 
 References
 -------------

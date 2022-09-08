@@ -11,10 +11,10 @@ dungeon_active
 Arguments
 ------------
 
-* :ref:`active`: *Boolean*
-* :ref:`name`: *String*
+* :ref:`active`: ``Boolean``
+* :ref:`name`: ``String``
 	* Default: ``""``
-* :ref:`isUnloadScene`: *Boolean*
+* :ref:`isUnloadScene`: ``Boolean``
 	* Default: ``False``
 
 Description

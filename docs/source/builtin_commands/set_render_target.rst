@@ -11,8 +11,8 @@ set_render_target
 Arguments
 ------------
 
-* :ref:`charaId`: *String*
-* :ref:`renderId`: *Int32*
+* :ref:`charaId`: ``String``
+* :ref:`renderId`: ``Int32``
 	* Default: ``0``
 
 Description

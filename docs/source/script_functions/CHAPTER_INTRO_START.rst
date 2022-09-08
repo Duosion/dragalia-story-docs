@@ -22,10 +22,11 @@ Implementation
 
 .. code-block:: python
 
-	frame_visible(false)
-	message_pos(1)
-	window_enable(false)
-	set_BG(0)
+	def CHAPTER_INTRO_START():
+		frame_visible(false)
+		message_pos(1)
+		window_enable(false)
+		set_BG(0)
 
 References
 -------------

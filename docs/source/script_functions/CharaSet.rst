@@ -41,45 +41,46 @@ Implementation
 
 .. code-block:: python
 
-	if style == "KAMITE":
-		_CharaSet(KAMITE, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
-		CharaIn(0.4, WAIT, -120, 0, CID, CID2, CID3)
-	elif style == "SHIMOTE":
-		_CharaSet(SHIMOTE, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
-		CharaIn(0.4, WAIT, 120, 0, CID, CID2, CID3)
-	elif style == "TOP":
-		_CharaSet(TOP, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
-		CharaIn(0.4, WAIT, 0, -120, CID, CID2, CID3)
-	elif style == "BOTTOM":
-		_CharaSet(BOTTOM, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
-		CharaIn(0.4, WAIT, 0, 120, CID, CID2, CID3)
-	elif style == "KAMITE_REVERSE":
-		_CharaSet(KAMITE, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
-		CharaIn(0.4, REVERSE, -120, 0, CID, CID2, CID3)
-	elif style == "SHIMOTE_REVERSE":
-		_CharaSet(SHIMOTE, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
-		CharaIn(0.4, REVERSE, 120, 0, CID, CID2, CID3)
-	elif style == "TOP_REVERSE":
-		_CharaSet(TOP, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
-		CharaIn(0.4, REVERSE, 0, -120, CID, CID2, CID3)
-	elif style == "BOTTOM_REVERSE":
-		_CharaSet(BOTTOM, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
-		CharaIn(0.4, REVERSE, 0, 120, CID, CID2, CID3)
-	elif style == "KAMITE_SYNC":
-		_CharaSet(KAMITE, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
-		CharaIn(0.4, SYNC, -120, 0, CID, CID2, CID3)
-	elif style == "SHIMOTE_SYNC":
-		_CharaSet(SHIMOTE, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
-		CharaIn(0.4, SYNC, 120, 0, CID, CID2, CID3)
-	elif style == "TOP_SYNC":
-		_CharaSet(TOP, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
-		CharaIn(0.4, SYNC, 0, -120, CID, CID2, CID3)
-	elif style == "BOTTOM_SYNC":
-		_CharaSet(BOTTOM, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
-		CharaIn(0.4, SYNC, 0, 120, CID, CID2, CID3)
-	else:
-		_CharaSet(style, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
-		CharaIn(0.3, SYNC, 0, 0, CID, CID2, CID3)
+	def CharaSet(style, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3):
+		if style == "KAMITE":
+			_CharaSet(KAMITE, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
+			CharaIn(0.4, WAIT, -120, 0, CID, CID2, CID3)
+		elif style == "SHIMOTE":
+			_CharaSet(SHIMOTE, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
+			CharaIn(0.4, WAIT, 120, 0, CID, CID2, CID3)
+		elif style == "TOP":
+			_CharaSet(TOP, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
+			CharaIn(0.4, WAIT, 0, -120, CID, CID2, CID3)
+		elif style == "BOTTOM":
+			_CharaSet(BOTTOM, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
+			CharaIn(0.4, WAIT, 0, 120, CID, CID2, CID3)
+		elif style == "KAMITE_REVERSE":
+			_CharaSet(KAMITE, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
+			CharaIn(0.4, REVERSE, -120, 0, CID, CID2, CID3)
+		elif style == "SHIMOTE_REVERSE":
+			_CharaSet(SHIMOTE, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
+			CharaIn(0.4, REVERSE, 120, 0, CID, CID2, CID3)
+		elif style == "TOP_REVERSE":
+			_CharaSet(TOP, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
+			CharaIn(0.4, REVERSE, 0, -120, CID, CID2, CID3)
+		elif style == "BOTTOM_REVERSE":
+			_CharaSet(BOTTOM, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
+			CharaIn(0.4, REVERSE, 0, 120, CID, CID2, CID3)
+		elif style == "KAMITE_SYNC":
+			_CharaSet(KAMITE, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
+			CharaIn(0.4, SYNC, -120, 0, CID, CID2, CID3)
+		elif style == "SHIMOTE_SYNC":
+			_CharaSet(SHIMOTE, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
+			CharaIn(0.4, SYNC, 120, 0, CID, CID2, CID3)
+		elif style == "TOP_SYNC":
+			_CharaSet(TOP, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
+			CharaIn(0.4, SYNC, 0, -120, CID, CID2, CID3)
+		elif style == "BOTTOM_SYNC":
+			_CharaSet(BOTTOM, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
+			CharaIn(0.4, SYNC, 0, 120, CID, CID2, CID3)
+		else:
+			_CharaSet(style, CID, face, eye, lip, posX, posY, CID2, face2, eye2, lip2, posX2, posY2, CID3, face3, eye3, lip3, posX3, posY3)
+			CharaIn(0.3, SYNC, 0, 0, CID, CID2, CID3)
 
 References
 -------------

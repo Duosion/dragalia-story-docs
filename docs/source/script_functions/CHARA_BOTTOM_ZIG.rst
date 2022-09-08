@@ -27,17 +27,18 @@ Implementation
 
 .. code-block:: python
 
-	chara_visible(CID, false)
-	if POS == "L":
-		chara_pos(CID, -200, -50)
-	elif POS == "C":
-		chara_pos(CID, 0, -50)
-	elif POS == "R":
-		chara_pos(CID, 200, -50)
-	chara_face(CID, int)
-	eye1(CID, eye)
-	lip1(CID, lip)
-	BOTTOM_IN_ZIG(CID)
+	def CHARA_BOTTOM_ZIG(eye, lip, POS, CID, int):
+		chara_visible(CID, false)
+		if POS == "L":
+			chara_pos(CID, -200, -50)
+		elif POS == "C":
+			chara_pos(CID, 0, -50)
+		elif POS == "R":
+			chara_pos(CID, 200, -50)
+		chara_face(CID, int)
+		eye1(CID, eye)
+		lip1(CID, lip)
+		BOTTOM_IN_ZIG(CID)
 
 References
 -------------

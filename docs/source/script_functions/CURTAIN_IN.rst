@@ -22,8 +22,9 @@ Implementation
 
 .. code-block:: python
 
-	set_BG_effect(EFF_107)
-	set_BG_effect_trigger(9)
+	def CURTAIN_IN():
+		set_BG_effect(EFF_107)
+		set_BG_effect_trigger(9)
 
 References
 -------------

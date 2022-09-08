@@ -26,19 +26,20 @@ Implementation
 
 .. code-block:: python
 
-	chara_face(CID, int)
-	eye1(CID, eye)
-	lip1(CID, lip)
-	wait(0.1)
-	set_render_target(CID, 0)
-	WFOUT_SHORT()
-	play_sound(SE_STORY_PROLOGUE_0001)
-	set_BG_effect(EFF_002, EFF_SCE_2D_REN_000)
-	set_BG_effect_trigger(0, 29)
-	wait(0.2)
-	chara_clear(CID)
-	wait(2.5)
-	NO_EFFECT()
+	def WARP_OUT_P(eye, lip, CID, int):
+		chara_face(CID, int)
+		eye1(CID, eye)
+		lip1(CID, lip)
+		wait(0.1)
+		set_render_target(CID, 0)
+		WFOUT_SHORT()
+		play_sound(SE_STORY_PROLOGUE_0001)
+		set_BG_effect(EFF_002, EFF_SCE_2D_REN_000)
+		set_BG_effect_trigger(0, 29)
+		wait(0.2)
+		chara_clear(CID)
+		wait(2.5)
+		NO_EFFECT()
 
 References
 -------------

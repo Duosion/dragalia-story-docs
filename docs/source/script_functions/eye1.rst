@@ -24,14 +24,15 @@ Implementation
 
 .. code-block:: python
 
-	if eye == "O":
-		chara_eyeblink(CID, -1)
-	elif eye == "Q":
-		chara_eyeblink(CID, -2)
-	elif eye == "M":
-		chara_eyeblink(CID)
-	else:
-		chara_eyeblink(CID)
+	def eye1(CID, eye):
+		if eye == "O":
+			chara_eyeblink(CID, -1)
+		elif eye == "Q":
+			chara_eyeblink(CID, -2)
+		elif eye == "M":
+			chara_eyeblink(CID)
+		else:
+			chara_eyeblink(CID)
 
 References
 -------------

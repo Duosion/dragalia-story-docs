@@ -22,8 +22,9 @@ Implementation
 
 .. code-block:: python
 
-	play_sound(SE_170)
-	set_BG_effect(EFF_094)
+	def HAPPY():
+		play_sound(SE_170)
+		set_BG_effect(EFF_094)
 
 References
 -------------

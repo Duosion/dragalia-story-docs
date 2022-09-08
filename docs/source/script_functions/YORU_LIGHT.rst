@@ -23,8 +23,9 @@ Implementation
 
 .. code-block:: python
 
-	chara_color(CID, 0, 3, 44, 122, 156, 1, -0.25, 0.67)
-	wait(0)
+	def YORU_LIGHT(CID):
+		chara_color(CID, 0, 3, 44, 122, 156, 1, -0.25, 0.67)
+		wait(0)
 
 References
 -------------

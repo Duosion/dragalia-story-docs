@@ -22,10 +22,11 @@ Implementation
 
 .. code-block:: python
 
-	set_BG_effect(EFF_007)
-	set_BG_effect_opacity(EFF_007, 0.5)
-	set_BG_effect_speed(EFF_007, 1.3)
-	set_BG_effect_trigger(9)
+	def SHOUT_0():
+		set_BG_effect(EFF_007)
+		set_BG_effect_opacity(EFF_007, 0.5)
+		set_BG_effect_speed(EFF_007, 1.3)
+		set_BG_effect_trigger(9)
 
 References
 -------------

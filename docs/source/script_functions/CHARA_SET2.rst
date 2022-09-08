@@ -30,23 +30,24 @@ Implementation
 
 .. code-block:: python
 
-	chara_visible(CID, false)
-	chara_visible(CID2, false)
-	chara_pos(CID, 1)
-	chara_pos(CID2, 3)
-	chara_face(CID, int)
-	chara_face(CID2, int2)
-	eye1(CID, eye)
-	eye1(CID2, eye2)
-	lip1(CID, lip)
-	lip1(CID2, lip2)
-	mnu_fade(CID, true, 0.3, 1.0, 1)
-	mnu_fade(CID2, true, 0.3, 1.0, 1)
-	cmp_fade(CID, 0.3, 1.0)
-	cmp_fade(CID2, 0.3, 1.0)
-	wait(0.3)
-	chara_visible(CID, true)
-	chara_visible(CID2, true)
+	def CHARA_SET2(eye, lip, CID, int, eye2, lip2, CID2, int2):
+		chara_visible(CID, false)
+		chara_visible(CID2, false)
+		chara_pos(CID, 1)
+		chara_pos(CID2, 3)
+		chara_face(CID, int)
+		chara_face(CID2, int2)
+		eye1(CID, eye)
+		eye1(CID2, eye2)
+		lip1(CID, lip)
+		lip1(CID2, lip2)
+		mnu_fade(CID, true, 0.3, 1.0, 1)
+		mnu_fade(CID2, true, 0.3, 1.0, 1)
+		cmp_fade(CID, 0.3, 1.0)
+		cmp_fade(CID2, 0.3, 1.0)
+		wait(0.3)
+		chara_visible(CID, true)
+		chara_visible(CID2, true)
 
 References
 -------------

@@ -11,12 +11,12 @@ telop
 Arguments
 ------------
 
-* :ref:`mainText`: *String*
-* :ref:`subText`: *String*
+* :ref:`mainText`: ``String``
+* :ref:`subText`: ``String``
 	* Default: ``""``
-* :ref:`mainRuby`: *String*
+* :ref:`mainRuby`: ``String``
 	* Default: ``""``
-* :ref:`subRuby`: *String*
+* :ref:`subRuby`: ``String``
 	* Default: ``""``
 
 Description

@@ -23,9 +23,10 @@ Implementation
 
 .. code-block:: python
 
-	NO_EMO(CID)
-	ASE_EMO(CID)
-	c_jump(CID)
+	def ASE_jump(CID):
+		NO_EMO(CID)
+		ASE_EMO(CID)
+		c_jump(CID)
 
 References
 -------------

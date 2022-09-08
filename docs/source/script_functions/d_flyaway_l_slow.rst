@@ -23,12 +23,13 @@ Implementation
 
 .. code-block:: python
 
-	play_sound(SE_041)
-	mnu_move(CID, true, 0.3, -20, 50, EaseInQuad)
-	mnu_move(CID, false, 0.5, -10, -25, EaseOutQuad)
-	mnu_move(CID, false, 0.6, -160, 275, EaseInQuad)
-	wait(1.1)
-	chara_fadeout(CID, 0.3)
+	def d_flyaway_l_slow(CID):
+		play_sound(SE_041)
+		mnu_move(CID, true, 0.3, -20, 50, EaseInQuad)
+		mnu_move(CID, false, 0.5, -10, -25, EaseOutQuad)
+		mnu_move(CID, false, 0.6, -160, 275, EaseInQuad)
+		wait(1.1)
+		chara_fadeout(CID, 0.3)
 
 References
 -------------

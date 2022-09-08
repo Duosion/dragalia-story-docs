@@ -22,7 +22,8 @@ Implementation
 
 .. code-block:: python
 
-	window_fadeout(0.2)
+	def WFOUT_SHORT():
+		window_fadeout(0.2)
 
 References
 -------------

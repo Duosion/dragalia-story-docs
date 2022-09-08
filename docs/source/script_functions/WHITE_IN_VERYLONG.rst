@@ -22,7 +22,8 @@ Implementation
 
 .. code-block:: python
 
-	screen_fadein(4.0, 255, 255, 255)
+	def WHITE_IN_VERYLONG():
+		screen_fadein(4.0, 255, 255, 255)
 
 References
 -------------

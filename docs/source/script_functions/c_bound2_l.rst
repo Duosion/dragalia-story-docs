@@ -23,11 +23,12 @@ Implementation
 
 .. code-block:: python
 
-	mnu_move(CID, true, 0.25, -16, 0, EaseOutCubic)
-	mnu_move(CID, false, 0.25, 16, 0, EaseOutCubic)
-	mnu_move(CID, false, 0.25, -16, 0, EaseOutCubic)
-	mnu_move(CID, false, 0.25, 16, 0, EaseOutCubic)
-	cmp_move(CID, 1.0, 0, 0)
+	def c_bound2_l(CID):
+		mnu_move(CID, true, 0.25, -16, 0, EaseOutCubic)
+		mnu_move(CID, false, 0.25, 16, 0, EaseOutCubic)
+		mnu_move(CID, false, 0.25, -16, 0, EaseOutCubic)
+		mnu_move(CID, false, 0.25, 16, 0, EaseOutCubic)
+		cmp_move(CID, 1.0, 0, 0)
 
 References
 -------------

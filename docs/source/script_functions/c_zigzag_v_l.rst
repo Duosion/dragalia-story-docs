@@ -23,10 +23,11 @@ Implementation
 
 .. code-block:: python
 
-	mnu_move(CID, true, 0.5, -15, 16, 9)
-	mnu_move(CID, false, 0.5, -15, -32, 9)
-	mnu_move(CID, false, 0.5, -20, 16, 9)
-	cmp_move(CID, 1.5, -50, 0)
+	def c_zigzag_v_l(CID):
+		mnu_move(CID, true, 0.5, -15, 16, 9)
+		mnu_move(CID, false, 0.5, -15, -32, 9)
+		mnu_move(CID, false, 0.5, -20, 16, 9)
+		cmp_move(CID, 1.5, -50, 0)
 
 References
 -------------

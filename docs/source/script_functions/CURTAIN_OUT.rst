@@ -22,9 +22,10 @@ Implementation
 
 .. code-block:: python
 
-	set_BG_effect(EFF_107)
-	set_BG_effect_trigger(8)
-	wait(0.5)
+	def CURTAIN_OUT():
+		set_BG_effect(EFF_107)
+		set_BG_effect_trigger(8)
+		wait(0.5)
 
 References
 -------------

@@ -24,13 +24,14 @@ Implementation
 
 .. code-block:: python
 
-	NO_EMO(CID)
-	NO_EMO(CID2)
-	mnu(CID, true, 0.8, 120, 0, EaseInSine, 0.8, 1, 1, 0, 0.8, 0, 0, 0.8, 0, 1)
-	mnu(CID2, true, 0.8, 120, 0, EaseInSine, 0.8, 1, 1, 0, 0.8, 0, 0, 0.8, 0, 1)
-	wait(0.8)
-	chara_visible(CID, false)
-	chara_visible(CID2, false)
+	def KAMITE_OUT2_SLOW(CID, CID2):
+		NO_EMO(CID)
+		NO_EMO(CID2)
+		mnu(CID, true, 0.8, 120, 0, EaseInSine, 0.8, 1, 1, 0, 0.8, 0, 0, 0.8, 0, 1)
+		mnu(CID2, true, 0.8, 120, 0, EaseInSine, 0.8, 1, 1, 0, 0.8, 0, 0, 0.8, 0, 1)
+		wait(0.8)
+		chara_visible(CID, false)
+		chara_visible(CID2, false)
 
 References
 -------------

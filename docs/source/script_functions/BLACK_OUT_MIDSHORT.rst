@@ -22,8 +22,9 @@ Implementation
 
 .. code-block:: python
 
-	WFOUT_SHORT()
-	screen_fadeout(0.6, 0, 0, 0)
+	def BLACK_OUT_MIDSHORT():
+		WFOUT_SHORT()
+		screen_fadeout(0.6, 0, 0, 0)
 
 References
 -------------

@@ -23,9 +23,10 @@ Implementation
 
 .. code-block:: python
 
-	mnu_move(CID, true, 0.25, 16, 0, EaseOutCubic)
-	mnu_move(CID, false, 0.25, -16, 0, EaseOutCubic)
-	cmp_move(CID, 0.5, 0, 0)
+	def c_bound_r(CID):
+		mnu_move(CID, true, 0.25, 16, 0, EaseOutCubic)
+		mnu_move(CID, false, 0.25, -16, 0, EaseOutCubic)
+		cmp_move(CID, 0.5, 0, 0)
 
 References
 -------------

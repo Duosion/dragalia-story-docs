@@ -23,10 +23,11 @@ Implementation
 
 .. code-block:: python
 
-	WFOUT_SHORT()
-	mnu_scale(CID, true, 0.15, 1.35, 1.35, EaseOutCubic)
-	mnu_scale(CID, false, 0.15, 1, 1, EaseOutCubic)
-	cmp_scale(CID, 0.3, 1, 1)
+	def CHARA_ATTACK_GUN(CID):
+		WFOUT_SHORT()
+		mnu_scale(CID, true, 0.15, 1.35, 1.35, EaseOutCubic)
+		mnu_scale(CID, false, 0.15, 1, 1, EaseOutCubic)
+		cmp_scale(CID, 0.3, 1, 1)
 
 References
 -------------

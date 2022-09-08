@@ -28,8 +28,9 @@ Implementation
 
 .. code-block:: python
 
-	CHARA_SET_POS_0(eye, lip, X, Y, CID, int)
-	KAMITE_IN_DEF(CID)
+	def CHARA_KAMITE_POS(eye, lip, X, Y, CID, int):
+		CHARA_SET_POS_0(eye, lip, X, Y, CID, int)
+		KAMITE_IN_DEF(CID)
 
 References
 -------------

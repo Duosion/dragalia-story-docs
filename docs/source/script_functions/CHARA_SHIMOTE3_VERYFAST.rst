@@ -34,24 +34,25 @@ Implementation
 
 .. code-block:: python
 
-	chara_visible(CID, false)
-	chara_visible(CID2, false)
-	chara_visible(CID3, false)
-	chara_pos(CID, 1)
-	chara_pos(CID2, 3)
-	chara_pos(CID3, 2)
-	chara_face(CID, int)
-	chara_face(CID2, int2)
-	chara_face(CID3, int3)
-	eye1(CID, eye)
-	eye1(CID2, eye2)
-	eye1(CID3, eye3)
-	lip1(CID, lip)
-	lip1(CID2, lip2)
-	lip1(CID3, lip3)
-	SHIMOTE_IN_VERYFAST(CID)
-	SHIMOTE_IN_VERYFAST(CID2)
-	SHIMOTE_IN_VERYFAST(CID3)
+	def CHARA_SHIMOTE3_VERYFAST(eye, lip, CID, int, eye2, lip2, CID2, int2, eye3, lip3, CID3, int3):
+		chara_visible(CID, false)
+		chara_visible(CID2, false)
+		chara_visible(CID3, false)
+		chara_pos(CID, 1)
+		chara_pos(CID2, 3)
+		chara_pos(CID3, 2)
+		chara_face(CID, int)
+		chara_face(CID2, int2)
+		chara_face(CID3, int3)
+		eye1(CID, eye)
+		eye1(CID2, eye2)
+		eye1(CID3, eye3)
+		lip1(CID, lip)
+		lip1(CID2, lip2)
+		lip1(CID3, lip3)
+		SHIMOTE_IN_VERYFAST(CID)
+		SHIMOTE_IN_VERYFAST(CID2)
+		SHIMOTE_IN_VERYFAST(CID3)
 
 References
 -------------

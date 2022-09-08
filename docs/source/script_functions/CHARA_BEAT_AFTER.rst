@@ -23,8 +23,9 @@ Implementation
 
 .. code-block:: python
 
-	WFOUT_SHORT()
-	CHARA_BEAT_AFTER_0(CID)
+	def CHARA_BEAT_AFTER(CID):
+		WFOUT_SHORT()
+		CHARA_BEAT_AFTER_0(CID)
 
 References
 -------------

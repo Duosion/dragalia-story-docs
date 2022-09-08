@@ -22,9 +22,10 @@ Implementation
 
 .. code-block:: python
 
-	set_camera_distortion(cameraType_Chara, true, EFF_007)
-	SHOUT_0()
-	effect_shake_bg(12, 0.5, 1.5, 1)
+	def SHOUT_COM():
+		set_camera_distortion(cameraType_Chara, true, EFF_007)
+		SHOUT_0()
+		effect_shake_bg(12, 0.5, 1.5, 1)
 
 References
 -------------

@@ -24,14 +24,15 @@ Implementation
 
 .. code-block:: python
 
-	if cmd == "out":
-		stop_bgm(0.5)
-	elif cmd == "v_down":
-		set_volume(0.5, 0.5, BGM)
-	elif cmd == "mute":
-		set_volume(0, 0.5, BGM)
-	elif cmd == "v_def":
-		set_volume(1.0, 0.5, BGM)
+	def bgm(cmd, BGM):
+		if cmd == "out":
+			stop_bgm(0.5)
+		elif cmd == "v_down":
+			set_volume(0.5, 0.5, BGM)
+		elif cmd == "mute":
+			set_volume(0, 0.5, BGM)
+		elif cmd == "v_def":
+			set_volume(1.0, 0.5, BGM)
 
 References
 -------------

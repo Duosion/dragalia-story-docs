@@ -11,12 +11,12 @@ effect_shake_bg
 Arguments
 ------------
 
-* :ref:`type`: *Int32*
-* :ref:`peekSec`: *Single*
+* :ref:`type`: ``Int32``
+* :ref:`peekSec`: ``Single``
 	* Default: ``3``
-* :ref:`stopSec`: *Single*
+* :ref:`stopSec`: ``Single``
 	* Default: ``3``
-* :ref:`ease`: *Int32*
+* :ref:`ease`: ``Int32``
 	* Default: ``1``
 
 Description

@@ -24,10 +24,11 @@ Implementation
 
 .. code-block:: python
 
-	set_BG_effect(EFF_010, EFF_011)
-	set_BG_effect_pos(EFF_010, X, Y)
-	set_BG_effect_pos(EFF_011, X, Y)
-	set_BG_effect_trigger(9, 8)
+	def AURA_DARK_POS(X, Y):
+		set_BG_effect(EFF_010, EFF_011)
+		set_BG_effect_pos(EFF_010, X, Y)
+		set_BG_effect_pos(EFF_011, X, Y)
+		set_BG_effect_trigger(9, 8)
 
 References
 -------------

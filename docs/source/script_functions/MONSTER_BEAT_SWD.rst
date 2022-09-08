@@ -23,15 +23,16 @@ Implementation
 
 .. code-block:: python
 
-	WFOUT_SHORT()
-	CHARA_SET(M, M, C, CID, 1)
-	set_BG_effect(EFF_090)
-	wait(0.1)
-	play_sound(SE_233)
-	c_swing2_h_fast(CID)
-	wait(0.55)
-	play_sound(SE_205)
-	MONSTER_BEAT_AFTER_0(CID)
+	def MONSTER_BEAT_SWD(CID):
+		WFOUT_SHORT()
+		CHARA_SET(M, M, C, CID, 1)
+		set_BG_effect(EFF_090)
+		wait(0.1)
+		play_sound(SE_233)
+		c_swing2_h_fast(CID)
+		wait(0.55)
+		play_sound(SE_205)
+		MONSTER_BEAT_AFTER_0(CID)
 
 References
 -------------

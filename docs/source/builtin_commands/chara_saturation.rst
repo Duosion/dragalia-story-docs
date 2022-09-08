@@ -11,9 +11,9 @@ chara_saturation
 Arguments
 ------------
 
-* :ref:`charaId`: *String*
-* :ref:`value`: *Single*
-* :ref:`fadeSec`: *Single*
+* :ref:`charaId`: ``String``
+* :ref:`value`: ``Single``
+* :ref:`fadeSec`: ``Single``
 	* Default: ``0``
 
 Description

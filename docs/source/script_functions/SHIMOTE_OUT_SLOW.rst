@@ -23,11 +23,12 @@ Implementation
 
 .. code-block:: python
 
-	NO_EMO(CID)
-	RESET_TEXT()
-	mnu_move(CID, true, 0.8, -120, 0, EaseInSine)
-	chara_fadeout(CID, 0.8)
-	RestartAll(CID)
+	def SHIMOTE_OUT_SLOW(CID):
+		NO_EMO(CID)
+		RESET_TEXT()
+		mnu_move(CID, true, 0.8, -120, 0, EaseInSine)
+		chara_fadeout(CID, 0.8)
+		RestartAll(CID)
 
 References
 -------------

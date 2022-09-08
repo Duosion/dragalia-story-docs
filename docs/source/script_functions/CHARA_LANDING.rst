@@ -26,15 +26,16 @@ Implementation
 
 .. code-block:: python
 
-	play_sound(SE_047)
-	CHARA_SET_POS_0(eye, lip, 0, -90, CID, int)
-	mnu_move(CID, true, 0.05, 0, 200, 1)
-	mnu_move(CID, false, 0.25, 0, -200, EaseOutSine)
-	wait(0.05)
-	chara_fadein(CID, 0.25)
-	mnu_move(CID, true, 0.2, 0, 90, EaseOutCubic)
-	cmp_move(CID, 0.2, 0, 90)
-	wait(0.2)
+	def CHARA_LANDING(eye, lip, CID, int):
+		play_sound(SE_047)
+		CHARA_SET_POS_0(eye, lip, 0, -90, CID, int)
+		mnu_move(CID, true, 0.05, 0, 200, 1)
+		mnu_move(CID, false, 0.25, 0, -200, EaseOutSine)
+		wait(0.05)
+		chara_fadein(CID, 0.25)
+		mnu_move(CID, true, 0.2, 0, 90, EaseOutCubic)
+		cmp_move(CID, 0.2, 0, 90)
+		wait(0.2)
 
 References
 -------------

@@ -29,76 +29,77 @@ Implementation
 
 .. code-block:: python
 
-	if CID3 == "0":
-	else:
-		chara_emotion(CID3, 0)
-	if CID2 == "0":
-	else:
-		chara_emotion(CID2, 0)
-	chara_emotion(CID, 0)
-	reset_text()
-	if wait == "WAIT":
-	if CID3 == "0":
-	else:
-		mnu(CID3, true, sec, X, Y, EaseInSine, sec, 1, 1, 1, sec, 0, 1, sec, 0, EaseOutSine)
-		cmp(CID3, sec, X, Y, 1, 1, 0, 0)
-		wait(sec)
-	if CID2 == "0":
-	else:
-		mnu(CID2, true, sec, X, Y, EaseInSine, sec, 1, 1, 1, sec, 0, 1, sec, 0, EaseOutSine)
-		cmp(CID2, sec, X, Y, 1, 1, 0, 0)
-		wait(sec)
-	mnu(CID, true, sec, X, Y, EaseInSine, sec, 1, 1, 1, sec, 0, 1, sec, 0, EaseOutSine)
-	cmp(CID, sec, X, Y, 1, 1, 0, 0)
-	wait(sec)
-	elif wait == "REVERSE":
+	def CharaOut(sec, wait, X, Y, CID, CID2, CID3):
+		if CID3 == "0":
+		else:
+			chara_emotion(CID3, 0)
+		if CID2 == "0":
+		else:
+			chara_emotion(CID2, 0)
+		chara_emotion(CID, 0)
+		reset_text()
+		if wait == "WAIT":
+		if CID3 == "0":
+		else:
+			mnu(CID3, true, sec, X, Y, EaseInSine, sec, 1, 1, 1, sec, 0, 1, sec, 0, EaseOutSine)
+			cmp(CID3, sec, X, Y, 1, 1, 0, 0)
+			wait(sec)
+		if CID2 == "0":
+		else:
+			mnu(CID2, true, sec, X, Y, EaseInSine, sec, 1, 1, 1, sec, 0, 1, sec, 0, EaseOutSine)
+			cmp(CID2, sec, X, Y, 1, 1, 0, 0)
+			wait(sec)
 		mnu(CID, true, sec, X, Y, EaseInSine, sec, 1, 1, 1, sec, 0, 1, sec, 0, EaseOutSine)
 		cmp(CID, sec, X, Y, 1, 1, 0, 0)
-	if CID2 == "0":
-	else:
-		chara_emotion(CID2, 0)
-	if CID3 == "0":
-	else:
-		chara_emotion(CID3, 0)
-	wait(sec)
-	if CID2 == "0":
-	else:
-		mnu(CID2, true, sec, X, Y, EaseInSine, sec, 1, 1, 1, sec, 0, 1, sec, 0, EaseOutSine)
-		cmp(CID2, sec, X, Y, 1, 1, 0, 0)
-	if CID3 == "0":
-	else:
-		chara_emotion(CID3, 0)
-	wait(sec)
-	if CID3 == "0":
-	else:
-		mnu(CID3, true, sec, X, Y, EaseInSine, sec, 1, 1, 1, sec, 0, 1, sec, 0, EaseOutSine)
-		cmp(CID3, sec, X, Y, 1, 1, 0, 0)
 		wait(sec)
-	else:
-		mnu(CID, true, sec, X, Y, EaseInSine, sec, 1, 1, 1, sec, 0, 1, sec, 0, EaseOutSine)
-		cmp(CID, sec, X, Y, 1, 1, 0, 0)
-	if CID2 == "0":
-	else:
-		mnu(CID2, true, sec, X, Y, EaseInSine, sec, 1, 1, 1, sec, 0, 1, sec, 0, EaseOutSine)
-		cmp(CID2, sec, X, Y, 1, 1, 0, 0)
-	if CID3 == "0":
-	else:
-		mnu(CID3, true, sec, X, Y, EaseInSine, sec, 1, 1, 1, sec, 0, 1, sec, 0, EaseOutSine)
-		cmp(CID3, sec, X, Y, 1, 1, 0, 0)
-	wait(sec)
-	if CID3 == "0":
-	else:
-		chara_visible(CID3, false)
-		eyeblink(CID3)
-		lipsynch(CID3)
-	if CID2 == "0":
-	else:
-		chara_visible(CID2, false)
-		eyeblink(CID2)
-		lipsynch(CID2)
-	chara_visible(CID, false)
-	eyeblink(CID)
-	lipsynch(CID)
+		elif wait == "REVERSE":
+			mnu(CID, true, sec, X, Y, EaseInSine, sec, 1, 1, 1, sec, 0, 1, sec, 0, EaseOutSine)
+			cmp(CID, sec, X, Y, 1, 1, 0, 0)
+		if CID2 == "0":
+		else:
+			chara_emotion(CID2, 0)
+		if CID3 == "0":
+		else:
+			chara_emotion(CID3, 0)
+		wait(sec)
+		if CID2 == "0":
+		else:
+			mnu(CID2, true, sec, X, Y, EaseInSine, sec, 1, 1, 1, sec, 0, 1, sec, 0, EaseOutSine)
+			cmp(CID2, sec, X, Y, 1, 1, 0, 0)
+		if CID3 == "0":
+		else:
+			chara_emotion(CID3, 0)
+		wait(sec)
+		if CID3 == "0":
+		else:
+			mnu(CID3, true, sec, X, Y, EaseInSine, sec, 1, 1, 1, sec, 0, 1, sec, 0, EaseOutSine)
+			cmp(CID3, sec, X, Y, 1, 1, 0, 0)
+			wait(sec)
+		else:
+			mnu(CID, true, sec, X, Y, EaseInSine, sec, 1, 1, 1, sec, 0, 1, sec, 0, EaseOutSine)
+			cmp(CID, sec, X, Y, 1, 1, 0, 0)
+		if CID2 == "0":
+		else:
+			mnu(CID2, true, sec, X, Y, EaseInSine, sec, 1, 1, 1, sec, 0, 1, sec, 0, EaseOutSine)
+			cmp(CID2, sec, X, Y, 1, 1, 0, 0)
+		if CID3 == "0":
+		else:
+			mnu(CID3, true, sec, X, Y, EaseInSine, sec, 1, 1, 1, sec, 0, 1, sec, 0, EaseOutSine)
+			cmp(CID3, sec, X, Y, 1, 1, 0, 0)
+		wait(sec)
+		if CID3 == "0":
+		else:
+			chara_visible(CID3, false)
+			eyeblink(CID3)
+			lipsynch(CID3)
+		if CID2 == "0":
+		else:
+			chara_visible(CID2, false)
+			eyeblink(CID2)
+			lipsynch(CID2)
+		chara_visible(CID, false)
+		eyeblink(CID)
+		lipsynch(CID)
 
 References
 -------------

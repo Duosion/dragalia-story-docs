@@ -28,11 +28,12 @@ Implementation
 
 .. code-block:: python
 
-	chara_visible(CID, false)
-	chara_pos(CID, X, Y)
-	chara_face(CID, int)
-	eye1(CID, eye)
-	lip1(CID, lip)
+	def CHARA_SET_POS_0(eye, lip, X, Y, CID, int):
+		chara_visible(CID, false)
+		chara_pos(CID, X, Y)
+		chara_face(CID, int)
+		eye1(CID, eye)
+		lip1(CID, lip)
 
 References
 -------------

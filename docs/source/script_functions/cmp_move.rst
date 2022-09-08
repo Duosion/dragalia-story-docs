@@ -26,7 +26,8 @@ Implementation
 
 .. code-block:: python
 
-	chara_act_complete(CID, sec, moveX, moveY)
+	def cmp_move(CID, sec, moveX, moveY):
+		chara_act_complete(CID, sec, moveX, moveY)
 
 References
 -------------

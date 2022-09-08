@@ -27,35 +27,36 @@ Implementation
 
 .. code-block:: python
 
-	play_sound(SE)
-	if style == "KAMITE":
-		CharaOut(0.4, WAIT, 120, 0, CID, CID2, CID3)
-	elif style == "SHIMOTE":
-		CharaOut(0.4, WAIT, -120, 0, CID, CID2, CID3)
-	elif style == "TOP":
-		CharaOut(0.4, WAIT, 0, 120, CID, CID2, CID3)
-	elif style == "BOTTOM":
-		CharaOut(0.4, WAIT, 0, -120, CID, CID2, CID3)
-	elif style == "KAMITE_REVERSE":
-		CharaOut(0.4, REVERSE, 120, 0, CID, CID2, CID3)
-	elif style == "SHIMOTE_REVERSE":
-		CharaOut(0.4, REVERSE, -120, 0, CID, CID2, CID3)
-	elif style == "TOP_REVERSE":
-		CharaOut(0.4, REVERSE, 0, 120, CID, CID2, CID3)
-	elif style == "BOTTOM_REVERSE":
-		CharaOut(0.4, REVERSE, 0, -120, CID, CID2, CID3)
-	elif style == "KAMITE_SYNC":
-		CharaOut(0.4, SYNC, 120, 0, CID, CID2, CID3)
-	elif style == "SHIMOTE_SYNC":
-		CharaOut(0.4, SYNC, -120, 0, CID, CID2, CID3)
-	elif style == "TOP_SYNC":
-		CharaOut(0.4, SYNC, 0, 120, CID, CID2, CID3)
-	elif style == "BOTTOM_SYNC":
-		CharaOut(0.4, SYNC, 0, -120, CID, CID2, CID3)
-	else:
-		CharaOut(0.3, SYNC, 0, 0, CID, CID2, CID3)
-	wait(0.5)
-	set_volume(0, 0.5, SE)
+	def CharaDelSE(style, SE, CID, CID2, CID3):
+		play_sound(SE)
+		if style == "KAMITE":
+			CharaOut(0.4, WAIT, 120, 0, CID, CID2, CID3)
+		elif style == "SHIMOTE":
+			CharaOut(0.4, WAIT, -120, 0, CID, CID2, CID3)
+		elif style == "TOP":
+			CharaOut(0.4, WAIT, 0, 120, CID, CID2, CID3)
+		elif style == "BOTTOM":
+			CharaOut(0.4, WAIT, 0, -120, CID, CID2, CID3)
+		elif style == "KAMITE_REVERSE":
+			CharaOut(0.4, REVERSE, 120, 0, CID, CID2, CID3)
+		elif style == "SHIMOTE_REVERSE":
+			CharaOut(0.4, REVERSE, -120, 0, CID, CID2, CID3)
+		elif style == "TOP_REVERSE":
+			CharaOut(0.4, REVERSE, 0, 120, CID, CID2, CID3)
+		elif style == "BOTTOM_REVERSE":
+			CharaOut(0.4, REVERSE, 0, -120, CID, CID2, CID3)
+		elif style == "KAMITE_SYNC":
+			CharaOut(0.4, SYNC, 120, 0, CID, CID2, CID3)
+		elif style == "SHIMOTE_SYNC":
+			CharaOut(0.4, SYNC, -120, 0, CID, CID2, CID3)
+		elif style == "TOP_SYNC":
+			CharaOut(0.4, SYNC, 0, 120, CID, CID2, CID3)
+		elif style == "BOTTOM_SYNC":
+			CharaOut(0.4, SYNC, 0, -120, CID, CID2, CID3)
+		else:
+			CharaOut(0.3, SYNC, 0, 0, CID, CID2, CID3)
+		wait(0.5)
+		set_volume(0, 0.5, SE)
 
 References
 -------------

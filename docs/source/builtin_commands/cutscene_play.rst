@@ -11,7 +11,7 @@ cutscene_play
 Arguments
 ------------
 
-* :ref:`cutName`: *String*
+* :ref:`cutName`: ``String``
 
 Description
 -------------

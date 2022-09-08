@@ -23,11 +23,12 @@ Implementation
 
 .. code-block:: python
 
-	mnu_move(CID, true, 0.3, -200, -50, EaseOutBack)
-	cmp_move(CID, 0.3, -200, -50)
-	wait(0.3)
-	play_sound(SE_046)
-	wait(0.1)
+	def c_avoid_l(CID):
+		mnu_move(CID, true, 0.3, -200, -50, EaseOutBack)
+		cmp_move(CID, 0.3, -200, -50)
+		wait(0.3)
+		play_sound(SE_046)
+		wait(0.1)
 
 References
 -------------

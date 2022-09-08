@@ -28,8 +28,9 @@ Implementation
 
 .. code-block:: python
 
-	CHARA_SET_POS_0(eye, lip, X, Y, CID, int)
-	CHARA_FADEIN_DEF(CID)
+	def CHARA_SET_POS(eye, lip, X, Y, CID, int):
+		CHARA_SET_POS_0(eye, lip, X, Y, CID, int)
+		CHARA_FADEIN_DEF(CID)
 
 References
 -------------

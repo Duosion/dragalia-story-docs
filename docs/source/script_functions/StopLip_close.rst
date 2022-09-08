@@ -23,7 +23,8 @@ Implementation
 
 .. code-block:: python
 
-	chara_lipsynch(CID, -1)
+	def StopLip_close(CID):
+		chara_lipsynch(CID, -1)
 
 References
 -------------

@@ -22,7 +22,8 @@ Implementation
 
 .. code-block:: python
 
-	Negaposi(0.5, 1, 124, 88, 176)
+	def NEGA_SCREEN():
+		Negaposi(0.5, 1, 124, 88, 176)
 
 References
 -------------

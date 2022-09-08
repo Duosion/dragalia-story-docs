@@ -22,12 +22,13 @@ Implementation
 
 .. code-block:: python
 
-	Reset(0, 0)
-	ResetLerp(0, 0)
-	Reset(0, 1)
-	ResetLerp(0, 1)
-	Reset(0, 2)
-	ResetLerp(0, 2)
+	def RESET_SCREEN():
+		Reset(0, 0)
+		ResetLerp(0, 0)
+		Reset(0, 1)
+		ResetLerp(0, 1)
+		Reset(0, 2)
+		ResetLerp(0, 2)
 
 References
 -------------

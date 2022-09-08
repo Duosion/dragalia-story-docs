@@ -22,7 +22,8 @@ Implementation
 
 .. code-block:: python
 
-	wait(1.8)
+	def SHOUT_STOP_BG():
+		wait(1.8)
 
 References
 -------------

@@ -28,9 +28,10 @@ Implementation
 
 .. code-block:: python
 
-	c_set_def(eye, lip, POS, CID, int)
-	chara_face(CID, int2, 1)
-	CHARA_FADEIN_DEF(CID)
+	def CHARA_SET_W(eye, lip, POS, CID, int, int2):
+		c_set_def(eye, lip, POS, CID, int)
+		chara_face(CID, int2, 1)
+		CHARA_FADEIN_DEF(CID)
 
 References
 -------------

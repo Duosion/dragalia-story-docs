@@ -23,9 +23,10 @@ Implementation
 
 .. code-block:: python
 
-	NO_EMO(CID)
-	HEART_EMO(CID)
-	c_jump(CID)
+	def HEART_jump(CID):
+		NO_EMO(CID)
+		HEART_EMO(CID)
+		c_jump(CID)
 
 References
 -------------

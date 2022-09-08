@@ -23,9 +23,10 @@ Implementation
 
 .. code-block:: python
 
-	NO_EMO(CID)
-	HATENA_EMO(CID)
-	c_jump(CID)
+	def HATENA_jump(CID):
+		NO_EMO(CID)
+		HATENA_EMO(CID)
+		c_jump(CID)
 
 References
 -------------

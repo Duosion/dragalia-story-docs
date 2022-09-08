@@ -27,8 +27,9 @@ Implementation
 
 .. code-block:: python
 
-	c_set_def(eye, lip, POS, CID, int)
-	TOP_IN_DEF(CID)
+	def CHARA_TOP(eye, lip, POS, CID, int):
+		c_set_def(eye, lip, POS, CID, int)
+		TOP_IN_DEF(CID)
 
 References
 -------------

@@ -23,11 +23,12 @@ Implementation
 
 .. code-block:: python
 
-	play_sound(SE_041)
-	mnu_move(CID, true, 0.1, -30, 50, EaseInSine)
-	mnu_move(CID, false, 0.4, -160, 250, EaseOutSine)
-	wait(0.25)
-	chara_fadeout(CID, 0.25)
+	def d_flyaway_l(CID):
+		play_sound(SE_041)
+		mnu_move(CID, true, 0.1, -30, 50, EaseInSine)
+		mnu_move(CID, false, 0.4, -160, 250, EaseOutSine)
+		wait(0.25)
+		chara_fadeout(CID, 0.25)
 
 References
 -------------

@@ -28,7 +28,8 @@ Implementation
 
 .. code-block:: python
 
-	chara_act_manual(CID, isNewAct, 0, 0, 0, 0, scaleSec, scaleX, scaleY, scaleEase)
+	def mnu_scale(CID, isNewAct, scaleSec, scaleX, scaleY, scaleEase):
+		chara_act_manual(CID, isNewAct, 0, 0, 0, 0, scaleSec, scaleX, scaleY, scaleEase)
 
 References
 -------------

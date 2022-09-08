@@ -23,7 +23,8 @@ Implementation
 
 .. code-block:: python
 
-	chara_emotion(CID, 0)
+	def NO_EMO(CID):
+		chara_emotion(CID, 0)
 
 References
 -------------

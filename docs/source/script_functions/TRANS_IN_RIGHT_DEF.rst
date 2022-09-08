@@ -22,8 +22,9 @@ Implementation
 
 .. code-block:: python
 
-	fade_color(0.25, 0, 0, 0, 0)
-	screen_transin(1, 1.0)
+	def TRANS_IN_RIGHT_DEF():
+		fade_color(0.25, 0, 0, 0, 0)
+		screen_transin(1, 1.0)
 
 References
 -------------

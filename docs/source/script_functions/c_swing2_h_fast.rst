@@ -23,12 +23,13 @@ Implementation
 
 .. code-block:: python
 
-	mnu_move(CID, true, 0.08, 10, 0, 9)
-	mnu_move(CID, false, 0.08, -20, 0, 9)
-	mnu_move(CID, false, 0.08, 20, 0, 9)
-	mnu_move(CID, false, 0.08, -20, 0, 9)
-	mnu_move(CID, false, 0.08, 10, 0, 9)
-	cmp_move(CID, 0.4, 0, 0)
+	def c_swing2_h_fast(CID):
+		mnu_move(CID, true, 0.08, 10, 0, 9)
+		mnu_move(CID, false, 0.08, -20, 0, 9)
+		mnu_move(CID, false, 0.08, 20, 0, 9)
+		mnu_move(CID, false, 0.08, -20, 0, 9)
+		mnu_move(CID, false, 0.08, 10, 0, 9)
+		cmp_move(CID, 0.4, 0, 0)
 
 References
 -------------

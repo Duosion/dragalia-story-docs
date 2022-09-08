@@ -23,24 +23,25 @@ Implementation
 
 .. code-block:: python
 
-	WFOUT_SHORT()
-	set_BG_effect(EFF_070, EFF_071)
-	set_BG_effect_color(EFF_070, 80, 247, 28)
-	set_BG_effect_color(EFF_071, 80, 247, 28)
-	set_BG_effect_opacity(EFF_070, 0.8)
-	set_BG_effect_opacity(EFF_071, 0.8)
-	set_BG_effect_trigger(9, 9)
-	wait(0.8)
-	NO_EFFECT()
-	set_BG_effect(EFF_050)
-	set_BG_effect_color(EFF_050, 198, 251, 40)
-	set_BG_effect_speed(EFF_050, 3)
-	play_sound(SE_064)
-	mnu_scale(CID, true, 0.15, 1.35, 1.35, EaseOutCubic)
-	mnu_scale(CID, false, 0.15, 1, 1, EaseOutCubic)
-	cmp_scale(CID, 0.3, 1, 1)
-	wait(0.6)
-	set_BG_effect(0, 0)
+	def CHARA_ATTACK_WIND(CID):
+		WFOUT_SHORT()
+		set_BG_effect(EFF_070, EFF_071)
+		set_BG_effect_color(EFF_070, 80, 247, 28)
+		set_BG_effect_color(EFF_071, 80, 247, 28)
+		set_BG_effect_opacity(EFF_070, 0.8)
+		set_BG_effect_opacity(EFF_071, 0.8)
+		set_BG_effect_trigger(9, 9)
+		wait(0.8)
+		NO_EFFECT()
+		set_BG_effect(EFF_050)
+		set_BG_effect_color(EFF_050, 198, 251, 40)
+		set_BG_effect_speed(EFF_050, 3)
+		play_sound(SE_064)
+		mnu_scale(CID, true, 0.15, 1.35, 1.35, EaseOutCubic)
+		mnu_scale(CID, false, 0.15, 1, 1, EaseOutCubic)
+		cmp_scale(CID, 0.3, 1, 1)
+		wait(0.6)
+		set_BG_effect(0, 0)
 
 References
 -------------

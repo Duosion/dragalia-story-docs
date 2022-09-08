@@ -11,7 +11,7 @@ touch_enable
 Arguments
 ------------
 
-* :ref:`enable`: *Boolean*
+* :ref:`enable`: ``Boolean``
 
 Description
 -------------

@@ -26,10 +26,11 @@ Implementation
 
 .. code-block:: python
 
-	play_sound(SE_256)
-	set_BG_effect(EFF_015)
-	set_BG_effect_pos(EFF_015, posX, posY)
-	set_BG_effect_scale(EFF_015, scaleX, scaleY)
+	def KIRA(posX, posY, scaleX, scaleY):
+		play_sound(SE_256)
+		set_BG_effect(EFF_015)
+		set_BG_effect_pos(EFF_015, posX, posY)
+		set_BG_effect_scale(EFF_015, scaleX, scaleY)
 
 References
 -------------

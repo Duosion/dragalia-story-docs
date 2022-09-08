@@ -24,18 +24,19 @@ Implementation
 
 .. code-block:: python
 
-	SCREEN_FLASH_WHITE_DEF()
-	set_BG_effect(EFF_089)
-	play_sound(SE_013)
-	c_swing_h_mid(CID)
-	wait(0.3)
-	play_sound(SE_013)
-	play_sound(SE_047)
-	c_push_r(CID)
-	wait(0.9)
-	play_sound(SE_066)
-	chara_face(CID, int)
-	wait(0.8)
+	def REPEL_KNIFE(CID, int):
+		SCREEN_FLASH_WHITE_DEF()
+		set_BG_effect(EFF_089)
+		play_sound(SE_013)
+		c_swing_h_mid(CID)
+		wait(0.3)
+		play_sound(SE_013)
+		play_sound(SE_047)
+		c_push_r(CID)
+		wait(0.9)
+		play_sound(SE_066)
+		chara_face(CID, int)
+		wait(0.8)
 
 References
 -------------

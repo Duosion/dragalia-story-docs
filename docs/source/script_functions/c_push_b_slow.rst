@@ -23,8 +23,9 @@ Implementation
 
 .. code-block:: python
 
-	mnu_move(CID, true, 0.4, 0, -50, EaseOutCubic)
-	cmp_move(CID, 0.4, 0, -50)
+	def c_push_b_slow(CID):
+		mnu_move(CID, true, 0.4, 0, -50, EaseOutCubic)
+		cmp_move(CID, 0.4, 0, -50)
 
 References
 -------------

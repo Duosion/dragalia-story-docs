@@ -23,12 +23,13 @@ Implementation
 
 .. code-block:: python
 
-	set_BG_effect(1, 1, EFF_020)
-	set_BG_effect_color(EFF_020, 213, 0, 255, 1)
-	set_BG_effect_speed(EFF_020, 0.8)
-	wait(1.0)
-	play_sound(SE_044)
-	wait(0.1)
+	def CHARA_BEAT_DARK3_BEFORE_IN(CID):
+		set_BG_effect(1, 1, EFF_020)
+		set_BG_effect_color(EFF_020, 213, 0, 255, 1)
+		set_BG_effect_speed(EFF_020, 0.8)
+		wait(1.0)
+		play_sound(SE_044)
+		wait(0.1)
 
 References
 -------------

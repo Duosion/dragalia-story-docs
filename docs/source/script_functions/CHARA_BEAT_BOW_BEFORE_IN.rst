@@ -23,13 +23,14 @@ Implementation
 
 .. code-block:: python
 
-	set_BG_effect(EFF_092)
-	set_BG_effect_trigger(8)
-	set_BG_effect_speed(EFF_092, 1.5)
-	wait(0.3)
-	c_swing2_h_fast(CID)
-	play_sound(SE_239)
-	wait(0.25)
+	def CHARA_BEAT_BOW_BEFORE_IN(CID):
+		set_BG_effect(EFF_092)
+		set_BG_effect_trigger(8)
+		set_BG_effect_speed(EFF_092, 1.5)
+		wait(0.3)
+		c_swing2_h_fast(CID)
+		play_sound(SE_239)
+		wait(0.25)
 
 References
 -------------

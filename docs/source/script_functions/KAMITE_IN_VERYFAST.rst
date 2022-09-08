@@ -23,10 +23,11 @@ Implementation
 
 .. code-block:: python
 
-	mnu_move(CID, true, 0.01, 120, 0, 1)
-	mnu_move(CID, false, 0.2, -120, 0, EaseOutSine)
-	wait(0.01)
-	chara_fadein(CID, 0.2)
+	def KAMITE_IN_VERYFAST(CID):
+		mnu_move(CID, true, 0.01, 120, 0, 1)
+		mnu_move(CID, false, 0.2, -120, 0, EaseOutSine)
+		wait(0.01)
+		chara_fadein(CID, 0.2)
 
 References
 -------------

@@ -22,9 +22,10 @@ Implementation
 
 .. code-block:: python
 
-	wait(1.0)
-	set_BG_effect_trigger(1)
-	set_camera_distortion(cameraType_Chara, false, EFF_007)
+	def SHOUT_STOP():
+		wait(1.0)
+		set_BG_effect_trigger(1)
+		set_camera_distortion(cameraType_Chara, false, EFF_007)
 
 References
 -------------

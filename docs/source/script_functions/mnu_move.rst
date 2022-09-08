@@ -28,7 +28,8 @@ Implementation
 
 .. code-block:: python
 
-	chara_act_manual(CID, isNewAct, moveSec, moveX, moveY, moveEase)
+	def mnu_move(CID, isNewAct, moveSec, moveX, moveY, moveEase):
+		chara_act_manual(CID, isNewAct, moveSec, moveX, moveY, moveEase)
 
 References
 -------------

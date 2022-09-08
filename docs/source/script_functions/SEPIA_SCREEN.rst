@@ -22,7 +22,8 @@ Implementation
 
 .. code-block:: python
 
-	Sepia(0, 2)
+	def SEPIA_SCREEN():
+		Sepia(0, 2)
 
 References
 -------------

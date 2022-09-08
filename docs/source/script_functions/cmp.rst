@@ -30,7 +30,8 @@ Implementation
 
 .. code-block:: python
 
-	chara_act_complete(CID, sec, moveX, moveY, scaleX, scaleY, rotate, fade)
+	def cmp(CID, sec, moveX, moveY, scaleX, scaleY, rotate, fade):
+		chara_act_complete(CID, sec, moveX, moveY, scaleX, scaleY, rotate, fade)
 
 References
 -------------

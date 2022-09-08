@@ -26,10 +26,11 @@ Implementation
 
 .. code-block:: python
 
-	WFOUT_SHORT()
-	CHARA_BEAT_WIND_BEFORE(eye, lip, CID, int)
-	wait(0.3)
-	CHARA_BEAT_AFTER_0(CID)
+	def CHARA_BEAT_WIND(eye, lip, CID, int):
+		WFOUT_SHORT()
+		CHARA_BEAT_WIND_BEFORE(eye, lip, CID, int)
+		wait(0.3)
+		CHARA_BEAT_AFTER_0(CID)
 
 References
 -------------

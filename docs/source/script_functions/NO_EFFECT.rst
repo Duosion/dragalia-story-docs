@@ -22,7 +22,8 @@ Implementation
 
 .. code-block:: python
 
-	set_BG_effect(0, 0, 0, 0, 0)
+	def NO_EFFECT():
+		set_BG_effect(0, 0, 0, 0, 0)
 
 References
 -------------

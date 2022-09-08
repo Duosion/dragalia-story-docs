@@ -24,8 +24,9 @@ Implementation
 
 .. code-block:: python
 
-	chara_visible(CID, false)
-	chara_pos(CID, POS)
+	def VIS(CID, POS):
+		chara_visible(CID, false)
+		chara_pos(CID, POS)
 
 References
 -------------

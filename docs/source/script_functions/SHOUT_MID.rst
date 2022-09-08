@@ -22,14 +22,15 @@ Implementation
 
 .. code-block:: python
 
-	WFOUT_DEF()
-	wait(0.2)
-	play_sound(SE_STORY_COMMON_0212)
-	set_camera_distortion(cameraType_Chara, true, EFF_007)
-	SHOUT_0()
-	effect_shake_bg(12, 0.5, 1.5, 1)
-	set_BG_effect_trigger(1)
-	set_camera_distortion(cameraType_Chara, false, EFF_007)
+	def SHOUT_MID():
+		WFOUT_DEF()
+		wait(0.2)
+		play_sound(SE_STORY_COMMON_0212)
+		set_camera_distortion(cameraType_Chara, true, EFF_007)
+		SHOUT_0()
+		effect_shake_bg(12, 0.5, 1.5, 1)
+		set_BG_effect_trigger(1)
+		set_camera_distortion(cameraType_Chara, false, EFF_007)
 
 References
 -------------

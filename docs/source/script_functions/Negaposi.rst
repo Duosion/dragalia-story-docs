@@ -27,9 +27,10 @@ Implementation
 
 .. code-block:: python
 
-	bloom(CAMERA, SEC, -1, 0.0, -1, -1)
-	color_adjustment(CAMERA, SEC, 1.0, 1.0, 1.0)
-	post_film(CAMERA, SEC, filmMode_Lerp, 0.0, 1.57, R, G, B, 1.0)
+	def Negaposi(SEC, CAMERA, R, G, B):
+		bloom(CAMERA, SEC, -1, 0.0, -1, -1)
+		color_adjustment(CAMERA, SEC, 1.0, 1.0, 1.0)
+		post_film(CAMERA, SEC, filmMode_Lerp, 0.0, 1.57, R, G, B, 1.0)
 
 References
 -------------

@@ -23,11 +23,12 @@ Implementation
 
 .. code-block:: python
 
-	mnu_move(CID, true, 0.2, 0, 0, EaseOutCubic)
-	mnu_move(CID, false, 0.6, -50, 0, EaseOutCubic)
-	mnu_move(CID, false, 0.5, 0, 0, EaseOutCubic)
-	mnu_move(CID, false, 0.4, -50, 0, EaseOutCubic)
-	cmp_move(CID, 1.7, -100, 0)
+	def c_push2_l_slow(CID):
+		mnu_move(CID, true, 0.2, 0, 0, EaseOutCubic)
+		mnu_move(CID, false, 0.6, -50, 0, EaseOutCubic)
+		mnu_move(CID, false, 0.5, 0, 0, EaseOutCubic)
+		mnu_move(CID, false, 0.4, -50, 0, EaseOutCubic)
+		cmp_move(CID, 1.7, -100, 0)
 
 References
 -------------

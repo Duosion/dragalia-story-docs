@@ -23,7 +23,8 @@ Implementation
 
 .. code-block:: python
 
-	chara_lipsynch(CID)
+	def RestartLip(CID):
+		chara_lipsynch(CID)
 
 References
 -------------

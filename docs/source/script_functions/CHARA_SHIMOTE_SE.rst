@@ -28,10 +28,11 @@ Implementation
 
 .. code-block:: python
 
-	play_sound(SE)
-	wait(1.0)
-	BGMTUNE_DOWN_0(SE)
-	CHARA_SHIMOTE(eye, lip, POS, CID, int)
+	def CHARA_SHIMOTE_SE(eye, lip, POS, CID, int, SE):
+		play_sound(SE)
+		wait(1.0)
+		BGMTUNE_DOWN_0(SE)
+		CHARA_SHIMOTE(eye, lip, POS, CID, int)
 
 References
 -------------

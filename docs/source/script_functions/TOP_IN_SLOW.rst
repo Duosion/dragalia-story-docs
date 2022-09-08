@@ -23,10 +23,11 @@ Implementation
 
 .. code-block:: python
 
-	mnu_move(CID, true, 0.05, 0, 120, 1)
-	mnu_move(CID, false, 0.6, 0, -120, EaseOutSine)
-	wait(0.05)
-	chara_fadein(CID, 0.6)
+	def TOP_IN_SLOW(CID):
+		mnu_move(CID, true, 0.05, 0, 120, 1)
+		mnu_move(CID, false, 0.6, 0, -120, EaseOutSine)
+		wait(0.05)
+		chara_fadein(CID, 0.6)
 
 References
 -------------

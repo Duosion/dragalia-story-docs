@@ -22,7 +22,8 @@ Implementation
 
 .. code-block:: python
 
-	window_fadein(0.2)
+	def WFIN_SHORT():
+		window_fadein(0.2)
 
 References
 -------------

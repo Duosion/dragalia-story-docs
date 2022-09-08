@@ -23,16 +23,17 @@ Implementation
 
 .. code-block:: python
 
-	mnu_move(CID, true, 0.2, 0, -70, EaseOutCubic)
-	cmp_move(CID, 0.2, 0, -70)
-	wait(0.3)
-	play_sound(SE_082)
-	NO_EMO(CID)
-	RESET_TEXT()
-	mnu_move(CID, true, 0.2, 0, 200, EaseInSine)
-	wait(0.1)
-	chara_fadeout(CID, 0.1)
-	RestartAll(CID)
+	def JUMP_OUT_DEF(CID):
+		mnu_move(CID, true, 0.2, 0, -70, EaseOutCubic)
+		cmp_move(CID, 0.2, 0, -70)
+		wait(0.3)
+		play_sound(SE_082)
+		NO_EMO(CID)
+		RESET_TEXT()
+		mnu_move(CID, true, 0.2, 0, 200, EaseInSine)
+		wait(0.1)
+		chara_fadeout(CID, 0.1)
+		RestartAll(CID)
 
 References
 -------------

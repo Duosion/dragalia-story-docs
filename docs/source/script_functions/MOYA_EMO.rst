@@ -23,9 +23,10 @@ Implementation
 
 .. code-block:: python
 
-	NO_EMO(CID)
-	CHARA_EMO(CID, 7, 0)
-	play_sound(SE_IN_EMOTION_0007)
+	def MOYA_EMO(CID):
+		NO_EMO(CID)
+		CHARA_EMO(CID, 7, 0)
+		play_sound(SE_IN_EMOTION_0007)
 
 References
 -------------

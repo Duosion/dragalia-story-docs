@@ -24,14 +24,15 @@ Implementation
 
 .. code-block:: python
 
-	WFOUT_DEF()
-	chara_visible(CID, false)
-	chara_visible(CID2, false)
-	chara_pos(CID, 3)
-	chara_pos(CID2, 1)
-	SHIMOTE_IN_DEF(CID)
-	wait(0.3)
-	SHIMOTE_IN_DEF(CID2)
+	def MONSTER_SHIMOTE2(CID, CID2):
+		WFOUT_DEF()
+		chara_visible(CID, false)
+		chara_visible(CID2, false)
+		chara_pos(CID, 3)
+		chara_pos(CID2, 1)
+		SHIMOTE_IN_DEF(CID)
+		wait(0.3)
+		SHIMOTE_IN_DEF(CID2)
 
 References
 -------------

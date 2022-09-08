@@ -22,8 +22,9 @@ Implementation
 
 .. code-block:: python
 
-	play_sound(SE_122)
-	fade_color(1.0, 255, 255, 255, 1)
+	def MAGIC_CURE_BEFORE():
+		play_sound(SE_122)
+		fade_color(1.0, 255, 255, 255, 1)
 
 References
 -------------

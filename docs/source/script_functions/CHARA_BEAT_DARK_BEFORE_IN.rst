@@ -23,12 +23,13 @@ Implementation
 
 .. code-block:: python
 
-	play_sound(SE_245)
-	wait(0.3)
-	set_BG_effect(EFF_039)
-	wait(0.2)
-	c_swing2_h_fast(CID)
-	wait(0.25)
+	def CHARA_BEAT_DARK_BEFORE_IN(CID):
+		play_sound(SE_245)
+		wait(0.3)
+		set_BG_effect(EFF_039)
+		wait(0.2)
+		c_swing2_h_fast(CID)
+		wait(0.25)
 
 References
 -------------

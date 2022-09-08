@@ -11,8 +11,8 @@ screen_transin
 Arguments
 ------------
 
-* :ref:`type`: *Int32*
-* :ref:`sec`: *Single*
+* :ref:`type`: ``Int32``
+* :ref:`sec`: ``Single``
 
 Description
 -------------

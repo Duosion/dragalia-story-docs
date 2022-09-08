@@ -30,11 +30,12 @@ Implementation
 
 .. code-block:: python
 
-	if act == "in":
-	if cmd == "def":
-		c_set_def(eye, lip, POS, CID, int)
-		chara_face(CID, int2, 1)
-		CHARA_FADEIN_DEF(CID)
+	def c_set_W(act, cmd, eye, lip, POS, CID, int, int2):
+		if act == "in":
+		if cmd == "def":
+			c_set_def(eye, lip, POS, CID, int)
+			chara_face(CID, int2, 1)
+			CHARA_FADEIN_DEF(CID)
 
 References
 -------------

@@ -23,24 +23,25 @@ Implementation
 
 .. code-block:: python
 
-	SCREEN_FLASH_WHITE_DEF()
-	set_BG_effect(EFF_SCE_2D_CMN_145, 0, EFF_SCE_2D_CMN_089)
-	set_BG_effect_pos(EFF_SCE_2D_CMN_145, -150, 145)
-	set_BG_effect_scale(EFF_SCE_2D_CMN_145, 1.3, 0.25)
-	set_BG_effect_color(EFF_SCE_2D_CMN_145, 255, 198, 107)
-	set_BG_effect_rotation(EFF_SCE_2D_CMN_145, -35)
-	set_BG_effect_speed(EFF_SCE_2D_CMN_145, 1.5)
-	play_sound(SE_STORY_COMMON_0013)
-	c_swing2_h_fast(CID)
-	wait(0.3)
-	set_BG_effect(1, EFF_SCE_2D_CMN_145, 1)
-	set_BG_effect_pos(EFF_SCE_2D_CMN_145, 150, 180)
-	set_BG_effect_scale(EFF_SCE_2D_CMN_145, 1.3, 0.25)
-	set_BG_effect_color(EFF_SCE_2D_CMN_145, 255, 198, 107)
-	set_BG_effect_rotation(EFF_SCE_2D_CMN_145, 210)
-	set_BG_effect_speed(EFF_SCE_2D_CMN_145, 1.5)
-	play_sound(SE_STORY_COMMON_0013)
-	wait(0.25)
+	def CHARA_GUARD_MALIONE2(CID):
+		SCREEN_FLASH_WHITE_DEF()
+		set_BG_effect(EFF_SCE_2D_CMN_145, 0, EFF_SCE_2D_CMN_089)
+		set_BG_effect_pos(EFF_SCE_2D_CMN_145, -150, 145)
+		set_BG_effect_scale(EFF_SCE_2D_CMN_145, 1.3, 0.25)
+		set_BG_effect_color(EFF_SCE_2D_CMN_145, 255, 198, 107)
+		set_BG_effect_rotation(EFF_SCE_2D_CMN_145, -35)
+		set_BG_effect_speed(EFF_SCE_2D_CMN_145, 1.5)
+		play_sound(SE_STORY_COMMON_0013)
+		c_swing2_h_fast(CID)
+		wait(0.3)
+		set_BG_effect(1, EFF_SCE_2D_CMN_145, 1)
+		set_BG_effect_pos(EFF_SCE_2D_CMN_145, 150, 180)
+		set_BG_effect_scale(EFF_SCE_2D_CMN_145, 1.3, 0.25)
+		set_BG_effect_color(EFF_SCE_2D_CMN_145, 255, 198, 107)
+		set_BG_effect_rotation(EFF_SCE_2D_CMN_145, 210)
+		set_BG_effect_speed(EFF_SCE_2D_CMN_145, 1.5)
+		play_sound(SE_STORY_COMMON_0013)
+		wait(0.25)
 
 References
 -------------

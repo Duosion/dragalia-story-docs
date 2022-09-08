@@ -22,8 +22,9 @@ Implementation
 
 .. code-block:: python
 
-	WFOUT_SHORT()
-	screen_fadeout(2.0, 255, 255, 255)
+	def WHITE_OUT_LONG():
+		WFOUT_SHORT()
+		screen_fadeout(2.0, 255, 255, 255)
 
 References
 -------------

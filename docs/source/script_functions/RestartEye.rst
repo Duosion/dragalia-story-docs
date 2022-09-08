@@ -23,7 +23,8 @@ Implementation
 
 .. code-block:: python
 
-	chara_eyeblink(CID)
+	def RestartEye(CID):
+		chara_eyeblink(CID)
 
 References
 -------------

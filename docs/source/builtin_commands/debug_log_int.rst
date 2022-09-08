@@ -11,7 +11,7 @@ debug_log_int
 Arguments
 ------------
 
-* :ref:`text`: *Int32*
+* :ref:`text`: ``Int32``
 
 Description
 -------------

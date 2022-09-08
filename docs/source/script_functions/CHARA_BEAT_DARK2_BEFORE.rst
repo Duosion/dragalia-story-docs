@@ -26,12 +26,13 @@ Implementation
 
 .. code-block:: python
 
-	CHARA_SET(eye, lip, C, CID, int)
-	set_BG_effect(EFF_040)
-	wait(0.2)
-	play_sound(SE_044)
-	c_swing2_h_fast(CID)
-	wait(0.25)
+	def CHARA_BEAT_DARK2_BEFORE(eye, lip, CID, int):
+		CHARA_SET(eye, lip, C, CID, int)
+		set_BG_effect(EFF_040)
+		wait(0.2)
+		play_sound(SE_044)
+		c_swing2_h_fast(CID)
+		wait(0.25)
 
 References
 -------------

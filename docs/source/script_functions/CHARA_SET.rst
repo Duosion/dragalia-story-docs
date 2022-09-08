@@ -27,8 +27,9 @@ Implementation
 
 .. code-block:: python
 
-	c_set_def(eye, lip, POS, CID, int)
-	CHARA_FADEIN_DEF(CID)
+	def CHARA_SET(eye, lip, POS, CID, int):
+		c_set_def(eye, lip, POS, CID, int)
+		CHARA_FADEIN_DEF(CID)
 
 References
 -------------

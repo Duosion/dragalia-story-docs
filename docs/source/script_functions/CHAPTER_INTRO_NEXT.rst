@@ -23,7 +23,8 @@ Implementation
 
 .. code-block:: python
 
-	chapter_intro_next(LABEL)
+	def CHAPTER_INTRO_NEXT(LABEL):
+		chapter_intro_next(LABEL)
 
 References
 -------------

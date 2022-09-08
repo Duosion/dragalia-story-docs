@@ -26,7 +26,8 @@ Implementation
 
 .. code-block:: python
 
-	chara_act_complete(CID, sec, -1.0, -1.0, scaleX, scaleY)
+	def cmp_scale(CID, sec, scaleX, scaleY):
+		chara_act_complete(CID, sec, -1.0, -1.0, scaleX, scaleY)
 
 References
 -------------

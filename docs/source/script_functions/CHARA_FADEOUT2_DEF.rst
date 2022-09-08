@@ -24,16 +24,17 @@ Implementation
 
 .. code-block:: python
 
-	NO_EMO(CID)
-	NO_EMO(CID2)
-	RESET_TEXT()
-	mnu_fade(CID, true, 0.2, 0, 1)
-	mnu_fade(CID2, true, 0.2, 0, 1)
-	wait(0.2)
-	chara_visible(CID, false)
-	chara_visible(CID2, false)
-	RestartAll(CID)
-	RestartAll(CID2)
+	def CHARA_FADEOUT2_DEF(CID, CID2):
+		NO_EMO(CID)
+		NO_EMO(CID2)
+		RESET_TEXT()
+		mnu_fade(CID, true, 0.2, 0, 1)
+		mnu_fade(CID2, true, 0.2, 0, 1)
+		wait(0.2)
+		chara_visible(CID, false)
+		chara_visible(CID2, false)
+		RestartAll(CID)
+		RestartAll(CID2)
 
 References
 -------------

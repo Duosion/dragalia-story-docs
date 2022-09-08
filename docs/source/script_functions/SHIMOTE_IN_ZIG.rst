@@ -23,15 +23,16 @@ Implementation
 
 .. code-block:: python
 
-	mnu_move(CID, true, 0.05, -160, 0, 1)
-	mnu_move(CID, false, 0.15, 20, 20, 1)
-	mnu_move(CID, false, 0.3, 40, -40, 1)
-	mnu_move(CID, false, 0.3, 40, 40, 1)
-	mnu_move(CID, false, 0.3, 40, -40, 1)
-	mnu_move(CID, false, 0.15, 20, 20, 1)
-	cmp_move(CID, 1.25, 0, 0)
-	wait(0.05)
-	chara_fadein(CID, 0.5)
+	def SHIMOTE_IN_ZIG(CID):
+		mnu_move(CID, true, 0.05, -160, 0, 1)
+		mnu_move(CID, false, 0.15, 20, 20, 1)
+		mnu_move(CID, false, 0.3, 40, -40, 1)
+		mnu_move(CID, false, 0.3, 40, 40, 1)
+		mnu_move(CID, false, 0.3, 40, -40, 1)
+		mnu_move(CID, false, 0.15, 20, 20, 1)
+		cmp_move(CID, 1.25, 0, 0)
+		wait(0.05)
+		chara_fadein(CID, 0.5)
 
 References
 -------------

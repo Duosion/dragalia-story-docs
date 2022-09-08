@@ -24,10 +24,11 @@ Implementation
 
 .. code-block:: python
 
-	blur(false, SEC, 1.0, 1.0, CAMERA)
-	bloom(CAMERA, SEC)
-	color_adjustment(CAMERA, SEC)
-	post_film(CAMERA, SEC, -1, -1)
+	def Reset(SEC, CAMERA):
+		blur(false, SEC, 1.0, 1.0, CAMERA)
+		bloom(CAMERA, SEC)
+		color_adjustment(CAMERA, SEC)
+		post_film(CAMERA, SEC, -1, -1)
 
 References
 -------------

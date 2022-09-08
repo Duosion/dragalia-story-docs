@@ -23,11 +23,12 @@ Implementation
 
 .. code-block:: python
 
-	mnu_scale(CID, true, 0.2, 1.3, 1.3, EaseOutCubic)
-	mnu_scale(CID, false, 0.2, 1, 1, EaseInQuart)
-	mnu_scale(CID, false, 0.2, 1.3, 1.3, EaseOutQuart)
-	mnu_scale(CID, false, 0.2, 1, 1, EaseInQuart)
-	cmp_scale(CID, 0.8, 1, 1)
+	def c_zoom2_wide(CID):
+		mnu_scale(CID, true, 0.2, 1.3, 1.3, EaseOutCubic)
+		mnu_scale(CID, false, 0.2, 1, 1, EaseInQuart)
+		mnu_scale(CID, false, 0.2, 1.3, 1.3, EaseOutQuart)
+		mnu_scale(CID, false, 0.2, 1, 1, EaseInQuart)
+		cmp_scale(CID, 0.8, 1, 1)
 
 References
 -------------

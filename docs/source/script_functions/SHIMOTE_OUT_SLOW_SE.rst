@@ -24,10 +24,11 @@ Implementation
 
 .. code-block:: python
 
-	play_sound(SE)
-	SHIMOTE_OUT_SLOW(CID)
-	wait(0.5)
-	BGMTUNE_DOWN_0(SE)
+	def SHIMOTE_OUT_SLOW_SE(CID, SE):
+		play_sound(SE)
+		SHIMOTE_OUT_SLOW(CID)
+		wait(0.5)
+		BGMTUNE_DOWN_0(SE)
 
 References
 -------------

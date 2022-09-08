@@ -22,7 +22,8 @@ Implementation
 
 .. code-block:: python
 
-	outline_centering(false)
+	def OL_LEFT():
+		outline_centering(false)
 
 References
 -------------

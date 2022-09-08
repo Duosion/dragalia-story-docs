@@ -27,8 +27,9 @@ Implementation
 
 .. code-block:: python
 
-	c_set_def(eye, lip, POS, CID, int)
-	SHIMOTE_IN_DEF(CID)
+	def CHARA_SHIMOTE(eye, lip, POS, CID, int):
+		c_set_def(eye, lip, POS, CID, int)
+		SHIMOTE_IN_DEF(CID)
 
 References
 -------------

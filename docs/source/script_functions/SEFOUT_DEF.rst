@@ -22,7 +22,8 @@ Implementation
 
 .. code-block:: python
 
-	stop_se(0.5)
+	def SEFOUT_DEF():
+		stop_se(0.5)
 
 References
 -------------

@@ -23,24 +23,25 @@ Implementation
 
 .. code-block:: python
 
-	WFOUT_SHORT()
-	set_BG_effect(EFF_070, EFF_071)
-	set_BG_effect_opacity(EFF_070, 0.8)
-	set_BG_effect_opacity(EFF_071, 0.8)
-	set_BG_effect_trigger(9, 9)
-	wait(0.8)
-	NO_EFFECT()
-	set_BG_effect(EFF_108)
-	set_BG_effect_pos(EFF_108, 0, -100)
-	set_BG_effect_speed(EFF_108, 2)
-	play_sound(SE_061)
-	mnu_scale(CID, true, 0.15, 1.35, 1.35, EaseOutCubic)
-	mnu_scale(CID, false, 0.15, 1, 1, EaseOutCubic)
-	cmp_scale(CID, 0.3, 1, 1)
-	wait(0.1)
-	set_BG_effect_opacity(EFF_108, 0, 0.5)
-	wait(0.5)
-	set_BG_effect(0, 0)
+	def CHARA_ATTACK_LIGHT(CID):
+		WFOUT_SHORT()
+		set_BG_effect(EFF_070, EFF_071)
+		set_BG_effect_opacity(EFF_070, 0.8)
+		set_BG_effect_opacity(EFF_071, 0.8)
+		set_BG_effect_trigger(9, 9)
+		wait(0.8)
+		NO_EFFECT()
+		set_BG_effect(EFF_108)
+		set_BG_effect_pos(EFF_108, 0, -100)
+		set_BG_effect_speed(EFF_108, 2)
+		play_sound(SE_061)
+		mnu_scale(CID, true, 0.15, 1.35, 1.35, EaseOutCubic)
+		mnu_scale(CID, false, 0.15, 1, 1, EaseOutCubic)
+		cmp_scale(CID, 0.3, 1, 1)
+		wait(0.1)
+		set_BG_effect_opacity(EFF_108, 0, 0.5)
+		wait(0.5)
+		set_BG_effect(0, 0)
 
 References
 -------------

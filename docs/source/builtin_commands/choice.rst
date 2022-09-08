@@ -11,17 +11,17 @@ choice
 Arguments
 ------------
 
-* :ref:`titleA`: *String*
-* :ref:`functionA`: *String*
-* :ref:`titleB`: *String*
-* :ref:`functionB`: *String*
-* :ref:`titleC`: *String*
+* :ref:`titleA`: ``String``
+* :ref:`functionA`: ``String``
+* :ref:`titleB`: ``String``
+* :ref:`functionB`: ``String``
+* :ref:`titleC`: ``String``
 	* Default: ``""``
-* :ref:`functionC`: *String*
+* :ref:`functionC`: ``String``
 	* Default: ``""``
-* :ref:`titleD`: *String*
+* :ref:`titleD`: ``String``
 	* Default: ``""``
-* :ref:`functionD`: *String*
+* :ref:`functionD`: ``String``
 	* Default: ``""``
 
 Description

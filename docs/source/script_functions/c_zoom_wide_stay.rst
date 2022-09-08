@@ -23,8 +23,9 @@ Implementation
 
 .. code-block:: python
 
-	mnu_scale(CID, true, 0.2, 1.3, 1.3, EaseOutCubic)
-	cmp_scale(CID, 0.2, 1.3, 1.3)
+	def c_zoom_wide_stay(CID):
+		mnu_scale(CID, true, 0.2, 1.3, 1.3, EaseOutCubic)
+		cmp_scale(CID, 0.2, 1.3, 1.3)
 
 References
 -------------

@@ -22,7 +22,8 @@ Implementation
 
 .. code-block:: python
 
-	fade_color(1.0, 0, 0, 0, 0)
+	def SCREEN_COLOR_DEF():
+		fade_color(1.0, 0, 0, 0, 0)
 
 References
 -------------

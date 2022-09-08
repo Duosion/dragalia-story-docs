@@ -24,7 +24,8 @@ Implementation
 
 .. code-block:: python
 
-	effect_shake_chara(SHAKE_VALUE, PEEC_SEC, -1)
+	def SHAKE_CH_LOOP(SHAKE_VALUE, PEEC_SEC):
+		effect_shake_chara(SHAKE_VALUE, PEEC_SEC, -1)
 
 References
 -------------

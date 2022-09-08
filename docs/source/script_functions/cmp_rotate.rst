@@ -25,7 +25,8 @@ Implementation
 
 .. code-block:: python
 
-	chara_act_complete(CID, sec, -1.0, -1.0, -1.0, -1.0, rotate)
+	def cmp_rotate(CID, sec, rotate):
+		chara_act_complete(CID, sec, -1.0, -1.0, -1.0, -1.0, rotate)
 
 References
 -------------

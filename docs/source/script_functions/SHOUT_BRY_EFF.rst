@@ -22,17 +22,18 @@ Implementation
 
 .. code-block:: python
 
-	WFOUT_DEF()
-	wait(0.2)
-	play_sound(SE_STORY_COMMON_0213)
-	set_camera_distortion(cameraType_Chara, true, EFF_007)
-	set_BG_effect(1, 1, EFF_007)
-	set_BG_effect_opacity(EFF_007, 0.5)
-	set_BG_effect_speed(EFF_007, 1.3)
-	set_BG_effect_trigger(2, 2, 9)
-	effect_shake_bg(12, 0.4, 1.2, 1)
-	set_BG_effect_trigger(2, 2, 1)
-	set_camera_distortion(cameraType_Chara, false, EFF_007)
+	def SHOUT_BRY_EFF():
+		WFOUT_DEF()
+		wait(0.2)
+		play_sound(SE_STORY_COMMON_0213)
+		set_camera_distortion(cameraType_Chara, true, EFF_007)
+		set_BG_effect(1, 1, EFF_007)
+		set_BG_effect_opacity(EFF_007, 0.5)
+		set_BG_effect_speed(EFF_007, 1.3)
+		set_BG_effect_trigger(2, 2, 9)
+		effect_shake_bg(12, 0.4, 1.2, 1)
+		set_BG_effect_trigger(2, 2, 1)
+		set_camera_distortion(cameraType_Chara, false, EFF_007)
 
 References
 -------------

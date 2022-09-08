@@ -23,13 +23,14 @@ Implementation
 
 .. code-block:: python
 
-	set_BG_effect(0, 0, 0, EFF_091)
-	play_sound(SE_232)
-	wait(0.1)
-	mnu_move(CID, true, 0.2, 0, 180, EaseOutQuint)
-	mnu_move(CID, false, 0.02, 0, 0, 1)
-	mnu_move(CID, false, 0.2, 0, -180, EaseInQuint)
-	cmp_move(CID, 0.42, 0, 0)
+	def BODYBLOW_BEFORE(CID):
+		set_BG_effect(0, 0, 0, EFF_091)
+		play_sound(SE_232)
+		wait(0.1)
+		mnu_move(CID, true, 0.2, 0, 180, EaseOutQuint)
+		mnu_move(CID, false, 0.02, 0, 0, 1)
+		mnu_move(CID, false, 0.2, 0, -180, EaseInQuint)
+		cmp_move(CID, 0.42, 0, 0)
 
 References
 -------------

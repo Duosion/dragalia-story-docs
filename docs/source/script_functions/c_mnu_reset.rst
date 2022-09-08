@@ -23,8 +23,9 @@ Implementation
 
 .. code-block:: python
 
-	mnu(CID, true, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1)
-	cmp(CID, 0, 0, 0, 1, 1, 0, 0)
+	def c_mnu_reset(CID):
+		mnu(CID, true, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1)
+		cmp(CID, 0, 0, 0, 1, 1, 0, 0)
 
 References
 -------------

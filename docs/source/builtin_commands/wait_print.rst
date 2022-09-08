@@ -11,7 +11,7 @@ wait_print
 Arguments
 ------------
 
-* :ref:`isWait`: *Boolean*
+* :ref:`isWait`: ``Boolean``
 	* Default: ``True``
 
 Description

@@ -23,10 +23,11 @@ Implementation
 
 .. code-block:: python
 
-	NO_EMO(CID)
-	RESET_TEXT()
-	chara_fadeout(CID, 0.2)
-	RestartAll(CID)
+	def CHARA_FADEOUT_DEF(CID):
+		NO_EMO(CID)
+		RESET_TEXT()
+		chara_fadeout(CID, 0.2)
+		RestartAll(CID)
 
 References
 -------------

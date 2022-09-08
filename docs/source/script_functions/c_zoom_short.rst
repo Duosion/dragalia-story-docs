@@ -23,9 +23,10 @@ Implementation
 
 .. code-block:: python
 
-	mnu_scale(CID, true, 0.15, 1.1, 1.1, EaseOutCubic)
-	mnu_scale(CID, false, 0.15, 1, 1, EaseInQuart)
-	cmp_scale(CID, 0.3, 1, 1)
+	def c_zoom_short(CID):
+		mnu_scale(CID, true, 0.15, 1.1, 1.1, EaseOutCubic)
+		mnu_scale(CID, false, 0.15, 1, 1, EaseInQuart)
+		cmp_scale(CID, 0.3, 1, 1)
 
 References
 -------------

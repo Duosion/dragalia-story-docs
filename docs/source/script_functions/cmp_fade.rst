@@ -25,7 +25,8 @@ Implementation
 
 .. code-block:: python
 
-	chara_act_complete(CID, sec, -1.0, -1.0, -1.0, -1.0, -1.0, fade)
+	def cmp_fade(CID, sec, fade):
+		chara_act_complete(CID, sec, -1.0, -1.0, -1.0, -1.0, -1.0, fade)
 
 References
 -------------

@@ -25,28 +25,29 @@ Implementation
 
 .. code-block:: python
 
-	if EID == "1":
-		chara_emotion(CID, EID, FID, 30.0, 50.0)
-	elif EID == "2":
-		chara_emotion(CID, EID, FID, 0.0, 10.0)
-	elif EID == "3":
-		chara_emotion(CID, EID, FID, -250.0, 80.0)
-	elif EID == "4":
-		chara_emotion(CID, EID, FID, -250.0, 80.0)
-	elif EID == "5":
-		chara_emotion(CID, EID, FID, -260.0, 30.0)
-	elif EID == "6":
-		chara_emotion(CID, EID, FID, -260.0, 30.0)
-	elif EID == "7":
-		chara_emotion(CID, EID, FID, -220.0, 20.0)
-	elif EID == "8":
-		chara_emotion(CID, EID, FID, -210.0, 30.0)
-	elif EID == "9":
-		chara_emotion(CID, EID, FID, -260.0, 0.0)
-	elif EID == "10":
-		chara_emotion(CID, EID, FID, -250.0, 60.0)
-	else:
-		chara_emotion(CID, EID, FID, 0.0, 0.0)
+	def CHARA_EMO(CID, EID, FID):
+		if EID == "1":
+			chara_emotion(CID, EID, FID, 30.0, 50.0)
+		elif EID == "2":
+			chara_emotion(CID, EID, FID, 0.0, 10.0)
+		elif EID == "3":
+			chara_emotion(CID, EID, FID, -250.0, 80.0)
+		elif EID == "4":
+			chara_emotion(CID, EID, FID, -250.0, 80.0)
+		elif EID == "5":
+			chara_emotion(CID, EID, FID, -260.0, 30.0)
+		elif EID == "6":
+			chara_emotion(CID, EID, FID, -260.0, 30.0)
+		elif EID == "7":
+			chara_emotion(CID, EID, FID, -220.0, 20.0)
+		elif EID == "8":
+			chara_emotion(CID, EID, FID, -210.0, 30.0)
+		elif EID == "9":
+			chara_emotion(CID, EID, FID, -260.0, 0.0)
+		elif EID == "10":
+			chara_emotion(CID, EID, FID, -250.0, 60.0)
+		else:
+			chara_emotion(CID, EID, FID, 0.0, 0.0)
 
 References
 -------------

@@ -24,17 +24,18 @@ Implementation
 
 .. code-block:: python
 
-	WFOUT_SHORT()
-	mnu(CID, true, 0.6, 0, -150, EaseOutQuint, 0.6, 1, 1, 1, 0.6, 0, 1, 0.6, 0, 1)
-	mnu(CID2, true, 0.6, 0, -150, EaseOutQuint, 0.6, 1, 1, 1, 0.6, 0, 1, 0.6, 0, 1)
-	wait(0.6)
-	play_sound(SE_262)
-	chara_visible(CID, false)
-	chara_visible(CID2, false)
-	effect_shake_bg(12, 0.1, 0.2, 1)
-	wait(0.5)
-	RestartAll(CID)
-	RestartAll(CID2)
+	def MONSTER_BEAT2_AFTER(CID, CID2):
+		WFOUT_SHORT()
+		mnu(CID, true, 0.6, 0, -150, EaseOutQuint, 0.6, 1, 1, 1, 0.6, 0, 1, 0.6, 0, 1)
+		mnu(CID2, true, 0.6, 0, -150, EaseOutQuint, 0.6, 1, 1, 1, 0.6, 0, 1, 0.6, 0, 1)
+		wait(0.6)
+		play_sound(SE_262)
+		chara_visible(CID, false)
+		chara_visible(CID2, false)
+		effect_shake_bg(12, 0.1, 0.2, 1)
+		wait(0.5)
+		RestartAll(CID)
+		RestartAll(CID2)
 
 References
 -------------

@@ -22,7 +22,8 @@ Implementation
 
 .. code-block:: python
 
-	effect_shake_bg(12, 0.5, 1.5, 1)
+	def SHOUT_COM_BG():
+		effect_shake_bg(12, 0.5, 1.5, 1)
 
 References
 -------------

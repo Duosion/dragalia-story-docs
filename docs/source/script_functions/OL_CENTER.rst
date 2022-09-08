@@ -22,7 +22,8 @@ Implementation
 
 .. code-block:: python
 
-	outline_centering(true)
+	def OL_CENTER():
+		outline_centering(true)
 
 References
 -------------

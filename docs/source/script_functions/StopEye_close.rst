@@ -23,7 +23,8 @@ Implementation
 
 .. code-block:: python
 
-	chara_eyeblink(CID, -2)
+	def StopEye_close(CID):
+		chara_eyeblink(CID, -2)
 
 References
 -------------

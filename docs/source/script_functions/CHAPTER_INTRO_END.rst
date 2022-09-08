@@ -22,11 +22,12 @@ Implementation
 
 .. code-block:: python
 
-	message_pos(0)
-	frame_visible(true)
-	window_enable(true)
-	chapter_intro(0)
-	chapter_intro_frame_visible(false)
+	def CHAPTER_INTRO_END():
+		message_pos(0)
+		frame_visible(true)
+		window_enable(true)
+		chapter_intro(0)
+		chapter_intro_frame_visible(false)
 
 References
 -------------

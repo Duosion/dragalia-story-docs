@@ -22,8 +22,9 @@ Implementation
 
 .. code-block:: python
 
-	text_size(24)
-	text_color(255, 255, 255)
+	def CHAPTER_INTRO_TEXT():
+		text_size(24)
+		text_color(255, 255, 255)
 
 References
 -------------

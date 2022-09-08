@@ -23,7 +23,8 @@ Implementation
 
 .. code-block:: python
 
-	chara_fadein(CID, FIN_DEF)
+	def CHARA_FADEIN_DEF(CID):
+		chara_fadein(CID, FIN_DEF)
 
 References
 -------------

@@ -22,7 +22,8 @@ Implementation
 
 .. code-block:: python
 
-	button_visible(false, 0, false)
+	def TUTORIAL_BUTTON_SETTING():
+		button_visible(false, 0, false)
 
 References
 -------------

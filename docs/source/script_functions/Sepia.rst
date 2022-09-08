@@ -24,9 +24,10 @@ Implementation
 
 .. code-block:: python
 
-	bloom(CAMERA, SEC, -1, 0.8, -1, -1)
-	color_adjustment(CAMERA, SEC, 1.0, 0.0, 1.0)
-	post_film(CAMERA, SEC, filmMode_Mul, 1.0, 1.57, 118, 96, 80, 1.0)
+	def Sepia(SEC, CAMERA):
+		bloom(CAMERA, SEC, -1, 0.8, -1, -1)
+		color_adjustment(CAMERA, SEC, 1.0, 0.0, 1.0)
+		post_film(CAMERA, SEC, filmMode_Mul, 1.0, 1.57, 118, 96, 80, 1.0)
 
 References
 -------------

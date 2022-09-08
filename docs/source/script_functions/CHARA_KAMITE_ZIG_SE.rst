@@ -28,13 +28,14 @@ Implementation
 
 .. code-block:: python
 
-	play_sound(SE)
-	wait(0.5)
-	c_set_def(eye, lip, POS, CID, int)
-	KAMITE_IN_ZIG(CID)
-	wait(0.2)
-	BGMTUNE_DOWN_0(SE)
-	wait(0.5)
+	def CHARA_KAMITE_ZIG_SE(eye, lip, POS, CID, int, SE):
+		play_sound(SE)
+		wait(0.5)
+		c_set_def(eye, lip, POS, CID, int)
+		KAMITE_IN_ZIG(CID)
+		wait(0.2)
+		BGMTUNE_DOWN_0(SE)
+		wait(0.5)
 
 References
 -------------

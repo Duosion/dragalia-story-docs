@@ -25,21 +25,22 @@ Implementation
 
 .. code-block:: python
 
-	VIS(CID, POS_CENTER)
-	chara_face(CID, 1)
-	eye1(CID, eye)
-	lip1(CID, lip)
-	play_sound(SE_040)
-	mnu_move(CID, true, 0.01, 190, 200, 1)
-	mnu_move(CID, false, 0.6, -190, -210, EaseOutCirc)
-	mnu_move(CID, false, 0.6, 0, 0, 1)
-	mnu_move(CID, false, 0.2, 0, 10, EaseInSine)
-	wait(0.01)
-	chara_fadein(CID, 0.25)
-	wait(0.35)
-	play_sound(SE_133)
-	effect_shake_bg(12, 0.2, 0.6, 1)
-	SEFOUT_DEF()
+	def DRG_KAMITE_FLY(eye, lip, CID):
+		VIS(CID, POS_CENTER)
+		chara_face(CID, 1)
+		eye1(CID, eye)
+		lip1(CID, lip)
+		play_sound(SE_040)
+		mnu_move(CID, true, 0.01, 190, 200, 1)
+		mnu_move(CID, false, 0.6, -190, -210, EaseOutCirc)
+		mnu_move(CID, false, 0.6, 0, 0, 1)
+		mnu_move(CID, false, 0.2, 0, 10, EaseInSine)
+		wait(0.01)
+		chara_fadein(CID, 0.25)
+		wait(0.35)
+		play_sound(SE_133)
+		effect_shake_bg(12, 0.2, 0.6, 1)
+		SEFOUT_DEF()
 
 References
 -------------

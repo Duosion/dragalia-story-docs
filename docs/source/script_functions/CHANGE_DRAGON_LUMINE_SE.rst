@@ -22,9 +22,10 @@ Implementation
 
 .. code-block:: python
 
-	play_sound(SE_209)
-	set_BG_effect(EFF_070, EFF_071)
-	set_BG_effect_trigger(8, 8)
+	def CHANGE_DRAGON_LUMINE_SE():
+		play_sound(SE_209)
+		set_BG_effect(EFF_070, EFF_071)
+		set_BG_effect_trigger(8, 8)
 
 References
 -------------

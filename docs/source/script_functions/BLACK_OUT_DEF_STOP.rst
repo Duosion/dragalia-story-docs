@@ -22,11 +22,12 @@ Implementation
 
 .. code-block:: python
 
-	RESET_TEXT()
-	window_fadeout(0, true)
-	BGMFOUT_DEF()
-	SEFOUT_DEF()
-	screen_fadeout(1.0, 0, 0, 0)
+	def BLACK_OUT_DEF_STOP():
+		RESET_TEXT()
+		window_fadeout(0, true)
+		BGMFOUT_DEF()
+		SEFOUT_DEF()
+		screen_fadeout(1.0, 0, 0, 0)
 
 References
 -------------

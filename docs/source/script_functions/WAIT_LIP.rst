@@ -24,9 +24,10 @@ Implementation
 
 .. code-block:: python
 
-	StopLip_close(CID)
-	wait(sec)
-	RestartLip(CID)
+	def WAIT_LIP(CID, sec):
+		StopLip_close(CID)
+		wait(sec)
+		RestartLip(CID)
 
 References
 -------------

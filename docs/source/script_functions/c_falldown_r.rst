@@ -26,20 +26,21 @@ Implementation
 
 .. code-block:: python
 
-	mnu_move(CID, true, 0.2, 40, 50, EaseOutCubic)
-	mnu(CID, false, 0.2, 40, -260, EaseInCubic, 0.2, 1, 1, 1, 0.2, -30, 1, 0.2, 1, 1)
-	mnu_move(CID, false, 0.1, 20, 14, EaseOutCubic)
-	mnu_move(CID, false, 0.1, 20, -4, EaseInCubic)
-	cmp(CID, 0.6, 120, -200, 1, 1, -30, 1)
-	wait(0.3)
-	play_sound(SE_065)
-	wait(0.1)
-	StopEye_close(CID)
-	set_BG_effect(EFF_001)
-	set_BG_effect_pos(EFF_001, X, Y)
-	wait(0.05)
-	play_sound(SE)
-	effect_shake_bg(12, 0.2, 1.0)
+	def c_falldown_r(CID, X, Y, SE):
+		mnu_move(CID, true, 0.2, 40, 50, EaseOutCubic)
+		mnu(CID, false, 0.2, 40, -260, EaseInCubic, 0.2, 1, 1, 1, 0.2, -30, 1, 0.2, 1, 1)
+		mnu_move(CID, false, 0.1, 20, 14, EaseOutCubic)
+		mnu_move(CID, false, 0.1, 20, -4, EaseInCubic)
+		cmp(CID, 0.6, 120, -200, 1, 1, -30, 1)
+		wait(0.3)
+		play_sound(SE_065)
+		wait(0.1)
+		StopEye_close(CID)
+		set_BG_effect(EFF_001)
+		set_BG_effect_pos(EFF_001, X, Y)
+		wait(0.05)
+		play_sound(SE)
+		effect_shake_bg(12, 0.2, 1.0)
 
 References
 -------------

@@ -11,15 +11,15 @@ set_BG_effect_color
 Arguments
 ------------
 
-* :ref:`effectId`: *String*
-* :ref:`r`: *Int32*
-* :ref:`g`: *Int32*
-* :ref:`b`: *Int32*
-* :ref:`a`: *Single*
+* :ref:`effectId`: ``String``
+* :ref:`r`: ``Int32``
+* :ref:`g`: ``Int32``
+* :ref:`b`: ``Int32``
+* :ref:`a`: ``Single``
 	* Default: ``1``
-* :ref:`fadeSec`: *Single*
+* :ref:`fadeSec`: ``Single``
 	* Default: ``0``
-* :ref:`ease`: *Int32*
+* :ref:`ease`: ``Int32``
 	* Default: ``1``
 
 Description

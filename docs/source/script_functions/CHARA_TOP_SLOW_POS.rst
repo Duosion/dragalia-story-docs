@@ -28,8 +28,9 @@ Implementation
 
 .. code-block:: python
 
-	CHARA_SET_POS_0(eye, lip, X, Y, CID, int)
-	TOP_IN_SLOW(CID)
+	def CHARA_TOP_SLOW_POS(eye, lip, X, Y, CID, int):
+		CHARA_SET_POS_0(eye, lip, X, Y, CID, int)
+		TOP_IN_SLOW(CID)
 
 References
 -------------

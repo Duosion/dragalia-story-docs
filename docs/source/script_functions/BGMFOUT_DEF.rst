@@ -22,7 +22,8 @@ Implementation
 
 .. code-block:: python
 
-	stop_bgm(0.5)
+	def BGMFOUT_DEF():
+		stop_bgm(0.5)
 
 References
 -------------

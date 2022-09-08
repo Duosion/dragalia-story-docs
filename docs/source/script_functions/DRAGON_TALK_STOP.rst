@@ -22,7 +22,8 @@ Implementation
 
 .. code-block:: python
 
-	dragon_talk(false)
+	def DRAGON_TALK_STOP():
+		dragon_talk(false)
 
 References
 -------------

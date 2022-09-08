@@ -23,12 +23,13 @@ Implementation
 
 .. code-block:: python
 
-	mnu_move(CID, true, 0.6, 0, -150, EaseOutQuint)
-	chara_fadeout(CID, 0.6)
-	play_sound(SE_065)
-	effect_shake_bg(12, 0.1, 0.2, 1)
-	wait(0.5)
-	RestartAll(CID)
+	def CHARA_BEAT_AFTER_0(CID):
+		mnu_move(CID, true, 0.6, 0, -150, EaseOutQuint)
+		chara_fadeout(CID, 0.6)
+		play_sound(SE_065)
+		effect_shake_bg(12, 0.1, 0.2, 1)
+		wait(0.5)
+		RestartAll(CID)
 
 References
 -------------

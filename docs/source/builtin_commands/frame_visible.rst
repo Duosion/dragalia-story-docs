@@ -11,8 +11,8 @@ frame_visible
 Arguments
 ------------
 
-* :ref:`visible`: *Boolean*
-* :ref:`fadeTime`: *Single*
+* :ref:`visible`: ``Boolean``
+* :ref:`fadeTime`: ``Single``
 	* Default: ``0``
 
 Description

@@ -23,13 +23,14 @@ Implementation
 
 .. code-block:: python
 
-	mnu_move(CID, true, 0.2, 0, 200, EaseOutCubic)
-	mnu_move(CID, false, 0.2, 0, -210, EaseInCubic)
-	mnu_move(CID, false, 0.2, 0, 150, EaseOutCubic)
-	mnu_move(CID, false, 0.2, 0, -150, EaseInCubic)
-	mnu_move(CID, false, 0.1, 0, 14, EaseOutCubic)
-	mnu_move(CID, false, 0.1, 0, -4, EaseInCubic)
-	cmp_move(CID, 1.0, 0, 0)
+	def c_jump2_em_high(CID):
+		mnu_move(CID, true, 0.2, 0, 200, EaseOutCubic)
+		mnu_move(CID, false, 0.2, 0, -210, EaseInCubic)
+		mnu_move(CID, false, 0.2, 0, 150, EaseOutCubic)
+		mnu_move(CID, false, 0.2, 0, -150, EaseInCubic)
+		mnu_move(CID, false, 0.1, 0, 14, EaseOutCubic)
+		mnu_move(CID, false, 0.1, 0, -4, EaseInCubic)
+		cmp_move(CID, 1.0, 0, 0)
 
 References
 -------------

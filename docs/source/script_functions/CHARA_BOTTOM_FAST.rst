@@ -27,8 +27,9 @@ Implementation
 
 .. code-block:: python
 
-	c_set_def(eye, lip, POS, CID, int)
-	BOTTOM_IN_FAST(CID)
+	def CHARA_BOTTOM_FAST(eye, lip, POS, CID, int):
+		c_set_def(eye, lip, POS, CID, int)
+		BOTTOM_IN_FAST(CID)
 
 References
 -------------

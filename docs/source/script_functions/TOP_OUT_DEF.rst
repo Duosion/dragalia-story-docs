@@ -23,11 +23,12 @@ Implementation
 
 .. code-block:: python
 
-	NO_EMO(CID)
-	RESET_TEXT()
-	mnu_move(CID, true, 0.4, 0, 120, EaseInSine)
-	chara_fadeout(CID, 0.4)
-	RestartAll(CID)
+	def TOP_OUT_DEF(CID):
+		NO_EMO(CID)
+		RESET_TEXT()
+		mnu_move(CID, true, 0.4, 0, 120, EaseInSine)
+		chara_fadeout(CID, 0.4)
+		RestartAll(CID)
 
 References
 -------------

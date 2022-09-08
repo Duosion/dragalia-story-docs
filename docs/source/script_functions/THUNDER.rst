@@ -22,14 +22,15 @@ Implementation
 
 .. code-block:: python
 
-	wait(0.5)
-	SCREEN_FLASH_WHITE_DEF()
-	wait(0.2)
-	SCREEN_FLASH_WHITE_DEF()
-	fade_color(0.1, 255, 255, 255, 1)
-	play_sound(SE_078)
-	fade_color(1.5, 255, 255, 255, 0)
-	wait(0.5)
+	def THUNDER():
+		wait(0.5)
+		SCREEN_FLASH_WHITE_DEF()
+		wait(0.2)
+		SCREEN_FLASH_WHITE_DEF()
+		fade_color(0.1, 255, 255, 255, 1)
+		play_sound(SE_078)
+		fade_color(1.5, 255, 255, 255, 0)
+		wait(0.5)
 
 References
 -------------

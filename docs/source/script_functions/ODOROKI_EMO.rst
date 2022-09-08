@@ -23,9 +23,10 @@ Implementation
 
 .. code-block:: python
 
-	NO_EMO(CID)
-	CHARA_EMO(CID, 5, 0)
-	play_sound(SE_IN_EMOTION_0005)
+	def ODOROKI_EMO(CID):
+		NO_EMO(CID)
+		CHARA_EMO(CID, 5, 0)
+		play_sound(SE_IN_EMOTION_0005)
 
 References
 -------------

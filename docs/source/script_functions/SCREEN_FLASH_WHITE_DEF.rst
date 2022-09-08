@@ -22,7 +22,8 @@ Implementation
 
 .. code-block:: python
 
-	screen_flash(0.04, 255, 255, 255)
+	def SCREEN_FLASH_WHITE_DEF():
+		screen_flash(0.04, 255, 255, 255)
 
 References
 -------------

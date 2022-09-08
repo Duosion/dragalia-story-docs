@@ -25,10 +25,11 @@ Implementation
 
 .. code-block:: python
 
-	play_sound(SE)
-	KAMITE_OUT2_FAST(CID, CID2)
-	wait(0.5)
-	BGMTUNE_DOWN_0(SE)
+	def KAMITE_OUT2_FAST_SE(CID, CID2, SE):
+		play_sound(SE)
+		KAMITE_OUT2_FAST(CID, CID2)
+		wait(0.5)
+		BGMTUNE_DOWN_0(SE)
 
 References
 -------------

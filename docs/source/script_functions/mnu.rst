@@ -38,7 +38,8 @@ Implementation
 
 .. code-block:: python
 
-	chara_act_manual(CID, isNewAct, moveSec, moveX, moveY, moveEase, scaleSec, scaleX, scaleY, scaleEase, rotateSec, rotate, rotateEase, fadeSec, fade, fadeEase)
+	def mnu(CID, isNewAct, moveSec, moveX, moveY, moveEase, scaleSec, scaleX, scaleY, scaleEase, rotateSec, rotate, rotateEase, fadeSec, fade, fadeEase):
+		chara_act_manual(CID, isNewAct, moveSec, moveX, moveY, moveEase, scaleSec, scaleX, scaleY, scaleEase, rotateSec, rotate, rotateEase, fadeSec, fade, fadeEase)
 
 References
 -------------

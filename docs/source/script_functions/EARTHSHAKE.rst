@@ -22,10 +22,11 @@ Implementation
 
 .. code-block:: python
 
-	WFOUT_DEF()
-	SCREEN_FLASH_WHITE_DEF()
-	play_sound(SE_034)
-	effect_shake_bg(2, 1, 2)
+	def EARTHSHAKE():
+		WFOUT_DEF()
+		SCREEN_FLASH_WHITE_DEF()
+		play_sound(SE_034)
+		effect_shake_bg(2, 1, 2)
 
 References
 -------------
