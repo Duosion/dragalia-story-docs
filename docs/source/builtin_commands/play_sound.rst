@@ -11,12 +11,12 @@ play_sound
 Arguments
 ------------
 
-* ``String`` soundStr
-* ``Single`` vol
+* :ref:`soundStr`: **String**
+* :ref:`vol`: **Single**
 	* Default: ``1``
-* ``Boolean`` isAvoidDupricateVoice
+* :ref:`isAvoidDupricateVoice`: **Boolean**
 	* Default: ``True``
-* ``Boolean`` isAddTextLog
+* :ref:`isAddTextLog`: **Boolean**
 	* Default: ``True``
 
 Description

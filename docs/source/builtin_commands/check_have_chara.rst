@@ -11,9 +11,9 @@ check_have_chara
 Arguments
 ------------
 
-* ``String`` charaId
-* ``String`` functionA
-* ``String`` functionB
+* :ref:`charaId`: **String**
+* :ref:`functionA`: **String**
+* :ref:`functionB`: **String**
 	* Default: ``""``
 
 Description

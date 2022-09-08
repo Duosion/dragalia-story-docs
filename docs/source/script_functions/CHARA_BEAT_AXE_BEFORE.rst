@@ -24,6 +24,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	CHARA_SET(eye, lip, C, CID, int)
+	CHARA_BEAT_AXE_BEFORE_IN(CID)
+
+References
+-------------
+* :ref:`CHARA_SET`
+* :ref:`CHARA_BEAT_AXE_BEFORE_IN`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -64,8 +77,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`CHARA_SET`
-* :ref:`CHARA_BEAT_AXE_BEFORE_IN`

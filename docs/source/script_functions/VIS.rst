@@ -22,6 +22,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_visible(CID, false)
+	chara_pos(CID, POS)
+
+References
+-------------
+* :ref:`chara_visible`
+* :ref:`chara_pos`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -58,8 +71,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_visible`
-* :ref:`chara_pos`

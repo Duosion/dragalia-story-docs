@@ -21,6 +21,35 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	WFOUT_SHORT()
+	CHARA_SET(M, M, C, CID, 1)
+	set_BG_effect(EFF_092)
+	set_BG_effect_trigger(8)
+	set_BG_effect_speed(EFF_092, 1.5)
+	wait(0.3)
+	c_swing2_h_fast(CID)
+	play_sound(SE_239)
+	wait(0.55)
+	play_sound(SE_205)
+	MONSTER_BEAT_AFTER_0(CID)
+
+References
+-------------
+* :ref:`WFOUT_SHORT`
+* :ref:`CHARA_SET`
+* :ref:`set_BG_effect`
+* :ref:`set_BG_effect_trigger`
+* :ref:`set_BG_effect_speed`
+* :ref:`wait`
+* :ref:`c_swing2_h_fast`
+* :ref:`play_sound`
+* :ref:`MONSTER_BEAT_AFTER_0`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -129,15 +158,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`WFOUT_SHORT`
-* :ref:`CHARA_SET`
-* :ref:`set_BG_effect`
-* :ref:`set_BG_effect_trigger`
-* :ref:`set_BG_effect_speed`
-* :ref:`wait`
-* :ref:`c_swing2_h_fast`
-* :ref:`play_sound`
-* :ref:`MONSTER_BEAT_AFTER_0`

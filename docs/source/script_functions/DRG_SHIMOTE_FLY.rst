@@ -23,6 +23,40 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	VIS(CID, POS_CENTER)
+	chara_face(CID, 1)
+	eye1(CID, eye)
+	lip1(CID, lip)
+	play_sound(SE_040)
+	mnu_move(CID, true, 0.01, -190, 200, 1)
+	mnu_move(CID, false, 0.6, 190, -210, EaseOutCirc)
+	mnu_move(CID, false, 0.6, 0, 0, 1)
+	mnu_move(CID, false, 0.2, 0, 10, EaseInSine)
+	wait(0.01)
+	chara_fadein(CID, 0.25)
+	wait(0.35)
+	play_sound(SE_133)
+	effect_shake_bg(12, 0.2, 0.6, 1)
+	SEFOUT_DEF()
+
+References
+-------------
+* :ref:`VIS`
+* :ref:`chara_face`
+* :ref:`eye1`
+* :ref:`lip1`
+* :ref:`play_sound`
+* :ref:`mnu_move`
+* :ref:`wait`
+* :ref:`chara_fadein`
+* :ref:`effect_shake_bg`
+* :ref:`SEFOUT_DEF`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -188,16 +222,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`VIS`
-* :ref:`chara_face`
-* :ref:`eye1`
-* :ref:`lip1`
-* :ref:`play_sound`
-* :ref:`mnu_move`
-* :ref:`wait`
-* :ref:`chara_fadein`
-* :ref:`effect_shake_bg`
-* :ref:`SEFOUT_DEF`

@@ -24,6 +24,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_act_complete(CID, sec, moveX, moveY)
+
+References
+-------------
+* :ref:`chara_act_complete`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -55,7 +66,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_act_complete`

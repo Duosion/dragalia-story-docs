@@ -28,6 +28,33 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	if Rayer == 1:
+		mnu_move(Rayer1, true, Sec, move1, 0, 1)
+		cmp_move(Rayer1, Sec, move1, 0)
+	elif Rayer == 2:
+		mnu_move(Rayer1, true, Sec, move1, 0, 1)
+		mnu_move(Rayer2, true, Sec, move2, 0, 1)
+		cmp_move(Rayer1, Sec, move1, 0)
+		cmp_move(Rayer2, Sec, move2, 0)
+	elif Rayer == 3:
+		mnu_move(Rayer1, true, Sec, move1, 0, 1)
+		mnu_move(Rayer2, true, Sec, move2, 0, 1)
+		mnu_move(Rayer3, true, Sec, move3, 0, 1)
+		cmp_move(Rayer1, Sec, move1, 0)
+		cmp_move(Rayer2, Sec, move2, 0)
+		cmp_move(Rayer3, Sec, move3, 0)
+	else:
+
+References
+-------------
+* :ref:`mnu_move`
+* :ref:`cmp_move`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -235,8 +262,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`mnu_move`
-* :ref:`cmp_move`

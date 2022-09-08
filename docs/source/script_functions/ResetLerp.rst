@@ -22,6 +22,23 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	blur(false, SEC, 1.0, 1.0, CAMERA)
+	bloom(CAMERA, SEC)
+	color_adjustment(CAMERA, SEC)
+	post_film(CAMERA, SEC, filmMode_Lerp, -1, 0.0)
+
+References
+-------------
+* :ref:`blur`
+* :ref:`bloom`
+* :ref:`color_adjustment`
+* :ref:`post_film`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -82,10 +99,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`blur`
-* :ref:`bloom`
-* :ref:`color_adjustment`
-* :ref:`post_film`

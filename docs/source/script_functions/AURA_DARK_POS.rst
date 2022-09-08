@@ -22,6 +22,22 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	set_BG_effect(EFF_010, EFF_011)
+	set_BG_effect_pos(EFF_010, X, Y)
+	set_BG_effect_pos(EFF_011, X, Y)
+	set_BG_effect_trigger(9, 8)
+
+References
+-------------
+* :ref:`set_BG_effect`
+* :ref:`set_BG_effect_pos`
+* :ref:`set_BG_effect_trigger`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -78,9 +94,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`set_BG_effect`
-* :ref:`set_BG_effect_pos`
-* :ref:`set_BG_effect_trigger`

@@ -11,9 +11,9 @@ chara_brightness
 Arguments
 ------------
 
-* ``String`` charaId
-* ``Single`` value
-* ``Single`` fadeSec
+* :ref:`charaId`: **String**
+* :ref:`value`: **Single**
+* :ref:`fadeSec`: **Single**
 	* Default: ``0``
 
 Description

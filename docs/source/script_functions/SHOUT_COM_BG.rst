@@ -20,6 +20,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	effect_shake_bg(12, 0.5, 1.5, 1)
+
+References
+-------------
+* :ref:`effect_shake_bg`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -46,7 +57,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`effect_shake_bg`

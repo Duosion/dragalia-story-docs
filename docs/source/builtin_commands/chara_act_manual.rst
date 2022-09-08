@@ -11,31 +11,31 @@ chara_act_manual
 Arguments
 ------------
 
-* ``String`` charaId
-* ``Boolean`` isNewAct
-* ``Single`` moveSec
-* ``Single`` moveX
-* ``Single`` moveY
-* ``Int32`` moveEase
-* ``Single`` scaleSec
+* :ref:`charaId`: **String**
+* :ref:`isNewAct`: **Boolean**
+* :ref:`moveSec`: **Single**
+* :ref:`moveX`: **Single**
+* :ref:`moveY`: **Single**
+* :ref:`moveEase`: **Int32**
+* :ref:`scaleSec`: **Single**
 	* Default: ``0``
-* ``Single`` scaleX
+* :ref:`scaleX`: **Single**
 	* Default: ``0``
-* ``Single`` scaleY
+* :ref:`scaleY`: **Single**
 	* Default: ``0``
-* ``Int32`` scaleEase
+* :ref:`scaleEase`: **Int32**
 	* Default: ``0``
-* ``Single`` rotateSec
+* :ref:`rotateSec`: **Single**
 	* Default: ``0``
-* ``Single`` rotate
+* :ref:`rotate`: **Single**
 	* Default: ``0``
-* ``Int32`` rotateEase
+* :ref:`rotateEase`: **Int32**
 	* Default: ``0``
-* ``Single`` fadeSec
+* :ref:`fadeSec`: **Single**
 	* Default: ``0``
-* ``Single`` fade
+* :ref:`fade`: **Single**
 	* Default: ``0``
-* ``Int32`` fadeEase
+* :ref:`fadeEase`: **Int32**
 	* Default: ``0``
 
 Description

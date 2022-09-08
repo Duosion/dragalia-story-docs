@@ -21,6 +21,21 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	NO_EMO(CID)
+	CHARA_EMO(CID, 10, 0)
+	play_sound(SE_IN_EMOTION_0010)
+
+References
+-------------
+* :ref:`NO_EMO`
+* :ref:`CHARA_EMO`
+* :ref:`play_sound`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -64,9 +79,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`NO_EMO`
-* :ref:`CHARA_EMO`
-* :ref:`play_sound`

@@ -24,6 +24,34 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	set_BG_effect(EFF_SCE_2D_CMN_145)
+	set_BG_effect_pos(EFF_SCE_2D_CMN_145, X, Y)
+	set_BG_effect_scale(EFF_SCE_2D_CMN_145, 1.3, 0.25)
+	set_BG_effect_color(EFF_SCE_2D_CMN_145, 255, 198, 107)
+	set_BG_effect_rotation(EFF_SCE_2D_CMN_145, R)
+	set_BG_effect_speed(EFF_SCE_2D_CMN_145, 1)
+	play_sound(SE_STORY_COMMON_0012)
+	play_sound(SE_STORY_COMMON_0234)
+	c_swing2_h_fast(CID)
+	wait(0.25)
+
+References
+-------------
+* :ref:`set_BG_effect`
+* :ref:`set_BG_effect_pos`
+* :ref:`set_BG_effect_scale`
+* :ref:`set_BG_effect_color`
+* :ref:`set_BG_effect_rotation`
+* :ref:`set_BG_effect_speed`
+* :ref:`play_sound`
+* :ref:`c_swing2_h_fast`
+* :ref:`wait`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -133,15 +161,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`set_BG_effect`
-* :ref:`set_BG_effect_pos`
-* :ref:`set_BG_effect_scale`
-* :ref:`set_BG_effect_color`
-* :ref:`set_BG_effect_rotation`
-* :ref:`set_BG_effect_speed`
-* :ref:`play_sound`
-* :ref:`c_swing2_h_fast`
-* :ref:`wait`

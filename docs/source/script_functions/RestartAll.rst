@@ -21,6 +21,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	RestartEye(CID)
+	RestartLip(CID)
+
+References
+-------------
+* :ref:`RestartEye`
+* :ref:`RestartLip`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -54,8 +67,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`RestartEye`
-* :ref:`RestartLip`

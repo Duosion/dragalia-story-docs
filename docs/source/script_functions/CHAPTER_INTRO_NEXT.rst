@@ -21,6 +21,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chapter_intro_next(LABEL)
+
+References
+-------------
+* :ref:`chapter_intro_next`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -46,7 +57,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chapter_intro_next`

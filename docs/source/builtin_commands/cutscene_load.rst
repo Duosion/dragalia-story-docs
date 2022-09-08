@@ -11,7 +11,7 @@ cutscene_load
 Arguments
 ------------
 
-* ``String`` cutScenePath
+* :ref:`cutScenePath`: **String**
 
 Description
 -------------

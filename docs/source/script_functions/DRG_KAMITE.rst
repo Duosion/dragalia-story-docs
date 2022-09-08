@@ -24,6 +24,28 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	play_sound(SE_136)
+	wait(0.3)
+	effect_shake_bg(12, 0.1, 0.2, 1)
+	wait(0.7)
+	effect_shake_bg(12, 0.1, 0.2, 1)
+	CHARA_KAMITE_SLOW(eye, lip, POS, CID, 1)
+	SEFOUT_DEF()
+	wait(1.5)
+
+References
+-------------
+* :ref:`play_sound`
+* :ref:`wait`
+* :ref:`effect_shake_bg`
+* :ref:`CHARA_KAMITE_SLOW`
+* :ref:`SEFOUT_DEF`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -116,11 +138,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`play_sound`
-* :ref:`wait`
-* :ref:`effect_shake_bg`
-* :ref:`CHARA_KAMITE_SLOW`
-* :ref:`SEFOUT_DEF`

@@ -21,6 +21,24 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	WFOUT_SHORT()
+	play_sound(SE_225)
+	mnu_scale(CID, true, 0.15, 1.35, 1.35, EaseOutCubic)
+	mnu_scale(CID, false, 0.15, 1, 1, EaseOutCubic)
+	cmp_scale(CID, 0.3, 1, 1)
+
+References
+-------------
+* :ref:`WFOUT_SHORT`
+* :ref:`play_sound`
+* :ref:`mnu_scale`
+* :ref:`cmp_scale`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -89,10 +107,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`WFOUT_SHORT`
-* :ref:`play_sound`
-* :ref:`mnu_scale`
-* :ref:`cmp_scale`

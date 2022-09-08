@@ -11,8 +11,8 @@ chara_rot
 Arguments
 ------------
 
-* ``String`` charaId
-* ``Int32`` rotZ
+* :ref:`charaId`: **String**
+* :ref:`rotZ`: **Int32**
 
 Description
 -------------

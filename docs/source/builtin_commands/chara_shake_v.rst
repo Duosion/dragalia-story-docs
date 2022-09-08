@@ -11,9 +11,9 @@ chara_shake_v
 Arguments
 ------------
 
-* ``String`` charaId
-* ``Int32`` type
-* ``Boolean`` isStart
+* :ref:`charaId`: **String**
+* :ref:`type`: **Int32**
+* :ref:`isStart`: **Boolean**
 
 Description
 -------------

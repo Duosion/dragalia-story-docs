@@ -20,6 +20,23 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	frame_visible(false)
+	message_pos(1)
+	window_enable(false)
+	set_BG(0)
+
+References
+-------------
+* :ref:`frame_visible`
+* :ref:`message_pos`
+* :ref:`window_enable`
+* :ref:`set_BG`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -67,10 +84,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`frame_visible`
-* :ref:`message_pos`
-* :ref:`window_enable`
-* :ref:`set_BG`

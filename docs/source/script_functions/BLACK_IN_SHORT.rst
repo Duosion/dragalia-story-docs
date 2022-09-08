@@ -20,6 +20,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	screen_fadein(0.4, 0, 0, 0)
+
+References
+-------------
+* :ref:`screen_fadein`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -46,7 +57,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`screen_fadein`

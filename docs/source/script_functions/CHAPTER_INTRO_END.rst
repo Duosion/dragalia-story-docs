@@ -20,6 +20,25 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	message_pos(0)
+	frame_visible(true)
+	window_enable(true)
+	chapter_intro(0)
+	chapter_intro_frame_visible(false)
+
+References
+-------------
+* :ref:`message_pos`
+* :ref:`frame_visible`
+* :ref:`window_enable`
+* :ref:`chapter_intro`
+* :ref:`chapter_intro_frame_visible`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -75,11 +94,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`message_pos`
-* :ref:`frame_visible`
-* :ref:`window_enable`
-* :ref:`chapter_intro`
-* :ref:`chapter_intro_frame_visible`

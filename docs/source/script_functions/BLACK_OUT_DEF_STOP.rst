@@ -20,6 +20,25 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	RESET_TEXT()
+	window_fadeout(0, true)
+	BGMFOUT_DEF()
+	SEFOUT_DEF()
+	screen_fadeout(1.0, 0, 0, 0)
+
+References
+-------------
+* :ref:`RESET_TEXT`
+* :ref:`window_fadeout`
+* :ref:`BGMFOUT_DEF`
+* :ref:`SEFOUT_DEF`
+* :ref:`screen_fadeout`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -73,11 +92,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`RESET_TEXT`
-* :ref:`window_fadeout`
-* :ref:`BGMFOUT_DEF`
-* :ref:`SEFOUT_DEF`
-* :ref:`screen_fadeout`

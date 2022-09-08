@@ -20,6 +20,23 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	set_BG_effect(EFF_007)
+	set_BG_effect_opacity(EFF_007, 0.5)
+	set_BG_effect_speed(EFF_007, 1.3)
+	set_BG_effect_trigger(9)
+
+References
+-------------
+* :ref:`set_BG_effect`
+* :ref:`set_BG_effect_opacity`
+* :ref:`set_BG_effect_speed`
+* :ref:`set_BG_effect_trigger`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -69,10 +86,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`set_BG_effect`
-* :ref:`set_BG_effect_opacity`
-* :ref:`set_BG_effect_speed`
-* :ref:`set_BG_effect_trigger`

@@ -36,6 +36,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_act_manual(CID, isNewAct, moveSec, moveX, moveY, moveEase, scaleSec, scaleX, scaleY, scaleEase, rotateSec, rotate, rotateEase, fadeSec, fade, fadeEase)
+
+References
+-------------
+* :ref:`chara_act_manual`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -91,7 +102,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_act_manual`

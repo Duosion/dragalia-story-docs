@@ -26,6 +26,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_act_manual(CID, isNewAct, 0, 0, 0, 0, scaleSec, scaleX, scaleY, scaleEase)
+
+References
+-------------
+* :ref:`chara_act_manual`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -65,7 +76,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_act_manual`

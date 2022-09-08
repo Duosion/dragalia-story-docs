@@ -21,6 +21,25 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	NO_EMO(CID)
+	RESET_TEXT()
+	mnu_move(CID, true, 0.8, 0, -120, EaseInSine)
+	chara_fadeout(CID, 0.8)
+	RestartAll(CID)
+
+References
+-------------
+* :ref:`NO_EMO`
+* :ref:`RESET_TEXT`
+* :ref:`mnu_move`
+* :ref:`chara_fadeout`
+* :ref:`RestartAll`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -82,11 +101,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`NO_EMO`
-* :ref:`RESET_TEXT`
-* :ref:`mnu_move`
-* :ref:`chara_fadeout`
-* :ref:`RestartAll`

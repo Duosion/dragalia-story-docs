@@ -28,6 +28,33 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_visible(CID, false)
+	chara_visible(CID2, false)
+	chara_pos(CID, 3)
+	chara_pos(CID2, 1)
+	chara_face(CID, int)
+	chara_face(CID2, int2)
+	eye1(CID, eye)
+	eye1(CID2, eye2)
+	lip1(CID, lip)
+	lip1(CID2, lip2)
+	SHIMOTE_IN_DEF(CID)
+	SHIMOTE_IN_DEF(CID2)
+
+References
+-------------
+* :ref:`chara_visible`
+* :ref:`chara_pos`
+* :ref:`chara_face`
+* :ref:`eye1`
+* :ref:`lip1`
+* :ref:`SHIMOTE_IN_DEF`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -158,12 +185,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_visible`
-* :ref:`chara_pos`
-* :ref:`chara_face`
-* :ref:`eye1`
-* :ref:`lip1`
-* :ref:`SHIMOTE_IN_DEF`

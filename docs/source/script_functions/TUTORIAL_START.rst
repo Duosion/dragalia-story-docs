@@ -21,6 +21,34 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	TUTORIAL_BUTTON_SETTING()
+	window_type(NORMAL)
+	fade_color(0.3, 0, 0, 0, 0.5, EaseOutCubic)
+	chara_visible(CID, false)
+	mnu_fade(CID, true, 0.15, 0.5, 1)
+	mnu_fade(CID, false, 0.15, 1.0, 1)
+	wait(0.15)
+	frame_visible(true, 0.3)
+	window_fadein(0, true)
+	wait(0.3)
+	chara_visible(CID, true)
+
+References
+-------------
+* :ref:`TUTORIAL_BUTTON_SETTING`
+* :ref:`window_type`
+* :ref:`fade_color`
+* :ref:`chara_visible`
+* :ref:`mnu_fade`
+* :ref:`wait`
+* :ref:`frame_visible`
+* :ref:`window_fadein`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -141,14 +169,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`TUTORIAL_BUTTON_SETTING`
-* :ref:`window_type`
-* :ref:`fade_color`
-* :ref:`chara_visible`
-* :ref:`mnu_fade`
-* :ref:`wait`
-* :ref:`frame_visible`
-* :ref:`window_fadein`

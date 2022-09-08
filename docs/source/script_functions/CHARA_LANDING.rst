@@ -24,6 +24,30 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	play_sound(SE_047)
+	CHARA_SET_POS_0(eye, lip, 0, -90, CID, int)
+	mnu_move(CID, true, 0.05, 0, 200, 1)
+	mnu_move(CID, false, 0.25, 0, -200, EaseOutSine)
+	wait(0.05)
+	chara_fadein(CID, 0.25)
+	mnu_move(CID, true, 0.2, 0, 90, EaseOutCubic)
+	cmp_move(CID, 0.2, 0, 90)
+	wait(0.2)
+
+References
+-------------
+* :ref:`play_sound`
+* :ref:`CHARA_SET_POS_0`
+* :ref:`mnu_move`
+* :ref:`wait`
+* :ref:`chara_fadein`
+* :ref:`cmp_move`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -140,12 +164,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`play_sound`
-* :ref:`CHARA_SET_POS_0`
-* :ref:`mnu_move`
-* :ref:`wait`
-* :ref:`chara_fadein`
-* :ref:`cmp_move`

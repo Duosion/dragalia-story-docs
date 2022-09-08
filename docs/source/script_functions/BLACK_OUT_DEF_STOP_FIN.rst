@@ -21,6 +21,65 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	RESET_TEXT()
+	if mode == 1:
+		NO_EFFECT()
+		touch_enable(false)
+		window_fadeout(0, true)
+		wait(0.5)
+		fade_color(1.0, 0, 0, 0, 0.7, EaseLinear, true)
+		wait(1.0)
+		play_sound(SE_112)
+		fin(true, 0, 170)
+		set_BG_effect(EFF_125)
+		touch_wait(0.5, 3.0)
+		BGMFOUT_DEF()
+		SEFOUT_DEF()
+		fade_color(1.0, 0, 0, 0, 1)
+	elif mode == 2:
+		NO_EFFECT()
+		touch_enable(false)
+		wait(1.5)
+		play_sound(SE_112)
+		fin(true, 0, 170)
+		set_BG_effect(EFF_125)
+		touch_wait(0.5, 3.0)
+		BGMFOUT_DEF()
+		SEFOUT_DEF()
+		fade_color(1.0, 0, 0, 0, 1)
+	elif mode == 3:
+		NO_EFFECT()
+		touch_enable(false)
+		window_fadeout(0, true)
+		wait(1.5)
+		play_sound(SE_112)
+		fin(true, 0, 170)
+		set_BG_effect(EFF_125)
+		touch_wait(0.5, 3.0)
+		BGMFOUT_DEF()
+		SEFOUT_DEF()
+		fade_color(1.0, 0, 0, 0, 1)
+
+References
+-------------
+* :ref:`RESET_TEXT`
+* :ref:`NO_EFFECT`
+* :ref:`touch_enable`
+* :ref:`window_fadeout`
+* :ref:`wait`
+* :ref:`fade_color`
+* :ref:`play_sound`
+* :ref:`fin`
+* :ref:`set_BG_effect`
+* :ref:`touch_wait`
+* :ref:`BGMFOUT_DEF`
+* :ref:`SEFOUT_DEF`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -360,18 +419,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`RESET_TEXT`
-* :ref:`NO_EFFECT`
-* :ref:`touch_enable`
-* :ref:`window_fadeout`
-* :ref:`wait`
-* :ref:`fade_color`
-* :ref:`play_sound`
-* :ref:`fin`
-* :ref:`set_BG_effect`
-* :ref:`touch_wait`
-* :ref:`BGMFOUT_DEF`
-* :ref:`SEFOUT_DEF`

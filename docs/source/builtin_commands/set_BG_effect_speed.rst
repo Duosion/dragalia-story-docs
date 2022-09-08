@@ -11,11 +11,11 @@ set_BG_effect_speed
 Arguments
 ------------
 
-* ``String`` effectId
-* ``Single`` value
-* ``Single`` fadeSec
+* :ref:`effectId`: **String**
+* :ref:`value`: **Single**
+* :ref:`fadeSec`: **Single**
 	* Default: ``0``
-* ``Int32`` ease
+* :ref:`ease`: **Int32**
 	* Default: ``1``
 
 Description

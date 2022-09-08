@@ -26,6 +26,21 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_clear(CID)
+	c_set_def(eye2, lip2, POS2, CID2, int2)
+	chara_fadein(CID2, 0.4)
+
+References
+-------------
+* :ref:`chara_clear`
+* :ref:`c_set_def`
+* :ref:`chara_fadein`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -77,9 +92,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_clear`
-* :ref:`c_set_def`
-* :ref:`chara_fadein`

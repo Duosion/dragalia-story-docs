@@ -21,6 +21,36 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	mnu_move(CID, true, 0.065, -10, 4.1, 1)
+	mnu_move(CID, false, 0.065, -4.1, 10, 1)
+	mnu_move(CID, false, 0.065, 4.1, 10, 1)
+	mnu_move(CID, false, 0.065, 10, 4.1, 1)
+	mnu_move(CID, false, 0.065, 10, -4.1, 1)
+	mnu_move(CID, false, 0.065, 4.1, -10, 1)
+	mnu_move(CID, false, 0.065, -4.1, -10, 1)
+	mnu_move(CID, false, 0.065, -10, -4.1, 1)
+	mnu_move(CID, false, 0.065, -10, 4.1, 1)
+	mnu_move(CID, false, 0.065, -4.1, 10, 1)
+	mnu_move(CID, false, 0.065, 4.1, 10, 1)
+	mnu_move(CID, false, 0.065, 10, 4.1, 1)
+	mnu_move(CID, false, 0.065, 10, -4.1, 1)
+	mnu_move(CID, false, 0.065, 4.1, -10, 1)
+	mnu_move(CID, false, 0.065, -4.1, -10, 1)
+	mnu_move(CID, false, 0.065, -10, -4.1, 1)
+	cmp_move(CID, 1.04, 0, 0)
+	wait(0.0)
+
+References
+-------------
+* :ref:`mnu_move`
+* :ref:`cmp_move`
+* :ref:`wait`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -265,9 +295,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`mnu_move`
-* :ref:`cmp_move`
-* :ref:`wait`

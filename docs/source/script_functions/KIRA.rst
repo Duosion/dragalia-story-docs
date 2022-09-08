@@ -24,6 +24,23 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	play_sound(SE_256)
+	set_BG_effect(EFF_015)
+	set_BG_effect_pos(EFF_015, posX, posY)
+	set_BG_effect_scale(EFF_015, scaleX, scaleY)
+
+References
+-------------
+* :ref:`play_sound`
+* :ref:`set_BG_effect`
+* :ref:`set_BG_effect_pos`
+* :ref:`set_BG_effect_scale`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -80,10 +97,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`play_sound`
-* :ref:`set_BG_effect`
-* :ref:`set_BG_effect_pos`
-* :ref:`set_BG_effect_scale`

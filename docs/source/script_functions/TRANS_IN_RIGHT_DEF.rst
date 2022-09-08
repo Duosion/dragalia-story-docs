@@ -20,6 +20,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	fade_color(0.25, 0, 0, 0, 0)
+	screen_transin(1, 1.0)
+
+References
+-------------
+* :ref:`fade_color`
+* :ref:`screen_transin`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -56,8 +69,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`fade_color`
-* :ref:`screen_transin`

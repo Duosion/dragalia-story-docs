@@ -21,6 +21,25 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	play_sound(SE_041)
+	mnu_move(CID, true, 0.4, 30, 50, EaseOutCirc)
+	mnu_move(CID, false, 0.2, 10, -30, EaseInCirc)
+	mnu_move(CID, false, 0.3, 150, 280, EaseInQuad)
+	wait(0.65)
+	chara_fadeout(CID, 0.25)
+
+References
+-------------
+* :ref:`play_sound`
+* :ref:`mnu_move`
+* :ref:`wait`
+* :ref:`chara_fadeout`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -102,10 +121,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`play_sound`
-* :ref:`mnu_move`
-* :ref:`wait`
-* :ref:`chara_fadeout`

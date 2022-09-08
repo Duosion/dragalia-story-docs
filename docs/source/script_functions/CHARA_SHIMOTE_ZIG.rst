@@ -25,6 +25,21 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	c_set_def(eye, lip, POS, CID, int)
+	SHIMOTE_IN_ZIG(CID)
+	wait(0.7)
+
+References
+-------------
+* :ref:`c_set_def`
+* :ref:`SHIMOTE_IN_ZIG`
+* :ref:`wait`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -74,9 +89,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`c_set_def`
-* :ref:`SHIMOTE_IN_ZIG`
-* :ref:`wait`

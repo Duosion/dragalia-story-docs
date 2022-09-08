@@ -20,6 +20,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	WFOUT_SHORT()
+	screen_fadeout(1.0, 0, 0, 0)
+
+References
+-------------
+* :ref:`WFOUT_SHORT`
+* :ref:`screen_fadeout`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -52,8 +65,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`WFOUT_SHORT`
-* :ref:`screen_fadeout`

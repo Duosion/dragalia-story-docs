@@ -24,6 +24,84 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	if WEAPON == BOW:
+		play_sound(SE_239)
+		set_BG_effect(EFF_092)
+		set_BG_effect_trigger(8)
+		set_BG_effect_speed(EFF_092, 1.5)
+		wait(0.15)
+		play_sound(SE_239)
+		set_BG_effect(1, EFF_001)
+		set_BG_effect_pos(EFF_001, 200, 150)
+		set_BG_effect_speed(EFF_001, 1.5)
+		set_BG_effect_scale(EFF_001, 0.8, 0.8)
+		wait(0.15)
+		play_sound(SE_239)
+		NO_EFFECT()
+		set_BG_effect(EFF_001)
+		set_BG_effect_pos(EFF_001, -200, 150)
+		set_BG_effect_speed(EFF_001, 1.5)
+		set_BG_effect_scale(EFF_001, 0.8, 0.8)
+		wait(0.15)
+	elif WEAPON == AXE:
+		play_sound(SE_116)
+		set_BG_effect(EFF_093)
+		wait(0.15)
+		play_sound(SE_116)
+		set_BG_effect(1, EFF_001)
+		set_BG_effect_pos(EFF_001, 200, 150)
+		set_BG_effect_speed(EFF_001, 1.5)
+		set_BG_effect_scale(EFF_001, 0.8, 0.8)
+		wait(0.15)
+		play_sound(SE_116)
+		NO_EFFECT()
+		set_BG_effect(EFF_001)
+		set_BG_effect_pos(EFF_001, -200, 150)
+		set_BG_effect_speed(EFF_001, 1.5)
+		set_BG_effect_scale(EFF_001, 0.8, 0.8)
+		wait(0.15)
+	if WEAPON == WATER:
+		play_sound(SE_243)
+		wait(0.3)
+		set_BG_effect(EFF_036)
+		wait(0.2)
+	elif WEAPON == WIND:
+		set_BG_effect(EFF_061)
+		set_BG_effect_speed(EFF_061, 2.0)
+		wait(0.05)
+		play_sound(SE_064)
+		wait(0.15)
+	if WEAPON == WIND:
+		chara_shake_h(CID, 2, true)
+		chara_shake_h(CID2, 2, true)
+		chara_shake_h(CID3, 2, true)
+		wait(0.7)
+		chara_shake_h(CID, 2, false)
+		chara_shake_h(CID2, 2, false)
+		chara_shake_h(CID3, 2, false)
+	else:
+		c_swing2_h_fast(CID)
+		c_swing2_h_fast(CID2)
+		c_swing2_h_fast(CID3)
+
+References
+-------------
+* :ref:`play_sound`
+* :ref:`set_BG_effect`
+* :ref:`set_BG_effect_trigger`
+* :ref:`set_BG_effect_speed`
+* :ref:`wait`
+* :ref:`set_BG_effect_pos`
+* :ref:`set_BG_effect_scale`
+* :ref:`NO_EFFECT`
+* :ref:`chara_shake_h`
+* :ref:`c_swing2_h_fast`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -569,16 +647,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`play_sound`
-* :ref:`set_BG_effect`
-* :ref:`set_BG_effect_trigger`
-* :ref:`set_BG_effect_speed`
-* :ref:`wait`
-* :ref:`set_BG_effect_pos`
-* :ref:`set_BG_effect_scale`
-* :ref:`NO_EFFECT`
-* :ref:`chara_shake_h`
-* :ref:`c_swing2_h_fast`

@@ -24,6 +24,26 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	CHARA_SET(eye, lip, C, CID, int)
+	set_BG_effect(EFF_040)
+	wait(0.2)
+	play_sound(SE_044)
+	c_swing2_h_fast(CID)
+	wait(0.25)
+
+References
+-------------
+* :ref:`CHARA_SET`
+* :ref:`set_BG_effect`
+* :ref:`wait`
+* :ref:`play_sound`
+* :ref:`c_swing2_h_fast`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -96,11 +116,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`CHARA_SET`
-* :ref:`set_BG_effect`
-* :ref:`wait`
-* :ref:`play_sound`
-* :ref:`c_swing2_h_fast`

@@ -21,6 +21,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_emotion(CID, 0)
+
+References
+-------------
+* :ref:`chara_emotion`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -47,7 +58,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_emotion`

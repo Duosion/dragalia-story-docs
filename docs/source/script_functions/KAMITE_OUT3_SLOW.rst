@@ -23,6 +23,29 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	NO_EMO(CID)
+	NO_EMO(CID2)
+	NO_EMO(CID3)
+	mnu(CID, true, 0.8, 120, 0, EaseInSine, 0.8, 1, 1, 0, 0.8, 0, 0, 0.8, 0, 1)
+	mnu(CID2, true, 0.8, 120, 0, EaseInSine, 0.8, 1, 1, 0, 0.8, 0, 0, 0.8, 0, 1)
+	mnu(CID3, true, 0.8, 120, 0, EaseInSine, 0.8, 1, 1, 0, 0.8, 0, 0, 0.8, 0, 1)
+	wait(0.8)
+	chara_visible(CID, false)
+	chara_visible(CID2, false)
+	chara_visible(CID3, false)
+
+References
+-------------
+* :ref:`NO_EMO`
+* :ref:`mnu`
+* :ref:`wait`
+* :ref:`chara_visible`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -170,10 +193,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`NO_EMO`
-* :ref:`mnu`
-* :ref:`wait`
-* :ref:`chara_visible`

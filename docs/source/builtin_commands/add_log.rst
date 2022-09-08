@@ -11,11 +11,11 @@ add_log
 Arguments
 ------------
 
-* ``String`` logNameText
+* :ref:`logNameText`: **String**
 	* Default: ``""``
-* ``String`` logText
+* :ref:`logText`: **String**
 	* Default: ``""``
-* ``String`` logVoiceId
+* :ref:`logVoiceId`: **String**
 	* Default: ``""``
 
 Description

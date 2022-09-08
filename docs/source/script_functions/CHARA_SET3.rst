@@ -32,6 +32,48 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_visible(CID, false)
+	chara_visible(CID2, false)
+	chara_visible(CID3, false)
+	chara_pos(CID, 1)
+	chara_pos(CID2, 3)
+	chara_pos(CID3, 2)
+	chara_face(CID, int)
+	chara_face(CID2, int2)
+	chara_face(CID3, int3)
+	eye1(CID, eye)
+	eye1(CID2, eye2)
+	eye1(CID3, eye3)
+	lip1(CID, lip)
+	lip1(CID2, lip2)
+	lip1(CID3, lip3)
+	mnu_fade(CID, true, 0.3, 1.0, 1)
+	mnu_fade(CID2, true, 0.3, 1.0, 1)
+	mnu_fade(CID3, true, 0.3, 1.0, 1)
+	cmp_fade(CID, 0.3, 1.0)
+	cmp_fade(CID2, 0.3, 1.0)
+	cmp_fade(CID3, 0.3, 1.0)
+	wait(0.3)
+	chara_visible(CID, true)
+	chara_visible(CID2, true)
+	chara_visible(CID3, true)
+
+References
+-------------
+* :ref:`chara_visible`
+* :ref:`chara_pos`
+* :ref:`chara_face`
+* :ref:`eye1`
+* :ref:`lip1`
+* :ref:`mnu_fade`
+* :ref:`cmp_fade`
+* :ref:`wait`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -296,14 +338,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_visible`
-* :ref:`chara_pos`
-* :ref:`chara_face`
-* :ref:`eye1`
-* :ref:`lip1`
-* :ref:`mnu_fade`
-* :ref:`cmp_fade`
-* :ref:`wait`

@@ -22,6 +22,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	effect_shake_chara(SHAKE_VALUE, -1, STOP_SEC)
+
+References
+-------------
+* :ref:`effect_shake_chara`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -50,7 +61,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`effect_shake_chara`

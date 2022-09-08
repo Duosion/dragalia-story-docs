@@ -11,14 +11,14 @@ add_book_text
 Arguments
 ------------
 
-* ``Boolean`` isEnd
-* ``String`` text
+* :ref:`isEnd`: **Boolean**
+* :ref:`text`: **String**
 	* Default: ``""``
-* ``String`` fileName
+* :ref:`fileName`: **String**
 	* Default: ``""``
-* ``String`` logName
+* :ref:`logName`: **String**
 	* Default: ``"SYS"``
-* ``String`` logVoice
+* :ref:`logVoice`: **String**
 	* Default: ``""``
 
 Description

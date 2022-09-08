@@ -21,6 +21,21 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_visible(CID, false)
+	chara_face(CID, 0)
+	RestartAll(CID)
+
+References
+-------------
+* :ref:`chara_visible`
+* :ref:`chara_face`
+* :ref:`RestartAll`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -64,9 +79,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_visible`
-* :ref:`chara_face`
-* :ref:`RestartAll`

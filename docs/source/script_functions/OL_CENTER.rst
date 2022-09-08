@@ -20,6 +20,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	outline_centering(true)
+
+References
+-------------
+* :ref:`outline_centering`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -43,7 +54,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`outline_centering`

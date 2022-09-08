@@ -22,6 +22,32 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_visible(CID, false)
+	chara_visible(CID2, false)
+	chara_pos(CID, 3)
+	chara_pos(CID2, 1)
+	chara_face(CID, 12)
+	chara_face(CID2, 12)
+	mnu_fade(CID, true, 0.3, 1.0, 1)
+	mnu_fade(CID2, true, 0.3, 1.0, 1)
+	cmp_fade(CID, 0.3, 1.0)
+	cmp_fade(CID2, 0.3, 1.0)
+	chara_visible(CID, true)
+	chara_visible(CID2, true)
+
+References
+-------------
+* :ref:`chara_visible`
+* :ref:`chara_pos`
+* :ref:`chara_face`
+* :ref:`mnu_fade`
+* :ref:`cmp_fade`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -156,11 +182,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_visible`
-* :ref:`chara_pos`
-* :ref:`chara_face`
-* :ref:`mnu_fade`
-* :ref:`cmp_fade`

@@ -21,6 +21,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	set_volume(1.0, 0.5, BGM)
+
+References
+-------------
+* :ref:`set_volume`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -48,7 +59,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`set_volume`

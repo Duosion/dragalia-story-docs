@@ -20,6 +20,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	fade_color(1.0, 0, 0, 0, 0)
+
+References
+-------------
+* :ref:`fade_color`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -47,7 +58,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`fade_color`

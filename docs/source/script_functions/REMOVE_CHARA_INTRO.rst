@@ -20,6 +20,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_intro(0)
+
+References
+-------------
+* :ref:`chara_intro`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -43,7 +54,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_intro`

@@ -21,6 +21,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_eyeblink(CID)
+
+References
+-------------
+* :ref:`chara_eyeblink`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -46,7 +57,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_eyeblink`

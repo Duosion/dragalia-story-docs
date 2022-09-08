@@ -11,8 +11,8 @@ chapter_intro_frame_visible
 Arguments
 ------------
 
-* ``Boolean`` visible
-* ``Single`` fadeTime
+* :ref:`visible`: **Boolean**
+* :ref:`fadeTime`: **Single**
 	* Default: ``0``
 
 Description

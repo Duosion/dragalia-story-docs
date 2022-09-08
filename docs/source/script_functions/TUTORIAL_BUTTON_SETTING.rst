@@ -20,6 +20,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	button_visible(false, 0, false)
+
+References
+-------------
+* :ref:`button_visible`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -45,7 +56,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`button_visible`

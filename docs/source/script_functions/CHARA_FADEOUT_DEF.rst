@@ -21,6 +21,23 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	NO_EMO(CID)
+	RESET_TEXT()
+	chara_fadeout(CID, 0.2)
+	RestartAll(CID)
+
+References
+-------------
+* :ref:`NO_EMO`
+* :ref:`RESET_TEXT`
+* :ref:`chara_fadeout`
+* :ref:`RestartAll`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -69,10 +86,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`NO_EMO`
-* :ref:`RESET_TEXT`
-* :ref:`chara_fadeout`
-* :ref:`RestartAll`

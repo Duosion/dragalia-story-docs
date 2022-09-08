@@ -11,9 +11,9 @@ chara_emotion
 Arguments
 ------------
 
-* ``String`` charaId
-* ``Int32`` emotionId
-* ``Int32`` faceNum
+* :ref:`charaId`: **String**
+* :ref:`emotionId`: **Int32**
+* :ref:`faceNum`: **Int32**
 	* Default: ``0``
 
 Description

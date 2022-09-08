@@ -20,6 +20,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	dragon_talk(false)
+
+References
+-------------
+* :ref:`dragon_talk`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -43,7 +54,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`dragon_talk`

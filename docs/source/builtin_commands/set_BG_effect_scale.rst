@@ -11,16 +11,16 @@ set_BG_effect_scale
 Arguments
 ------------
 
-* ``String`` effectId
-* ``Single`` x
-* ``Single`` y
-* ``Single`` fadeSec
+* :ref:`effectId`: **String**
+* :ref:`x`: **Single**
+* :ref:`y`: **Single**
+* :ref:`fadeSec`: **Single**
 	* Default: ``0``
-* ``Int32`` ease
+* :ref:`ease`: **Int32**
 	* Default: ``1``
-* ``Single`` baseX
+* :ref:`baseX`: **Single**
 	* Default: ``-1``
-* ``Single`` baseY
+* :ref:`baseY`: **Single**
 	* Default: ``-1``
 
 Description

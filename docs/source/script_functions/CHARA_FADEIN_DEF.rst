@@ -21,6 +21,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_fadein(CID, FIN_DEF)
+
+References
+-------------
+* :ref:`chara_fadein`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -47,7 +58,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_fadein`

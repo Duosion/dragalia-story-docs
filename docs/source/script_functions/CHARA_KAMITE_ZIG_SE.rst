@@ -26,6 +26,27 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	play_sound(SE)
+	wait(0.5)
+	c_set_def(eye, lip, POS, CID, int)
+	KAMITE_IN_ZIG(CID)
+	wait(0.2)
+	BGMTUNE_DOWN_0(SE)
+	wait(0.5)
+
+References
+-------------
+* :ref:`play_sound`
+* :ref:`wait`
+* :ref:`c_set_def`
+* :ref:`KAMITE_IN_ZIG`
+* :ref:`BGMTUNE_DOWN_0`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -108,11 +129,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`play_sound`
-* :ref:`wait`
-* :ref:`c_set_def`
-* :ref:`KAMITE_IN_ZIG`
-* :ref:`BGMTUNE_DOWN_0`

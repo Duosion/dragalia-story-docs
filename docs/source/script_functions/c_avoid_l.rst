@@ -21,6 +21,24 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	mnu_move(CID, true, 0.3, -200, -50, EaseOutBack)
+	cmp_move(CID, 0.3, -200, -50)
+	wait(0.3)
+	play_sound(SE_046)
+	wait(0.1)
+
+References
+-------------
+* :ref:`mnu_move`
+* :ref:`cmp_move`
+* :ref:`wait`
+* :ref:`play_sound`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -86,10 +104,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`mnu_move`
-* :ref:`cmp_move`
-* :ref:`wait`
-* :ref:`play_sound`

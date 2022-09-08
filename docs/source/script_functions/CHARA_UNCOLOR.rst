@@ -21,6 +21,28 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_color(CID, 0, TYPE_COLOR, 255, 255, 255)
+	chara_color(CID, 0, TYPE_COLOR_TOP, 255, 255, 255)
+	chara_color(CID, 0, TYPE_COLOR_BOTTOM, 255, 255, 255)
+	chara_color(CID, 0, TYPE_COLOR_LASTMUL, 255, 255, 255)
+	chara_contrast(CID, 1)
+	chara_saturation(CID, 1)
+	chara_brightness(CID, 1)
+	wait(0)
+
+References
+-------------
+* :ref:`chara_color`
+* :ref:`chara_contrast`
+* :ref:`chara_saturation`
+* :ref:`chara_brightness`
+* :ref:`wait`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -125,11 +147,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_color`
-* :ref:`chara_contrast`
-* :ref:`chara_saturation`
-* :ref:`chara_brightness`
-* :ref:`wait`

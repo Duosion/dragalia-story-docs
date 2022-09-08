@@ -25,6 +25,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	c_set_def(eye, lip, POS, CID, int)
+	KAMITE_IN_SLOW(CID)
+
+References
+-------------
+* :ref:`c_set_def`
+* :ref:`KAMITE_IN_SLOW`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -66,8 +79,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`c_set_def`
-* :ref:`KAMITE_IN_SLOW`

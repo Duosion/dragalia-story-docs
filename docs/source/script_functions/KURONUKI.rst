@@ -21,6 +21,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_brightness(CID, 0)
+	wait(0)
+
+References
+-------------
+* :ref:`chara_brightness`
+* :ref:`wait`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -55,8 +68,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_brightness`
-* :ref:`wait`

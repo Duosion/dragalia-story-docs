@@ -11,12 +11,12 @@ effect_shake_chara
 Arguments
 ------------
 
-* ``Int32`` type
-* ``Single`` peekSec
+* :ref:`type`: **Int32**
+* :ref:`peekSec`: **Single**
 	* Default: ``3``
-* ``Single`` stopSec
+* :ref:`stopSec`: **Single**
 	* Default: ``3``
-* ``Int32`` ease
+* :ref:`ease`: **Int32**
 	* Default: ``1``
 
 Description

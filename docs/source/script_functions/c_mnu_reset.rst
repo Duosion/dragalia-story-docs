@@ -21,6 +21,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	mnu(CID, true, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1)
+	cmp(CID, 0, 0, 0, 1, 1, 0, 0)
+
+References
+-------------
+* :ref:`mnu`
+* :ref:`cmp`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -76,8 +89,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`mnu`
-* :ref:`cmp`

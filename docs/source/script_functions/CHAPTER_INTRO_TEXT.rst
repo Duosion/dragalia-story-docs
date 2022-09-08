@@ -20,6 +20,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	text_size(24)
+	text_color(255, 255, 255)
+
+References
+-------------
+* :ref:`text_size`
+* :ref:`text_color`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -53,8 +66,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`text_size`
-* :ref:`text_color`

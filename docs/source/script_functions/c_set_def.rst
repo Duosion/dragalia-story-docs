@@ -25,6 +25,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	CHARA_SET_0(eye, lip, POS, CID, int)
+
+References
+-------------
+* :ref:`CHARA_SET_0`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -58,7 +69,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`CHARA_SET_0`

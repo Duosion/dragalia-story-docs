@@ -24,6 +24,72 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_visible(CID, false)
+	chara_visible(CID2, false)
+	chara_visible(CID3, false)
+	chara_pos(CID, 200, 0)
+	chara_pos(CID2, -200, 0)
+	chara_pos(CID3, 0, 50)
+	chara_face(CID, 12)
+	chara_face(CID2, 12)
+	chara_face(CID3, 12)
+	mnu_scale(CID3, true, 0.01, 1.0, 1.0, EaseOutCubic)
+	mnu_scale(CID2, true, 0.01, 0.7, 0.7, EaseOutCubic)
+	mnu_scale(CID, true, 0.01, 0.7, 0.7, EaseOutCubic)
+	cmp_scale(CID3, 0.01, 1.0, 1.0)
+	cmp_scale(CID2, 0.01, 0.7, 0.7)
+	cmp_scale(CID, 0.01, 0.7, 0.7)
+	wait(0.01)
+	if IN == KAMITE:
+		KAMITE_IN_DEF(CID)
+		KAMITE_IN_DEF(CID2)
+		wait(0.2)
+		mnu(CID3, true, 0.05, 120, 0, 1, 0.05, 1, 1, 1, 0.05, 0, 1, 0.05, 0, 1)
+		mnu(CID3, false, 0.4, -120, 0, EaseOutSine, 0.4, 1, 1, 1, 0.4, 0, 1, 0.4, 1, EaseOutSine)
+		cmp(CID3, 0.45, 0, 0, 1, 1, 0, 1)
+		NO_EMO(CID)
+		NO_EMO(CID2)
+		wait(0.45)
+	elif IN == SHIMOTE:
+		SHIMOTE_IN_DEF(CID)
+		SHIMOTE_IN_DEF(CID2)
+		wait(0.2)
+		mnu(CID3, true, 0.05, -120, 0, 1, 0.05, 1, 1, 1, 0.05, 0, 1, 0.05, 0, 1)
+		mnu(CID3, false, 0.4, 120, 0, EaseOutSine, 0.4, 1, 1, 1, 0.4, 0, 1, 0.4, 1, EaseOutSine)
+		cmp(CID3, 0.45, 0, 0, 1, 1, 0, 1)
+		NO_EMO(CID)
+		NO_EMO(CID2)
+		wait(0.45)
+	else:
+		mnu_fade(CID3, true, 0.4, 1.0, 1)
+		mnu_fade(CID, true, 0.4, 1.0, 1)
+		mnu_fade(CID2, true, 0.4, 1.0, 1)
+		cmp_fade(CID3, 0.4, 1.0)
+		cmp_fade(CID, 0.4, 1.0)
+		cmp_fade(CID2, 0.4, 1.0)
+		wait(0.4)
+
+References
+-------------
+* :ref:`chara_visible`
+* :ref:`chara_pos`
+* :ref:`chara_face`
+* :ref:`mnu_scale`
+* :ref:`cmp_scale`
+* :ref:`wait`
+* :ref:`KAMITE_IN_DEF`
+* :ref:`mnu`
+* :ref:`cmp`
+* :ref:`NO_EMO`
+* :ref:`SHIMOTE_IN_DEF`
+* :ref:`mnu_fade`
+* :ref:`cmp_fade`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -530,19 +596,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_visible`
-* :ref:`chara_pos`
-* :ref:`chara_face`
-* :ref:`mnu_scale`
-* :ref:`cmp_scale`
-* :ref:`wait`
-* :ref:`KAMITE_IN_DEF`
-* :ref:`mnu`
-* :ref:`cmp`
-* :ref:`NO_EMO`
-* :ref:`SHIMOTE_IN_DEF`
-* :ref:`mnu_fade`
-* :ref:`cmp_fade`

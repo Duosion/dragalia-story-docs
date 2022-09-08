@@ -26,6 +26,36 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	set_BG_effect(EFF_061)
+	set_BG_effect_speed(EFF_061, 2.0)
+	wait(0.05)
+	play_sound(SE_064)
+	wait(0.15)
+	chara_face(CID, int)
+	chara_face(CID2, int2)
+	chara_face(CID3, int3)
+	chara_shake_h(CID, 2, true)
+	chara_shake_h(CID2, 2, true)
+	chara_shake_h(CID3, 2, true)
+	wait(0.7)
+	chara_shake_h(CID, 2, false)
+	chara_shake_h(CID2, 2, false)
+	chara_shake_h(CID3, 2, false)
+
+References
+-------------
+* :ref:`set_BG_effect`
+* :ref:`set_BG_effect_speed`
+* :ref:`wait`
+* :ref:`play_sound`
+* :ref:`chara_face`
+* :ref:`chara_shake_h`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -184,12 +214,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`set_BG_effect`
-* :ref:`set_BG_effect_speed`
-* :ref:`wait`
-* :ref:`play_sound`
-* :ref:`chara_face`
-* :ref:`chara_shake_h`

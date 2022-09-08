@@ -20,6 +20,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	reset_text()
+
+References
+-------------
+* :ref:`reset_text`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -41,7 +52,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`reset_text`

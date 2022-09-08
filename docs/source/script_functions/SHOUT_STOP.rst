@@ -20,6 +20,21 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	wait(1.0)
+	set_BG_effect_trigger(1)
+	set_camera_distortion(cameraType_Chara, false, EFF_007)
+
+References
+-------------
+* :ref:`wait`
+* :ref:`set_BG_effect_trigger`
+* :ref:`set_camera_distortion`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -61,9 +76,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`wait`
-* :ref:`set_BG_effect_trigger`
-* :ref:`set_camera_distortion`

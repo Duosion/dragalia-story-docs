@@ -20,6 +20,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	wait(1.8)
+
+References
+-------------
+* :ref:`wait`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -43,7 +54,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`wait`

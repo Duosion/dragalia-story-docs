@@ -11,17 +11,17 @@ chara_color
 Arguments
 ------------
 
-* ``String`` charaId
-* ``Single`` fadeSec
-* ``Int32`` type
-* ``Int32`` r
-* ``Int32`` g
-* ``Int32`` b
-* ``Single`` a
+* :ref:`charaId`: **String**
+* :ref:`fadeSec`: **Single**
+* :ref:`type`: **Int32**
+* :ref:`r`: **Int32**
+* :ref:`g`: **Int32**
+* :ref:`b`: **Int32**
+* :ref:`a`: **Single**
 	* Default: ``1``
-* ``Single`` smoothMin
+* :ref:`smoothMin`: **Single**
 	* Default: ``0``
-* ``Single`` smoothMax
+* :ref:`smoothMax`: **Single**
 	* Default: ``1``
 
 Description

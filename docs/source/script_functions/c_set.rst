@@ -27,6 +27,25 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	if act == in:
+	if cmd == def:
+		c_set_def(eye, lip, POS, CID, int)
+		CHARA_FADEIN_DEF(CID)
+	elif cmd == kami:
+		c_set_def(eye, lip, POS, CID, int)
+		KAMITE_IN_DEF(CID)
+
+References
+-------------
+* :ref:`c_set_def`
+* :ref:`CHARA_FADEIN_DEF`
+* :ref:`KAMITE_IN_DEF`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -129,9 +148,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`c_set_def`
-* :ref:`CHARA_FADEIN_DEF`
-* :ref:`KAMITE_IN_DEF`

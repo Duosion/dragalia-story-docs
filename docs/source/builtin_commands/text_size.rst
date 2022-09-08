@@ -11,7 +11,7 @@ text_size
 Arguments
 ------------
 
-* ``Int32`` size
+* :ref:`size`: **Int32**
 
 Description
 -------------

@@ -11,8 +11,8 @@ cutt_loadscene
 Arguments
 ------------
 
-* ``Int32`` questDataId
-* ``Int32`` areaIndex
+* :ref:`questDataId`: **Int32**
+* :ref:`areaIndex`: **Int32**
 
 Description
 -------------

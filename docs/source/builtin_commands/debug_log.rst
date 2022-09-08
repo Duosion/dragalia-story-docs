@@ -11,7 +11,7 @@ debug_log
 Arguments
 ------------
 
-* ``String`` text
+* :ref:`text`: **String**
 
 Description
 -------------

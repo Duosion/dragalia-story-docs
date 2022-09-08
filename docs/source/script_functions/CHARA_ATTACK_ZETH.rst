@@ -21,6 +21,37 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	WFOUT_SHORT()
+	set_BG_effect(EFF_025)
+	set_BG_effect_speed(EFF_025, 3)
+	wait(0.3)
+	play_sound(SE_061)
+	set_camera_distortion(1, true, EFF_007)
+	set_BG_effect(1, EFF_007)
+	set_BG_effect_opacity(EFF_007, 0.6)
+	set_BG_effect_speed(EFF_007, 1.0)
+	set_BG_effect_trigger(2, 9)
+	wait(0.3)
+	set_BG_effect_trigger(2, 1)
+	set_BG_effect(0, 0)
+	set_camera_distortion(1, false, EFF_007)
+
+References
+-------------
+* :ref:`WFOUT_SHORT`
+* :ref:`set_BG_effect`
+* :ref:`set_BG_effect_speed`
+* :ref:`wait`
+* :ref:`play_sound`
+* :ref:`set_camera_distortion`
+* :ref:`set_BG_effect_opacity`
+* :ref:`set_BG_effect_trigger`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -159,14 +190,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`WFOUT_SHORT`
-* :ref:`set_BG_effect`
-* :ref:`set_BG_effect_speed`
-* :ref:`wait`
-* :ref:`play_sound`
-* :ref:`set_camera_distortion`
-* :ref:`set_BG_effect_opacity`
-* :ref:`set_BG_effect_trigger`

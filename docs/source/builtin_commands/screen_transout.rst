@@ -11,8 +11,8 @@ screen_transout
 Arguments
 ------------
 
-* ``Int32`` type
-* ``Single`` sec
+* :ref:`type`: **Int32**
+* :ref:`sec`: **Single**
 
 Description
 -------------

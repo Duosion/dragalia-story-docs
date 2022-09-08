@@ -11,10 +11,10 @@ button_visible
 Arguments
 ------------
 
-* ``Boolean`` visible
-* ``Single`` fadeSec
+* :ref:`visible`: **Boolean**
+* :ref:`fadeSec`: **Single**
 	* Default: ``0.4``
-* ``Boolean`` isAutoVisible
+* :ref:`isAutoVisible`: **Boolean**
 	* Default: ``True``
 
 Description

@@ -21,6 +21,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	WFOUT_SHORT()
+	MONSTER_BEAT_AFTER_0(CID)
+
+References
+-------------
+* :ref:`WFOUT_SHORT`
+* :ref:`MONSTER_BEAT_AFTER_0`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -52,8 +65,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`WFOUT_SHORT`
-* :ref:`MONSTER_BEAT_AFTER_0`

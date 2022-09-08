@@ -11,7 +11,7 @@ next_page
 Arguments
 ------------
 
-* ``Single`` waitTime
+* :ref:`waitTime`: **Single**
 	* Default: ``0.3``
 
 Description

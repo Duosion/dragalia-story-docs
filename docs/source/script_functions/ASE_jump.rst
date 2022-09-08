@@ -21,6 +21,21 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	NO_EMO(CID)
+	ASE_EMO(CID)
+	c_jump(CID)
+
+References
+-------------
+* :ref:`NO_EMO`
+* :ref:`ASE_EMO`
+* :ref:`c_jump`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -62,9 +77,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`NO_EMO`
-* :ref:`ASE_EMO`
-* :ref:`c_jump`

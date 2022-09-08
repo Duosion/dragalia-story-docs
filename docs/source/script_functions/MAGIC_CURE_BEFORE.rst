@@ -20,6 +20,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	play_sound(SE_122)
+	fade_color(1.0, 255, 255, 255, 1)
+
+References
+-------------
+* :ref:`play_sound`
+* :ref:`fade_color`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -55,8 +68,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`play_sound`
-* :ref:`fade_color`

@@ -11,7 +11,7 @@ screen_fadeout
 Arguments
 ------------
 
-* ``Single`` sec
+* :ref:`sec`: **Single**
 
 Description
 -------------

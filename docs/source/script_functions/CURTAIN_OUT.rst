@@ -20,6 +20,21 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	set_BG_effect(EFF_107)
+	set_BG_effect_trigger(8)
+	wait(0.5)
+
+References
+-------------
+* :ref:`set_BG_effect`
+* :ref:`set_BG_effect_trigger`
+* :ref:`wait`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -59,9 +74,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`set_BG_effect`
-* :ref:`set_BG_effect_trigger`
-* :ref:`wait`

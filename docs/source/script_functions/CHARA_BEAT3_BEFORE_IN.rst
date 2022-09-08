@@ -33,6 +33,85 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	if WEAPON == BOW:
+		set_BG_effect(EFF_092)
+		set_BG_effect_trigger(8)
+		set_BG_effect_speed(EFF_092, 1.5)
+		wait(0.15)
+		play_sound(SE_239)
+		set_BG_effect(1, EFF_001)
+		set_BG_effect_pos(EFF_001, -160, 50, 0, 1)
+		set_BG_effect_speed(EFF_001, 1.5)
+		wait(0.15)
+		play_sound(SE_239)
+		NO_EFFECT()
+		set_BG_effect(EFF_001)
+		set_BG_effect_pos(EFF_001, 160, 50, 0, 1)
+		set_BG_effect_speed(EFF_001, 1.5)
+		wait(0.15)
+	elif WEAPON == AXE:
+		set_BG_effect(EFF_090, EFF_001)
+		set_BG_effect_speed(EFF_090, 0.75)
+		set_BG_effect_scale(EFF_090, 2.0, 1.5)
+		set_BG_effect_pos(EFF_090, 150, 0)
+		set_BG_effect_pos(EFF_001, 150, 50)
+		play_sound(SE_116)
+		stop_se(0.1)
+		wait(0.15)
+		play_sound(SE_116)
+		set_BG_effect(1, 0, EFF_001)
+		set_BG_effect_pos(EFF_001, 0, 0)
+		stop_se(0.1)
+		wait(0.15)
+		play_sound(SE_116)
+		set_BG_effect(1, 0, 0, EFF_001)
+		set_BG_effect_pos(EFF_001, -150, -50)
+		wait(0.15)
+	elif WEAPON == WIND:
+		set_BG_effect(EFF_061)
+		set_BG_effect_speed(EFF_061, 2.0)
+		wait(0.05)
+		play_sound(SE_064)
+		wait(0.15)
+	if WEAPON == WIND:
+		c_face(eye, lip, CID, int)
+		c_face(eye2, lip2, CID2, int2)
+		c_face(eye3, lip3, CID3, int3)
+		chara_shake_h(CID, 2, true)
+		chara_shake_h(CID2, 2, true)
+		chara_shake_h(CID3, 2, true)
+		wait(0.7)
+		chara_shake_h(CID, 2, false)
+		chara_shake_h(CID2, 2, false)
+		chara_shake_h(CID3, 2, false)
+	else:
+		c_face(eye, lip, CID, int)
+		c_face(eye2, lip2, CID2, int2)
+		c_face(eye3, lip3, CID3, int3)
+		c_swing2_h_fast(CID)
+		c_swing2_h_fast(CID2)
+		c_swing2_h_fast(CID3)
+
+References
+-------------
+* :ref:`set_BG_effect`
+* :ref:`set_BG_effect_trigger`
+* :ref:`set_BG_effect_speed`
+* :ref:`wait`
+* :ref:`play_sound`
+* :ref:`set_BG_effect_pos`
+* :ref:`NO_EFFECT`
+* :ref:`set_BG_effect_scale`
+* :ref:`stop_se`
+* :ref:`c_face`
+* :ref:`chara_shake_h`
+* :ref:`c_swing2_h_fast`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -598,18 +677,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`set_BG_effect`
-* :ref:`set_BG_effect_trigger`
-* :ref:`set_BG_effect_speed`
-* :ref:`wait`
-* :ref:`play_sound`
-* :ref:`set_BG_effect_pos`
-* :ref:`NO_EFFECT`
-* :ref:`set_BG_effect_scale`
-* :ref:`stop_se`
-* :ref:`c_face`
-* :ref:`chara_shake_h`
-* :ref:`c_swing2_h_fast`

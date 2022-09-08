@@ -23,6 +23,28 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	WFOUT_SHORT()
+	set_BG_effect(EFF_020)
+	play_sound(SE_005)
+	wait(1.1)
+	CHARA_RESET(CID)
+	CHARA_SET(M, M, C, CID2, int)
+	wait(0.5)
+
+References
+-------------
+* :ref:`WFOUT_SHORT`
+* :ref:`set_BG_effect`
+* :ref:`play_sound`
+* :ref:`wait`
+* :ref:`CHARA_RESET`
+* :ref:`CHARA_SET`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -100,12 +122,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`WFOUT_SHORT`
-* :ref:`set_BG_effect`
-* :ref:`play_sound`
-* :ref:`wait`
-* :ref:`CHARA_RESET`
-* :ref:`CHARA_SET`

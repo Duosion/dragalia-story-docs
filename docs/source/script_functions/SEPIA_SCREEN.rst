@@ -20,6 +20,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	Sepia(0, 2)
+
+References
+-------------
+* :ref:`Sepia`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -44,7 +55,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`Sepia`

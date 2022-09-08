@@ -21,6 +21,41 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	SCREEN_FLASH_WHITE_DEF()
+	WFOUT_DEF()
+	play_sound(SE_139)
+	play_sound(SE_140)
+	if EFF == EFF_022:
+		set_BG_effect(0, EFF_025)
+		set_BG_effect_pos(EFF_025, 0, 100)
+	elif EFF == EFF_023:
+		set_BG_effect(0, EFF_026)
+		set_BG_effect_pos(EFF_026, 0, 100)
+	fade_color(0.8, 255, 255, 255, 1)
+	set_BG_effect(EFF, 1)
+	set_BG_effect_pos(EFF, 0, 100)
+	fade_color(3.0, 255, 255, 255, 0)
+	touch_wait()
+	NO_EFFECT()
+	SEFOUT_DEF()
+
+References
+-------------
+* :ref:`SCREEN_FLASH_WHITE_DEF`
+* :ref:`WFOUT_DEF`
+* :ref:`play_sound`
+* :ref:`set_BG_effect`
+* :ref:`set_BG_effect_pos`
+* :ref:`fade_color`
+* :ref:`touch_wait`
+* :ref:`NO_EFFECT`
+* :ref:`SEFOUT_DEF`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -189,15 +224,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`SCREEN_FLASH_WHITE_DEF`
-* :ref:`WFOUT_DEF`
-* :ref:`play_sound`
-* :ref:`set_BG_effect`
-* :ref:`set_BG_effect_pos`
-* :ref:`fade_color`
-* :ref:`touch_wait`
-* :ref:`NO_EFFECT`
-* :ref:`SEFOUT_DEF`

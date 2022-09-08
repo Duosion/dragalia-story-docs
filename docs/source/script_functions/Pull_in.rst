@@ -29,6 +29,54 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	c_face(eye1, lip1, CID, int)
+	mnu_move(CID, true, 0.3, 120, 0, EaseOutSine)
+	cmp_move(CID, 0.3, 120, 0)
+	wait(0.3)
+	CHARA_SET_0(eye2, lip2, R, CID2, int2)
+	chara_pos(CID2, 360, 0)
+	play_sound(SE_047)
+	if front == 1:
+		mnu_move(CID, true, 0.3, -90, 0, EaseOutSine)
+		mnu(CID2, true, 0.3, -90, 0, EaseOutSine, 0.3, 1.0, 1.0, EaseOutSine, 0.3, 0, EaseOutSine, 0.3, 1, EaseOutSine)
+		cmp_move(CID, 0.3, -90, 0)
+		cmp(CID2, 0.3, -90, 0, 1, 1, 0, 1)
+		wait(0.7)
+		play_sound(SE_047)
+		mnu_move(CID, true, 0.3, -90, 0, EaseOutSine)
+		mnu_move(CID2, true, 0.3, -90, 0, EaseOutSine)
+		cmp_move(CID, 0.3, -90, 0)
+		cmp_move(CID2, 0.3, -90, 0)
+	else:
+		mnu(CID2, true, 0.3, -90, 0, EaseOutSine, 0.3, 1.0, 1.0, EaseOutSine, 0.3, 0, EaseOutSine, 0.3, 1, EaseOutSine)
+		mnu_move(CID, true, 0.3, -90, 0, EaseOutSine)
+		cmp(CID2, 0.3, -90, 0, 1, 1, 0, 1)
+		cmp_move(CID, 0.3, -90, 0)
+		wait(0.7)
+		play_sound(SE_047)
+		mnu_move(CID2, true, 0.3, -90, 0, EaseOutSine)
+		mnu_move(CID, true, 0.3, -90, 0, EaseOutSine)
+		cmp_move(CID2, 0.3, -90, 0)
+		cmp_move(CID, 0.3, -90, 0)
+	wait(0.7)
+
+References
+-------------
+* :ref:`c_face`
+* :ref:`mnu_move`
+* :ref:`cmp_move`
+* :ref:`wait`
+* :ref:`CHARA_SET_0`
+* :ref:`chara_pos`
+* :ref:`play_sound`
+* :ref:`mnu`
+* :ref:`cmp`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -408,15 +456,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`c_face`
-* :ref:`mnu_move`
-* :ref:`cmp_move`
-* :ref:`wait`
-* :ref:`CHARA_SET_0`
-* :ref:`chara_pos`
-* :ref:`play_sound`
-* :ref:`mnu`
-* :ref:`cmp`

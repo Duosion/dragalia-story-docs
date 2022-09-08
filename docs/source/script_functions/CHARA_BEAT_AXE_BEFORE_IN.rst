@@ -21,6 +21,24 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	set_BG_effect(EFF_093)
+	wait(0.1)
+	play_sound(SE_116)
+	c_swing2_h_fast(CID)
+	wait(0.25)
+
+References
+-------------
+* :ref:`set_BG_effect`
+* :ref:`wait`
+* :ref:`play_sound`
+* :ref:`c_swing2_h_fast`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -78,10 +96,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`set_BG_effect`
-* :ref:`wait`
-* :ref:`play_sound`
-* :ref:`c_swing2_h_fast`

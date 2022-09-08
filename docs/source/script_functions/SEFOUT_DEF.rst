@@ -20,6 +20,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	stop_se(0.5)
+
+References
+-------------
+* :ref:`stop_se`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -43,7 +54,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`stop_se`

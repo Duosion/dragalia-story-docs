@@ -11,15 +11,15 @@ color_adjustment
 Arguments
 ------------
 
-* ``Int32`` cameraType
+* :ref:`cameraType`: **Int32**
 	* Default: ``1``
-* ``Single`` fadeSec
+* :ref:`fadeSec`: **Single**
 	* Default: ``0``
-* ``Single`` bright
+* :ref:`bright`: **Single**
 	* Default: ``1``
-* ``Single`` saturation
+* :ref:`saturation`: **Single**
 	* Default: ``1``
-* ``Single`` contrast
+* :ref:`contrast`: **Single**
 	* Default: ``1``
 
 Description

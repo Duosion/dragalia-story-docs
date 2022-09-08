@@ -22,6 +22,21 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	StopLip_close(CID)
+	wait(sec)
+	RestartLip(CID)
+
+References
+-------------
+* :ref:`StopLip_close`
+* :ref:`wait`
+* :ref:`RestartLip`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -64,9 +79,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`StopLip_close`
-* :ref:`wait`
-* :ref:`RestartLip`

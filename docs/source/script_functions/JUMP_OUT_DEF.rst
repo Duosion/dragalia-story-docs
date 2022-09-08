@@ -21,6 +21,33 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	mnu_move(CID, true, 0.2, 0, -70, EaseOutCubic)
+	cmp_move(CID, 0.2, 0, -70)
+	wait(0.3)
+	play_sound(SE_082)
+	NO_EMO(CID)
+	RESET_TEXT()
+	mnu_move(CID, true, 0.2, 0, 200, EaseInSine)
+	wait(0.1)
+	chara_fadeout(CID, 0.1)
+	RestartAll(CID)
+
+References
+-------------
+* :ref:`mnu_move`
+* :ref:`cmp_move`
+* :ref:`wait`
+* :ref:`play_sound`
+* :ref:`NO_EMO`
+* :ref:`RESET_TEXT`
+* :ref:`chara_fadeout`
+* :ref:`RestartAll`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -130,14 +157,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`mnu_move`
-* :ref:`cmp_move`
-* :ref:`wait`
-* :ref:`play_sound`
-* :ref:`NO_EMO`
-* :ref:`RESET_TEXT`
-* :ref:`chara_fadeout`
-* :ref:`RestartAll`

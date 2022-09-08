@@ -11,7 +11,7 @@ window_type
 Arguments
 ------------
 
-* ``Int32`` type
+* :ref:`type`: **Int32**
 
 Description
 -------------

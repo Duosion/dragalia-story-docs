@@ -11,9 +11,9 @@ multi_scroll
 Arguments
 ------------
 
-* ``Single`` sec
-* ``Single`` endPosX
-* ``Single`` endPosY
+* :ref:`sec`: **Single**
+* :ref:`endPosX`: **Single**
+* :ref:`endPosY`: **Single**
 
 Description
 -------------

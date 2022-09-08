@@ -20,6 +20,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	play_sound(SE_170)
+	set_BG_effect(EFF_094)
+
+References
+-------------
+* :ref:`play_sound`
+* :ref:`set_BG_effect`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -51,8 +64,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`play_sound`
-* :ref:`set_BG_effect`

@@ -25,6 +25,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	c_face(eye, lip, CID, int)
+	chara_face(CID, int2, 1)
+
+References
+-------------
+* :ref:`c_face`
+* :ref:`chara_face`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -67,8 +80,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`c_face`
-* :ref:`chara_face`

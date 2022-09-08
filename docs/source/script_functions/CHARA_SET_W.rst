@@ -26,6 +26,21 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	c_set_def(eye, lip, POS, CID, int)
+	chara_face(CID, int2, 1)
+	CHARA_FADEIN_DEF(CID)
+
+References
+-------------
+* :ref:`c_set_def`
+* :ref:`chara_face`
+* :ref:`CHARA_FADEIN_DEF`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -78,9 +93,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`c_set_def`
-* :ref:`chara_face`
-* :ref:`CHARA_FADEIN_DEF`

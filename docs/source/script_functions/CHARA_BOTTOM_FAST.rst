@@ -25,6 +25,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	c_set_def(eye, lip, POS, CID, int)
+	BOTTOM_IN_FAST(CID)
+
+References
+-------------
+* :ref:`c_set_def`
+* :ref:`BOTTOM_IN_FAST`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -66,8 +79,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`c_set_def`
-* :ref:`BOTTOM_IN_FAST`

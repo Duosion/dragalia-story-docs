@@ -22,6 +22,24 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	if eye == O:
+		chara_eyeblink(CID, -1)
+	elif eye == Q:
+		chara_eyeblink(CID, -2)
+	elif eye == M:
+		chara_eyeblink(CID)
+	else:
+		chara_eyeblink(CID)
+
+References
+-------------
+* :ref:`chara_eyeblink`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -113,7 +131,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_eyeblink`

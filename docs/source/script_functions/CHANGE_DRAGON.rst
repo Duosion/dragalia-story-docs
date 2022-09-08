@@ -23,6 +23,59 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	NO_EMO(CID)
+	WFOUT_SHORT()
+	set_BG_effect(EFF_070, EFF_071, EFF_020)
+	set_BG_effect_trigger(8, 8, 2)
+	play_sound(SE_210)
+	wait(0.9)
+	fade_color(0.2, 255, 255, 255, 1)
+	NO_EFFECT()
+	set_BG_effect(EFF_020)
+	CHARA_RESET(CID)
+	CHARA_SET(M, M, C, CID2, 1)
+	set_BG_effect(EFF_020)
+	set_BG_effect_trigger(1)
+	fade_color(1.5, 255, 255, 255, 0.7)
+	set_BG_effect_trigger(1)
+	fade_color(1.0, 255, 255, 255, 0.4)
+	set_camera_distortion(1, true, EFF_007)
+	set_BG_effect(EFF_007)
+	set_BG_effect_speed(EFF_007, 0.2)
+	set_BG_effect_trigger(8)
+	fade_color(0.5, 255, 255, 255, 0.2)
+	set_BG_effect_trigger(1)
+	fade_color(2.0, 255, 255, 255, 0.0)
+	NO_EFFECT()
+	play_sound(SE)
+	set_BG_effect(EFF_007)
+	set_BG_effect_speed(EFF_007, 1.5)
+	set_BG_effect_trigger(8)
+	effect_shake_bg(12, 0.5, 1.5, 1)
+	NO_EFFECT()
+	set_camera_distortion(1, false, EFF_007)
+
+References
+-------------
+* :ref:`NO_EMO`
+* :ref:`WFOUT_SHORT`
+* :ref:`set_BG_effect`
+* :ref:`set_BG_effect_trigger`
+* :ref:`play_sound`
+* :ref:`wait`
+* :ref:`fade_color`
+* :ref:`NO_EFFECT`
+* :ref:`CHARA_RESET`
+* :ref:`CHARA_SET`
+* :ref:`set_camera_distortion`
+* :ref:`set_BG_effect_speed`
+* :ref:`effect_shake_bg`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -319,19 +372,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`NO_EMO`
-* :ref:`WFOUT_SHORT`
-* :ref:`set_BG_effect`
-* :ref:`set_BG_effect_trigger`
-* :ref:`play_sound`
-* :ref:`wait`
-* :ref:`fade_color`
-* :ref:`NO_EFFECT`
-* :ref:`CHARA_RESET`
-* :ref:`CHARA_SET`
-* :ref:`set_camera_distortion`
-* :ref:`set_BG_effect_speed`
-* :ref:`effect_shake_bg`

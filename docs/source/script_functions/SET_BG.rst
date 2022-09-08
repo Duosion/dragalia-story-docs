@@ -21,6 +21,34 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	set_BG(BGID)
+	if BGID == sty_bg_0031_100:
+		bg_pos_x(60)
+	elif BGID == sty_bg_0004_100:
+		bg_pos_x(45)
+	elif BGID == sty_bg_0033_101:
+		bg_pos_x(10)
+	elif BGID == sty_bg_0002_100:
+		bg_pos_x(75)
+	elif BGID == sty_bg_0003_100:
+		bg_pos_x(40)
+	elif BGID == sty_bg_0016_103:
+		bg_pos_x(68)
+	elif BGID == sty_bg_0049_100:
+		bg_pos_x(-68)
+	elif BGID == sty_bg_0049_101:
+		bg_pos_x(-68)
+
+References
+-------------
+* :ref:`set_BG`
+* :ref:`bg_pos_x`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -188,8 +216,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`set_BG`
-* :ref:`bg_pos_x`

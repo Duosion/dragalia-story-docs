@@ -20,6 +20,32 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	touch_enable(false)
+	play_sound(SE_057)
+	set_BG_effect(EFF_004)
+	set_BG_effect_pos(EFF_004, 0, 100)
+	set_BG_effect_trigger(8)
+	wait(2.5)
+	touch_enable(true)
+	touch_wait()
+	SEFOUT_DEF()
+
+References
+-------------
+* :ref:`touch_enable`
+* :ref:`play_sound`
+* :ref:`set_BG_effect`
+* :ref:`set_BG_effect_pos`
+* :ref:`set_BG_effect_trigger`
+* :ref:`wait`
+* :ref:`touch_wait`
+* :ref:`SEFOUT_DEF`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -105,14 +131,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`touch_enable`
-* :ref:`play_sound`
-* :ref:`set_BG_effect`
-* :ref:`set_BG_effect_pos`
-* :ref:`set_BG_effect_trigger`
-* :ref:`wait`
-* :ref:`touch_wait`
-* :ref:`SEFOUT_DEF`

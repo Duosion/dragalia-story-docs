@@ -22,6 +22,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	set_BG_effect(effectIds)
+	set_BG_effect_trigger(triggers)
+
+References
+-------------
+* :ref:`set_BG_effect`
+* :ref:`set_BG_effect_trigger`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -56,8 +69,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`set_BG_effect`
-* :ref:`set_BG_effect_trigger`

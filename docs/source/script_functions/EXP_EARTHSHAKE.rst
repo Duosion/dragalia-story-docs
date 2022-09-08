@@ -20,6 +20,24 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	WFOUT_DEF()
+	SCREEN_FLASH_WHITE_DEF()
+	play_sound(SE_007)
+	play_sound(SE_034)
+	effect_shake_bg(2, 1, 2)
+
+References
+-------------
+* :ref:`WFOUT_DEF`
+* :ref:`SCREEN_FLASH_WHITE_DEF`
+* :ref:`play_sound`
+* :ref:`effect_shake_bg`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -73,10 +91,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`WFOUT_DEF`
-* :ref:`SCREEN_FLASH_WHITE_DEF`
-* :ref:`play_sound`
-* :ref:`effect_shake_bg`

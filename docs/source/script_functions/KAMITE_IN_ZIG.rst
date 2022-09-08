@@ -21,6 +21,28 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	mnu_move(CID, true, 0.05, 160, 0, 1)
+	mnu_move(CID, false, 0.15, -20, 20, 1)
+	mnu_move(CID, false, 0.3, -40, -40, 1)
+	mnu_move(CID, false, 0.3, -40, 40, 1)
+	mnu_move(CID, false, 0.3, -40, -40, 1)
+	mnu_move(CID, false, 0.15, -20, 20, 1)
+	cmp_move(CID, 1.25, 0, 0)
+	wait(0.05)
+	chara_fadein(CID, 0.5)
+
+References
+-------------
+* :ref:`mnu_move`
+* :ref:`cmp_move`
+* :ref:`wait`
+* :ref:`chara_fadein`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -144,10 +166,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`mnu_move`
-* :ref:`cmp_move`
-* :ref:`wait`
-* :ref:`chara_fadein`

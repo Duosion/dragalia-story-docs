@@ -11,12 +11,12 @@ print
 Arguments
 ------------
 
-* ``Boolean`` isEnd
-* ``String`` name
+* :ref:`isEnd`: **Boolean**
+* :ref:`name`: **String**
 	* Default: ``""``
-* ``String`` text
+* :ref:`text`: **String**
 	* Default: ``""``
-* ``String`` voice
+* :ref:`voice`: **String**
 	* Default: ``""``
 
 Description

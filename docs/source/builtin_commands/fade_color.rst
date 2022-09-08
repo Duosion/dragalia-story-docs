@@ -11,14 +11,14 @@ fade_color
 Arguments
 ------------
 
-* ``Single`` sec
-* ``Int32`` r
-* ``Int32`` g
-* ``Int32`` b
-* ``Single`` a
-* ``Int32`` ease
+* :ref:`sec`: **Single**
+* :ref:`r`: **Int32**
+* :ref:`g`: **Int32**
+* :ref:`b`: **Int32**
+* :ref:`a`: **Single**
+* :ref:`ease`: **Int32**
 	* Default: ``1``
-* ``Boolean`` isCharacterFrontLayer
+* :ref:`isCharacterFrontLayer`: **Boolean**
 	* Default: ``False``
 
 Description

@@ -22,6 +22,25 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	if A == 0:
+		c_push_t(CID)
+	elif A == 1:
+		c_push_t_slow(CID)
+	elif A == 2:
+		c_push_b(CID)
+	else:
+
+References
+-------------
+* :ref:`c_push_t`
+* :ref:`c_push_t_slow`
+* :ref:`c_push_b`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -103,9 +122,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`c_push_t`
-* :ref:`c_push_t_slow`
-* :ref:`c_push_b`

@@ -20,6 +20,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	MAGIC_CURE_BEFORE()
+	MAGIC_CURE_AFTER()
+
+References
+-------------
+* :ref:`MAGIC_CURE_BEFORE`
+* :ref:`MAGIC_CURE_AFTER`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -47,8 +60,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`MAGIC_CURE_BEFORE`
-* :ref:`MAGIC_CURE_AFTER`

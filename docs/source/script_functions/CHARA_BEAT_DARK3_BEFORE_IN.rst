@@ -21,6 +21,26 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	set_BG_effect(1, 1, EFF_020)
+	set_BG_effect_color(EFF_020, 213, 0, 255, 1)
+	set_BG_effect_speed(EFF_020, 0.8)
+	wait(1.0)
+	play_sound(SE_044)
+	wait(0.1)
+
+References
+-------------
+* :ref:`set_BG_effect`
+* :ref:`set_BG_effect_color`
+* :ref:`set_BG_effect_speed`
+* :ref:`wait`
+* :ref:`play_sound`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -93,11 +113,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`set_BG_effect`
-* :ref:`set_BG_effect_color`
-* :ref:`set_BG_effect_speed`
-* :ref:`wait`
-* :ref:`play_sound`

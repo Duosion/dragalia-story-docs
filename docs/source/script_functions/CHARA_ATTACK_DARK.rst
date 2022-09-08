@@ -21,6 +21,43 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	WFOUT_SHORT()
+	set_BG_effect(EFF_070, EFF_071)
+	set_BG_effect_color(EFF_070, 79, 0, 225)
+	set_BG_effect_color(EFF_071, 79, 0, 225)
+	set_BG_effect_opacity(EFF_070, 0.8)
+	set_BG_effect_opacity(EFF_071, 0.8)
+	set_BG_effect_trigger(9, 9)
+	wait(0.8)
+	set_BG_effect_opacity(EFF_070, 0, 0.3)
+	set_BG_effect_opacity(EFF_071, 0, 0.3)
+	set_BG_effect(1, 1, EFF_046)
+	set_BG_effect_speed(EFF_046, 1.5)
+	play_sound(SE_060)
+	mnu_scale(CID, true, 0.15, 1.35, 1.35, EaseOutCubic)
+	mnu_scale(CID, false, 0.15, 1, 1, EaseOutCubic)
+	cmp_scale(CID, 0.3, 1, 1)
+	wait(0.6)
+	set_BG_effect(0, 0)
+
+References
+-------------
+* :ref:`WFOUT_SHORT`
+* :ref:`set_BG_effect`
+* :ref:`set_BG_effect_color`
+* :ref:`set_BG_effect_opacity`
+* :ref:`set_BG_effect_trigger`
+* :ref:`wait`
+* :ref:`set_BG_effect_speed`
+* :ref:`play_sound`
+* :ref:`mnu_scale`
+* :ref:`cmp_scale`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -211,16 +248,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`WFOUT_SHORT`
-* :ref:`set_BG_effect`
-* :ref:`set_BG_effect_color`
-* :ref:`set_BG_effect_opacity`
-* :ref:`set_BG_effect_trigger`
-* :ref:`wait`
-* :ref:`set_BG_effect_speed`
-* :ref:`play_sound`
-* :ref:`mnu_scale`
-* :ref:`cmp_scale`

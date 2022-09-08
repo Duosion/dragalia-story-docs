@@ -21,6 +21,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	c_zigzag_h_t(CID)
+	chara_fadein(CID, 0.5)
+
+References
+-------------
+* :ref:`c_zigzag_h_t`
+* :ref:`chara_fadein`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -55,8 +68,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`c_zigzag_h_t`
-* :ref:`chara_fadein`

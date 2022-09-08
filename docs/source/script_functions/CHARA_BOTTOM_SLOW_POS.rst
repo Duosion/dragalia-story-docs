@@ -26,6 +26,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	CHARA_SET_POS_0(eye, lip, X, Y, CID, int)
+	BOTTOM_IN_SLOW(CID)
+
+References
+-------------
+* :ref:`CHARA_SET_POS_0`
+* :ref:`BOTTOM_IN_SLOW`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -69,8 +82,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`CHARA_SET_POS_0`
-* :ref:`BOTTOM_IN_SLOW`

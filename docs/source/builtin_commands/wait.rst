@@ -11,7 +11,7 @@ wait
 Arguments
 ------------
 
-* ``Single`` sec
+* :ref:`sec`: **Single**
 
 Description
 -------------

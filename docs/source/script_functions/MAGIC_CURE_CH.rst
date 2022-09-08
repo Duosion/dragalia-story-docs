@@ -25,6 +25,27 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	WFOUT_DEF()
+	MAGIC_CURE_BEFORE()
+	CHARA_RESET(CID)
+	CHARA_SET(eye2, lip2, C, CID2, int)
+	MAGIC_CURE_AFTER()
+	wait(0.8)
+
+References
+-------------
+* :ref:`WFOUT_DEF`
+* :ref:`MAGIC_CURE_BEFORE`
+* :ref:`CHARA_RESET`
+* :ref:`CHARA_SET`
+* :ref:`MAGIC_CURE_AFTER`
+* :ref:`wait`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -92,12 +113,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`WFOUT_DEF`
-* :ref:`MAGIC_CURE_BEFORE`
-* :ref:`CHARA_RESET`
-* :ref:`CHARA_SET`
-* :ref:`MAGIC_CURE_AFTER`
-* :ref:`wait`

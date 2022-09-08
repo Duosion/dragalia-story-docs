@@ -21,6 +21,23 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	mnu_move(CID, true, 0.08, 0, 10, 9)
+	mnu_move(CID, false, 0.08, 0, -20, 9)
+	mnu_move(CID, false, 0.08, 0, 20, 9)
+	mnu_move(CID, false, 0.08, 0, -20, 9)
+	mnu_move(CID, false, 0.08, 0, 10, 9)
+	cmp_move(CID, 0.4, 0, 0)
+
+References
+-------------
+* :ref:`mnu_move`
+* :ref:`cmp_move`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -114,8 +131,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`mnu_move`
-* :ref:`cmp_move`

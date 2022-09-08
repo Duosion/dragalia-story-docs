@@ -11,7 +11,7 @@ screen_flash
 Arguments
 ------------
 
-* ``Single`` sec
+* :ref:`sec`: **Single**
 
 Description
 -------------

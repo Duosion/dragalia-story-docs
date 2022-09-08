@@ -20,6 +20,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	set_BG_effect(EFF_050)
+	fade_color(1.0, 255, 255, 255, 0)
+
+References
+-------------
+* :ref:`set_BG_effect`
+* :ref:`fade_color`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -55,8 +68,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`set_BG_effect`
-* :ref:`fade_color`

@@ -11,10 +11,10 @@ outline
 Arguments
 ------------
 
-* ``Boolean`` isEnd
-* ``String`` outline
+* :ref:`isEnd`: **Boolean**
+* :ref:`outline`: **String**
 	* Default: ``""``
-* ``String`` nextFunction
+* :ref:`nextFunction`: **String**
 	* Default: ``""``
 
 Description

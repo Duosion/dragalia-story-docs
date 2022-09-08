@@ -11,7 +11,7 @@ stop_se
 Arguments
 ------------
 
-* ``Single`` sec
+* :ref:`sec`: **Single**
 	* Default: ``0``
 
 Description

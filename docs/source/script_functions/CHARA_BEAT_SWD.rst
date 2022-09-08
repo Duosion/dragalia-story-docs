@@ -24,6 +24,23 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	WFOUT_SHORT()
+	CHARA_BEAT_SWD_BEFORE(eye, lip, CID, int)
+	wait(0.3)
+	CHARA_BEAT_AFTER_0(CID)
+
+References
+-------------
+* :ref:`WFOUT_SHORT`
+* :ref:`CHARA_BEAT_SWD_BEFORE`
+* :ref:`wait`
+* :ref:`CHARA_BEAT_AFTER_0`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -77,10 +94,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`WFOUT_SHORT`
-* :ref:`CHARA_BEAT_SWD_BEFORE`
-* :ref:`wait`
-* :ref:`CHARA_BEAT_AFTER_0`

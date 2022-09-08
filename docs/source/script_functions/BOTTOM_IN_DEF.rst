@@ -21,6 +21,22 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	mnu_move(CID, true, 0.05, 0, -120, 1)
+	mnu_move(CID, false, 0.4, 0, 120, EaseOutSine)
+	wait(0.05)
+	chara_fadein(CID, 0.4)
+
+References
+-------------
+* :ref:`mnu_move`
+* :ref:`wait`
+* :ref:`chara_fadein`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -81,9 +97,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`mnu_move`
-* :ref:`wait`
-* :ref:`chara_fadein`

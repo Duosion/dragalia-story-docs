@@ -11,14 +11,14 @@ chara_eyeblink
 Arguments
 ------------
 
-* ``String`` charaId
-* ``Single`` intervalMin
+* :ref:`charaId`: **String**
+* :ref:`intervalMin`: **Single**
 	* Default: ``2``
-* ``Single`` intervalMax
+* :ref:`intervalMax`: **Single**
 	* Default: ``5``
-* ``Single`` eyeBlinkingTime
+* :ref:`eyeBlinkingTime`: **Single**
 	* Default: ``0.05``
-* ``Int32`` maxEyeBlinkFrame
+* :ref:`maxEyeBlinkFrame`: **Int32**
 	* Default: ``2``
 
 Description

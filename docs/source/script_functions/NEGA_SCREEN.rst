@@ -20,6 +20,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	Negaposi(0.5, 1, 124, 88, 176)
+
+References
+-------------
+* :ref:`Negaposi`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -47,7 +58,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`Negaposi`

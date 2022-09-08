@@ -21,6 +21,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chapter_intro(LABEL)
+	chapter_intro_frame_visible(true, 0.7)
+
+References
+-------------
+* :ref:`chapter_intro`
+* :ref:`chapter_intro_frame_visible`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -55,8 +68,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chapter_intro`
-* :ref:`chapter_intro_frame_visible`

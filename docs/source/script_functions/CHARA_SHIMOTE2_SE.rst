@@ -29,6 +29,40 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_visible(CID, false)
+	chara_visible(CID2, false)
+	chara_pos(CID, 1)
+	chara_pos(CID2, 3)
+	chara_face(CID, int)
+	chara_face(CID2, int2)
+	eye1(CID, eye)
+	eye1(CID2, eye2)
+	lip1(CID, lip)
+	lip1(CID2, lip2)
+	play_sound(SE)
+	wait(0.5)
+	SHIMOTE_IN_DEF(CID)
+	wait(0.3)
+	BGMTUNE_DOWN_0(SE)
+	SHIMOTE_IN_DEF(CID2)
+
+References
+-------------
+* :ref:`chara_visible`
+* :ref:`chara_pos`
+* :ref:`chara_face`
+* :ref:`eye1`
+* :ref:`lip1`
+* :ref:`play_sound`
+* :ref:`wait`
+* :ref:`SHIMOTE_IN_DEF`
+* :ref:`BGMTUNE_DOWN_0`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -192,15 +226,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_visible`
-* :ref:`chara_pos`
-* :ref:`chara_face`
-* :ref:`eye1`
-* :ref:`lip1`
-* :ref:`play_sound`
-* :ref:`wait`
-* :ref:`SHIMOTE_IN_DEF`
-* :ref:`BGMTUNE_DOWN_0`

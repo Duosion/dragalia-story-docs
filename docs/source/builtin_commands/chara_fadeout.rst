@@ -11,8 +11,8 @@ chara_fadeout
 Arguments
 ------------
 
-* ``String`` charaId
-* ``Single`` sec
+* :ref:`charaId`: **String**
+* :ref:`sec`: **Single**
 
 Description
 -------------

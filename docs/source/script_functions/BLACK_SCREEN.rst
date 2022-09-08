@@ -20,6 +20,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	WFOUT_SHORT()
+	fade_color(1.0, 0, 0, 0, 0.7)
+
+References
+-------------
+* :ref:`WFOUT_SHORT`
+* :ref:`fade_color`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -53,8 +66,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`WFOUT_SHORT`
-* :ref:`fade_color`

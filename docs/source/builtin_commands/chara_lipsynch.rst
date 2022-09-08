@@ -11,14 +11,14 @@ chara_lipsynch
 Arguments
 ------------
 
-* ``String`` charaId
-* ``Single`` intervalMin
+* :ref:`charaId`: **String**
+* :ref:`intervalMin`: **Single**
 	* Default: ``0.06666667``
-* ``Single`` intervalMax
+* :ref:`intervalMax`: **Single**
 	* Default: ``0.06666667``
-* ``Single`` lipSynchingTime
+* :ref:`lipSynchingTime`: **Single**
 	* Default: ``0.1``
-* ``Int32`` maxLipSynchFrame
+* :ref:`maxLipSynchFrame`: **Int32**
 	* Default: ``2``
 
 Description

@@ -11,8 +11,8 @@ ruby
 Arguments
 ------------
 
-* ``String`` text
-* ``String`` ruby
+* :ref:`text`: **String**
+* :ref:`ruby`: **String**
 
 Description
 -------------

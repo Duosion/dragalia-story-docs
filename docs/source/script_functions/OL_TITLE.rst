@@ -21,6 +21,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	outline_title(title)
+
+References
+-------------
+* :ref:`outline_title`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -46,7 +57,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`outline_title`

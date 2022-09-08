@@ -11,17 +11,17 @@ chara_act_complete
 Arguments
 ------------
 
-* ``String`` charaId
-* ``Single`` delay
-* ``Single`` moveX
-* ``Single`` moveY
-* ``Single`` scaleX
+* :ref:`charaId`: **String**
+* :ref:`delay`: **Single**
+* :ref:`moveX`: **Single**
+* :ref:`moveY`: **Single**
+* :ref:`scaleX`: **Single**
 	* Default: ``-1``
-* ``Single`` scaleY
+* :ref:`scaleY`: **Single**
 	* Default: ``-1``
-* ``Single`` rotate
+* :ref:`rotate`: **Single**
 	* Default: ``-1``
-* ``Single`` fade
+* :ref:`fade`: **Single**
 	* Default: ``-1``
 
 Description

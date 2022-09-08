@@ -20,6 +20,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	set_BG_effect(0, 0, 0, 0, 0)
+
+References
+-------------
+* :ref:`set_BG_effect`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -47,7 +58,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`set_BG_effect`

@@ -28,6 +28,47 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	if Rayer == 1:
+		CHARA_SET_POS_0(M, M, X1, 0, Rayer1, 1)
+		CHARA_UNCOLOR(Rayer1)
+		mnu_fade(Rayer1, true, Sec, 1, EaseOutSine)
+		cmp_fade(Rayer1, Sec, 1)
+	elif Rayer == 2:
+		CHARA_SET_POS_0(M, M, X1, 0, Rayer1, 1)
+		CHARA_SET_POS_0(M, M, X2, 0, Rayer2, 1)
+		CHARA_UNCOLOR(Rayer1)
+		CHARA_UNCOLOR(Rayer2)
+		mnu_fade(Rayer1, true, Sec, 1, EaseOutSine)
+		mnu_fade(Rayer2, true, Sec, 1, EaseOutSine)
+		cmp_fade(Rayer1, Sec, 1)
+		cmp_fade(Rayer2, Sec, 1)
+	elif Rayer == 3:
+		CHARA_SET_POS_0(M, M, X1, 0, Rayer1, 1)
+		CHARA_SET_POS_0(M, M, X2, 0, Rayer2, 1)
+		CHARA_SET_POS_0(M, M, X3, 0, Rayer3, 1)
+		CHARA_UNCOLOR(Rayer1)
+		CHARA_UNCOLOR(Rayer2)
+		CHARA_UNCOLOR(Rayer3)
+		mnu_fade(Rayer1, true, Sec, 1, EaseOutSine)
+		mnu_fade(Rayer2, true, Sec, 1, EaseOutSine)
+		mnu_fade(Rayer3, true, Sec, 1, EaseOutSine)
+		cmp_fade(Rayer1, Sec, 1)
+		cmp_fade(Rayer2, Sec, 1)
+		cmp_fade(Rayer3, Sec, 1)
+	else:
+
+References
+-------------
+* :ref:`CHARA_SET_POS_0`
+* :ref:`CHARA_UNCOLOR`
+* :ref:`mnu_fade`
+* :ref:`cmp_fade`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -349,10 +390,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`CHARA_SET_POS_0`
-* :ref:`CHARA_UNCOLOR`
-* :ref:`mnu_fade`
-* :ref:`cmp_fade`

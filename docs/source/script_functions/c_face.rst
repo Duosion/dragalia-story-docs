@@ -24,6 +24,21 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	eye1(CID, eye)
+	lip1(CID, lip)
+	chara_face(CID, int)
+
+References
+-------------
+* :ref:`eye1`
+* :ref:`lip1`
+* :ref:`chara_face`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -71,9 +86,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`eye1`
-* :ref:`lip1`
-* :ref:`chara_face`

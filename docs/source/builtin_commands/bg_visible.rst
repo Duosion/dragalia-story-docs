@@ -11,7 +11,7 @@ bg_visible
 Arguments
 ------------
 
-* ``Boolean`` visible
+* :ref:`visible`: **Boolean**
 
 Description
 -------------

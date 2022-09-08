@@ -21,6 +21,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	mnu_scale(CID, true, 0.2, 1.3, 1.3, EaseOutCubic)
+	cmp_scale(CID, 0.2, 1.3, 1.3)
+
+References
+-------------
+* :ref:`mnu_scale`
+* :ref:`cmp_scale`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -62,8 +75,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`mnu_scale`
-* :ref:`cmp_scale`

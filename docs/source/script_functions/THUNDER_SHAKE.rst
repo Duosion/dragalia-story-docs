@@ -20,6 +20,34 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	wait(0.5)
+	SCREEN_FLASH_WHITE_DEF()
+	wait(0.2)
+	SCREEN_FLASH_WHITE_DEF()
+	fade_color(0.1, 255, 255, 255, 1)
+	play_sound(SE_078)
+	fade_color(0.8, 255, 255, 255, 0.5)
+	play_sound(SE_007)
+	fade_color(0.3, 255, 255, 255, 0.125)
+	set_volume(0, 2.0, SE_007)
+	fade_color(0.1, 255, 255, 255, 0)
+	effect_shake_bg(1, 0.5, 1.0)
+	wait(0.5)
+
+References
+-------------
+* :ref:`wait`
+* :ref:`SCREEN_FLASH_WHITE_DEF`
+* :ref:`fade_color`
+* :ref:`play_sound`
+* :ref:`set_volume`
+* :ref:`effect_shake_bg`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -155,12 +183,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`wait`
-* :ref:`SCREEN_FLASH_WHITE_DEF`
-* :ref:`fade_color`
-* :ref:`play_sound`
-* :ref:`set_volume`
-* :ref:`effect_shake_bg`

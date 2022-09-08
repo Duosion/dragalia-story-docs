@@ -23,6 +23,23 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	play_sound(SE)
+	KAMITE_OUT2_FAST(CID, CID2)
+	wait(0.5)
+	BGMTUNE_DOWN_0(SE)
+
+References
+-------------
+* :ref:`play_sound`
+* :ref:`KAMITE_OUT2_FAST`
+* :ref:`wait`
+* :ref:`BGMTUNE_DOWN_0`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -75,10 +92,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`play_sound`
-* :ref:`KAMITE_OUT2_FAST`
-* :ref:`wait`
-* :ref:`BGMTUNE_DOWN_0`

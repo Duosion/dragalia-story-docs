@@ -20,6 +20,23 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	Reset(0, 0)
+	ResetLerp(0, 0)
+	Reset(0, 1)
+	ResetLerp(0, 1)
+	Reset(0, 2)
+	ResetLerp(0, 2)
+
+References
+-------------
+* :ref:`Reset`
+* :ref:`ResetLerp`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -89,8 +106,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`Reset`
-* :ref:`ResetLerp`

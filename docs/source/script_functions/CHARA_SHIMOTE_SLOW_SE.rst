@@ -26,6 +26,23 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	play_sound(SE)
+	wait(1.0)
+	BGMTUNE_DOWN_0(SE)
+	CHARA_SHIMOTE_SLOW(eye, lip, POS, CID, int)
+
+References
+-------------
+* :ref:`play_sound`
+* :ref:`wait`
+* :ref:`BGMTUNE_DOWN_0`
+* :ref:`CHARA_SHIMOTE_SLOW`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -84,10 +101,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`play_sound`
-* :ref:`wait`
-* :ref:`BGMTUNE_DOWN_0`
-* :ref:`CHARA_SHIMOTE_SLOW`

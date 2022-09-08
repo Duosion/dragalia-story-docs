@@ -20,6 +20,21 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	set_camera_distortion(cameraType_Chara, true, EFF_007)
+	SHOUT_0_EFF()
+	effect_shake_bg(12, 0.5, 1.5, 1)
+
+References
+-------------
+* :ref:`set_camera_distortion`
+* :ref:`SHOUT_0_EFF`
+* :ref:`effect_shake_bg`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -62,9 +77,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`set_camera_distortion`
-* :ref:`SHOUT_0_EFF`
-* :ref:`effect_shake_bg`

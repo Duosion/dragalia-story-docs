@@ -24,6 +24,39 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	WFOUT_DEF()
+	chara_visible(CID, false)
+	chara_face(CID, int)
+	eye1(CID, eye)
+	lip1(CID, lip)
+	wait(0.1)
+	set_render_target(CID, 0)
+	play_sound(SE_010)
+	set_BG_effect(EFF_002, EFF_SCE_2D_REN_000)
+	set_BG_effect_trigger(0, 25)
+	wait(2.7)
+	NO_EFFECT()
+	chara_visible(CID, true)
+
+References
+-------------
+* :ref:`WFOUT_DEF`
+* :ref:`chara_visible`
+* :ref:`chara_face`
+* :ref:`eye1`
+* :ref:`lip1`
+* :ref:`wait`
+* :ref:`set_render_target`
+* :ref:`play_sound`
+* :ref:`set_BG_effect`
+* :ref:`set_BG_effect_trigger`
+* :ref:`NO_EFFECT`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -152,17 +185,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`WFOUT_DEF`
-* :ref:`chara_visible`
-* :ref:`chara_face`
-* :ref:`eye1`
-* :ref:`lip1`
-* :ref:`wait`
-* :ref:`set_render_target`
-* :ref:`play_sound`
-* :ref:`set_BG_effect`
-* :ref:`set_BG_effect_trigger`
-* :ref:`NO_EFFECT`

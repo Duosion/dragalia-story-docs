@@ -26,6 +26,19 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	CHARA_SET_POS_0(eye, lip, X, Y, CID, int)
+	CHARA_FADEIN_DEF(CID)
+
+References
+-------------
+* :ref:`CHARA_SET_POS_0`
+* :ref:`CHARA_FADEIN_DEF`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -69,8 +82,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`CHARA_SET_POS_0`
-* :ref:`CHARA_FADEIN_DEF`

@@ -11,10 +11,10 @@ chara_pos
 Arguments
 ------------
 
-* ``String`` charaId
-* ``Int32`` valueX
+* :ref:`charaId`: **String**
+* :ref:`valueX`: **Int32**
 	* Default: ``0``
-* ``Int32`` valueY
+* :ref:`valueY`: **Int32**
 	* Default: ``0``
 
 Description

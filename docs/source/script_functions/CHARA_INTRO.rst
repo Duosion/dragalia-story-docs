@@ -27,6 +27,17 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_intro(CID, NAME, ANOTHER, ANOTHER_RUBY, AFFLIATION, AFFLIATION_RUBY, EMBLEM_NAME)
+
+References
+-------------
+* :ref:`chara_intro`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -64,7 +75,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_intro`

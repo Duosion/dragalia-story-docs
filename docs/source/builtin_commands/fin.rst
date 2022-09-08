@@ -11,11 +11,11 @@ fin
 Arguments
 ------------
 
-* ``Boolean`` visible
+* :ref:`visible`: **Boolean**
 	* Default: ``True``
-* ``Single`` x
+* :ref:`x`: **Single**
 	* Default: ``0``
-* ``Single`` y
+* :ref:`y`: **Single**
 	* Default: ``0``
 
 Description

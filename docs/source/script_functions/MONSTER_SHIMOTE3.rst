@@ -23,6 +23,23 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	WFOUT_DEF()
+	MONSTER_SET3_0(CID, CID2, CID3)
+	SHIMOTE_IN_DEF(CID)
+	SHIMOTE_IN_DEF(CID2)
+	SHIMOTE_IN_DEF(CID3)
+
+References
+-------------
+* :ref:`WFOUT_DEF`
+* :ref:`MONSTER_SET3_0`
+* :ref:`SHIMOTE_IN_DEF`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -82,9 +99,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`WFOUT_DEF`
-* :ref:`MONSTER_SET3_0`
-* :ref:`SHIMOTE_IN_DEF`

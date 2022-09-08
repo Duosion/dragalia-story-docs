@@ -23,6 +23,46 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_visible(CID, false)
+	chara_visible(CID2, false)
+	chara_visible(CID3, false)
+	chara_contrast(CID, 0.73, 0)
+	chara_saturation(CID, 1.77, 0)
+	chara_brightness(CID, 1.02, 0)
+	chara_contrast(CID2, 0.73, 0)
+	chara_saturation(CID2, 1.77, 0)
+	chara_brightness(CID2, 1.02, 0)
+	chara_pos(CID, 200, 240)
+	chara_pos(CID2, -200, 240)
+	chara_pos(CID3, 0, 10)
+	chara_face(CID, 12)
+	chara_face(CID2, 12)
+	chara_face(CID3, 12)
+	mnu_scale(CID3, true, 0.01, 1.0, 1.0, EaseOutCubic)
+	mnu_scale(CID2, true, 0.01, 0.7, 0.7, EaseOutCubic)
+	mnu_scale(CID, true, 0.01, 0.7, 0.7, EaseOutCubic)
+	cmp_scale(CID3, 0.01, 1.0, 1.0)
+	cmp_scale(CID2, 0.01, 0.7, 0.7)
+	cmp_scale(CID, 0.01, 0.7, 0.7)
+	wait(0.01)
+
+References
+-------------
+* :ref:`chara_visible`
+* :ref:`chara_contrast`
+* :ref:`chara_saturation`
+* :ref:`chara_brightness`
+* :ref:`chara_pos`
+* :ref:`chara_face`
+* :ref:`mnu_scale`
+* :ref:`cmp_scale`
+* :ref:`wait`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -266,15 +306,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_visible`
-* :ref:`chara_contrast`
-* :ref:`chara_saturation`
-* :ref:`chara_brightness`
-* :ref:`chara_pos`
-* :ref:`chara_face`
-* :ref:`mnu_scale`
-* :ref:`cmp_scale`
-* :ref:`wait`

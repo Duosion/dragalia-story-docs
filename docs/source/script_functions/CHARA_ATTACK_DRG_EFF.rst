@@ -21,6 +21,36 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	WFOUT_SHORT()
+	play_sound(SE_129)
+	set_camera_distortion(1, true, EFF_007)
+	set_BG_effect(1, 1, EFF_007)
+	set_BG_effect_opacity(EFF_007, 0.6)
+	set_BG_effect_trigger(2, 2, 9)
+	mnu_scale(CID, true, 0.15, 1.35, 1.35, EaseOutCubic)
+	mnu_scale(CID, false, 0.15, 1, 1, EaseOutCubic)
+	cmp_scale(CID, 0.3, 1, 1)
+	wait(0.3)
+	set_BG_effect(1, 1, 0)
+	set_camera_distortion(1, false, EFF_007)
+
+References
+-------------
+* :ref:`WFOUT_SHORT`
+* :ref:`play_sound`
+* :ref:`set_camera_distortion`
+* :ref:`set_BG_effect`
+* :ref:`set_BG_effect_opacity`
+* :ref:`set_BG_effect_trigger`
+* :ref:`mnu_scale`
+* :ref:`cmp_scale`
+* :ref:`wait`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -156,15 +186,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`WFOUT_SHORT`
-* :ref:`play_sound`
-* :ref:`set_camera_distortion`
-* :ref:`set_BG_effect`
-* :ref:`set_BG_effect_opacity`
-* :ref:`set_BG_effect_trigger`
-* :ref:`mnu_scale`
-* :ref:`cmp_scale`
-* :ref:`wait`

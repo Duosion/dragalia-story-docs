@@ -24,6 +24,39 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_face(CID, int)
+	eye1(CID, eye)
+	lip1(CID, lip)
+	wait(0.1)
+	set_render_target(CID, 0)
+	WFOUT_SHORT()
+	play_sound(SE_STORY_PROLOGUE_0001)
+	set_BG_effect(EFF_002, EFF_SCE_2D_REN_000)
+	set_BG_effect_trigger(0, 29)
+	wait(0.2)
+	chara_clear(CID)
+	wait(2.5)
+	NO_EFFECT()
+
+References
+-------------
+* :ref:`chara_face`
+* :ref:`eye1`
+* :ref:`lip1`
+* :ref:`wait`
+* :ref:`set_render_target`
+* :ref:`WFOUT_SHORT`
+* :ref:`play_sound`
+* :ref:`set_BG_effect`
+* :ref:`set_BG_effect_trigger`
+* :ref:`chara_clear`
+* :ref:`NO_EFFECT`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -150,17 +183,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_face`
-* :ref:`eye1`
-* :ref:`lip1`
-* :ref:`wait`
-* :ref:`set_render_target`
-* :ref:`WFOUT_SHORT`
-* :ref:`play_sound`
-* :ref:`set_BG_effect`
-* :ref:`set_BG_effect_trigger`
-* :ref:`chara_clear`
-* :ref:`NO_EFFECT`

@@ -11,8 +11,8 @@ window_fadein
 Arguments
 ------------
 
-* ``Single`` sec
-* ``Boolean`` isWithAnimation
+* :ref:`sec`: **Single**
+* :ref:`isWithAnimation`: **Boolean**
 	* Default: ``False``
 
 Description

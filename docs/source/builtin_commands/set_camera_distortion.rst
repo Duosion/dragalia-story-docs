@@ -11,9 +11,9 @@ set_camera_distortion
 Arguments
 ------------
 
-* ``Int32`` cameraType
-* ``Boolean`` enable
-* ``String`` effectId
+* :ref:`cameraType`: **Int32**
+* :ref:`enable`: **Boolean**
+* :ref:`effectId`: **String**
 	* Default: ``""``
 
 Description

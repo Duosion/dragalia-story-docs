@@ -20,6 +20,30 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	WFOUT_DEF()
+	wait(0.2)
+	play_sound(SE_STORY_COMMON_0216)
+	set_camera_distortion(cameraType_Chara, true, EFF_007)
+	SHOUT_0()
+	effect_shake_bg(12, 0.4, 1.2, 1)
+	set_BG_effect_trigger(1)
+	set_camera_distortion(cameraType_Chara, false, EFF_007)
+
+References
+-------------
+* :ref:`WFOUT_DEF`
+* :ref:`wait`
+* :ref:`play_sound`
+* :ref:`set_camera_distortion`
+* :ref:`SHOUT_0`
+* :ref:`effect_shake_bg`
+* :ref:`set_BG_effect_trigger`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -102,13 +126,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`WFOUT_DEF`
-* :ref:`wait`
-* :ref:`play_sound`
-* :ref:`set_camera_distortion`
-* :ref:`SHOUT_0`
-* :ref:`effect_shake_bg`
-* :ref:`set_BG_effect_trigger`

@@ -32,6 +32,53 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	chara_visible(CID, false)
+	chara_visible(CID2, false)
+	chara_visible(CID3, false)
+	chara_face(CID, int)
+	chara_face(CID2, int2)
+	chara_face(CID3, int3)
+	play_sound(SE_047)
+	CHARA_SET_POS_0(eye, lip, -200, -90, CID, int)
+	mnu_move(CID, true, 0.05, 0, 200, 1)
+	mnu_move(CID, false, 0.25, 0, -200, EaseOutSine)
+	wait(0.05)
+	chara_fadein(CID, 0.25)
+	mnu_move(CID, true, 0.2, 0, 90, EaseOutCubic)
+	cmp_move(CID, 0.2, 0, 90)
+	play_sound(SE_047)
+	CHARA_SET_POS_0(eye2, lip2, 200, -90, CID2, int2)
+	mnu_move(CID2, true, 0.05, 0, 200, 1)
+	mnu_move(CID2, false, 0.25, 0, -200, EaseOutSine)
+	wait(0.05)
+	chara_fadein(CID2, 0.25)
+	mnu_move(CID2, true, 0.2, 0, 90, EaseOutCubic)
+	cmp_move(CID2, 0.2, 0, 90)
+	play_sound(SE_047)
+	CHARA_SET_POS_0(eye3, lip3, 0, -90, CID3, int3)
+	mnu_move(CID3, true, 0.05, 0, 200, 1)
+	mnu_move(CID3, false, 0.25, 0, -200, EaseOutSine)
+	wait(0.05)
+	chara_fadein(CID3, 0.25)
+	mnu_move(CID3, true, 0.2, 0, 90, EaseOutCubic)
+	cmp_move(CID3, 0.2, 0, 90)
+
+References
+-------------
+* :ref:`chara_visible`
+* :ref:`chara_face`
+* :ref:`play_sound`
+* :ref:`CHARA_SET_POS_0`
+* :ref:`mnu_move`
+* :ref:`wait`
+* :ref:`chara_fadein`
+* :ref:`cmp_move`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -378,14 +425,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`chara_visible`
-* :ref:`chara_face`
-* :ref:`play_sound`
-* :ref:`CHARA_SET_POS_0`
-* :ref:`mnu_move`
-* :ref:`wait`
-* :ref:`chara_fadein`
-* :ref:`cmp_move`

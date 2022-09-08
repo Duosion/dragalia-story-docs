@@ -23,6 +23,40 @@ Not Added.
 Implementation
 -------------
 
+.. code-block:: python
+
+	WFOUT_SHORT()
+	mnu(CID3, true, 0.6, 0, -150, EaseOutQuint, 0.6, 1, 1, 1, 0.6, 0, 1, 0.6, 0, 1)
+	mnu(CID2, true, 0.6, 0, -150, EaseOutQuint, 0.6, 1, 1, 1, 0.6, 0, 1, 0.6, 0, 1)
+	mnu(CID, true, 0.6, 0, -150, EaseOutQuint, 0.6, 1, 1, 1, 0.6, 0, 1, 0.6, 0, 1)
+	wait(0.6)
+	chara_visible(CID3, false)
+	chara_face(CID3, 0)
+	chara_visible(CID2, false)
+	chara_face(CID2, 0)
+	chara_visible(CID, false)
+	chara_face(CID, 0)
+	play_sound(SE_065)
+	effect_shake_bg(12, 0.1, 0.2, 1)
+	wait(0.5)
+	RestartAll(CID)
+	RestartAll(CID2)
+	RestartAll(CID3)
+
+References
+-------------
+* :ref:`WFOUT_SHORT`
+* :ref:`mnu`
+* :ref:`wait`
+* :ref:`chara_visible`
+* :ref:`chara_face`
+* :ref:`play_sound`
+* :ref:`effect_shake_bg`
+* :ref:`RestartAll`
+
+Table Implementation
+-------------
+
 .. code-block:: json
 
 	{
@@ -230,14 +264,3 @@ Sample
 .. code-block:: json
 
 	{}
-
-References
--------------
-* :ref:`WFOUT_SHORT`
-* :ref:`mnu`
-* :ref:`wait`
-* :ref:`chara_visible`
-* :ref:`chara_face`
-* :ref:`play_sound`
-* :ref:`effect_shake_bg`
-* :ref:`RestartAll`

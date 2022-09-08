@@ -11,8 +11,8 @@ set_volume
 Arguments
 ------------
 
-* ``Single`` vol
-* ``Single`` sec
+* :ref:`vol`: **Single**
+* :ref:`sec`: **Single**
 
 Description
 -------------
