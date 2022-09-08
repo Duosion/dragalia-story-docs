@@ -5,13 +5,13 @@ outline_centering
 
 .. code-block:: text
 
-	outline_centering(isCentering)
+	outline_centering(Boolean isCentering)
 
 
 Arguments
 ------------
 
-* isCentering
+* ``Boolean`` isCentering
 
 Description
 -------------

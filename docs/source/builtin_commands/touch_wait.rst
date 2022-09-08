@@ -5,15 +5,15 @@ touch_wait
 
 .. code-block:: text
 
-	touch_wait(autoWaitTime = 0, forceNextWaitTime = -1)
+	touch_wait(Single autoWaitTime = 0, Single forceNextWaitTime = -1)
 
 
 Arguments
 ------------
 
-* autoWaitTime
+* ``Single`` autoWaitTime
 	* Default: ``0``
-* forceNextWaitTime
+* ``Single`` forceNextWaitTime
 	* Default: ``-1``
 
 Description

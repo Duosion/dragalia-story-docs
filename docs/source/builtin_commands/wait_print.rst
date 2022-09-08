@@ -5,13 +5,13 @@ wait_print
 
 .. code-block:: text
 
-	wait_print(isWait = True)
+	wait_print(Boolean isWait = True)
 
 
 Arguments
 ------------
 
-* isWait
+* ``Boolean`` isWait
 	* Default: ``True``
 
 Description

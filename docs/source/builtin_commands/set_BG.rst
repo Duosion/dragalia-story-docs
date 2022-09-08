@@ -5,13 +5,12 @@ set_BG
 
 .. code-block:: text
 
-	set_BG(backgroundIds)
+	set_BG(String[] backgroundIds)
 
 
 Arguments
 ------------
 
-* backgroundIds
 
 Description
 -------------

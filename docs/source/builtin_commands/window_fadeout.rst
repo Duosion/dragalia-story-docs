@@ -5,14 +5,14 @@ window_fadeout
 
 .. code-block:: text
 
-	window_fadeout(sec, isWithAnimation = False)
+	window_fadeout(Single sec, Boolean isWithAnimation = False)
 
 
 Arguments
 ------------
 
-* sec
-* isWithAnimation
+* ``Single`` sec
+* ``Boolean`` isWithAnimation
 	* Default: ``False``
 
 Description

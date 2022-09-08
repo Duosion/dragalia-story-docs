@@ -5,14 +5,14 @@ frame_visible
 
 .. code-block:: text
 
-	frame_visible(visible, fadeTime = 0)
+	frame_visible(Boolean visible, Single fadeTime = 0)
 
 
 Arguments
 ------------
 
-* visible
-* fadeTime
+* ``Boolean`` visible
+* ``Single`` fadeTime
 	* Default: ``0``
 
 Description

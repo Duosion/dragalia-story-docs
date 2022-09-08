@@ -5,13 +5,14 @@ chara_clear
 
 .. code-block:: text
 
-	chara_clear(charaId = )
+	chara_clear(String charaId = "")
 
 
 Arguments
 ------------
 
-* charaId
+* ``String`` charaId
+	* Default: ``""``
 
 Description
 -------------

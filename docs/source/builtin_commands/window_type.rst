@@ -5,13 +5,13 @@ window_type
 
 .. code-block:: text
 
-	window_type(type)
+	window_type(Int32 type)
 
 
 Arguments
 ------------
 
-* type
+* ``Int32`` type
 
 Description
 -------------

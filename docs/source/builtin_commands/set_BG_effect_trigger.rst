@@ -5,13 +5,12 @@ set_BG_effect_trigger
 
 .. code-block:: text
 
-	set_BG_effect_trigger(triggers)
+	set_BG_effect_trigger(Int32[] triggers)
 
 
 Arguments
 ------------
 
-* triggers
 
 Description
 -------------

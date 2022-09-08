@@ -5,18 +5,18 @@ effect_shake_chara
 
 .. code-block:: text
 
-	effect_shake_chara(type, peekSec = 3, stopSec = 3, ease = 1)
+	effect_shake_chara(Int32 type, Single peekSec = 3, Single stopSec = 3, Int32 ease = 1)
 
 
 Arguments
 ------------
 
-* type
-* peekSec
+* ``Int32`` type
+* ``Single`` peekSec
 	* Default: ``3``
-* stopSec
+* ``Single`` stopSec
 	* Default: ``3``
-* ease
+* ``Int32`` ease
 	* Default: ``1``
 
 Description

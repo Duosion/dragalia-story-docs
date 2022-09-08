@@ -5,16 +5,13 @@ cutt_loadscene_direct
 
 .. code-block:: text
 
-	cutt_loadscene_direct(scenePath0, scenePath1, scenePath2, areaName)
+	cutt_loadscene_direct(String scenePath0, String scenePath1, String scenePath2, String areaName)
 
 
 Arguments
 ------------
 
-* scenePath0
-* scenePath1
-* scenePath2
-* areaName
+* ``String`` areaName
 
 Description
 -------------

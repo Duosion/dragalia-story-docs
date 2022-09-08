@@ -5,13 +5,13 @@ cut_load_start_boss
 
 .. code-block:: text
 
-	cut_load_start_boss(cuttName)
+	cut_load_start_boss(String cuttName)
 
 
 Arguments
 ------------
 
-* cuttName
+* ``String`` cuttName
 
 Description
 -------------

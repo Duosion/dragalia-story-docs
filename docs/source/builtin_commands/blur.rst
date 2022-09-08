@@ -5,20 +5,20 @@ blur
 
 .. code-block:: text
 
-	blur(enable, fadeSec = 1, size = 1, power = 1, cameraType = 0)
+	blur(Boolean enable, Single fadeSec = 1, Single size = 1, Single power = 1, Int32 cameraType = 0)
 
 
 Arguments
 ------------
 
-* enable
-* fadeSec
+* ``Boolean`` enable
+* ``Single`` fadeSec
 	* Default: ``1``
-* size
+* ``Single`` size
 	* Default: ``1``
-* power
+* ``Single`` power
 	* Default: ``1``
-* cameraType
+* ``Int32`` cameraType
 	* Default: ``0``
 
 Description

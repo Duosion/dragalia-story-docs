@@ -5,23 +5,23 @@ bloom
 
 .. code-block:: text
 
-	bloom(cameraType = 1, fadeSec = 0, resolutionScale = 0,25, weight = 0, threshold = 0,7, intensity = 1)
+	bloom(Int32 cameraType = 1, Single fadeSec = 0, Single resolutionScale = 0.25, Single weight = 0, Single threshold = 0.7, Single intensity = 1)
 
 
 Arguments
 ------------
 
-* cameraType
+* ``Int32`` cameraType
 	* Default: ``1``
-* fadeSec
+* ``Single`` fadeSec
 	* Default: ``0``
-* resolutionScale
+* ``Single`` resolutionScale
+	* Default: ``0.25``
+* ``Single`` weight
 	* Default: ``0``
-* weight
-	* Default: ``0``
-* threshold
-	* Default: ``0``
-* intensity
+* ``Single`` threshold
+	* Default: ``0.7``
+* ``Single`` intensity
 	* Default: ``1``
 
 Description

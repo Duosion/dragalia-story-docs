@@ -5,21 +5,21 @@ color_adjustment
 
 .. code-block:: text
 
-	color_adjustment(cameraType = 1, fadeSec = 0, bright = 1, saturation = 1, contrast = 1)
+	color_adjustment(Int32 cameraType = 1, Single fadeSec = 0, Single bright = 1, Single saturation = 1, Single contrast = 1)
 
 
 Arguments
 ------------
 
-* cameraType
+* ``Int32`` cameraType
 	* Default: ``1``
-* fadeSec
+* ``Single`` fadeSec
 	* Default: ``0``
-* bright
+* ``Single`` bright
 	* Default: ``1``
-* saturation
+* ``Single`` saturation
 	* Default: ``1``
-* contrast
+* ``Single`` contrast
 	* Default: ``1``
 
 Description

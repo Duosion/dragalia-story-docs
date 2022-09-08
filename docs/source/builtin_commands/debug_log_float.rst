@@ -5,13 +5,13 @@ debug_log_float
 
 .. code-block:: text
 
-	debug_log_float(text)
+	debug_log_float(Single text)
 
 
 Arguments
 ------------
 
-* text
+* ``Single`` text
 
 Description
 -------------

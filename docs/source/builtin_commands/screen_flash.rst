@@ -5,14 +5,13 @@ screen_flash
 
 .. code-block:: text
 
-	screen_flash(sec, rgb)
+	screen_flash(Single sec, Int32[] rgb)
 
 
 Arguments
 ------------
 
-* sec
-* rgb
+* ``Single`` sec
 
 Description
 -------------

@@ -5,14 +5,14 @@ ruby
 
 .. code-block:: text
 
-	ruby(text, ruby)
+	ruby(String text, String ruby)
 
 
 Arguments
 ------------
 
-* text
-* ruby
+* ``String`` text
+* ``String`` ruby
 
 Description
 -------------

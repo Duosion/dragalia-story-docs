@@ -5,14 +5,16 @@ set_camera_distortion
 
 .. code-block:: text
 
-	set_camera_distortion(cameraType, enable, effectId = "")
+	set_camera_distortion(Int32 cameraType, Boolean enable, String effectId = "")
 
 
 Arguments
 ------------
 
-* cameraType
-* enable
+* ``Int32`` cameraType
+* ``Boolean`` enable
+* ``String`` effectId
+	* Default: ``""``
 
 Description
 -------------

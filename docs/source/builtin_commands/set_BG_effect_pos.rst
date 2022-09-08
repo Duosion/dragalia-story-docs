@@ -5,16 +5,18 @@ set_BG_effect_pos
 
 .. code-block:: text
 
-	set_BG_effect_pos(effectId, x, y, fadeSec = 0, ease = 1)
+	set_BG_effect_pos(String effectId, Single x, Single y, Single fadeSec = 0, Int32 ease = 1)
 
 
 Arguments
 ------------
 
-* effectId
-* fadeSec
+* ``String`` effectId
+* ``Single`` x
+* ``Single`` y
+* ``Single`` fadeSec
 	* Default: ``0``
-* ease
+* ``Int32`` ease
 	* Default: ``1``
 
 Description

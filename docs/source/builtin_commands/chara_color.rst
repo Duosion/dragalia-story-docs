@@ -5,18 +5,23 @@ chara_color
 
 .. code-block:: text
 
-	chara_color(charaId, fadeSec, type, r, g, b, a = 1, smoothMin = 0, smoothMax = 1)
+	chara_color(String charaId, Single fadeSec, Int32 type, Int32 r, Int32 g, Int32 b, Single a = 1, Single smoothMin = 0, Single smoothMax = 1)
 
 
 Arguments
 ------------
 
-* charaId
-* fadeSec
-* type
-* smoothMin
+* ``String`` charaId
+* ``Single`` fadeSec
+* ``Int32`` type
+* ``Int32`` r
+* ``Int32`` g
+* ``Int32`` b
+* ``Single`` a
+	* Default: ``1``
+* ``Single`` smoothMin
 	* Default: ``0``
-* smoothMax
+* ``Single`` smoothMax
 	* Default: ``1``
 
 Description

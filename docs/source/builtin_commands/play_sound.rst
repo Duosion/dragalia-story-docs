@@ -5,18 +5,18 @@ play_sound
 
 .. code-block:: text
 
-	play_sound(soundStr, vol = 1, isAvoidDupricateVoice = True, isAddTextLog = True)
+	play_sound(String soundStr, Single vol = 1, Boolean isAvoidDupricateVoice = True, Boolean isAddTextLog = True)
 
 
 Arguments
 ------------
 
-* soundStr
-* vol
+* ``String`` soundStr
+* ``Single`` vol
 	* Default: ``1``
-* isAvoidDupricateVoice
+* ``Boolean`` isAvoidDupricateVoice
 	* Default: ``True``
-* isAddTextLog
+* ``Boolean`` isAddTextLog
 	* Default: ``True``
 
 Description

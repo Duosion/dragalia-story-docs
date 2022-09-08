@@ -5,15 +5,19 @@ telop
 
 .. code-block:: text
 
-	telop(mainText, subText = "", mainRuby = "", subRuby = "")
+	telop(String mainText, String subText = "", String mainRuby = "", String subRuby = "")
 
 
 Arguments
 ------------
 
-* mainText
-* subText
-	* Default: ``"", mainRuby = "", subRuby = ""``
+* ``String`` mainText
+* ``String`` subText
+	* Default: ``""``
+* ``String`` mainRuby
+	* Default: ``""``
+* ``String`` subRuby
+	* Default: ``""``
 
 Description
 -------------

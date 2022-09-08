@@ -5,13 +5,12 @@ message_pos
 
 .. code-block:: text
 
-	message_pos(pos)
+	message_pos(Single[] pos)
 
 
 Arguments
 ------------
 
-* pos
 
 Description
 -------------

@@ -5,14 +5,14 @@ chara_fadeout
 
 .. code-block:: text
 
-	chara_fadeout(charaId, sec)
+	chara_fadeout(String charaId, Single sec)
 
 
 Arguments
 ------------
 
-* charaId
-* sec
+* ``String`` charaId
+* ``Single`` sec
 
 Description
 -------------

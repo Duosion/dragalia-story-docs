@@ -5,16 +5,16 @@ button_visible
 
 .. code-block:: text
 
-	button_visible(visible, fadeSec = 0,4, isAutoVisible = True)
+	button_visible(Boolean visible, Single fadeSec = 0.4, Boolean isAutoVisible = True)
 
 
 Arguments
 ------------
 
-* visible
-* fadeSec
-	* Default: ``0``
-* isAutoVisible
+* ``Boolean`` visible
+* ``Single`` fadeSec
+	* Default: ``0.4``
+* ``Boolean`` isAutoVisible
 	* Default: ``True``
 
 Description

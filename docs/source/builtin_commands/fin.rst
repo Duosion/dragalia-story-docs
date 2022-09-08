@@ -5,14 +5,18 @@ fin
 
 .. code-block:: text
 
-	fin(visible = True, x = 0, y = 0)
+	fin(Boolean visible = True, Single x = 0, Single y = 0)
 
 
 Arguments
 ------------
 
-* visible
+* ``Boolean`` visible
 	* Default: ``True``
+* ``Single`` x
+	* Default: ``0``
+* ``Single`` y
+	* Default: ``0``
 
 Description
 -------------

@@ -5,15 +5,14 @@ set_volume
 
 .. code-block:: text
 
-	set_volume(vol, sec, cueNames)
+	set_volume(Single vol, Single sec, String[] cueNames)
 
 
 Arguments
 ------------
 
-* vol
-* sec
-* cueNames
+* ``Single`` vol
+* ``Single`` sec
 
 Description
 -------------

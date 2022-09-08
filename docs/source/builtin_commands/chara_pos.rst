@@ -5,16 +5,16 @@ chara_pos
 
 .. code-block:: text
 
-	chara_pos(charaId, valueX = 0, valueY = 0)
+	chara_pos(String charaId, Int32 valueX = 0, Int32 valueY = 0)
 
 
 Arguments
 ------------
 
-* charaId
-* valueX
+* ``String`` charaId
+* ``Int32`` valueX
 	* Default: ``0``
-* valueY
+* ``Int32`` valueY
 	* Default: ``0``
 
 Description

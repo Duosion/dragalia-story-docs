@@ -5,15 +5,15 @@ chara_face
 
 .. code-block:: text
 
-	chara_face(charaId, faceId, faceNum = 0)
+	chara_face(String charaId, Int32 faceId, Int32 faceNum = 0)
 
 
 Arguments
 ------------
 
-* charaId
-* faceId
-* faceNum
+* ``String`` charaId
+* ``Int32`` faceId
+* ``Int32`` faceNum
 	* Default: ``0``
 
 Description

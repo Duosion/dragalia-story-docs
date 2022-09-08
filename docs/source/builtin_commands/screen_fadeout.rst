@@ -5,14 +5,13 @@ screen_fadeout
 
 .. code-block:: text
 
-	screen_fadeout(sec, rgb)
+	screen_fadeout(Single sec, Int32[] rgb)
 
 
 Arguments
 ------------
 
-* sec
-* rgb
+* ``Single`` sec
 
 Description
 -------------

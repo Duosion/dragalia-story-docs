@@ -5,15 +5,15 @@ chara_contrast
 
 .. code-block:: text
 
-	chara_contrast(charaId, value, fadeSec = 0)
+	chara_contrast(String charaId, Single value, Single fadeSec = 0)
 
 
 Arguments
 ------------
 
-* charaId
-* value
-* fadeSec
+* ``String`` charaId
+* ``Single`` value
+* ``Single`` fadeSec
 	* Default: ``0``
 
 Description

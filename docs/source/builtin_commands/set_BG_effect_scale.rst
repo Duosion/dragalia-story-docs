@@ -5,20 +5,22 @@ set_BG_effect_scale
 
 .. code-block:: text
 
-	set_BG_effect_scale(effectId, x, y, fadeSec = 0, ease = 1, baseX = -1, baseY = -1)
+	set_BG_effect_scale(String effectId, Single x, Single y, Single fadeSec = 0, Int32 ease = 1, Single baseX = -1, Single baseY = -1)
 
 
 Arguments
 ------------
 
-* effectId
-* fadeSec
+* ``String`` effectId
+* ``Single`` x
+* ``Single`` y
+* ``Single`` fadeSec
 	* Default: ``0``
-* ease
+* ``Int32`` ease
 	* Default: ``1``
-* baseX
+* ``Single`` baseX
 	* Default: ``-1``
-* baseY
+* ``Single`` baseY
 	* Default: ``-1``
 
 Description

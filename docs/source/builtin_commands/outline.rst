@@ -5,15 +5,17 @@ outline
 
 .. code-block:: text
 
-	outline(isEnd, outline = "", nextFunction = "")
+	outline(Boolean isEnd, String outline = "", String nextFunction = "")
 
 
 Arguments
 ------------
 
-* isEnd
-* outline
-	* Default: ``"", nextFunction = ""``
+* ``Boolean`` isEnd
+* ``String`` outline
+	* Default: ``""``
+* ``String`` nextFunction
+	* Default: ``""``
 
 Description
 -------------

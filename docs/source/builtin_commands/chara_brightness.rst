@@ -5,15 +5,15 @@ chara_brightness
 
 .. code-block:: text
 
-	chara_brightness(charaId, value, fadeSec = 0)
+	chara_brightness(String charaId, Single value, Single fadeSec = 0)
 
 
 Arguments
 ------------
 
-* charaId
-* value
-* fadeSec
+* ``String`` charaId
+* ``Single`` value
+* ``Single`` fadeSec
 	* Default: ``0``
 
 Description

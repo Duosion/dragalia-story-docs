@@ -5,13 +5,13 @@ window_enable
 
 .. code-block:: text
 
-	window_enable(enable)
+	window_enable(Boolean enable)
 
 
 Arguments
 ------------
 
-* enable
+* ``Boolean`` enable
 
 Description
 -------------

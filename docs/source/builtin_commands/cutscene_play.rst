@@ -5,13 +5,13 @@ cutscene_play
 
 .. code-block:: text
 
-	cutscene_play(cutName)
+	cutscene_play(String cutName)
 
 
 Arguments
 ------------
 
-* cutName
+* ``String`` cutName
 
 Description
 -------------

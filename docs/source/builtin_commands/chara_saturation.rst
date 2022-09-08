@@ -5,15 +5,15 @@ chara_saturation
 
 .. code-block:: text
 
-	chara_saturation(charaId, value, fadeSec = 0)
+	chara_saturation(String charaId, Single value, Single fadeSec = 0)
 
 
 Arguments
 ------------
 
-* charaId
-* value
-* fadeSec
+* ``String`` charaId
+* ``Single`` value
+* ``Single`` fadeSec
 	* Default: ``0``
 
 Description

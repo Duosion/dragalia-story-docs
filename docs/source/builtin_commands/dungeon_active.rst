@@ -5,14 +5,16 @@ dungeon_active
 
 .. code-block:: text
 
-	dungeon_active(active, name = "", isUnloadScene = False)
+	dungeon_active(Boolean active, String name = "", Boolean isUnloadScene = False)
 
 
 Arguments
 ------------
 
-* active
-* isUnloadScene
+* ``Boolean`` active
+* ``String`` name
+	* Default: ``""``
+* ``Boolean`` isUnloadScene
 	* Default: ``False``
 
 Description

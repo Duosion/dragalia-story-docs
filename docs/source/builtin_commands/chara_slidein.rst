@@ -5,18 +5,18 @@ chara_slidein
 
 .. code-block:: text
 
-	chara_slidein(charaId, type, sec, fade = True, moveValue = 100)
+	chara_slidein(String charaId, Int32 type, Single sec, Boolean fade = True, Single moveValue = 100)
 
 
 Arguments
 ------------
 
-* charaId
-* type
-* sec
-* fade
+* ``String`` charaId
+* ``Int32`` type
+* ``Single`` sec
+* ``Boolean`` fade
 	* Default: ``True``
-* moveValue
+* ``Single`` moveValue
 	* Default: ``100``
 
 Description

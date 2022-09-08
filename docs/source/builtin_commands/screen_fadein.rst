@@ -5,14 +5,13 @@ screen_fadein
 
 .. code-block:: text
 
-	screen_fadein(sec, rgb)
+	screen_fadein(Single sec, Int32[] rgb)
 
 
 Arguments
 ------------
 
-* sec
-* rgb
+* ``Single`` sec
 
 Description
 -------------

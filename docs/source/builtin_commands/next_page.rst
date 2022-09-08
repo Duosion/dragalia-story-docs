@@ -5,14 +5,14 @@ next_page
 
 .. code-block:: text
 
-	next_page(waitTime = 0,3)
+	next_page(Single waitTime = 0.3)
 
 
 Arguments
 ------------
 
-* waitTime
-	* Default: ``0``
+* ``Single`` waitTime
+	* Default: ``0.3``
 
 Description
 -------------

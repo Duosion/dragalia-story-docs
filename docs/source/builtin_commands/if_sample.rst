@@ -5,13 +5,13 @@ if_sample
 
 .. code-block:: text
 
-	if_sample(function)
+	if_sample(String function)
 
 
 Arguments
 ------------
 
-* function
+* ``String`` function
 
 Description
 -------------

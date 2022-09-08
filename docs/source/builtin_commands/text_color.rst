@@ -5,13 +5,12 @@ text_color
 
 .. code-block:: text
 
-	text_color(rgb)
+	text_color(Int32[] rgb)
 
 
 Arguments
 ------------
 
-* rgb
 
 Description
 -------------

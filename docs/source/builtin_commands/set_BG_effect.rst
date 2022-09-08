@@ -5,13 +5,12 @@ set_BG_effect
 
 .. code-block:: text
 
-	set_BG_effect(effectIds)
+	set_BG_effect(String[] effectIds)
 
 
 Arguments
 ------------
 
-* effectIds
 
 Description
 -------------

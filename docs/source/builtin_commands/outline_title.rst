@@ -5,13 +5,14 @@ outline_title
 
 .. code-block:: text
 
-	outline_title(title = )
+	outline_title(String title = "")
 
 
 Arguments
 ------------
 
-* title
+* ``String`` title
+	* Default: ``""``
 
 Description
 -------------

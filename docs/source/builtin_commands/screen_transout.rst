@@ -5,14 +5,14 @@ screen_transout
 
 .. code-block:: text
 
-	screen_transout(type, sec)
+	screen_transout(Int32 type, Single sec)
 
 
 Arguments
 ------------
 
-* type
-* sec
+* ``Int32`` type
+* ``Single`` sec
 
 Description
 -------------

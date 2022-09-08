@@ -5,16 +5,20 @@ fade_color
 
 .. code-block:: text
 
-	fade_color(sec, r, g, b, a, ease = 1, isCharacterFrontLayer = False)
+	fade_color(Single sec, Int32 r, Int32 g, Int32 b, Single a, Int32 ease = 1, Boolean isCharacterFrontLayer = False)
 
 
 Arguments
 ------------
 
-* sec
-* ease
+* ``Single`` sec
+* ``Int32`` r
+* ``Int32`` g
+* ``Int32`` b
+* ``Single`` a
+* ``Int32`` ease
 	* Default: ``1``
-* isCharacterFrontLayer
+* ``Boolean`` isCharacterFrontLayer
 	* Default: ``False``
 
 Description

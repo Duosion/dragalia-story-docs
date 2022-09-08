@@ -5,13 +5,13 @@ cutscene_load
 
 .. code-block:: text
 
-	cutscene_load(cutScenePath)
+	cutscene_load(String cutScenePath)
 
 
 Arguments
 ------------
 
-* cutScenePath
+* ``String`` cutScenePath
 
 Description
 -------------

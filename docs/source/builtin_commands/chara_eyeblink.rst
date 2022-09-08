@@ -5,20 +5,20 @@ chara_eyeblink
 
 .. code-block:: text
 
-	chara_eyeblink(charaId, intervalMin = 2, intervalMax = 5, eyeBlinkingTime = 0,05, maxEyeBlinkFrame = 2)
+	chara_eyeblink(String charaId, Single intervalMin = 2, Single intervalMax = 5, Single eyeBlinkingTime = 0.05, Int32 maxEyeBlinkFrame = 2)
 
 
 Arguments
 ------------
 
-* charaId
-* intervalMin
+* ``String`` charaId
+* ``Single`` intervalMin
 	* Default: ``2``
-* intervalMax
+* ``Single`` intervalMax
 	* Default: ``5``
-* eyeBlinkingTime
-	* Default: ``0``
-* maxEyeBlinkFrame
+* ``Single`` eyeBlinkingTime
+	* Default: ``0.05``
+* ``Int32`` maxEyeBlinkFrame
 	* Default: ``2``
 
 Description

@@ -5,21 +5,29 @@ post_film
 
 .. code-block:: text
 
-	post_film(cameraType = 1, fadeSec = 0, mode = 0, fromPower = 1, toPower = 1, r = 255, g = 255, b = 255, a = 1)
+	post_film(Int32 cameraType = 1, Single fadeSec = 0, Int32 mode = 0, Single fromPower = 1, Single toPower = 1, Int32 r = 255, Int32 g = 255, Int32 b = 255, Single a = 1)
 
 
 Arguments
 ------------
 
-* cameraType
+* ``Int32`` cameraType
 	* Default: ``1``
-* fadeSec
+* ``Single`` fadeSec
 	* Default: ``0``
-* mode
+* ``Int32`` mode
 	* Default: ``0``
-* fromPower
+* ``Single`` fromPower
 	* Default: ``1``
-* toPower
+* ``Single`` toPower
+	* Default: ``1``
+* ``Int32`` r
+	* Default: ``255``
+* ``Int32`` g
+	* Default: ``255``
+* ``Int32`` b
+	* Default: ``255``
+* ``Single`` a
 	* Default: ``1``
 
 Description

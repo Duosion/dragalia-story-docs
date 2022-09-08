@@ -5,13 +5,13 @@ stop_voice
 
 .. code-block:: text
 
-	stop_voice(sec = 0)
+	stop_voice(Single sec = 0)
 
 
 Arguments
 ------------
 
-* sec
+* ``Single`` sec
 	* Default: ``0``
 
 Description

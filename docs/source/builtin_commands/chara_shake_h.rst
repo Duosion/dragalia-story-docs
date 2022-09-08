@@ -5,15 +5,15 @@ chara_shake_h
 
 .. code-block:: text
 
-	chara_shake_h(charaId, type, isStart)
+	chara_shake_h(String charaId, Int32 type, Boolean isStart)
 
 
 Arguments
 ------------
 
-* charaId
-* type
-* isStart
+* ``String`` charaId
+* ``Int32`` type
+* ``Boolean`` isStart
 
 Description
 -------------

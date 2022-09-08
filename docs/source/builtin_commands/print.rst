@@ -5,15 +5,19 @@ print
 
 .. code-block:: text
 
-	print(isEnd, name = "", text = "", voice = "")
+	print(Boolean isEnd, String name = "", String text = "", String voice = "")
 
 
 Arguments
 ------------
 
-* isEnd
-* name
-	* Default: ``"", text = "", voice = ""``
+* ``Boolean`` isEnd
+* ``String`` name
+	* Default: ``""``
+* ``String`` text
+	* Default: ``""``
+* ``String`` voice
+	* Default: ``""``
 
 Description
 -------------

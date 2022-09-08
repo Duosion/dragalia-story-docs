@@ -5,13 +5,13 @@ bg_visible
 
 .. code-block:: text
 
-	bg_visible(visible)
+	bg_visible(Boolean visible)
 
 
 Arguments
 ------------
 
-* visible
+* ``Boolean`` visible
 
 Description
 -------------

@@ -5,15 +5,25 @@ chara_intro
 
 .. code-block:: text
 
-	chara_intro(charaId, name = "", anotherName = "", anotherNameRuby = "", affiliation = "", affiliationRuby = "", emblemName = "")
+	chara_intro(String charaId, String name = "", String anotherName = "", String anotherNameRuby = "", String affiliation = "", String affiliationRuby = "", String emblemName = "")
 
 
 Arguments
 ------------
 
-* charaId
-* name
-	* Default: ``"", anotherName = "", anotherNameRuby = "", affiliation = "", affiliationRuby = "", emblemName = ""``
+* ``String`` charaId
+* ``String`` name
+	* Default: ``""``
+* ``String`` anotherName
+	* Default: ``""``
+* ``String`` anotherNameRuby
+	* Default: ``""``
+* ``String`` affiliation
+	* Default: ``""``
+* ``String`` affiliationRuby
+	* Default: ``""``
+* ``String`` emblemName
+	* Default: ``""``
 
 Description
 -------------

@@ -5,18 +5,24 @@ choice
 
 .. code-block:: text
 
-	choice(titleA, functionA, titleB, functionB, titleC = "", functionC = "", titleD = "", functionD = "")
+	choice(String titleA, String functionA, String titleB, String functionB, String titleC = "", String functionC = "", String titleD = "", String functionD = "")
 
 
 Arguments
 ------------
 
-* titleA
-* functionA
-* titleB
-* functionB
-* titleC
-	* Default: ``"", functionC = "", titleD = "", functionD = ""``
+* ``String`` titleA
+* ``String`` functionA
+* ``String`` titleB
+* ``String`` functionB
+* ``String`` titleC
+	* Default: ``""``
+* ``String`` functionC
+	* Default: ``""``
+* ``String`` titleD
+	* Default: ``""``
+* ``String`` functionD
+	* Default: ``""``
 
 Description
 -------------

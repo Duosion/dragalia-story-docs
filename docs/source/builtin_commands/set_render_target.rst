@@ -5,14 +5,14 @@ set_render_target
 
 .. code-block:: text
 
-	set_render_target(charaId, renderId = 0)
+	set_render_target(String charaId, Int32 renderId = 0)
 
 
 Arguments
 ------------
 
-* charaId
-* renderId
+* ``String`` charaId
+* ``Int32`` renderId
 	* Default: ``0``
 
 Description

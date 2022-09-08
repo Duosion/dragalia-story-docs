@@ -5,13 +5,13 @@ wait
 
 .. code-block:: text
 
-	wait(sec)
+	wait(Single sec)
 
 
 Arguments
 ------------
 
-* sec
+* ``Single`` sec
 
 Description
 -------------

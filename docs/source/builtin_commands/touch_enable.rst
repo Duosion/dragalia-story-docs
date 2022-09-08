@@ -5,13 +5,13 @@ touch_enable
 
 .. code-block:: text
 
-	touch_enable(enable)
+	touch_enable(Boolean enable)
 
 
 Arguments
 ------------
 
-* enable
+* ``Boolean`` enable
 
 Description
 -------------

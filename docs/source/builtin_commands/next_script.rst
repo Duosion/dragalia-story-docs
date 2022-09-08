@@ -5,14 +5,14 @@ next_script
 
 .. code-block:: text
 
-	next_script(scriptName, type = 1)
+	next_script(String scriptName, Int32 type = 1)
 
 
 Arguments
 ------------
 
-* scriptName
-* type
+* ``String`` scriptName
+* ``Int32`` type
 	* Default: ``1``
 
 Description

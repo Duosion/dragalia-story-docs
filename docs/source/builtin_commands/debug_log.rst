@@ -5,13 +5,13 @@ debug_log
 
 .. code-block:: text
 
-	debug_log(text)
+	debug_log(String text)
 
 
 Arguments
 ------------
 
-* text
+* ``String`` text
 
 Description
 -------------

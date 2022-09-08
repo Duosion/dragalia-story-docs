@@ -5,14 +5,14 @@ chara_rot
 
 .. code-block:: text
 
-	chara_rot(charaId, rotZ)
+	chara_rot(String charaId, Int32 rotZ)
 
 
 Arguments
 ------------
 
-* charaId
-* rotZ
+* ``String`` charaId
+* ``Int32`` rotZ
 
 Description
 -------------

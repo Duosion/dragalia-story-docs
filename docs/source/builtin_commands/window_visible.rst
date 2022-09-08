@@ -5,13 +5,13 @@ window_visible
 
 .. code-block:: text
 
-	window_visible(visible)
+	window_visible(Boolean visible)
 
 
 Arguments
 ------------
 
-* visible
+* ``Boolean`` visible
 
 Description
 -------------

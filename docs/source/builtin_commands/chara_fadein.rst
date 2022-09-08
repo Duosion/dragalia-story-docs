@@ -5,14 +5,14 @@ chara_fadein
 
 .. code-block:: text
 
-	chara_fadein(charaId, sec)
+	chara_fadein(String charaId, Single sec)
 
 
 Arguments
 ------------
 
-* charaId
-* sec
+* ``String`` charaId
+* ``Single`` sec
 
 Description
 -------------

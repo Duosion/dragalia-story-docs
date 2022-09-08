@@ -5,14 +5,14 @@ play_movie
 
 .. code-block:: text
 
-	play_movie(fileName, isPanScan = False)
+	play_movie(String fileName, Boolean isPanScan = False)
 
 
 Arguments
 ------------
 
-* fileName
-* isPanScan
+* ``String`` fileName
+* ``Boolean`` isPanScan
 	* Default: ``False``
 
 Description

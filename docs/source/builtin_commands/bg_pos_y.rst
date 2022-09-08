@@ -5,13 +5,12 @@ bg_pos_y
 
 .. code-block:: text
 
-	bg_pos_y(posY)
+	bg_pos_y(Single[] posY)
 
 
 Arguments
 ------------
 
-* posY
 
 Description
 -------------

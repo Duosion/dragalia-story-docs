@@ -5,14 +5,14 @@ chara_visible
 
 .. code-block:: text
 
-	chara_visible(charaId, flag)
+	chara_visible(String charaId, Boolean flag)
 
 
 Arguments
 ------------
 
-* charaId
-* flag
+* ``String`` charaId
+* ``Boolean`` flag
 
 Description
 -------------

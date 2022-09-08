@@ -5,13 +5,12 @@ bg_effect_parent
 
 .. code-block:: text
 
-	bg_effect_parent(isParents)
+	bg_effect_parent(Boolean[] isParents)
 
 
 Arguments
 ------------
 
-* isParents
 
 Description
 -------------

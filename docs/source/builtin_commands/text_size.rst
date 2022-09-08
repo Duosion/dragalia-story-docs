@@ -5,13 +5,13 @@ text_size
 
 .. code-block:: text
 
-	text_size(size)
+	text_size(Int32 size)
 
 
 Arguments
 ------------
 
-* size
+* ``Int32`` size
 
 Description
 -------------

@@ -5,13 +5,13 @@ chapter_intro_next
 
 .. code-block:: text
 
-	chapter_intro_next(label)
+	chapter_intro_next(String label)
 
 
 Arguments
 ------------
 
-* label
+* ``String`` label
 
 Description
 -------------

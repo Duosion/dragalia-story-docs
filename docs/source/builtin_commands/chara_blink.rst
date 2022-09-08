@@ -5,17 +5,17 @@ chara_blink
 
 .. code-block:: text
 
-	chara_blink(charaId, sec, minAlpha = 0, maxAlpha = 1)
+	chara_blink(String charaId, Single sec, Single minAlpha = 0, Single maxAlpha = 1)
 
 
 Arguments
 ------------
 
-* charaId
-* sec
-* minAlpha
+* ``String`` charaId
+* ``Single`` sec
+* ``Single`` minAlpha
 	* Default: ``0``
-* maxAlpha
+* ``Single`` maxAlpha
 	* Default: ``1``
 
 Description

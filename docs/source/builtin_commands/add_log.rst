@@ -5,15 +5,18 @@ add_log
 
 .. code-block:: text
 
-	add_log(logNameText = , logText = "", logVoiceId = "")
+	add_log(String logNameText = "", String logText = "", String logVoiceId = "")
 
 
 Arguments
 ------------
 
-* logNameText
-* logText
-	* Default: ``"", logVoiceId = ""``
+* ``String`` logNameText
+	* Default: ``""``
+* ``String`` logText
+	* Default: ``""``
+* ``String`` logVoiceId
+	* Default: ``""``
 
 Description
 -------------

@@ -5,16 +5,15 @@ multi_scroll
 
 .. code-block:: text
 
-	multi_scroll(sec, endPosX, endPosY, rgb)
+	multi_scroll(Single sec, Single endPosX, Single endPosY, Int32[] rgb)
 
 
 Arguments
 ------------
 
-* sec
-* endPosX
-* endPosY
-* rgb
+* ``Single`` sec
+* ``Single`` endPosX
+* ``Single`` endPosY
 
 Description
 -------------

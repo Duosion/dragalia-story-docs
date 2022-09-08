@@ -5,37 +5,37 @@ chara_act_manual
 
 .. code-block:: text
 
-	chara_act_manual(charaId, isNewAct, moveSec, moveX, moveY, moveEase, scaleSec = 0, scaleX = 0, scaleY = 0, scaleEase = 0, rotateSec = 0, rotate = 0, rotateEase = 0, fadeSec = 0, fade = 0, fadeEase = 0)
+	chara_act_manual(String charaId, Boolean isNewAct, Single moveSec, Single moveX, Single moveY, Int32 moveEase, Single scaleSec = 0, Single scaleX = 0, Single scaleY = 0, Int32 scaleEase = 0, Single rotateSec = 0, Single rotate = 0, Int32 rotateEase = 0, Single fadeSec = 0, Single fade = 0, Int32 fadeEase = 0)
 
 
 Arguments
 ------------
 
-* charaId
-* isNewAct
-* moveSec
-* moveX
-* moveY
-* moveEase
-* scaleSec
+* ``String`` charaId
+* ``Boolean`` isNewAct
+* ``Single`` moveSec
+* ``Single`` moveX
+* ``Single`` moveY
+* ``Int32`` moveEase
+* ``Single`` scaleSec
 	* Default: ``0``
-* scaleX
+* ``Single`` scaleX
 	* Default: ``0``
-* scaleY
+* ``Single`` scaleY
 	* Default: ``0``
-* scaleEase
+* ``Int32`` scaleEase
 	* Default: ``0``
-* rotateSec
+* ``Single`` rotateSec
 	* Default: ``0``
-* rotate
+* ``Single`` rotate
 	* Default: ``0``
-* rotateEase
+* ``Int32`` rotateEase
 	* Default: ``0``
-* fadeSec
+* ``Single`` fadeSec
 	* Default: ``0``
-* fade
+* ``Single`` fade
 	* Default: ``0``
-* fadeEase
+* ``Int32`` fadeEase
 	* Default: ``0``
 
 Description

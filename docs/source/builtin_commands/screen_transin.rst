@@ -5,14 +5,14 @@ screen_transin
 
 .. code-block:: text
 
-	screen_transin(type, sec)
+	screen_transin(Int32 type, Single sec)
 
 
 Arguments
 ------------
 
-* type
-* sec
+* ``Int32`` type
+* ``Single`` sec
 
 Description
 -------------

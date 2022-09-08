@@ -5,14 +5,14 @@ cutt_load_story
 
 .. code-block:: text
 
-	cutt_load_story(cuttName, type)
+	cutt_load_story(String cuttName, Int32 type)
 
 
 Arguments
 ------------
 
-* cuttName
-* type
+* ``String`` cuttName
+* ``Int32`` type
 
 Description
 -------------

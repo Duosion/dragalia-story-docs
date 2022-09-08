@@ -5,14 +5,13 @@ bg_enable_shader
 
 .. code-block:: text
 
-	bg_enable_shader(bgId, enables)
+	bg_enable_shader(String bgId, Boolean[] enables)
 
 
 Arguments
 ------------
 
-* bgId
-* enables
+* ``String`` bgId
 
 Description
 -------------

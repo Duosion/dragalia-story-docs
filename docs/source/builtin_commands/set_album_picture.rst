@@ -5,13 +5,13 @@ set_album_picture
 
 .. code-block:: text
 
-	set_album_picture(fadeTime)
+	set_album_picture(Single fadeTime)
 
 
 Arguments
 ------------
 
-* fadeTime
+* ``Single`` fadeTime
 
 Description
 -------------

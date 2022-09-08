@@ -5,13 +5,13 @@ cutt_load
 
 .. code-block:: text
 
-	cutt_load(cuttName)
+	cutt_load(String cuttName)
 
 
 Arguments
 ------------
 
-* cuttName
+* ``String`` cuttName
 
 Description
 -------------

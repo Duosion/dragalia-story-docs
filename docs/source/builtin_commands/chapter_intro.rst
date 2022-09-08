@@ -5,13 +5,13 @@ chapter_intro
 
 .. code-block:: text
 
-	chapter_intro(chapterName)
+	chapter_intro(String chapterName)
 
 
 Arguments
 ------------
 
-* chapterName
+* ``String`` chapterName
 
 Description
 -------------

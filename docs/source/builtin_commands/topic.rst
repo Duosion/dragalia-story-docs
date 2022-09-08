@@ -5,14 +5,14 @@ topic
 
 .. code-block:: text
 
-	topic(fileName, fadeTime = 1)
+	topic(String fileName, Single fadeTime = 1)
 
 
 Arguments
 ------------
 
-* fileName
-* fadeTime
+* ``String`` fileName
+* ``Single`` fadeTime
 	* Default: ``1``
 
 Description

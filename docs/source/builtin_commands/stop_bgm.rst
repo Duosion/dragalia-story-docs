@@ -5,13 +5,13 @@ stop_bgm
 
 .. code-block:: text
 
-	stop_bgm(sec = 0)
+	stop_bgm(Single sec = 0)
 
 
 Arguments
 ------------
 
-* sec
+* ``Single`` sec
 	* Default: ``0``
 
 Description
