@@ -11,7 +11,7 @@ if_sample
 Arguments
 ------------
 
-* :ref:`function`: **String**
+* :ref:`function`: *String*
 
 Description
 -------------

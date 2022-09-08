@@ -11,7 +11,7 @@ cutt_loadscene_direct
 Arguments
 ------------
 
-* :ref:`areaName`: **String**
+* :ref:`areaName`: *String*
 
 Description
 -------------

@@ -11,7 +11,7 @@ cut_load_start_boss
 Arguments
 ------------
 
-* :ref:`cuttName`: **String**
+* :ref:`cuttName`: *String*
 
 Description
 -------------

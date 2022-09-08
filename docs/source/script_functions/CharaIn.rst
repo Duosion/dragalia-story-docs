@@ -29,60 +29,60 @@ Implementation
 
 .. code-block:: python
 
-	if wait == WAIT:
+	if wait == "WAIT":
 		mnu(CID, true, sec, X, Y, EaseOutSine, sec, 1, 1, 1, sec, 0, 1, sec, 1, EaseOutSine)
 		cmp(CID, sec, X, Y, 1, 1, 0, 1)
 		wait(sec)
-	if CID2 == 0:
+	if CID2 == "0":
 	else:
 		mnu(CID2, true, sec, X, Y, EaseOutSine, sec, 1, 1, 1, sec, 0, 1, sec, 1, EaseOutSine)
 		cmp(CID2, sec, X, Y, 1, 1, 0, 1)
 		wait(sec)
-	if CID3 == 0:
+	if CID3 == "0":
 	else:
 		mnu(CID3, true, sec, X, Y, EaseOutSine, sec, 1, 1, 1, sec, 0, 1, sec, 1, EaseOutSine)
 		cmp(CID3, sec, X, Y, 1, 1, 0, 1)
 		wait(sec)
-	elif wait == REVERSE:
-	if CID3 == 0:
+	elif wait == "REVERSE":
+	if CID3 == "0":
 	else:
 		mnu(CID3, true, sec, X, Y, EaseOutSine, sec, 1, 1, 1, sec, 0, 1, sec, 1, EaseOutSine)
 		cmp(CID3, sec, X, Y, 1, 1, 0, 1)
 		wait(sec)
-	if CID2 == 0:
+	if CID2 == "0":
 	else:
 		mnu(CID2, true, sec, X, Y, EaseOutSine, sec, 1, 1, 1, sec, 0, 1, sec, 1, EaseOutSine)
 		cmp(CID2, sec, X, Y, 1, 1, 0, 1)
-	if CID3 == 0:
+	if CID3 == "0":
 	else:
 		chara_emotion(CID3, 0)
 	wait(sec)
 	mnu(CID, true, sec, X, Y, EaseOutSine, sec, 1, 1, 1, sec, 0, 1, sec, 1, EaseOutSine)
 	cmp(CID, sec, X, Y, 1, 1, 0, 1)
-	if CID2 == 0:
+	if CID2 == "0":
 	else:
 		chara_emotion(CID2, 0)
-	if CID3 == 0:
+	if CID3 == "0":
 	else:
 		chara_emotion(CID3, 0)
 	wait(sec)
 	else:
 		mnu(CID, true, sec, X, Y, EaseOutSine, sec, 1, 1, 1, sec, 0, 1, sec, 1, EaseOutSine)
 		cmp(CID, sec, X, Y, 1, 1, 0, 1)
-	if CID2 == 0:
+	if CID2 == "0":
 	else:
 		mnu(CID2, true, sec, X, Y, EaseOutSine, sec, 1, 1, 1, sec, 0, 1, sec, 1, EaseOutSine)
 		cmp(CID2, sec, X, Y, 1, 1, 0, 1)
-	if CID3 == 0:
+	if CID3 == "0":
 	else:
 		mnu(CID3, true, sec, X, Y, EaseOutSine, sec, 1, 1, 1, sec, 0, 1, sec, 1, EaseOutSine)
 		cmp(CID3, sec, X, Y, 1, 1, 0, 1)
 	wait(sec)
 	chara_visible(CID, true)
-	if CID2 == 0:
+	if CID2 == "0":
 	else:
 		chara_visible(CID2, true)
-	if CID3 == 0:
+	if CID3 == "0":
 	else:
 		chara_visible(CID3, true)
 

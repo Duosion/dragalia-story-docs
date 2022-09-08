@@ -24,11 +24,11 @@ Implementation
 
 .. code-block:: python
 
-	if A == 0:
+	if A == "0":
 		c_push_t(CID)
-	elif A == 1:
+	elif A == "1":
 		c_push_t_slow(CID)
-	elif A == 2:
+	elif A == "2":
 		c_push_b(CID)
 	else:
 

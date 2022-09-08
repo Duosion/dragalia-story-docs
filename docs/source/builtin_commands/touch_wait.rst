@@ -11,9 +11,9 @@ touch_wait
 Arguments
 ------------
 
-* :ref:`autoWaitTime`: **Single**
+* :ref:`autoWaitTime`: *Single*
 	* Default: ``0``
-* :ref:`forceNextWaitTime`: **Single**
+* :ref:`forceNextWaitTime`: *Single*
 	* Default: ``-1``
 
 Description

@@ -11,8 +11,8 @@ cutt_load_story
 Arguments
 ------------
 
-* :ref:`cuttName`: **String**
-* :ref:`type`: **Int32**
+* :ref:`cuttName`: *String*
+* :ref:`type`: *Int32*
 
 Description
 -------------

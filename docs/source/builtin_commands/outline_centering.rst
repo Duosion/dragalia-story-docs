@@ -11,7 +11,7 @@ outline_centering
 Arguments
 ------------
 
-* :ref:`isCentering`: **Boolean**
+* :ref:`isCentering`: *Boolean*
 
 Description
 -------------

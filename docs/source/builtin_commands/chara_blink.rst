@@ -11,11 +11,11 @@ chara_blink
 Arguments
 ------------
 
-* :ref:`charaId`: **String**
-* :ref:`sec`: **Single**
-* :ref:`minAlpha`: **Single**
+* :ref:`charaId`: *String*
+* :ref:`sec`: *Single*
+* :ref:`minAlpha`: *Single*
 	* Default: ``0``
-* :ref:`maxAlpha`: **Single**
+* :ref:`maxAlpha`: *Single*
 	* Default: ``1``
 
 Description

@@ -11,23 +11,23 @@ post_film
 Arguments
 ------------
 
-* :ref:`cameraType`: **Int32**
+* :ref:`cameraType`: *Int32*
 	* Default: ``1``
-* :ref:`fadeSec`: **Single**
+* :ref:`fadeSec`: *Single*
 	* Default: ``0``
-* :ref:`mode`: **Int32**
+* :ref:`mode`: *Int32*
 	* Default: ``0``
-* :ref:`fromPower`: **Single**
+* :ref:`fromPower`: *Single*
 	* Default: ``1``
-* :ref:`toPower`: **Single**
+* :ref:`toPower`: *Single*
 	* Default: ``1``
-* :ref:`r`: **Int32**
+* :ref:`r`: *Int32*
 	* Default: ``255``
-* :ref:`g`: **Int32**
+* :ref:`g`: *Int32*
 	* Default: ``255``
-* :ref:`b`: **Int32**
+* :ref:`b`: *Int32*
 	* Default: ``255``
-* :ref:`a`: **Single**
+* :ref:`a`: *Single*
 	* Default: ``1``
 
 Description

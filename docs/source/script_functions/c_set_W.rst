@@ -30,8 +30,8 @@ Implementation
 
 .. code-block:: python
 
-	if act == in:
-	if cmd == def:
+	if act == "in":
+	if cmd == "def":
 		c_set_def(eye, lip, POS, CID, int)
 		chara_face(CID, int2, 1)
 		CHARA_FADEIN_DEF(CID)

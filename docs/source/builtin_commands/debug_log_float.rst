@@ -11,7 +11,7 @@ debug_log_float
 Arguments
 ------------
 
-* :ref:`text`: **Single**
+* :ref:`text`: *Single*
 
 Description
 -------------

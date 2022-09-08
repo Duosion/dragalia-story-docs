@@ -24,7 +24,7 @@ Implementation
 .. code-block:: python
 
 	RESET_TEXT()
-	if mode == 1:
+	if mode == "1":
 		NO_EFFECT()
 		touch_enable(false)
 		window_fadeout(0, true)
@@ -38,7 +38,7 @@ Implementation
 		BGMFOUT_DEF()
 		SEFOUT_DEF()
 		fade_color(1.0, 0, 0, 0, 1)
-	elif mode == 2:
+	elif mode == "2":
 		NO_EFFECT()
 		touch_enable(false)
 		wait(1.5)
@@ -49,7 +49,7 @@ Implementation
 		BGMFOUT_DEF()
 		SEFOUT_DEF()
 		fade_color(1.0, 0, 0, 0, 1)
-	elif mode == 3:
+	elif mode == "3":
 		NO_EFFECT()
 		touch_enable(false)
 		window_fadeout(0, true)

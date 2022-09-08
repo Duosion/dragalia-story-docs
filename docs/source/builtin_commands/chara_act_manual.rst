@@ -11,31 +11,31 @@ chara_act_manual
 Arguments
 ------------
 
-* :ref:`charaId`: **String**
-* :ref:`isNewAct`: **Boolean**
-* :ref:`moveSec`: **Single**
-* :ref:`moveX`: **Single**
-* :ref:`moveY`: **Single**
-* :ref:`moveEase`: **Int32**
-* :ref:`scaleSec`: **Single**
+* :ref:`charaId`: *String*
+* :ref:`isNewAct`: *Boolean*
+* :ref:`moveSec`: *Single*
+* :ref:`moveX`: *Single*
+* :ref:`moveY`: *Single*
+* :ref:`moveEase`: *Int32*
+* :ref:`scaleSec`: *Single*
 	* Default: ``0``
-* :ref:`scaleX`: **Single**
+* :ref:`scaleX`: *Single*
 	* Default: ``0``
-* :ref:`scaleY`: **Single**
+* :ref:`scaleY`: *Single*
 	* Default: ``0``
-* :ref:`scaleEase`: **Int32**
+* :ref:`scaleEase`: *Int32*
 	* Default: ``0``
-* :ref:`rotateSec`: **Single**
+* :ref:`rotateSec`: *Single*
 	* Default: ``0``
-* :ref:`rotate`: **Single**
+* :ref:`rotate`: *Single*
 	* Default: ``0``
-* :ref:`rotateEase`: **Int32**
+* :ref:`rotateEase`: *Int32*
 	* Default: ``0``
-* :ref:`fadeSec`: **Single**
+* :ref:`fadeSec`: *Single*
 	* Default: ``0``
-* :ref:`fade`: **Single**
+* :ref:`fade`: *Single*
 	* Default: ``0``
-* :ref:`fadeEase`: **Int32**
+* :ref:`fadeEase`: *Int32*
 	* Default: ``0``
 
 Description

@@ -11,14 +11,14 @@ blur
 Arguments
 ------------
 
-* :ref:`enable`: **Boolean**
-* :ref:`fadeSec`: **Single**
+* :ref:`enable`: *Boolean*
+* :ref:`fadeSec`: *Single*
 	* Default: ``1``
-* :ref:`size`: **Single**
+* :ref:`size`: *Single*
 	* Default: ``1``
-* :ref:`power`: **Single**
+* :ref:`power`: *Single*
 	* Default: ``1``
-* :ref:`cameraType`: **Int32**
+* :ref:`cameraType`: *Int32*
 	* Default: ``0``
 
 Description

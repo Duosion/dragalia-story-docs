@@ -28,11 +28,11 @@ Implementation
 .. code-block:: python
 
 	chara_visible(CID, false)
-	if POS == L:
+	if POS == "L":
 		chara_pos(CID, -200, -50)
-	elif POS == C:
+	elif POS == "C":
 		chara_pos(CID, 0, -50)
-	elif POS == R:
+	elif POS == "R":
 		chara_pos(CID, 200, -50)
 	chara_face(CID, int)
 	eye1(CID, eye)

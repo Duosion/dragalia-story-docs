@@ -24,11 +24,11 @@ Implementation
 
 .. code-block:: python
 
-	if eye == O:
+	if eye == "O":
 		chara_eyeblink(CID, -1)
-	elif eye == Q:
+	elif eye == "Q":
 		chara_eyeblink(CID, -2)
-	elif eye == M:
+	elif eye == "M":
 		chara_eyeblink(CID)
 	else:
 		chara_eyeblink(CID)

@@ -29,11 +29,11 @@ Implementation
 
 .. code-block:: python
 
-	if act == in:
-	if cmd == def:
+	if act == "in":
+	if cmd == "def":
 		c_set_def(eye, lip, POS, CID, int)
 		CHARA_FADEIN_DEF(CID)
-	elif cmd == kami:
+	elif cmd == "kami":
 		c_set_def(eye, lip, POS, CID, int)
 		KAMITE_IN_DEF(CID)
 

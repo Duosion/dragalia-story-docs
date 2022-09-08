@@ -11,18 +11,18 @@ chara_intro
 Arguments
 ------------
 
-* :ref:`charaId`: **String**
-* :ref:`name`: **String**
+* :ref:`charaId`: *String*
+* :ref:`name`: *String*
 	* Default: ``""``
-* :ref:`anotherName`: **String**
+* :ref:`anotherName`: *String*
 	* Default: ``""``
-* :ref:`anotherNameRuby`: **String**
+* :ref:`anotherNameRuby`: *String*
 	* Default: ``""``
-* :ref:`affiliation`: **String**
+* :ref:`affiliation`: *String*
 	* Default: ``""``
-* :ref:`affiliationRuby`: **String**
+* :ref:`affiliationRuby`: *String*
 	* Default: ``""``
-* :ref:`emblemName`: **String**
+* :ref:`emblemName`: *String*
 	* Default: ``""``
 
 Description

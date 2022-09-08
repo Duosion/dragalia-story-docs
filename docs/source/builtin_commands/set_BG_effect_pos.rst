@@ -11,12 +11,12 @@ set_BG_effect_pos
 Arguments
 ------------
 
-* :ref:`effectId`: **String**
-* :ref:`x`: **Single**
-* :ref:`y`: **Single**
-* :ref:`fadeSec`: **Single**
+* :ref:`effectId`: *String*
+* :ref:`x`: *Single*
+* :ref:`y`: *Single*
+* :ref:`fadeSec`: *Single*
 	* Default: ``0``
-* :ref:`ease`: **Int32**
+* :ref:`ease`: *Int32*
 	* Default: ``1``
 
 Description

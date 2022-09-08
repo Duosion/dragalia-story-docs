@@ -11,7 +11,7 @@ stop_bgm
 Arguments
 ------------
 
-* :ref:`sec`: **Single**
+* :ref:`sec`: *Single*
 	* Default: ``0``
 
 Description

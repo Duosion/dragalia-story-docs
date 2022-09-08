@@ -35,7 +35,7 @@ Implementation
 
 .. code-block:: python
 
-	if WEAPON == BOW:
+	if WEAPON == "BOW":
 		set_BG_effect(EFF_092)
 		set_BG_effect_trigger(8)
 		set_BG_effect_speed(EFF_092, 1.5)
@@ -51,7 +51,7 @@ Implementation
 		set_BG_effect_pos(EFF_001, 160, 50, 0, 1)
 		set_BG_effect_speed(EFF_001, 1.5)
 		wait(0.15)
-	elif WEAPON == AXE:
+	elif WEAPON == "AXE":
 		set_BG_effect(EFF_090, EFF_001)
 		set_BG_effect_speed(EFF_090, 0.75)
 		set_BG_effect_scale(EFF_090, 2.0, 1.5)
@@ -69,13 +69,13 @@ Implementation
 		set_BG_effect(1, 0, 0, EFF_001)
 		set_BG_effect_pos(EFF_001, -150, -50)
 		wait(0.15)
-	elif WEAPON == WIND:
+	elif WEAPON == "WIND":
 		set_BG_effect(EFF_061)
 		set_BG_effect_speed(EFF_061, 2.0)
 		wait(0.05)
 		play_sound(SE_064)
 		wait(0.15)
-	if WEAPON == WIND:
+	if WEAPON == "WIND":
 		c_face(eye, lip, CID, int)
 		c_face(eye2, lip2, CID2, int2)
 		c_face(eye3, lip3, CID3, int3)

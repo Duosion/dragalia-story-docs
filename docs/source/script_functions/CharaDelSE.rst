@@ -28,29 +28,29 @@ Implementation
 .. code-block:: python
 
 	play_sound(SE)
-	if style == KAMITE:
+	if style == "KAMITE":
 		CharaOut(0.4, WAIT, 120, 0, CID, CID2, CID3)
-	elif style == SHIMOTE:
+	elif style == "SHIMOTE":
 		CharaOut(0.4, WAIT, -120, 0, CID, CID2, CID3)
-	elif style == TOP:
+	elif style == "TOP":
 		CharaOut(0.4, WAIT, 0, 120, CID, CID2, CID3)
-	elif style == BOTTOM:
+	elif style == "BOTTOM":
 		CharaOut(0.4, WAIT, 0, -120, CID, CID2, CID3)
-	elif style == KAMITE_REVERSE:
+	elif style == "KAMITE_REVERSE":
 		CharaOut(0.4, REVERSE, 120, 0, CID, CID2, CID3)
-	elif style == SHIMOTE_REVERSE:
+	elif style == "SHIMOTE_REVERSE":
 		CharaOut(0.4, REVERSE, -120, 0, CID, CID2, CID3)
-	elif style == TOP_REVERSE:
+	elif style == "TOP_REVERSE":
 		CharaOut(0.4, REVERSE, 0, 120, CID, CID2, CID3)
-	elif style == BOTTOM_REVERSE:
+	elif style == "BOTTOM_REVERSE":
 		CharaOut(0.4, REVERSE, 0, -120, CID, CID2, CID3)
-	elif style == KAMITE_SYNC:
+	elif style == "KAMITE_SYNC":
 		CharaOut(0.4, SYNC, 120, 0, CID, CID2, CID3)
-	elif style == SHIMOTE_SYNC:
+	elif style == "SHIMOTE_SYNC":
 		CharaOut(0.4, SYNC, -120, 0, CID, CID2, CID3)
-	elif style == TOP_SYNC:
+	elif style == "TOP_SYNC":
 		CharaOut(0.4, SYNC, 0, 120, CID, CID2, CID3)
-	elif style == BOTTOM_SYNC:
+	elif style == "BOTTOM_SYNC":
 		CharaOut(0.4, SYNC, 0, -120, CID, CID2, CID3)
 	else:
 		CharaOut(0.3, SYNC, 0, 0, CID, CID2, CID3)

@@ -42,7 +42,7 @@ Implementation
 	cmp_scale(CID2, 0.01, 0.7, 0.7)
 	cmp_scale(CID, 0.01, 0.7, 0.7)
 	wait(0.01)
-	if IN == KAMITE:
+	if IN == "KAMITE":
 		KAMITE_IN_DEF(CID)
 		KAMITE_IN_DEF(CID2)
 		wait(0.2)
@@ -52,7 +52,7 @@ Implementation
 		NO_EMO(CID)
 		NO_EMO(CID2)
 		wait(0.45)
-	elif IN == SHIMOTE:
+	elif IN == "SHIMOTE":
 		SHIMOTE_IN_DEF(CID)
 		SHIMOTE_IN_DEF(CID2)
 		wait(0.2)

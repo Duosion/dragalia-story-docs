@@ -34,7 +34,7 @@ Implementation
 
 	c_mnu_reset(CID)
 	touch_enable(false)
-	if Type == Enemy:
+	if Type == "Enemy":
 		play_sound(SE_011)
 		set_BG_effect(EFF_SCE_2D_CMN_046)
 		wait(0.5)
@@ -43,19 +43,19 @@ Implementation
 	mnu_scale(CID, true, 0.01, MinScale, MinScale, 1)
 	cmp_scale(CID, 0.01, MinScale, MinScale)
 	play_sound(SE_057)
-	if Type == Enemy:
+	if Type == "Enemy":
 		set_BG_effect(1, EFF_SCE_2D_CMN_004)
-	elif Type == Chara:
+	elif Type == "Chara":
 		set_BG_effect(EFF_SCE_2D_CMN_004)
 	set_BG_effect_opacity(EFF_SCE_2D_CMN_004, 1)
 	set_BG_effect_scale(EFF_SCE_2D_CMN_004, 1, 1)
 	set_BG_effect_pos(EFF_SCE_2D_CMN_004, 0, 100)
-	if Type == Enemy:
+	if Type == "Enemy":
 		set_BG_effect_trigger(0, 8)
-	elif Type == Chara:
+	elif Type == "Chara":
 		set_BG_effect_trigger(8)
 	wait(1.4)
-	if Type == Chara:
+	if Type == "Chara":
 		mnu(CID, true, 0.8, 0, 0, EaseInSine, 0.8, MaxScale, MaxScale, EaseInSine, 0.8, 0, EaseInSine, 0.4, 1, EaseInSine)
 		cmp(CID, 0.8, 0, 0, MaxScale, MaxScale, 0, 1)
 		set_BG_effect_opacity(EFF_SCE_2D_CMN_004, 0, 1.6, 1)
@@ -63,11 +63,11 @@ Implementation
 		set_BG_effect_scale(EFF_SCE_2D_CMN_004, 0.01, 0.01, 0.8, 1)
 		wait(0.8)
 		set_BG_effect(0, 1, 1, 1)
-	elif Type == Enemy:
+	elif Type == "Enemy":
 		mnu(CID, true, 0.8, 0, 0, EaseInSine, 0.8, MaxScale, MaxScale, EaseInSine, 0.8, 0, EaseInSine, 0.4, 1, EaseInSine)
 		cmp(CID, 0.8, 0, 0, MaxScale, MaxScale, 0, 1)
 	else:
-	if Aura == 1:
+	if Aura == "1":
 		set_BG_effect(1, 1, EFF_SCE_2D_CMN_010, EFF_SCE_2D_CMN_011)
 		set_BG_effect_scale(EFF_SCE_2D_CMN_010, MaxScale, MaxScale)
 		set_BG_effect_scale(EFF_SCE_2D_CMN_011, MaxScale, MaxScale)

@@ -38,7 +38,7 @@ Implementation
 	CHARA_SET_0(eye2, lip2, R, CID2, int2)
 	chara_pos(CID2, 360, 0)
 	play_sound(SE_047)
-	if front == 1:
+	if front == "1":
 		mnu_move(CID, true, 0.3, -90, 0, EaseOutSine)
 		mnu(CID2, true, 0.3, -90, 0, EaseOutSine, 0.3, 1.0, 1.0, EaseOutSine, 0.3, 0, EaseOutSine, 0.3, 1, EaseOutSine)
 		cmp_move(CID, 0.3, -90, 0)

@@ -11,7 +11,7 @@ screen_fadein
 Arguments
 ------------
 
-* :ref:`sec`: **Single**
+* :ref:`sec`: *Single*
 
 Description
 -------------

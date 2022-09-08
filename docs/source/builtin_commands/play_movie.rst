@@ -11,8 +11,8 @@ play_movie
 Arguments
 ------------
 
-* :ref:`fileName`: **String**
-* :ref:`isPanScan`: **Boolean**
+* :ref:`fileName`: *String*
+* :ref:`isPanScan`: *Boolean*
 	* Default: ``False``
 
 Description

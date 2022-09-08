@@ -11,9 +11,9 @@ chara_face
 Arguments
 ------------
 
-* :ref:`charaId`: **String**
-* :ref:`faceId`: **Int32**
-* :ref:`faceNum`: **Int32**
+* :ref:`charaId`: *String*
+* :ref:`faceId`: *Int32*
+* :ref:`faceNum`: *Int32*
 	* Default: ``0``
 
 Description

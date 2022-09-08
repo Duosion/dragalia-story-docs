@@ -11,7 +11,7 @@ bg_enable_shader
 Arguments
 ------------
 
-* :ref:`bgId`: **String**
+* :ref:`bgId`: *String*
 
 Description
 -------------

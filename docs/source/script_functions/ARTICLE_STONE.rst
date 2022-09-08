@@ -27,10 +27,10 @@ Implementation
 	WFOUT_DEF()
 	play_sound(SE_139)
 	play_sound(SE_140)
-	if EFF == EFF_022:
+	if EFF == "EFF_022":
 		set_BG_effect(0, EFF_025)
 		set_BG_effect_pos(EFF_025, 0, 100)
-	elif EFF == EFF_023:
+	elif EFF == "EFF_023":
 		set_BG_effect(0, EFF_026)
 		set_BG_effect_pos(EFF_026, 0, 100)
 	fade_color(0.8, 255, 255, 255, 1)

@@ -11,8 +11,8 @@ chara_visible
 Arguments
 ------------
 
-* :ref:`charaId`: **String**
-* :ref:`flag`: **Boolean**
+* :ref:`charaId`: *String*
+* :ref:`flag`: *Boolean*
 
 Description
 -------------

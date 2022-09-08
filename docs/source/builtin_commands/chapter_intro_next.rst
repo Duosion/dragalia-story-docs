@@ -11,7 +11,7 @@ chapter_intro_next
 Arguments
 ------------
 
-* :ref:`label`: **String**
+* :ref:`label`: *String*
 
 Description
 -------------

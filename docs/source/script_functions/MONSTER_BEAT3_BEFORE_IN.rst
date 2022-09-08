@@ -26,7 +26,7 @@ Implementation
 
 .. code-block:: python
 
-	if WEAPON == BOW:
+	if WEAPON == "BOW":
 		play_sound(SE_239)
 		set_BG_effect(EFF_092)
 		set_BG_effect_trigger(8)
@@ -45,7 +45,7 @@ Implementation
 		set_BG_effect_speed(EFF_001, 1.5)
 		set_BG_effect_scale(EFF_001, 0.8, 0.8)
 		wait(0.15)
-	elif WEAPON == AXE:
+	elif WEAPON == "AXE":
 		play_sound(SE_116)
 		set_BG_effect(EFF_093)
 		wait(0.15)
@@ -62,18 +62,18 @@ Implementation
 		set_BG_effect_speed(EFF_001, 1.5)
 		set_BG_effect_scale(EFF_001, 0.8, 0.8)
 		wait(0.15)
-	if WEAPON == WATER:
+	if WEAPON == "WATER":
 		play_sound(SE_243)
 		wait(0.3)
 		set_BG_effect(EFF_036)
 		wait(0.2)
-	elif WEAPON == WIND:
+	elif WEAPON == "WIND":
 		set_BG_effect(EFF_061)
 		set_BG_effect_speed(EFF_061, 2.0)
 		wait(0.05)
 		play_sound(SE_064)
 		wait(0.15)
-	if WEAPON == WIND:
+	if WEAPON == "WIND":
 		chara_shake_h(CID, 2, true)
 		chara_shake_h(CID2, 2, true)
 		chara_shake_h(CID3, 2, true)

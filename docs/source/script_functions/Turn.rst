@@ -24,12 +24,12 @@ Implementation
 
 .. code-block:: python
 
-	if LR == L:
+	if LR == "L":
 		mnu(CID, true, 0.2, 50, 0, EaseInSine, 0.4, 1.02, 1.02, EaseInSine, 0.2, 0, EaseInSine, 0.2, 1, EaseInCubic)
 		mnu(CID, false, 0.4, -100, 0, EaseOutSine, 0.4, 1.0, 1.0, EaseOutSine, 0.4, 0, EaseInSine, 0.4, 1, EaseInCubic)
 		mnu(CID, false, 0.2, 50, 0, EaseInSine, 0, 1.0, 1.0, EaseInSine, 0.2, 0, EaseInSine, 0.2, 1, EaseInCubic)
 		cmp(CID, 0.8, 0, 0, 1, 1, 0, 1)
-	elif LR == R:
+	elif LR == "R":
 		mnu(CID, true, 0.2, -50, 0, EaseInSine, 0.4, 0.95, 0.95, EaseInSine, 0.2, 0, EaseInSine, 0.2, 1, EaseInCubic)
 		mnu(CID, false, 0.4, 100, 0, EaseOutSine, 0.4, 1.0, 1.0, EaseOutSine, 0.4, 0, EaseInSine, 0.4, 1, EaseInCubic)
 		mnu(CID, false, 0.2, -50, 0, EaseInSine, 0, 1.0, 1.0, EaseInSine, 0.2, 0, EaseInSine, 0.2, 1, EaseInCubic)

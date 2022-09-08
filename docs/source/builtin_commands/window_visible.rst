@@ -11,7 +11,7 @@ window_visible
 Arguments
 ------------
 
-* :ref:`visible`: **Boolean**
+* :ref:`visible`: *Boolean*
 
 Description
 -------------

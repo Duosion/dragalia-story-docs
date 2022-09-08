@@ -11,7 +11,7 @@ set_album_picture
 Arguments
 ------------
 
-* :ref:`fadeTime`: **Single**
+* :ref:`fadeTime`: *Single*
 
 Description
 -------------

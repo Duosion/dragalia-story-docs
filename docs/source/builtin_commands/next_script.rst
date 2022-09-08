@@ -11,8 +11,8 @@ next_script
 Arguments
 ------------
 
-* :ref:`scriptName`: **String**
-* :ref:`type`: **Int32**
+* :ref:`scriptName`: *String*
+* :ref:`type`: *Int32*
 	* Default: ``1``
 
 Description

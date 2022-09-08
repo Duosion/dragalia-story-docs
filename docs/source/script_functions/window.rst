@@ -23,85 +23,85 @@ Implementation
 
 .. code-block:: python
 
-	if cmd == f_in:
+	if cmd == "f_in":
 		window_fadein(0.5)
-	elif cmd == f_out:
+	elif cmd == "f_out":
 		window_fadeout(0.5)
-	elif cmd == f_in_s:
+	elif cmd == "f_in_s":
 		window_fadein(0.2)
-	elif cmd == f_out_s:
+	elif cmd == "f_out_s":
 		window_fadeout(0.2)
-	elif cmd == bk_in:
+	elif cmd == "bk_in":
 		screen_fadein(1.0, 0, 0, 0)
-	elif cmd == bk_in_vs:
+	elif cmd == "bk_in_vs":
 		screen_fadein(0.2, 0, 0, 0)
-	elif cmd == bk_in_md:
+	elif cmd == "bk_in_md":
 		screen_fadein(0.3, 0, 0, 0)
-	elif cmd == bk_in_s:
+	elif cmd == "bk_in_s":
 		screen_fadein(0.4, 0, 0, 0)
-	elif cmd == bk_in_l:
+	elif cmd == "bk_in_l":
 		screen_fadein(2.0, 0, 0, 0)
-	elif cmd == bk_in_vl:
+	elif cmd == "bk_in_vl":
 		screen_fadein(4.0, 0, 0, 0)
-	elif cmd == farst_int:
+	elif cmd == "farst_int":
 		RESET_TEXT()
 		window_fadeout(0, true)
 		BGMFOUT_DEF()
 		SEFOUT_DEF()
 		screen_fadeout(1.0, 0, 0, 0)
-	elif cmd == bk_out:
+	elif cmd == "bk_out":
 		WFOUT_SHORT()
 		screen_fadeout(1.0, 0, 0, 0)
-	elif cmd == bk_out_vs:
+	elif cmd == "bk_out_vs":
 		WFOUT_SHORT()
 		screen_fadeout(0.3, 0, 0, 0)
-	elif cmd == bk_out_ms:
+	elif cmd == "bk_out_ms":
 		WFOUT_SHORT()
 		screen_fadeout(0.6, 0, 0, 0)
-	elif cmd == bk_out_l:
+	elif cmd == "bk_out_l":
 		WFOUT_SHORT()
 		screen_fadeout(2.0, 0, 0, 0)
-	elif cmd == bk_out_vl:
+	elif cmd == "bk_out_vl":
 		WFOUT_SHORT()
 		screen_fadeout(4.0, 0, 0, 0)
-	elif cmd == wt_in_ms:
+	elif cmd == "wt_in_ms":
 		screen_fadein(0.6, 255, 255, 255)
-	elif cmd == wt_in:
+	elif cmd == "wt_in":
 		screen_fadein(1.0, 255, 255, 255)
-	elif cmd == wt_in_l:
+	elif cmd == "wt_in_l":
 		screen_fadein(2.0, 255, 255, 255)
-	elif cmd == wt_in_vl:
+	elif cmd == "wt_in_vl":
 		screen_fadein(4.0, 255, 255, 255)
-	elif cmd == wt_out_pr_l:
+	elif cmd == "wt_out_pr_l":
 		screen_fadeout(2.1, 255, 255, 255)
-	elif cmd == wt_out_pr_vs:
+	elif cmd == "wt_out_pr_vs":
 		screen_fadeout(0, 255, 255, 255)
-	elif cmd == wt_out_ms:
+	elif cmd == "wt_out_ms":
 		WFOUT_SHORT()
 		screen_fadeout(0.6, 255, 255, 255)
-	elif cmd == wt_out:
+	elif cmd == "wt_out":
 		WFOUT_SHORT()
 		screen_fadeout(1.0, 255, 255, 255)
-	elif cmd == wt_out_l:
+	elif cmd == "wt_out_l":
 		WFOUT_SHORT()
 		screen_fadeout(2.0, 255, 255, 255)
-	elif cmd == wt_out_vl:
+	elif cmd == "wt_out_vl":
 		WFOUT_SHORT()
 		screen_fadeout(4.0, 255, 255, 255)
-	elif cmd == trns_in_r:
+	elif cmd == "trns_in_r":
 		fade_color(0.25, 0, 0, 0, 0)
 		screen_transin(1, 1.0)
-	elif cmd == trns_in_l:
+	elif cmd == "trns_in_l":
 		fade_color(0.25, 0, 0, 0, 0)
 		screen_transin(2, 1.0)
-	elif cmd == trns_out_r:
+	elif cmd == "trns_out_r":
 		WFOUT_SHORT()
 		screen_transout(2, 1.0)
 		fade_color(0.25, 0, 0, 0, 1)
-	elif cmd == curtain:
+	elif cmd == "curtain":
 		set_BG_effect(EFF_107)
 		set_BG_effect_trigger(9)
-	elif cmd == curtaout:
+	elif cmd == "curtaout":
 		set_BG_effect(EFF_107)
 		set_BG_effect_trigger(8)
 		wait(0.5)
